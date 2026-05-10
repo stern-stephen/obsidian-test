@@ -12,3 +12,17 @@ A = A^\dagger
 $$
 
 Avoid `\(...\)` and `\[...\]` delimiters because they may not render nicely in the Obsidian UI.
+
+## Git Workflow
+
+This project is an Obsidian vault stored in Git.
+
+Codex may perform simple, non-destructive Git interactions when they help with the user's request, including:
+
+- Checking repository state with `git status`.
+- Reviewing history with `git log`.
+- Reviewing changes with `git diff`.
+- Staging current project changes with `git add`.
+- Creating normal commits with `git commit` when the user asks to commit.
+
+Codex should ask before destructive or history-rewriting Git operations, including `git reset`, `git clean`, force pushes, rebases that rewrite published history, or checking out files in a way that would discard local changes.
