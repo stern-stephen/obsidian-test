@@ -6,6 +6,10 @@ Welcome to a tiny Obsidian vault for working with Codex.
 
 - [[Codex Sessions/2026-05-10 First Codex Session]]
 - [[Linear Algebra]]
+- [[Vector Spaces]]
+- [[Adjoints]]
+- [[Bra-Ket Notation]]
+- [[Gram-Schmidt]]
 - [[Inbox]]
 - [[Tasks]]
 
