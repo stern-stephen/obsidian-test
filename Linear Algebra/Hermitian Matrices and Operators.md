@@ -14,7 +14,7 @@ where $A^\dagger$ means transpose the matrix and take the complex conjugate of e
 
 In real-valued matrices, Hermitian matrices reduce to **symmetric matrices**, since complex conjugation has no effect.
 
-The operation $A^\dagger$ is called the [[Adjoints|adjoint]].
+The operation $A^\dagger$ is called the [adjoint](Adjoints.md).
 
 ## Definition
 
@@ -54,7 +54,7 @@ Hermitian matrices are important because they behave like real numbers in many l
 
 ## Eigenvalues And Eigenvectors
 
-Hermitian matrices have especially well-behaved [[Eigenvalues]].
+Hermitian matrices have especially well-behaved [Eigenvalues](Eigenvalues.md).
 
 Their eigenvalues are always real, eigenvectors with distinct eigenvalues are orthogonal, and every Hermitian matrix can be diagonalized by a unitary matrix:
 
@@ -62,7 +62,7 @@ $$
 A = U \Lambda U^\dagger
 $$
 
-The detailed eigenvalue explanation is in [[Eigenvalues#Hermitian Matrices]].
+The detailed eigenvalue explanation is in [Eigenvalues: Hermitian Matrices](Eigenvalues.md#Hermitian%20Matrices).
 
 ## Hermitian Operators
 
@@ -78,7 +78,7 @@ for all vectors $x$ and $y$ in the space.
 
 This condition says that applying the operator to the first input of the inner product has the same effect as applying it to the second input.
 
-In [[Bra-Ket Notation]], Hermitian operators are often used inside expressions like $\langle \psi|A|\psi\rangle$.
+In [Bra-Ket Notation](Bra-Ket%20Notation.md), Hermitian operators are often used inside expressions like $\langle \psi|A|\psi\rangle$.
 
 ## Connection To Quantum Mechanics
 
@@ -99,10 +99,10 @@ Instead of mirroring entries exactly, it mirrors them with complex conjugation. 
 
 ## Related Concepts
 
-- [[Linear Algebra]]
-- [[Vector Spaces]]
-- [[Adjoints]]
-- [[Bra-Ket Notation]]
-- [[Eigenvalues]]
-- [[Unitary Matrices]]
-- [[Quantum Mechanics]]
+- [Linear Algebra](Linear%20Algebra.md)
+- [Vector Spaces](Vector%20Spaces.md)
+- [Adjoints](Adjoints.md)
+- [Bra-Ket Notation](Bra-Ket%20Notation.md)
+- [Eigenvalues](Eigenvalues.md)
+- [Unitary Matrices](Unitary%20Matrices.md)
+- [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)

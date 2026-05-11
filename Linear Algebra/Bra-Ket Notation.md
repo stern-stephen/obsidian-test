@@ -61,7 +61,7 @@ $$
 \end{bmatrix}
 $$
 
-This is why [[Adjoints]] are central to bra-ket notation.
+This is why [Adjoints](Adjoints.md) are central to bra-ket notation.
 
 ## Inner Products
 
@@ -120,13 +120,13 @@ $$
 
 This represents the average measured value of the observable $A$ when the system is in state $|\psi\rangle$.
 
-When $A$ is a [[Hermitian Matrices and Operators|Hermitian operator]], this expectation value is real.
+When $A$ is a [Hermitian operator](Hermitian%20Matrices%20and%20Operators.md), this expectation value is real.
 
 ## Related Concepts
 
-- [[Vector Spaces]]
-- [[Adjoints]]
-- [[Hermitian Matrices and Operators]]
-- [[Unitary Matrices]]
-- [[Eigenvalues]]
-- [[Quantum Mechanics]]
+- [Vector Spaces](Vector%20Spaces.md)
+- [Adjoints](Adjoints.md)
+- [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md)
+- [Unitary Matrices](Unitary%20Matrices.md)
+- [Eigenvalues](Eigenvalues.md)
+- [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)

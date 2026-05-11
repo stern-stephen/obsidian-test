@@ -1,8 +1,8 @@
 # Chapter 1 - Introduction
 
-Source: [[References/quantum-computation-and-quantum-information-nielsen-chuang.pdf]]
+Source: [quantum-computation-and-quantum-information-nielsen-chuang](../../References/quantum-computation-and-quantum-information-nielsen-chuang.pdf)
 
-Book hub: [[Book Notes/Nielsen Chuang/Nielsen Chuang|Nielsen And Chuang]]
+Book hub: [Nielsen And Chuang](Nielsen%20Chuang.md)
 
 ## Reading Status
 
@@ -31,9 +31,9 @@ $$
 
 ## Links To Concept Notes
 
-- [[Quantum Computing/Quantum Computing|Quantum Computing]]
-- [[Quantum Mechanics/Quantum Mechanics|Quantum Mechanics]]
-- [[Linear Algebra/Linear Algebra|Linear Algebra]]
+- [Quantum Computing](../../Quantum%20Computing/Quantum%20Computing.md)
+- [Quantum Mechanics](../../Quantum%20Mechanics/Quantum%20Mechanics.md)
+- [Linear Algebra](../../Linear%20Algebra/Linear%20Algebra.md)
 
 ## Notes To Process Later
 

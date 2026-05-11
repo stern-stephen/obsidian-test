@@ -1,10 +1,10 @@
 # Chapter 2 - Postulates Of Quantum Mechanics
 
-Source: [[References/quantum-computation-and-quantum-information-nielsen-chuang.pdf]]
+Source: [quantum-computation-and-quantum-information-nielsen-chuang](../../References/quantum-computation-and-quantum-information-nielsen-chuang.pdf)
 
-Book hub: [[Book Notes/Nielsen Chuang/Nielsen Chuang|Nielsen And Chuang]]
+Book hub: [Nielsen And Chuang](Nielsen%20Chuang.md)
 
-Parent chapter: [[Book Notes/Nielsen Chuang/Chapter 2 - Quantum Mechanics|Chapter 2 - Quantum Mechanics]]
+Parent chapter: [Chapter 2 - Quantum Mechanics](Chapter%202%20-%20Quantum%20Mechanics.md)
 
 Book section: 2.2, pages 80-96.
 
@@ -12,7 +12,7 @@ Book section: 2.2, pages 80-96.
 
 Section 2.2 gives the basic postulates of quantum mechanics in a form suitable for quantum information.
 
-The postulates connect the linear algebra from [[Book Notes/Nielsen Chuang/Chapter 2 - Linear Algebra|Chapter 2 - Linear Algebra]] to physical interpretation: states are vectors, closed-system evolution is unitary, measurements are described by measurement operators, and composite systems use tensor products.
+The postulates connect the linear algebra from [Chapter 2 - Linear Algebra](Chapter%202%20-%20Linear%20Algebra.md) to physical interpretation: states are vectors, closed-system evolution is unitary, measurements are described by measurement operators, and composite systems use tensor products.
 
 ## 2.2.1 State Space
 
@@ -62,7 +62,7 @@ $$
 
 This preserves normalization and therefore preserves total probability.
 
-Related note: [[Linear Algebra/Unitary Matrices|Unitary Matrices]].
+Related note: [Unitary Matrices](../../Linear%20Algebra/Unitary%20Matrices.md).
 
 ## 2.2.3 Quantum Measurement
 
@@ -130,7 +130,7 @@ $$
 \frac{P_m|\psi\rangle}{\sqrt{p(m)}}
 $$
 
-Projective measurements are closely connected to [[Linear Algebra/Hermitian Matrices and Operators|Hermitian operators]] and [[Linear Algebra/Eigenvalues|eigenvalues]].
+Projective measurements are closely connected to [Hermitian operators](../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md) and [eigenvalues](../../Linear%20Algebra/Eigenvalues.md).
 
 ## 2.2.6 POVM Measurements
 
@@ -233,9 +233,9 @@ The rest of the chapter develops these tools through superdense coding, density 
 
 ## Related Concepts
 
-- [[Quantum Mechanics/Quantum Mechanics|Quantum Mechanics]]
-- [[Quantum Computing/Quantum Computing|Quantum Computing]]
-- [[Linear Algebra/Bra-Ket Notation|Bra-Ket Notation]]
-- [[Linear Algebra/Unitary Matrices|Unitary Matrices]]
-- [[Linear Algebra/Hermitian Matrices and Operators|Hermitian Matrices and Operators]]
-- [[Linear Algebra/Eigenvalues|Eigenvalues]]
+- [Quantum Mechanics](../../Quantum%20Mechanics/Quantum%20Mechanics.md)
+- [Quantum Computing](../../Quantum%20Computing/Quantum%20Computing.md)
+- [Bra-Ket Notation](../../Linear%20Algebra/Bra-Ket%20Notation.md)
+- [Unitary Matrices](../../Linear%20Algebra/Unitary%20Matrices.md)
+- [Hermitian Matrices and Operators](../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
+- [Eigenvalues](../../Linear%20Algebra/Eigenvalues.md)

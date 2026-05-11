@@ -100,14 +100,14 @@ $$
 \langle x, y \rangle = 0
 $$
 
-Inner product spaces are where concepts like [[Adjoints]], [[Unitary Matrices]], [[Hermitian Matrices and Operators]], and [[Gram-Schmidt]] naturally live.
+Inner product spaces are where concepts like [Adjoints](Adjoints.md), [Unitary Matrices](Unitary%20Matrices.md), [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md), and [Gram-Schmidt](Gram-Schmidt.md) naturally live.
 
 ## Related Concepts
 
-- [[Linear Algebra]]
-- [[Adjoints]]
-- [[Bra-Ket Notation]]
-- [[Gram-Schmidt]]
-- [[Eigenvalues]]
-- [[Unitary Matrices]]
-- [[Hermitian Matrices and Operators]]
+- [Linear Algebra](Linear%20Algebra.md)
+- [Adjoints](Adjoints.md)
+- [Bra-Ket Notation](Bra-Ket%20Notation.md)
+- [Gram-Schmidt](Gram-Schmidt.md)
+- [Eigenvalues](Eigenvalues.md)
+- [Unitary Matrices](Unitary%20Matrices.md)
+- [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md)

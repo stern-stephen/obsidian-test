@@ -14,7 +14,7 @@ where $U^\dagger$ is the conjugate transpose of $U$, and $I$ is the identity mat
 
 Unitary matrices are the complex-number version of **orthogonal matrices**. Orthogonal matrices preserve lengths and angles in real vector spaces; unitary matrices do the same thing in complex vector spaces.
 
-The operation $U^\dagger$ is the [[Adjoints|adjoint]] of $U$.
+The operation $U^\dagger$ is the [adjoint](Adjoints.md) of $U$.
 
 ## Definition
 
@@ -32,7 +32,7 @@ $$
 
 This means the columns of $U$ form an **orthonormal basis**. Each column has length $1$, and different columns are orthogonal to each other.
 
-The [[Gram-Schmidt]] process is one way to construct orthonormal bases from linearly independent vectors.
+The [Gram-Schmidt](Gram-Schmidt.md) process is one way to construct orthonormal bases from linearly independent vectors.
 
 ## Example
 
@@ -92,7 +92,7 @@ This means unitary transformations preserve both lengths and angles.
 
 ## Eigenvalues
 
-Unitary matrices have [[Eigenvalues]] that lie on the complex unit circle.
+Unitary matrices have [Eigenvalues](Eigenvalues.md) that lie on the complex unit circle.
 
 If $U$ is unitary and $Uv = \lambda v$ for a nonzero vector $v$, then:
 
@@ -100,7 +100,7 @@ $$
 |\lambda| = 1
 $$
 
-This means unitary matrices may change direction or phase, but their eigenvalues cannot stretch or shrink eigenvectors. See [[Eigenvalues#Unitary Matrices]] for more detail.
+This means unitary matrices may change direction or phase, but their eigenvalues cannot stretch or shrink eigenvectors. See [Eigenvalues: Unitary Matrices](Eigenvalues.md#Unitary%20Matrices) for more detail.
 
 ## Unitary Operators
 
@@ -196,7 +196,7 @@ $$
 
 where $U$ is built from orthonormal eigenvectors, and $\Lambda$ contains the eigenvalues $1$ and $-1$.
 
-The detailed eigenvectors and diagonalizations are in [[Eigenvalues#Pauli Matrices]].
+The detailed eigenvectors and diagonalizations are in [Eigenvalues: Pauli Matrices](Eigenvalues.md#Pauli%20Matrices).
 
 The Pauli matrices are useful because they describe basic two-state quantum measurements, such as spin measurements along the $x$, $y$, and $z$ axes.
 
@@ -208,11 +208,11 @@ It can change a vector's direction and phase, but it cannot change the vector's 
 
 ## Related Concepts
 
-- [[Linear Algebra]]
-- [[Vector Spaces]]
-- [[Adjoints]]
-- [[Bra-Ket Notation]]
-- [[Gram-Schmidt]]
-- [[Eigenvalues]]
-- [[Hermitian Matrices and Operators]]
-- [[Quantum Mechanics]]
+- [Linear Algebra](Linear%20Algebra.md)
+- [Vector Spaces](Vector%20Spaces.md)
+- [Adjoints](Adjoints.md)
+- [Bra-Ket Notation](Bra-Ket%20Notation.md)
+- [Gram-Schmidt](Gram-Schmidt.md)
+- [Eigenvalues](Eigenvalues.md)
+- [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md)
+- [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)

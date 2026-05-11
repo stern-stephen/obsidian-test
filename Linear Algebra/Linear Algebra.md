@@ -4,15 +4,15 @@ Linear algebra studies vectors, matrices, linear transformations, vector spaces,
 
 ## Core Topics
 
-- [[Vector Spaces]]
-- [[Vectors]]
-- [[Matrices]]
-- [[Eigenvalues]]
-- [[Adjoints]]
-- [[Bra-Ket Notation]]
-- [[Gram-Schmidt]]
-- [[Unitary Matrices]]
-- [[Hermitian Matrices and Operators]]
+- [Vector Spaces](Vector%20Spaces.md)
+- [Vectors](Vectors.md)
+- [Matrices](Matrices.md)
+- [Eigenvalues](Eigenvalues.md)
+- [Adjoints](Adjoints.md)
+- [Bra-Ket Notation](Bra-Ket%20Notation.md)
+- [Gram-Schmidt](Gram-Schmidt.md)
+- [Unitary Matrices](Unitary%20Matrices.md)
+- [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md)
 
 ## Why It Matters
 
