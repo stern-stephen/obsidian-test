@@ -17,6 +17,10 @@ For the Nielsen and Chuang reading project, this page is the hub for quantum mec
 
 - [[Book Notes/Nielsen Chuang/Nielsen Chuang|Nielsen And Chuang]]
 - [[Book Notes/Nielsen Chuang/Chapter 2 - Quantum Mechanics|Chapter 2 - Quantum Mechanics]]
+- [[Book Notes/Nielsen Chuang/Chapter 2 - Postulates of Quantum Mechanics|Chapter 2 - Postulates Of Quantum Mechanics]]
+- [[Book Notes/Nielsen Chuang/Chapter 2 - Density Operator|Chapter 2 - Density Operator]]
+- [[Book Notes/Nielsen Chuang/Chapter 2 - Schmidt Decomposition and Purifications|Chapter 2 - Schmidt Decomposition And Purifications]]
+- [[Book Notes/Nielsen Chuang/Chapter 2 - EPR and Bell Inequality|Chapter 2 - EPR And The Bell Inequality]]
 
 ## Concept Notes To Add
 
@@ -26,6 +30,8 @@ For the Nielsen and Chuang reading project, this page is the hub for quantum mec
 - Tensor products
 - Composite systems
 - Density matrices
+- Entanglement
+- Bell inequalities
 
 ## Related Concepts
 

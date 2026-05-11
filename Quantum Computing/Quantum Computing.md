@@ -17,6 +17,7 @@ For the Nielsen and Chuang reading project, this page is the hub for quantum com
 
 - [[Book Notes/Nielsen Chuang/Nielsen Chuang|Nielsen And Chuang]]
 - [[Book Notes/Nielsen Chuang/Chapter 1 - Introduction|Chapter 1 - Introduction]]
+- [[Book Notes/Nielsen Chuang/Chapter 2 - Superdense Coding|Chapter 2 - Superdense Coding]]
 - [[Book Notes/Nielsen Chuang/Chapter 3 - Computer Science|Chapter 3 - Computer Science]]
 
 ## Concept Notes To Add

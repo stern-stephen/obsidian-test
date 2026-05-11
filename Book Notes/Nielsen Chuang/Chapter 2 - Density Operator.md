@@ -1,0 +1,119 @@
+# Chapter 2 - Density Operator
+
+Source: [[References/quantum-computation-and-quantum-information-nielsen-chuang.pdf]]
+
+Book hub: [[Book Notes/Nielsen Chuang/Nielsen Chuang|Nielsen And Chuang]]
+
+Parent chapter: [[Book Notes/Nielsen Chuang/Chapter 2 - Quantum Mechanics|Chapter 2 - Quantum Mechanics]]
+
+Book section: 2.4, pages 98-108.
+
+## Overview
+
+The density operator is a way to describe quantum states when there may be uncertainty about which pure state a system is in.
+
+It is also the natural language for subsystems of entangled composite systems.
+
+## 2.4.1 Ensembles Of Quantum States
+
+Suppose a system is prepared in state $|\psi_i\rangle$ with probability $p_i$.
+
+The ensemble is:
+
+$$
+\{p_i, |\psi_i\rangle\}
+$$
+
+The corresponding density operator is:
+
+$$
+\rho = \sum_i p_i |\psi_i\rangle\langle \psi_i|
+$$
+
+A pure state $|\psi\rangle$ has density operator:
+
+$$
+\rho = |\psi\rangle\langle \psi|
+$$
+
+A mixed state represents classical uncertainty over possible quantum states.
+
+## 2.4.2 General Properties
+
+A density operator $\rho$ satisfies:
+
+$$
+\operatorname{tr}(\rho) = 1
+$$
+
+and:
+
+$$
+\rho \ge 0
+$$
+
+The condition $\rho \ge 0$ means the density operator is positive: all measurement probabilities it produces are nonnegative.
+
+The probability of a measurement outcome can be computed from $\rho$.
+
+For a POVM element $E_m$:
+
+$$
+p(m) = \operatorname{tr}(E_m \rho)
+$$
+
+For a pure state density operator, the trace condition corresponds to state normalization.
+
+A useful test for purity is:
+
+$$
+\operatorname{tr}(\rho^2) = 1
+$$
+
+for pure states, while mixed states have:
+
+$$
+\operatorname{tr}(\rho^2) < 1
+$$
+
+## 2.4.3 The Reduced Density Operator
+
+The reduced density operator describes part of a composite system.
+
+If a joint system $AB$ has density operator $\rho^{AB}$, then the state of subsystem $A$ is:
+
+$$
+\rho^A = \operatorname{tr}_B(\rho^{AB})
+$$
+
+The operation $\operatorname{tr}_B$ is the partial trace over system $B$.
+
+This is important because a subsystem of an entangled pure state can look mixed.
+
+For example, if two qubits are in an entangled Bell state, the state of either qubit alone is not a pure state. The reduced density operator captures what can be predicted from measurements on that subsystem alone.
+
+## Why It Matters
+
+Density operators are more general than state vectors.
+
+They handle:
+
+- Classical uncertainty about preparation.
+- Subsystems of entangled states.
+- Measurement probabilities.
+- Open systems interacting with an environment.
+
+They become essential for later topics such as noise, decoherence, quantum channels, and quantum error correction.
+
+## Questions To Revisit
+
+- How can different ensembles produce the same density operator?
+- Why does tracing out part of an entangled system produce a mixed state?
+- What is the operational meaning of $\operatorname{tr}(\rho^2)$?
+
+## Related Concepts
+
+- [[Quantum Mechanics/Quantum Mechanics|Quantum Mechanics]]
+- [[Book Notes/Nielsen Chuang/Chapter 2 - Postulates of Quantum Mechanics|Chapter 2 - Postulates Of Quantum Mechanics]]
+- [[Linear Algebra/Bra-Ket Notation|Bra-Ket Notation]]
+- [[Linear Algebra/Hermitian Matrices and Operators|Hermitian Matrices and Operators]]

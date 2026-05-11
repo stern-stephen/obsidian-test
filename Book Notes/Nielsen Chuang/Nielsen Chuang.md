@@ -13,6 +13,11 @@ Use this page to track chapter notes, questions, and concept pages created while
 - [[Book Notes/Nielsen Chuang/Chapter 1 - Introduction|Chapter 1 - Introduction]]
 - [[Book Notes/Nielsen Chuang/Chapter 2 - Quantum Mechanics|Chapter 2 - Quantum Mechanics]]
   - [[Book Notes/Nielsen Chuang/Chapter 2 - Linear Algebra|Chapter 2 - Linear Algebra]]
+  - [[Book Notes/Nielsen Chuang/Chapter 2 - Postulates of Quantum Mechanics|Chapter 2 - Postulates Of Quantum Mechanics]]
+  - [[Book Notes/Nielsen Chuang/Chapter 2 - Superdense Coding|Chapter 2 - Superdense Coding]]
+  - [[Book Notes/Nielsen Chuang/Chapter 2 - Density Operator|Chapter 2 - Density Operator]]
+  - [[Book Notes/Nielsen Chuang/Chapter 2 - Schmidt Decomposition and Purifications|Chapter 2 - Schmidt Decomposition And Purifications]]
+  - [[Book Notes/Nielsen Chuang/Chapter 2 - EPR and Bell Inequality|Chapter 2 - EPR And The Bell Inequality]]
 - [[Book Notes/Nielsen Chuang/Chapter 3 - Computer Science|Chapter 3 - Computer Science]]
 
 ## Core Concept Areas

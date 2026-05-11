@@ -1,0 +1,80 @@
+# Chapter 2 - Schmidt Decomposition And Purifications
+
+Source: [[References/quantum-computation-and-quantum-information-nielsen-chuang.pdf]]
+
+Book hub: [[Book Notes/Nielsen Chuang/Nielsen Chuang|Nielsen And Chuang]]
+
+Parent chapter: [[Book Notes/Nielsen Chuang/Chapter 2 - Quantum Mechanics|Chapter 2 - Quantum Mechanics]]
+
+Book section: 2.5, pages 109-110.
+
+## Overview
+
+The Schmidt decomposition is a canonical way to write pure states of bipartite quantum systems.
+
+It exposes the entanglement structure of a state and connects naturally to reduced density operators.
+
+## Schmidt Decomposition
+
+For a pure state $|\psi\rangle$ of a composite system $AB$, there exist orthonormal bases $\{|i_A\rangle\}$ and $\{|i_B\rangle\}$ such that:
+
+$$
+|\psi\rangle = \sum_i \lambda_i |i_A\rangle|i_B\rangle
+$$
+
+The nonnegative numbers $\lambda_i$ are the Schmidt coefficients.
+
+Because $|\psi\rangle$ is normalized:
+
+$$
+\sum_i \lambda_i^2 = 1
+$$
+
+The number of nonzero Schmidt coefficients is called the Schmidt number.
+
+## Entanglement
+
+The Schmidt decomposition gives a clean test for entanglement.
+
+If a bipartite pure state has Schmidt number $1$, it is a product state.
+
+If it has Schmidt number greater than $1$, it is entangled.
+
+For a maximally entangled two-qubit state, the Schmidt coefficients are equal:
+
+$$
+\lambda_1 = \lambda_2 = \frac{1}{\sqrt{2}}
+$$
+
+## Purification
+
+Purification represents a mixed state as part of a larger pure state.
+
+Given a density operator $\rho^A$, we can introduce an auxiliary reference system $R$ and find a pure state $|AR\rangle$ such that:
+
+$$
+\rho^A = \operatorname{tr}_R(|AR\rangle\langle AR|)
+$$
+
+The larger pure state $|AR\rangle$ is called a purification of $\rho^A$.
+
+This reinforces the idea that mixed states can arise from ignoring part of a larger entangled system.
+
+## Why It Matters
+
+The Schmidt decomposition and purification are basic tools for reasoning about composite quantum systems.
+
+They help explain:
+
+- Which pure states are entangled.
+- How reduced density operators arise.
+- Why a mixed state can be viewed as part of a larger pure state.
+- How auxiliary systems can simplify proofs and constructions.
+
+## Related Concepts
+
+- [[Book Notes/Nielsen Chuang/Chapter 2 - Density Operator|Chapter 2 - Density Operator]]
+- [[Quantum Mechanics/Quantum Mechanics|Quantum Mechanics]]
+- [[Quantum Computing/Quantum Computing|Quantum Computing]]
+- [[Linear Algebra/Vector Spaces|Vector Spaces]]
+- [[Linear Algebra/Eigenvalues|Eigenvalues]]
