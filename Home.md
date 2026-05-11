@@ -5,11 +5,14 @@ Welcome to a tiny Obsidian vault for working with Codex.
 ## Quick Links
 
 - [[Codex Sessions/2026-05-10 First Codex Session]]
-- [[Linear Algebra]]
-- [[Vector Spaces]]
-- [[Adjoints]]
-- [[Bra-Ket Notation]]
-- [[Gram-Schmidt]]
+- [[Book Notes/Nielsen Chuang/Nielsen Chuang|Nielsen And Chuang]]
+- [[Linear Algebra/Linear Algebra|Linear Algebra]]
+- [[Quantum Mechanics/Quantum Mechanics|Quantum Mechanics]]
+- [[Quantum Computing/Quantum Computing|Quantum Computing]]
+- [[Linear Algebra/Vector Spaces|Vector Spaces]]
+- [[Linear Algebra/Adjoints|Adjoints]]
+- [[Linear Algebra/Bra-Ket Notation|Bra-Ket Notation]]
+- [[Linear Algebra/Gram-Schmidt|Gram-Schmidt]]
 - [[Inbox]]
 - [[Tasks]]
 
