@@ -4,6 +4,8 @@
 
 The **Bloch sphere** is a geometric picture of a single qubit state.
 
+![Bloch sphere diagram](Assets/bloch-sphere.png)
+
 A general normalized qubit state can be written as:
 
 $$
