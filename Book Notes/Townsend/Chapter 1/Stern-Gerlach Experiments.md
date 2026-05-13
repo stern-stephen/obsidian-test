@@ -1,12 +1,12 @@
 # Stern-Gerlach Experiments
 
-Source: [A Modern Approach to Quantum Mechanics by John S. Townsend _2](../../../References/A%20Modern%20Approach%20to%20Quantum%20Mechanics%20by%20John%20S.%20Townsend%20_2.pdf#page=17)
+Source: [A Modern Approach to Quantum Mechanics by John S. Townsend _2](../../../References/A%20Modern%20Approach%20to%20Quantum%20Mechanics%20by%20John%20S.%20Townsend%20_2.pdf)
 
 Book hub: [Townsend](../Townsend.md)
 
-Book chapter: 1, [pages 1-28](../../../References/A%20Modern%20Approach%20to%20Quantum%20Mechanics%20by%20John%20S.%20Townsend%20_2.pdf#page=17).
+Book chapter: 1, pages 1-28.
 
-PDF page links use the PDF's physical page numbers. In this file, Townsend printed page 1 is PDF page 17.
+PDF reference: [Townsend PDF](../../../References/A%20Modern%20Approach%20to%20Quantum%20Mechanics%20by%20John%20S.%20Townsend%20_2.pdf). In this file, Townsend printed page 1 is PDF page 17.
 
 ## Reading Status
 
@@ -23,7 +23,7 @@ Instead of starting with wave functions, Townsend starts with what idealized mea
 
 ## 1.1 The Original Stern-Gerlach Experiment
 
-Book section: 1.1, [pages 1-5](../../../References/A%20Modern%20Approach%20to%20Quantum%20Mechanics%20by%20John%20S.%20Townsend%20_2.pdf#page=17).
+Book section: 1.1, pages 1-5.
 
 The original Stern-Gerlach experiment sends silver atoms through an inhomogeneous magnetic field. A classical magnetic moment picture suggests a continuous spread of deflections, but the observed beam splits into discrete components.
 
@@ -49,7 +49,7 @@ These are states with definite $z$-component of spin.
 
 ## 1.2 Four Experiments
 
-Book section: 1.2, [pages 5-10](../../../References/A%20Modern%20Approach%20to%20Quantum%20Mechanics%20by%20John%20S.%20Townsend%20_2.pdf#page=21).
+Book section: 1.2, pages 5-10.
 
 Townsend then considers a sequence of ideal Stern-Gerlach analyzers. The important point is not just that a single analyzer splits a beam, but that arranging analyzers in sequence reveals the state-changing role of measurement.
 
@@ -61,7 +61,7 @@ This is the first major warning: spin components along different axes cannot all
 
 ## 1.3 The Quantum State Vector
 
-Book section: 1.3, [pages 10-14](../../../References/A%20Modern%20Approach%20to%20Quantum%20Mechanics%20by%20John%20S.%20Townsend%20_2.pdf#page=26).
+Book section: 1.3, pages 10-14.
 
 The state vector collects the information needed to predict outcomes for future measurements.
 
@@ -91,7 +91,7 @@ This connects directly to [bra-ket notation](../../../Linear%20Algebra/Bra-Ket%2
 
 ## 1.4 Analysis of Experiment 3
 
-Book section: 1.4, [pages 14-18](../../../References/A%20Modern%20Approach%20to%20Quantum%20Mechanics%20by%20John%20S.%20Townsend%20_2.pdf#page=30).
+Book section: 1.4, pages 14-18.
 
 Experiment 3 shows that a state prepared with definite $S_z$ does not have a definite value of $S_x$.
 
@@ -117,7 +117,7 @@ The important physical point is that measurement in the $x$ direction prepares t
 
 ## 1.5 Experiment 5
 
-Book section: 1.5, [pages 18-21](../../../References/A%20Modern%20Approach%20to%20Quantum%20Mechanics%20by%20John%20S.%20Townsend%20_2.pdf#page=34).
+Book section: 1.5, pages 18-21.
 
 The fifth experiment introduces the role of relative phase.
 
@@ -127,7 +127,7 @@ This is why amplitudes cannot be replaced by probabilities alone. The complex st
 
 ## 1.6 Summary
 
-Book section: 1.6, [pages 21-24](../../../References/A%20Modern%20Approach%20to%20Quantum%20Mechanics%20by%20John%20S.%20Townsend%20_2.pdf#page=37).
+Book section: 1.6, pages 21-24.
 
 Chapter 1 builds a compact first model of quantum mechanics:
 
@@ -140,7 +140,7 @@ Chapter 1 builds a compact first model of quantum mechanics:
 
 ## Problems
 
-Book problems: [pages 25-28](../../../References/A%20Modern%20Approach%20to%20Quantum%20Mechanics%20by%20John%20S.%20Townsend%20_2.pdf#page=41).
+Book problems: pages 25-28.
 
 The problems are likely useful for practicing:
 
