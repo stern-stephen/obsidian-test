@@ -4,7 +4,7 @@
 
 Quantum mechanics describes physical systems using states, measurements, and transformations on complex vector spaces.
 
-For the Nielsen and Chuang reading project, this page is the hub for quantum mechanics concepts that recur across the book.
+This page is the hub for quantum mechanics concepts that recur across the textbook reading projects.
 
 ## Core Ideas
 
@@ -13,10 +13,13 @@ For the Nielsen and Chuang reading project, this page is the hub for quantum mec
 - Single-qubit pure states can be visualized using the [Bloch sphere](../Quantum%20Computing/Bloch%20Sphere.md).
 - Reversible evolution is represented by [unitary operators](../Linear%20Algebra/Unitary%20Matrices.md).
 - Measurable quantities are represented by [Hermitian operators](../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md).
+- Stern-Gerlach experiments make the measurement and state-preparation role of apparatuses concrete.
 
 ## Book Links
 
 - [Nielsen And Chuang](../Book%20Notes/Nielsen%20Chuang/Nielsen%20Chuang.md)
+- [Townsend](../Book%20Notes/Townsend/Townsend.md)
+- [Stern-Gerlach Experiments](../Book%20Notes/Townsend/Chapter%201/Stern-Gerlach%20Experiments.md)
 - [Quantum Mechanics](../Book%20Notes/Nielsen%20Chuang/Chapter%202/Quantum%20Mechanics.md)
 - [Postulates Of Quantum Mechanics](../Book%20Notes/Nielsen%20Chuang/Chapter%202/Postulates%20of%20Quantum%20Mechanics.md)
 - [Density Operator](../Book%20Notes/Nielsen%20Chuang/Chapter%202/Density%20Operator.md)
@@ -27,7 +30,6 @@ For the Nielsen and Chuang reading project, this page is the hub for quantum mec
 
 - Postulates of quantum mechanics
 - Measurement
-- Quantum state
 - Tensor products
 - Composite systems
 - Density matrices
@@ -37,6 +39,9 @@ For the Nielsen and Chuang reading project, this page is the hub for quantum mec
 ## Related Concepts
 
 - [Linear Algebra](../Linear%20Algebra/Linear%20Algebra.md)
+- [Stern-Gerlach Experiments](Stern-Gerlach%20Experiments.md)
+- [Quantum State Vector](Quantum%20State%20Vector.md)
+- [Spin-1/2 Systems](Spin-1-2%20Systems.md)
 - [Bra-Ket Notation](../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Unitary Matrices](../Linear%20Algebra/Unitary%20Matrices.md)
 - [Hermitian Matrices and Operators](../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
