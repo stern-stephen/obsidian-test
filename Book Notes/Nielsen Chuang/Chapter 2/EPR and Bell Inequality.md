@@ -1,10 +1,10 @@
-# Chapter 2 - EPR And The Bell Inequality
+# EPR And The Bell Inequality
 
-Source: [quantum-computation-and-quantum-information-nielsen-chuang](../../References/quantum-computation-and-quantum-information-nielsen-chuang.pdf)
+Source: [quantum-computation-and-quantum-information-nielsen-chuang](../../../References/quantum-computation-and-quantum-information-nielsen-chuang.pdf)
 
-Book hub: [Nielsen And Chuang](Nielsen%20Chuang.md)
+Book hub: [Nielsen And Chuang](../Nielsen%20Chuang.md)
 
-Parent chapter: [Chapter 2 - Quantum Mechanics](Chapter%202%20-%20Quantum%20Mechanics.md)
+Parent chapter: [Quantum Mechanics](Quantum%20Mechanics.md)
 
 Book section: 2.6, pages 111-116.
 
@@ -59,12 +59,12 @@ This section also connects the conceptual foundations of quantum mechanics to qu
 
 - Which assumptions are required to derive the Bell inequality?
 - Why does violating a Bell inequality not enable faster-than-light signalling?
-- How do Bell states used in [superdense coding](Chapter%202%20-%20Superdense%20Coding.md) connect to the EPR discussion?
+- How do Bell states used in [superdense coding](Superdense%20Coding.md) connect to the EPR discussion?
 
 ## Related Concepts
 
-- [Chapter 2 - Superdense Coding](Chapter%202%20-%20Superdense%20Coding.md)
-- [Chapter 2 - Schmidt Decomposition And Purifications](Chapter%202%20-%20Schmidt%20Decomposition%20and%20Purifications.md)
-- [Quantum Mechanics](../../Quantum%20Mechanics/Quantum%20Mechanics.md)
-- [Quantum Computing](../../Quantum%20Computing/Quantum%20Computing.md)
-- [Bra-Ket Notation](../../Linear%20Algebra/Bra-Ket%20Notation.md)
+- [Superdense Coding](Superdense%20Coding.md)
+- [Schmidt Decomposition And Purifications](Schmidt%20Decomposition%20and%20Purifications.md)
+- [Quantum Mechanics](../../../Quantum%20Mechanics/Quantum%20Mechanics.md)
+- [Quantum Computing](../../../Quantum%20Computing/Quantum%20Computing.md)
+- [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)

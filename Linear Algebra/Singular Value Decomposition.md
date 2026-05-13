@@ -139,7 +139,7 @@ The key differences are:
 
 ## Quantum Mechanics Connection
 
-In quantum information, SVD helps explain decompositions of states and operators. The [Schmidt decomposition](../Book%20Notes/Nielsen%20Chuang/Chapter%202%20-%20Schmidt%20Decomposition%20and%20Purifications.md) is closely related to SVD: it rewrites a bipartite quantum state using orthonormal bases and nonnegative coefficients.
+In quantum information, SVD helps explain decompositions of states and operators. The [Schmidt decomposition](../Book%20Notes/Nielsen%20Chuang/Chapter%202/Schmidt%20Decomposition%20and%20Purifications.md) is closely related to SVD: it rewrites a bipartite quantum state using orthonormal bases and nonnegative coefficients.
 
 SVD also complements [Unitary Matrices](Unitary%20Matrices.md) because it factors a general matrix into unitary transformations plus a nonnegative scaling matrix.
 

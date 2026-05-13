@@ -10,15 +10,18 @@ Use this page to track chapter notes, questions, and concept pages created while
 
 ## Chapter Notes
 
-- [Chapter 1 - Introduction](Chapter%201%20-%20Introduction.md)
-- [Chapter 2 - Quantum Mechanics](Chapter%202%20-%20Quantum%20Mechanics.md)
-  - [Chapter 2 - Linear Algebra](Chapter%202%20-%20Linear%20Algebra.md)
-  - [Chapter 2 - Postulates Of Quantum Mechanics](Chapter%202%20-%20Postulates%20of%20Quantum%20Mechanics.md)
-  - [Chapter 2 - Superdense Coding](Chapter%202%20-%20Superdense%20Coding.md)
-  - [Chapter 2 - Density Operator](Chapter%202%20-%20Density%20Operator.md)
-  - [Chapter 2 - Schmidt Decomposition And Purifications](Chapter%202%20-%20Schmidt%20Decomposition%20and%20Purifications.md)
-  - [Chapter 2 - EPR And The Bell Inequality](Chapter%202%20-%20EPR%20and%20Bell%20Inequality.md)
-- [Chapter 3 - Computer Science](Chapter%203%20-%20Computer%20Science.md)
+- Chapter 1
+  - [Introduction](Chapter%201/Introduction.md)
+- Chapter 2
+  - [Quantum Mechanics](Chapter%202/Quantum%20Mechanics.md)
+  - [Linear Algebra](Chapter%202/Linear%20Algebra.md)
+  - [Postulates Of Quantum Mechanics](Chapter%202/Postulates%20of%20Quantum%20Mechanics.md)
+  - [Superdense Coding](Chapter%202/Superdense%20Coding.md)
+  - [Density Operator](Chapter%202/Density%20Operator.md)
+  - [Schmidt Decomposition And Purifications](Chapter%202/Schmidt%20Decomposition%20and%20Purifications.md)
+  - [EPR And The Bell Inequality](Chapter%202/EPR%20and%20Bell%20Inequality.md)
+- Chapter 3
+  - [Computer Science](Chapter%203/Computer%20Science.md)
 
 ## Core Concept Areas
 

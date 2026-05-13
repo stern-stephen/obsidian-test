@@ -17,11 +17,11 @@ For the Nielsen and Chuang reading project, this page is the hub for quantum mec
 ## Book Links
 
 - [Nielsen And Chuang](../Book%20Notes/Nielsen%20Chuang/Nielsen%20Chuang.md)
-- [Chapter 2 - Quantum Mechanics](../Book%20Notes/Nielsen%20Chuang/Chapter%202%20-%20Quantum%20Mechanics.md)
-- [Chapter 2 - Postulates Of Quantum Mechanics](../Book%20Notes/Nielsen%20Chuang/Chapter%202%20-%20Postulates%20of%20Quantum%20Mechanics.md)
-- [Chapter 2 - Density Operator](../Book%20Notes/Nielsen%20Chuang/Chapter%202%20-%20Density%20Operator.md)
-- [Chapter 2 - Schmidt Decomposition And Purifications](../Book%20Notes/Nielsen%20Chuang/Chapter%202%20-%20Schmidt%20Decomposition%20and%20Purifications.md)
-- [Chapter 2 - EPR And The Bell Inequality](../Book%20Notes/Nielsen%20Chuang/Chapter%202%20-%20EPR%20and%20Bell%20Inequality.md)
+- [Quantum Mechanics](../Book%20Notes/Nielsen%20Chuang/Chapter%202/Quantum%20Mechanics.md)
+- [Postulates Of Quantum Mechanics](../Book%20Notes/Nielsen%20Chuang/Chapter%202/Postulates%20of%20Quantum%20Mechanics.md)
+- [Density Operator](../Book%20Notes/Nielsen%20Chuang/Chapter%202/Density%20Operator.md)
+- [Schmidt Decomposition And Purifications](../Book%20Notes/Nielsen%20Chuang/Chapter%202/Schmidt%20Decomposition%20and%20Purifications.md)
+- [EPR And The Bell Inequality](../Book%20Notes/Nielsen%20Chuang/Chapter%202/EPR%20and%20Bell%20Inequality.md)
 
 ## Concept Notes To Add
 

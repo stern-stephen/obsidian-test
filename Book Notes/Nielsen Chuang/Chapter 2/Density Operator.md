@@ -1,10 +1,10 @@
-# Chapter 2 - Density Operator
+# Density Operator
 
-Source: [quantum-computation-and-quantum-information-nielsen-chuang](../../References/quantum-computation-and-quantum-information-nielsen-chuang.pdf)
+Source: [quantum-computation-and-quantum-information-nielsen-chuang](../../../References/quantum-computation-and-quantum-information-nielsen-chuang.pdf)
 
-Book hub: [Nielsen And Chuang](Nielsen%20Chuang.md)
+Book hub: [Nielsen And Chuang](../Nielsen%20Chuang.md)
 
-Parent chapter: [Chapter 2 - Quantum Mechanics](Chapter%202%20-%20Quantum%20Mechanics.md)
+Parent chapter: [Quantum Mechanics](Quantum%20Mechanics.md)
 
 Book section: 2.4, pages 98-108.
 
@@ -113,7 +113,7 @@ They become essential for later topics such as noise, decoherence, quantum chann
 
 ## Related Concepts
 
-- [Quantum Mechanics](../../Quantum%20Mechanics/Quantum%20Mechanics.md)
-- [Chapter 2 - Postulates Of Quantum Mechanics](Chapter%202%20-%20Postulates%20of%20Quantum%20Mechanics.md)
-- [Bra-Ket Notation](../../Linear%20Algebra/Bra-Ket%20Notation.md)
-- [Hermitian Matrices and Operators](../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
+- [Quantum Mechanics](../../../Quantum%20Mechanics/Quantum%20Mechanics.md)
+- [Postulates Of Quantum Mechanics](Postulates%20of%20Quantum%20Mechanics.md)
+- [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
+- [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
