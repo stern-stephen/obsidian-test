@@ -9,6 +9,7 @@ For the Nielsen and Chuang reading project, this page is the hub for quantum com
 ## Core Ideas
 
 - Qubits are quantum two-state systems.
+- A single qubit can be pictured as a point on the [Bloch sphere](Bloch%20Sphere.md).
 - Quantum gates are usually represented by [unitary matrices](../Linear%20Algebra/Unitary%20Matrices.md).
 - Measurements are connected to [Hermitian operators](../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md) and [eigenvalues](../Linear%20Algebra/Eigenvalues.md).
 - Multi-qubit systems use tensor products.
@@ -33,6 +34,7 @@ For the Nielsen and Chuang reading project, this page is the hub for quantum com
 ## Related Concepts
 
 - [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)
+- [Bloch Sphere](Bloch%20Sphere.md)
 - [Bra-Ket Notation](../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Unitary Matrices](../Linear%20Algebra/Unitary%20Matrices.md)
 - [Hermitian Matrices and Operators](../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)

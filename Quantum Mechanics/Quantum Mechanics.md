@@ -10,6 +10,7 @@ For the Nielsen and Chuang reading project, this page is the hub for quantum mec
 
 - Quantum states are represented using [bra-ket notation](../Linear%20Algebra/Bra-Ket%20Notation.md).
 - State spaces are complex [vector spaces](../Linear%20Algebra/Vector%20Spaces.md).
+- Single-qubit pure states can be visualized using the [Bloch sphere](../Quantum%20Computing/Bloch%20Sphere.md).
 - Reversible evolution is represented by [unitary operators](../Linear%20Algebra/Unitary%20Matrices.md).
 - Measurable quantities are represented by [Hermitian operators](../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md).
 
