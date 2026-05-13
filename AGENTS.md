@@ -13,6 +13,15 @@ $$
 
 Avoid `\(...\)` and `\[...\]` delimiters because they may not render nicely in the Obsidian UI.
 
+## Markdown Links
+
+Use standard Markdown links instead of Obsidian wiki links so notes remain readable in regular editors and on GitHub.
+
+- Prefer `[Eigenvalues](Linear%20Algebra/Eigenvalues.md)` over Obsidian wiki-link syntax.
+- Use relative links from the current note.
+- Percent-encode spaces in link destinations, such as `Book%20Notes/Nielsen%20Chuang/Nielsen%20Chuang.md`.
+- Section links should use Markdown anchors, such as `[Pauli Matrices](Linear%20Algebra/Eigenvalues.md#Pauli%20Matrices)`.
+
 ## Git Workflow
 
 This project is an Obsidian vault stored in Git.

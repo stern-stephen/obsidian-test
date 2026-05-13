@@ -1,16 +1,16 @@
-# Chapter 2 - Linear Algebra
+# Linear Algebra
 
-Source: [[References/quantum-computation-and-quantum-information-nielsen-chuang.pdf]]
+Source: [quantum-computation-and-quantum-information-nielsen-chuang](../../../References/quantum-computation-and-quantum-information-nielsen-chuang.pdf)
 
-Book hub: [[Book Notes/Nielsen Chuang/Nielsen Chuang|Nielsen And Chuang]]
+Book hub: [Nielsen And Chuang](../Nielsen%20Chuang.md)
 
-Parent chapter: [[Book Notes/Nielsen Chuang/Chapter 2 - Quantum Mechanics|Chapter 2 - Quantum Mechanics]]
+Parent chapter: [Quantum Mechanics](Quantum%20Mechanics.md)
 
 Book section: 2.1, pages 61-79.
 
 ## Overview
 
-Section 2.1 reviews the [[Linear Algebra/Linear Algebra|linear algebra]] needed for quantum mechanics.
+Section 2.1 reviews the [linear algebra](../../../Linear%20Algebra/Linear%20Algebra.md) needed for quantum mechanics.
 
 The main theme is that quantum mechanics is built on complex vector spaces. Quantum states are vectors, physical transformations are linear operators, measurements are tied to eigenvalues and eigenvectors, and composite systems are described using tensor products.
 
@@ -32,9 +32,9 @@ A **basis** is a linearly independent spanning set. Once a basis is chosen, ever
 
 Related notes:
 
-- [[Linear Algebra/Vector Spaces|Vector Spaces]]
-- [[Linear Algebra/Bra-Ket Notation|Bra-Ket Notation]]
-- [[Linear Algebra/Gram-Schmidt|Gram-Schmidt]]
+- [Vector Spaces](../../../Linear%20Algebra/Vector%20Spaces.md)
+- [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
+- [Gram-Schmidt](../../../Linear%20Algebra/Gram-Schmidt.md)
 
 ## 2.1.2 Linear Operators And Matrices
 
@@ -64,9 +64,9 @@ $$
 
 Related notes:
 
-- [[Linear Algebra/Vector Spaces|Vector Spaces]]
-- [[Linear Algebra/Adjoints|Adjoints]]
-- [[Linear Algebra/Unitary Matrices|Unitary Matrices]]
+- [Vector Spaces](../../../Linear%20Algebra/Vector%20Spaces.md)
+- [Adjoints](../../../Linear%20Algebra/Adjoints.md)
+- [Unitary Matrices](../../../Linear%20Algebra/Unitary%20Matrices.md)
 
 ## 2.1.3 The Pauli Matrices
 
@@ -96,9 +96,9 @@ $$
 \end{bmatrix}
 $$
 
-They are important because they are both [[Linear Algebra/Hermitian Matrices and Operators|Hermitian]] and [[Linear Algebra/Unitary Matrices|unitary]].
+They are important because they are both [Hermitian](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md) and [unitary](../../../Linear%20Algebra/Unitary%20Matrices.md).
 
-Their eigenvalues and eigenvectors are collected in [[Linear Algebra/Eigenvalues#Pauli Matrices|Eigenvalues: Pauli Matrices]].
+Their eigenvalues and eigenvectors are collected in [Eigenvalues: Pauli Matrices](../../../Linear%20Algebra/Eigenvalues.md#Pauli%20Matrices).
 
 ## 2.1.4 Inner Products
 
@@ -132,9 +132,9 @@ The inner product is one of the main reasons complex conjugation appears through
 
 Related notes:
 
-- [[Linear Algebra/Vector Spaces|Vector Spaces]]
-- [[Linear Algebra/Bra-Ket Notation|Bra-Ket Notation]]
-- [[Linear Algebra/Gram-Schmidt|Gram-Schmidt]]
+- [Vector Spaces](../../../Linear%20Algebra/Vector%20Spaces.md)
+- [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
+- [Gram-Schmidt](../../../Linear%20Algebra/Gram-Schmidt.md)
 
 ## 2.1.5 Eigenvectors And Eigenvalues
 
@@ -152,8 +152,8 @@ Eigenvalues matter in quantum mechanics because measurement outcomes are tied to
 
 Related notes:
 
-- [[Linear Algebra/Eigenvalues|Eigenvalues]]
-- [[Linear Algebra/Hermitian Matrices and Operators|Hermitian Matrices and Operators]]
+- [Eigenvalues](../../../Linear%20Algebra/Eigenvalues.md)
+- [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
 
 ## 2.1.6 Adjoints And Hermitian Operators
 
@@ -179,9 +179,9 @@ Hermitian operators are the mathematical model for observables in quantum mechan
 
 Related notes:
 
-- [[Linear Algebra/Adjoints|Adjoints]]
-- [[Linear Algebra/Hermitian Matrices and Operators|Hermitian Matrices and Operators]]
-- [[Quantum Mechanics/Quantum Mechanics|Quantum Mechanics]]
+- [Adjoints](../../../Linear%20Algebra/Adjoints.md)
+- [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
+- [Quantum Mechanics](../../../Quantum%20Mechanics/Quantum%20Mechanics.md)
 
 ## 2.1.7 Tensor Products
 
@@ -213,9 +213,9 @@ This is the doorway into multi-qubit states and entanglement.
 
 Related notes:
 
-- [[Quantum Mechanics/Quantum Mechanics|Quantum Mechanics]]
-- [[Quantum Computing/Quantum Computing|Quantum Computing]]
-- [[Linear Algebra/Vector Spaces|Vector Spaces]]
+- [Quantum Mechanics](../../../Quantum%20Mechanics/Quantum%20Mechanics.md)
+- [Quantum Computing](../../../Quantum%20Computing/Quantum%20Computing.md)
+- [Vector Spaces](../../../Linear%20Algebra/Vector%20Spaces.md)
 
 ## 2.1.8 Operator Functions
 
@@ -243,9 +243,9 @@ Operator exponentials appear naturally in quantum time evolution.
 
 Related notes:
 
-- [[Linear Algebra/Eigenvalues|Eigenvalues]]
-- [[Linear Algebra/Hermitian Matrices and Operators|Hermitian Matrices and Operators]]
-- [[Linear Algebra/Unitary Matrices|Unitary Matrices]]
+- [Eigenvalues](../../../Linear%20Algebra/Eigenvalues.md)
+- [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
+- [Unitary Matrices](../../../Linear%20Algebra/Unitary%20Matrices.md)
 
 ## 2.1.9 Commutators And Anti-Commutators
 
@@ -285,7 +285,7 @@ $$
 
 where $r$ is the magnitude and $e^{i\theta}$ carries the phase.
 
-The singular value decomposition factors a matrix into unitary matrices and a diagonal matrix of singular values:
+The [singular value decomposition](../../../Linear%20Algebra/Singular%20Value%20Decomposition.md) factors a matrix into unitary matrices and a diagonal matrix of singular values:
 
 $$
 A = U D V^\dagger
@@ -295,8 +295,8 @@ The important study takeaway is that many operators can be understood by separat
 
 Related notes:
 
-- [[Linear Algebra/Unitary Matrices|Unitary Matrices]]
-- [[Linear Algebra/Eigenvalues|Eigenvalues]]
+- [Unitary Matrices](../../../Linear%20Algebra/Unitary%20Matrices.md)
+- [Eigenvalues](../../../Linear%20Algebra/Eigenvalues.md)
 
 ## Study Takeaways
 
@@ -318,12 +318,13 @@ Related notes:
 
 ## Links To Concept Notes
 
-- [[Linear Algebra/Linear Algebra|Linear Algebra]]
-- [[Linear Algebra/Vector Spaces|Vector Spaces]]
-- [[Linear Algebra/Bra-Ket Notation|Bra-Ket Notation]]
-- [[Linear Algebra/Adjoints|Adjoints]]
-- [[Linear Algebra/Eigenvalues|Eigenvalues]]
-- [[Linear Algebra/Hermitian Matrices and Operators|Hermitian Matrices and Operators]]
-- [[Linear Algebra/Unitary Matrices|Unitary Matrices]]
-- [[Quantum Mechanics/Quantum Mechanics|Quantum Mechanics]]
-- [[Quantum Computing/Quantum Computing|Quantum Computing]]
+- [Linear Algebra](../../../Linear%20Algebra/Linear%20Algebra.md)
+- [Vector Spaces](../../../Linear%20Algebra/Vector%20Spaces.md)
+- [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
+- [Adjoints](../../../Linear%20Algebra/Adjoints.md)
+- [Eigenvalues](../../../Linear%20Algebra/Eigenvalues.md)
+- [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
+- [Singular Value Decomposition](../../../Linear%20Algebra/Singular%20Value%20Decomposition.md)
+- [Unitary Matrices](../../../Linear%20Algebra/Unitary%20Matrices.md)
+- [Quantum Mechanics](../../../Quantum%20Mechanics/Quantum%20Mechanics.md)
+- [Quantum Computing](../../../Quantum%20Computing/Quantum%20Computing.md)

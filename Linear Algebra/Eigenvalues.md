@@ -72,7 +72,7 @@ Diagonalization is useful because diagonal matrices are much easier to understan
 
 ## Hermitian Matrices
 
-For [[Hermitian Matrices and Operators]], eigenvalues are always real.
+For [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md), eigenvalues are always real.
 
 If $A$ is Hermitian and $A v = \lambda v$, then:
 
@@ -98,11 +98,11 @@ $$
 
 where $U$ is a unitary matrix whose columns are eigenvectors, and $\Lambda$ is a diagonal matrix containing the eigenvalues. This is the **spectral theorem** for Hermitian matrices.
 
-The orthonormal eigenvector basis can be understood using ideas from [[Vector Spaces]] and [[Gram-Schmidt]].
+The orthonormal eigenvector basis can be understood using ideas from [Vector Spaces](Vector%20Spaces.md) and [Gram-Schmidt](Gram-Schmidt.md).
 
 ## Unitary Matrices
 
-For [[Unitary Matrices]], eigenvalues lie on the complex unit circle.
+For [Unitary Matrices](Unitary%20Matrices.md), eigenvalues lie on the complex unit circle.
 
 If $U$ is unitary and $Uv = \lambda v$ for a nonzero vector $v$, then:
 
@@ -269,11 +269,11 @@ $$
 
 ## Related Concepts
 
-- [[Linear Algebra]]
-- [[Vector Spaces]]
-- [[Adjoints]]
-- [[Bra-Ket Notation]]
-- [[Gram-Schmidt]]
-- [[Hermitian Matrices and Operators]]
-- [[Unitary Matrices]]
-- [[Quantum Mechanics]]
+- [Linear Algebra](Linear%20Algebra.md)
+- [Vector Spaces](Vector%20Spaces.md)
+- [Adjoints](Adjoints.md)
+- [Bra-Ket Notation](Bra-Ket%20Notation.md)
+- [Gram-Schmidt](Gram-Schmidt.md)
+- [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md)
+- [Unitary Matrices](Unitary%20Matrices.md)
+- [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)

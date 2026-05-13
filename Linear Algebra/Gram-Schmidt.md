@@ -87,13 +87,13 @@ $$
 
 ## Why It Matters
 
-Gram-Schmidt is useful because many parts of [[Linear Algebra]] become simpler with orthonormal bases.
+Gram-Schmidt is useful because many parts of [Linear Algebra](Linear%20Algebra.md) become simpler with orthonormal bases.
 
 It appears in:
 
-- Building orthonormal bases for [[Vector Spaces]].
-- Understanding [[Unitary Matrices]], whose columns are orthonormal.
-- Diagonalizing [[Hermitian Matrices and Operators]].
+- Building orthonormal bases for [Vector Spaces](Vector%20Spaces.md).
+- Understanding [Unitary Matrices](Unitary%20Matrices.md), whose columns are orthonormal.
+- Diagonalizing [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md).
 - Constructing the $Q$ factor in QR decomposition.
 
 ## Intuition
@@ -104,8 +104,8 @@ What remains is the genuinely new direction. After normalizing it, that new dire
 
 ## Related Concepts
 
-- [[Vector Spaces]]
-- [[Adjoints]]
-- [[Unitary Matrices]]
-- [[Hermitian Matrices and Operators]]
-- [[Eigenvalues]]
+- [Vector Spaces](Vector%20Spaces.md)
+- [Adjoints](Adjoints.md)
+- [Unitary Matrices](Unitary%20Matrices.md)
+- [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md)
+- [Eigenvalues](Eigenvalues.md)

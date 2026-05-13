@@ -1,10 +1,10 @@
-# Chapter 2 - Schmidt Decomposition And Purifications
+# Schmidt Decomposition And Purifications
 
-Source: [[References/quantum-computation-and-quantum-information-nielsen-chuang.pdf]]
+Source: [quantum-computation-and-quantum-information-nielsen-chuang](../../../References/quantum-computation-and-quantum-information-nielsen-chuang.pdf)
 
-Book hub: [[Book Notes/Nielsen Chuang/Nielsen Chuang|Nielsen And Chuang]]
+Book hub: [Nielsen And Chuang](../Nielsen%20Chuang.md)
 
-Parent chapter: [[Book Notes/Nielsen Chuang/Chapter 2 - Quantum Mechanics|Chapter 2 - Quantum Mechanics]]
+Parent chapter: [Quantum Mechanics](Quantum%20Mechanics.md)
 
 Book section: 2.5, pages 109-110.
 
@@ -73,8 +73,8 @@ They help explain:
 
 ## Related Concepts
 
-- [[Book Notes/Nielsen Chuang/Chapter 2 - Density Operator|Chapter 2 - Density Operator]]
-- [[Quantum Mechanics/Quantum Mechanics|Quantum Mechanics]]
-- [[Quantum Computing/Quantum Computing|Quantum Computing]]
-- [[Linear Algebra/Vector Spaces|Vector Spaces]]
-- [[Linear Algebra/Eigenvalues|Eigenvalues]]
+- [Density Operator](Density%20Operator.md)
+- [Quantum Mechanics](../../../Quantum%20Mechanics/Quantum%20Mechanics.md)
+- [Quantum Computing](../../../Quantum%20Computing/Quantum%20Computing.md)
+- [Vector Spaces](../../../Linear%20Algebra/Vector%20Spaces.md)
+- [Eigenvalues](../../../Linear%20Algebra/Eigenvalues.md)

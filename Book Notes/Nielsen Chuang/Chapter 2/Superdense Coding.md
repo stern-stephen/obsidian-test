@@ -1,10 +1,10 @@
-# Chapter 2 - Superdense Coding
+# Superdense Coding
 
-Source: [[References/quantum-computation-and-quantum-information-nielsen-chuang.pdf]]
+Source: [quantum-computation-and-quantum-information-nielsen-chuang](../../../References/quantum-computation-and-quantum-information-nielsen-chuang.pdf)
 
-Book hub: [[Book Notes/Nielsen Chuang/Nielsen Chuang|Nielsen And Chuang]]
+Book hub: [Nielsen And Chuang](../Nielsen%20Chuang.md)
 
-Parent chapter: [[Book Notes/Nielsen Chuang/Chapter 2 - Quantum Mechanics|Chapter 2 - Quantum Mechanics]]
+Parent chapter: [Quantum Mechanics](Quantum%20Mechanics.md)
 
 Book section: 2.3, page 97.
 
@@ -63,8 +63,8 @@ This protocol highlights a recurring theme in the book: entanglement is a resour
 
 ## Related Concepts
 
-- [[Quantum Computing/Quantum Computing|Quantum Computing]]
-- [[Quantum Mechanics/Quantum Mechanics|Quantum Mechanics]]
-- [[Book Notes/Nielsen Chuang/Chapter 2 - Postulates of Quantum Mechanics|Chapter 2 - Postulates Of Quantum Mechanics]]
-- [[Linear Algebra/Unitary Matrices|Unitary Matrices]]
-- [[Linear Algebra/Bra-Ket Notation|Bra-Ket Notation]]
+- [Quantum Computing](../../../Quantum%20Computing/Quantum%20Computing.md)
+- [Quantum Mechanics](../../../Quantum%20Mechanics/Quantum%20Mechanics.md)
+- [Postulates Of Quantum Mechanics](Postulates%20of%20Quantum%20Mechanics.md)
+- [Unitary Matrices](../../../Linear%20Algebra/Unitary%20Matrices.md)
+- [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
