@@ -285,7 +285,7 @@ $$
 
 where $r$ is the magnitude and $e^{i\theta}$ carries the phase.
 
-The singular value decomposition factors a matrix into unitary matrices and a diagonal matrix of singular values:
+The [singular value decomposition](../../Linear%20Algebra/Singular%20Value%20Decomposition.md) factors a matrix into unitary matrices and a diagonal matrix of singular values:
 
 $$
 A = U D V^\dagger
@@ -324,6 +324,7 @@ Related notes:
 - [Adjoints](../../Linear%20Algebra/Adjoints.md)
 - [Eigenvalues](../../Linear%20Algebra/Eigenvalues.md)
 - [Hermitian Matrices and Operators](../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
+- [Singular Value Decomposition](../../Linear%20Algebra/Singular%20Value%20Decomposition.md)
 - [Unitary Matrices](../../Linear%20Algebra/Unitary%20Matrices.md)
 - [Quantum Mechanics](../../Quantum%20Mechanics/Quantum%20Mechanics.md)
 - [Quantum Computing](../../Quantum%20Computing/Quantum%20Computing.md)

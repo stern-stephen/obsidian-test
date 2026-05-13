@@ -11,6 +11,7 @@ Linear algebra studies vectors, matrices, linear transformations, vector spaces,
 - [Adjoints](Adjoints.md)
 - [Bra-Ket Notation](Bra-Ket%20Notation.md)
 - [Gram-Schmidt](Gram-Schmidt.md)
+- [Singular Value Decomposition](Singular%20Value%20Decomposition.md)
 - [Unitary Matrices](Unitary%20Matrices.md)
 - [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md)
 
