@@ -30,6 +30,48 @@ $$
 
 This closure is what lets vector spaces support linear combinations.
 
+## General Vector Spaces And Groups
+
+A vector space does not have to be made of arrows or coordinate lists. A vector space can be any collection of objects that can be added together and scaled, as long as the vector space rules are satisfied.
+
+For example, the following can all be vector spaces:
+
+- Lists of numbers.
+- Polynomials.
+- Functions.
+- Matrices of a fixed size.
+- Quantum states.
+
+The word **vector** means "an element of a vector space." It does not always mean a geometric arrow.
+
+Vector spaces are closely related to **groups**. Under vector addition, every vector space is an **abelian group**:
+
+- Vectors can be added.
+- Addition is associative.
+- There is a zero vector $0$.
+- Every vector $v$ has an additive inverse $-v$.
+- Addition is commutative, so $u + v = v + u$.
+
+The extra structure that makes a vector space more than just a group is **scalar multiplication**. Scalars come from a field, usually $\mathbb{R}$ or $\mathbb{C}$, and they act on vectors:
+
+$$
+c v
+$$
+
+Scalar multiplication must interact nicely with vector addition. For example:
+
+$$
+c(u + v) = cu + cv
+$$
+
+and:
+
+$$
+(c + d)v = cv + dv
+$$
+
+So a vector space is like an abelian group with a compatible way for numbers to stretch, shrink, flip, or phase-shift its elements.
+
 ## Linear Combinations
 
 A **linear combination** of vectors $v_1, v_2, \ldots, v_n$ has the form:
@@ -76,6 +118,8 @@ e_3 =
 \end{bmatrix}
 $$
 
+Changing from one basis to another changes the coordinate description of a vector without changing the vector itself. See [Change of Basis](Change%20of%20Basis.md).
+
 ## Inner Product Spaces
 
 An **inner product space** is a vector space with an additional operation called an inner product.
@@ -100,14 +144,17 @@ $$
 \langle x, y \rangle = 0
 $$
 
-Inner product spaces are where concepts like [Adjoints](Adjoints.md), [Unitary Matrices](Unitary%20Matrices.md), [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md), and [Gram-Schmidt](Gram-Schmidt.md) naturally live.
+Inner product spaces are where concepts like [Adjoints](Adjoints.md), [Projection Matrices](Projection%20Matrices.md), [Unitary Matrices](Unitary%20Matrices.md), [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md), and [Gram-Schmidt](Gram-Schmidt.md) naturally live.
 
 ## Related Concepts
 
 - [Linear Algebra](Linear%20Algebra.md)
 - [Adjoints](Adjoints.md)
 - [Bra-Ket Notation](Bra-Ket%20Notation.md)
+- [Change of Basis](Change%20of%20Basis.md)
 - [Gram-Schmidt](Gram-Schmidt.md)
+- [Projection Matrices](Projection%20Matrices.md)
+- [Four Fundamental Subspaces](Four%20Fundamental%20Subspaces.md)
 - [Eigenvalues](Eigenvalues.md)
 - [Unitary Matrices](Unitary%20Matrices.md)
 - [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md)
