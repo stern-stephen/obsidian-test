@@ -70,55 +70,6 @@ $$
 
 Diagonalization is useful because diagonal matrices are much easier to understand and compute with.
 
-## Hermitian Matrices
-
-For [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md), eigenvalues are always real.
-
-If $A$ is Hermitian and $A v = \lambda v$, then:
-
-$$
-\lambda = \frac{\langle A v, v \rangle}{\langle v, v \rangle}
-$$
-
-The expression on the right is real for a Hermitian matrix, so $\lambda$ must be real.
-
-Eigenvectors with different eigenvalues are orthogonal. If $A v = \lambda v$ and $A w = \mu w$, where $\lambda \ne \mu$, then:
-
-$$
-\langle v, w \rangle = 0
-$$
-
-This means a Hermitian matrix has a clean geometry: its eigenvectors point in mutually perpendicular directions.
-
-A Hermitian matrix can be written using an orthonormal basis of eigenvectors:
-
-$$
-A = U \Lambda U^\dagger
-$$
-
-where $U$ is a unitary matrix whose columns are eigenvectors, and $\Lambda$ is a diagonal matrix containing the eigenvalues. This is the **spectral theorem** for Hermitian matrices.
-
-The orthonormal eigenvector basis can be understood using ideas from [Vector Spaces](Vector%20Spaces.md) and [Gram-Schmidt](Gram-Schmidt.md).
-
-## Unitary Matrices
-
-For [Unitary Matrices](Unitary%20Matrices.md), eigenvalues lie on the complex unit circle.
-
-If $U$ is unitary and $Uv = \lambda v$ for a nonzero vector $v$, then:
-
-$$
-|\lambda| = 1
-$$
-
-This means unitary matrices may change direction or phase, but their eigenvalues cannot stretch or shrink eigenvectors.
-
-Examples of possible unitary eigenvalues include:
-
-- $1$
-- $-1$
-- $i$
-- $e^{i\theta}$
-
 ## Pauli Matrices
 
 The **Pauli matrices** are three important $2 \times 2$ matrices:

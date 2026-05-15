@@ -56,13 +56,122 @@ Hermitian matrices are important because they behave like real numbers in many l
 
 Hermitian matrices have especially well-behaved [Eigenvalues](Eigenvalues.md).
 
-Their eigenvalues are always real, eigenvectors with distinct eigenvalues are orthogonal, and every Hermitian matrix can be diagonalized by a unitary matrix:
+### Real Eigenvalues
+
+Their eigenvalues are always real.
+
+Suppose $A$ is Hermitian and $A v = \lambda v$ for a nonzero vector $v$. Because $A$ is Hermitian:
+
+$$
+A = A^\dagger
+$$
+
+Now look at the scalar $v^\dagger A v$. Using $A v = \lambda v$:
+
+$$
+v^\dagger A v = v^\dagger \lambda v
+$$
+
+so:
+
+$$
+v^\dagger A v = \lambda v^\dagger v
+$$
+
+But $v^\dagger A v$ is equal to its own complex conjugate:
+
+$$
+\overline{v^\dagger A v}
+= (v^\dagger A v)^\dagger
+= v^\dagger A^\dagger v
+= v^\dagger A v
+$$
+
+So $v^\dagger A v$ is real. Also, $v^\dagger v$ is the squared length of $v$, so it is real and positive:
+
+$$
+v^\dagger v > 0
+$$
+
+Therefore:
+
+$$
+\lambda = \frac{v^\dagger A v}{v^\dagger v}
+$$
+
+Since the numerator and denominator are both real, $\lambda$ is real.
+
+### Orthogonal Eigenvectors
+
+Eigenvectors with different eigenvalues are orthogonal.
+
+Suppose:
+
+$$
+A v = \lambda v
+$$
+
+and:
+
+$$
+A w = \mu w
+$$
+
+where $\lambda \ne \mu$.
+
+Look at $v^\dagger A w$. Using $A w = \mu w$:
+
+$$
+v^\dagger A w = \mu v^\dagger w
+$$
+
+Using $A = A^\dagger$ and $A v = \lambda v$:
+
+$$
+v^\dagger A w = (A v)^\dagger w
+$$
+
+so:
+
+$$
+v^\dagger A w = (\lambda v)^\dagger w
+$$
+
+Because Hermitian eigenvalues are real, $\overline{\lambda} = \lambda$, so:
+
+$$
+v^\dagger A w = \lambda v^\dagger w
+$$
+
+Putting the two expressions for $v^\dagger A w$ together:
+
+$$
+\mu v^\dagger w = \lambda v^\dagger w
+$$
+
+Thus:
+
+$$
+(\mu - \lambda)v^\dagger w = 0
+$$
+
+Since $\mu \ne \lambda$, it must be true that:
+
+$$
+v^\dagger w = 0
+$$
+
+This means a Hermitian matrix has a clean geometry: its eigenvectors point in mutually perpendicular directions.
+
+A Hermitian matrix can be written using an orthonormal basis of eigenvectors:
 
 $$
 A = U \Lambda U^\dagger
 $$
 
-The detailed eigenvalue explanation is in [Eigenvalues: Hermitian Matrices](Eigenvalues.md#Hermitian%20Matrices).
+where $U$ is a unitary matrix whose columns are eigenvectors, and $\Lambda$ is a diagonal matrix containing the eigenvalues. This is the **spectral theorem** for Hermitian matrices.
+
+The orthonormal eigenvector basis can be understood using ideas from [Vector Spaces](Vector%20Spaces.md) and [Gram-Schmidt](Gram-Schmidt.md).
 
 ## Hermitian Operators
 

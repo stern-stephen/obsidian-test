@@ -100,7 +100,40 @@ $$
 |\lambda| = 1
 $$
 
-This means unitary matrices may change direction or phase, but their eigenvalues cannot stretch or shrink eigenvectors. See [Eigenvalues: Unitary Matrices](Eigenvalues.md#Unitary%20Matrices) for more detail.
+Here is why.
+
+Because $U$ is unitary, it preserves vector lengths:
+
+$$
+\|Uv\| = \|v\|
+$$
+
+But $v$ is an eigenvector, so $Uv = \lambda v$. Substituting this into the left side gives:
+
+$$
+\|\lambda v\| = \|v\|
+$$
+
+Pulling the scalar $\lambda$ out of the norm:
+
+$$
+|\lambda| \|v\| = \|v\|
+$$
+
+Since eigenvectors are nonzero, $\|v\| \ne 0$. Dividing both sides by $\|v\|$ gives:
+
+$$
+|\lambda| = 1
+$$
+
+This means unitary matrices may change direction or phase, but their eigenvalues cannot stretch or shrink eigenvectors.
+
+Examples of possible unitary eigenvalues include:
+
+- $1$
+- $-1$
+- $i$
+- $e^{i\theta}$
 
 ## Unitary Operators
 
