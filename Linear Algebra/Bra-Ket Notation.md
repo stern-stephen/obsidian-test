@@ -126,7 +126,7 @@ When $A$ is a [Hermitian operator](Hermitian%20Matrices%20and%20Operators.md), t
 
 - [Vector Spaces](Vector%20Spaces.md)
 - [Adjoints](Adjoints.md)
-- [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md)
-- [Unitary Matrices](Unitary%20Matrices.md)
-- [Eigenvalues](Eigenvalues.md)
+- [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
+- [Unitary Operators](Unitary%20Matrices.md)
+- [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
 - [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)

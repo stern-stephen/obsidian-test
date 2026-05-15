@@ -11,15 +11,16 @@ Linear algebra studies vectors, vector spaces, linear operators, matrices, and t
 - [Change of Basis](Change%20of%20Basis.md)
 - [Gaussian Elimination](Gaussian%20Elimination.md)
 - [Four Fundamental Subspaces](Four%20Fundamental%20Subspaces.md)
-- [Projection Matrices](Projection%20Matrices.md)
-- [Rotation Matrices](Rotation%20Matrices.md)
-- [Eigenvalues](Eigenvalues.md)
+- [Projection Operators](Projection%20Matrices.md)
+- [Rotation Operators](Rotation%20Matrices.md)
+- [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
 - [Adjoints](Adjoints.md)
 - [Bra-Ket Notation](Bra-Ket%20Notation.md)
 - [Gram-Schmidt](Gram-Schmidt.md)
 - [Singular Value Decomposition](Singular%20Value%20Decomposition.md)
-- [Unitary Matrices](Unitary%20Matrices.md)
-- [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md)
+- [Unitary Operators](Unitary%20Matrices.md)
+- [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
+- [Pauli Matrices](Pauli%20Matrices.md)
 
 ## Why It Matters
 

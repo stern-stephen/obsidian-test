@@ -1,4 +1,4 @@
-# Hermitian Operators And Matrices
+# Hermitian Operators
 
 ## Overview
 
@@ -54,7 +54,7 @@ Hermitian operators are important because they behave like real numbers in many 
 
 ## Eigenvalues And Eigenvectors
 
-Hermitian operators have especially well-behaved [Eigenvalues](Eigenvalues.md).
+Hermitian operators have especially well-behaved [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md).
 
 ### Real Eigenvalues
 
@@ -173,6 +173,12 @@ where $U$ is a unitary matrix whose columns are eigenvectors, and $\Lambda$ is a
 
 The orthonormal eigenvector basis can be understood using ideas from [Vector Spaces](Vector%20Spaces.md) and [Gram-Schmidt](Gram-Schmidt.md).
 
+## Pauli Matrices
+
+The [Pauli Matrices](Pauli%20Matrices.md) are important examples of Hermitian operators in quantum mechanics.
+
+Because they are Hermitian, their eigenvalues are real. Their definitions, eigenvectors, and diagonalizations are collected in [Pauli Matrices](Pauli%20Matrices.md).
+
 ## Inner Product Definition
 
 The definition of a Hermitian operator can also be written directly in terms of the inner product.
@@ -212,6 +218,7 @@ In a matrix representation, this symmetry appears by mirroring entries with comp
 - [Vector Spaces](Vector%20Spaces.md)
 - [Adjoints](Adjoints.md)
 - [Bra-Ket Notation](Bra-Ket%20Notation.md)
-- [Eigenvalues](Eigenvalues.md)
-- [Unitary Matrices](Unitary%20Matrices.md)
+- [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
+- [Unitary Operators](Unitary%20Matrices.md)
+- [Pauli Matrices](Pauli%20Matrices.md)
 - [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)

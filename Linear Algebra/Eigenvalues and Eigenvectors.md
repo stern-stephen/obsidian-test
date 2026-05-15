@@ -1,4 +1,4 @@
-# Eigenvalues
+# Eigenvalues And Eigenvectors
 
 ## Overview
 
@@ -23,6 +23,24 @@ The eigenvalue $\lambda$ tells how the eigenvector changes:
 - If $\lambda$ is complex, the transformation may include a phase change or rotation.
 
 Eigenvalues and eigenvectors reveal the special directions where a linear operator has its simplest behavior.
+
+## Finding Eigenvectors
+
+After an eigenvalue $\lambda$ is known, its eigenvectors are found by solving:
+
+$$
+(A - \lambda I)v = 0
+$$
+
+The nonzero solutions form the **eigenspace** for $\lambda$.
+
+For example, if $\lambda = 1$, then the eigenspace consists of the nonzero vectors satisfying:
+
+$$
+Av = v
+$$
+
+These are the directions that the operator leaves unchanged.
 
 ## Finding Eigenvalues
 
@@ -72,151 +90,13 @@ Diagonalization is useful because it finds a basis where the operator has a diag
 
 ## Pauli Matrices
 
-The **Pauli matrices** are three important $2 \times 2$ matrices:
-
-$$
-\sigma_x =
-\begin{bmatrix}
-0 & 1 \\
-1 & 0
-\end{bmatrix}
-$$
-
-$$
-\sigma_y =
-\begin{bmatrix}
-0 & -i \\
-i & 0
-\end{bmatrix}
-$$
-
-$$
-\sigma_z =
-\begin{bmatrix}
-1 & 0 \\
-0 & -1
-\end{bmatrix}
-$$
-
-Each Pauli matrix is both Hermitian and unitary. Since they are Hermitian, their eigenvalues are real. Since they are unitary, their eigenvalues have absolute value $1$. Together, these facts force their eigenvalues to be:
+The [Pauli Matrices](Pauli%20Matrices.md) are a central example of eigenvalues in quantum mechanics. They are Hermitian and unitary, so their eigenvalues are forced to be:
 
 $$
 \lambda = \pm 1
 $$
 
-### Eigenvectors Of $\sigma_x$
-
-For $\sigma_x$, the eigenvalue $1$ has normalized eigenvector:
-
-$$
-\frac{1}{\sqrt{2}}
-\begin{bmatrix}
-1 \\
-1
-\end{bmatrix}
-$$
-
-The eigenvalue $-1$ has normalized eigenvector:
-
-$$
-\frac{1}{\sqrt{2}}
-\begin{bmatrix}
-1 \\
--1
-\end{bmatrix}
-$$
-
-One diagonalization is:
-
-$$
-\sigma_x =
-\frac{1}{\sqrt{2}}
-\begin{bmatrix}
-1 & 1 \\
-1 & -1
-\end{bmatrix}
-\begin{bmatrix}
-1 & 0 \\
-0 & -1
-\end{bmatrix}
-\frac{1}{\sqrt{2}}
-\begin{bmatrix}
-1 & 1 \\
-1 & -1
-\end{bmatrix}
-$$
-
-### Eigenvectors Of $\sigma_y$
-
-For $\sigma_y$, the eigenvalue $1$ has normalized eigenvector:
-
-$$
-\frac{1}{\sqrt{2}}
-\begin{bmatrix}
-1 \\
-i
-\end{bmatrix}
-$$
-
-The eigenvalue $-1$ has normalized eigenvector:
-
-$$
-\frac{1}{\sqrt{2}}
-\begin{bmatrix}
-1 \\
--i
-\end{bmatrix}
-$$
-
-One diagonalization is:
-
-$$
-\sigma_y =
-\frac{1}{\sqrt{2}}
-\begin{bmatrix}
-1 & 1 \\
-i & -i
-\end{bmatrix}
-\begin{bmatrix}
-1 & 0 \\
-0 & -1
-\end{bmatrix}
-\frac{1}{\sqrt{2}}
-\begin{bmatrix}
-1 & -i \\
-1 & i
-\end{bmatrix}
-$$
-
-### Eigenvectors Of $\sigma_z$
-
-For $\sigma_z$, the eigenvalue $1$ has eigenvector:
-
-$$
-\begin{bmatrix}
-1 \\
-0
-\end{bmatrix}
-$$
-
-The eigenvalue $-1$ has eigenvector:
-
-$$
-\begin{bmatrix}
-0 \\
-1
-\end{bmatrix}
-$$
-
-The matrix $\sigma_z$ is already diagonal:
-
-$$
-\sigma_z =
-\begin{bmatrix}
-1 & 0 \\
-0 & -1
-\end{bmatrix}
-$$
+Their eigenvectors and diagonalizations are collected in [Pauli Matrices](Pauli%20Matrices.md).
 
 ## Related Concepts
 
@@ -226,6 +106,7 @@ $$
 - [Adjoints](Adjoints.md)
 - [Bra-Ket Notation](Bra-Ket%20Notation.md)
 - [Gram-Schmidt](Gram-Schmidt.md)
-- [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md)
-- [Unitary Matrices](Unitary%20Matrices.md)
+- [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
+- [Unitary Operators](Unitary%20Matrices.md)
+- [Pauli Matrices](Pauli%20Matrices.md)
 - [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)

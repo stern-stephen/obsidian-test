@@ -1,4 +1,4 @@
-# Unitary Operators And Matrices
+# Unitary Operators
 
 ## Overview
 
@@ -92,7 +92,7 @@ This means unitary operators preserve both lengths and angles.
 
 ## Eigenvalues
 
-Unitary operators have [Eigenvalues](Eigenvalues.md) that lie on the complex unit circle.
+Unitary operators have [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md) that lie on the complex unit circle.
 
 If $U$ is unitary and $Uv = \lambda v$ for a nonzero vector $v$, then:
 
@@ -173,63 +173,9 @@ is another valid quantum state with the same total probability.
 
 ## Pauli Matrices
 
-The **Pauli matrices** are three important $2 \times 2$ matrices used in quantum mechanics:
+The [Pauli Matrices](Pauli%20Matrices.md) are important examples of operators whose matrix representations are both Hermitian and unitary.
 
-$$
-\sigma_x =
-\begin{bmatrix}
-0 & 1 \\
-1 & 0
-\end{bmatrix}
-$$
-
-$$
-\sigma_y =
-\begin{bmatrix}
-0 & -i \\
-i & 0
-\end{bmatrix}
-$$
-
-$$
-\sigma_z =
-\begin{bmatrix}
-1 & 0 \\
-0 & -1
-\end{bmatrix}
-$$
-
-Each Pauli matrix is both **Hermitian** and **unitary**:
-
-$$
-\sigma_k^\dagger = \sigma_k
-$$
-
-and:
-
-$$
-\sigma_k^\dagger \sigma_k = I
-$$
-
-for $k \in \{x, y, z\}$.
-
-Because the Pauli matrices are Hermitian and unitary, their eigenvalues are:
-
-$$
-\lambda = \pm 1
-$$
-
-Since each Pauli matrix is Hermitian, each can be diagonalized by a unitary matrix:
-
-$$
-\sigma_k = U \Lambda U^\dagger
-$$
-
-where $U$ is built from orthonormal eigenvectors, and $\Lambda$ contains the eigenvalues $1$ and $-1$.
-
-The detailed eigenvectors and diagonalizations are in [Eigenvalues: Pauli Matrices](Eigenvalues.md#Pauli%20Matrices).
-
-The Pauli matrices are useful because they describe basic two-state quantum measurements, such as spin measurements along the $x$, $y$, and $z$ axes.
+Because they are unitary, their eigenvalues have absolute value $1$. Because they are Hermitian, their eigenvalues are real. Their definitions, eigenvectors, and diagonalizations are collected in [Pauli Matrices](Pauli%20Matrices.md).
 
 ## Intuition
 
@@ -244,6 +190,7 @@ It can change a vector's direction and phase, but it cannot change the vector's 
 - [Adjoints](Adjoints.md)
 - [Bra-Ket Notation](Bra-Ket%20Notation.md)
 - [Gram-Schmidt](Gram-Schmidt.md)
-- [Eigenvalues](Eigenvalues.md)
-- [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md)
+- [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
+- [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
+- [Pauli Matrices](Pauli%20Matrices.md)
 - [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)

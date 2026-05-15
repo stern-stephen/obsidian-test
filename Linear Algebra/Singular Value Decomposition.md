@@ -53,7 +53,7 @@ This means SVD turns a complicated linear operator into:
 
 ## Connection To Eigenvalues
 
-The singular values of $A$ are related to the [Eigenvalues](Eigenvalues.md) of the positive semidefinite matrices $A^\dagger A$ and $A A^\dagger$.
+The singular values of $A$ are related to the [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md) of the positive semidefinite matrices $A^\dagger A$ and $A A^\dagger$.
 
 The right singular vectors are the eigenvectors of $A^\dagger A$:
 
@@ -141,7 +141,7 @@ The key differences are:
 
 In quantum information, SVD helps explain decompositions of states and operators. The [Schmidt decomposition](../Book%20Notes/Nielsen%20Chuang/Chapter%202/Schmidt%20Decomposition%20and%20Purifications.md) is closely related to SVD: it rewrites a bipartite quantum state using orthonormal bases and nonnegative coefficients.
 
-SVD also complements [Unitary Matrices](Unitary%20Matrices.md) because it factors a general matrix representation into unitary operators plus a nonnegative scaling matrix.
+SVD also complements [Unitary Operators](Unitary%20Matrices.md) because it factors a general matrix representation into unitary operators plus a nonnegative scaling matrix.
 
 ## Common Confusions
 
@@ -157,8 +157,8 @@ SVD also complements [Unitary Matrices](Unitary%20Matrices.md) because it factor
 - [Vector Spaces](Vector%20Spaces.md)
 - [Change of Basis](Change%20of%20Basis.md)
 - [Adjoints](Adjoints.md)
-- [Eigenvalues](Eigenvalues.md)
+- [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
 - [Four Fundamental Subspaces](Four%20Fundamental%20Subspaces.md)
-- [Unitary Matrices](Unitary%20Matrices.md)
-- [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md)
+- [Unitary Operators](Unitary%20Matrices.md)
+- [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
 - [Gram-Schmidt](Gram-Schmidt.md)

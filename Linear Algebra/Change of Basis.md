@@ -133,7 +133,7 @@ are called **similar matrices**. They represent the same linear operator in diff
 
 ## Connection To Diagonalization
 
-[Diagonalization](Eigenvalues.md#Diagonalization) is a special case of change of basis.
+[Diagonalization](Eigenvalues%20and%20Eigenvectors.md#Diagonalization) is a special case of change of basis.
 
 If $A$ has enough independent eigenvectors, put those eigenvectors into a matrix $P$. Then:
 
@@ -169,6 +169,6 @@ The object stays fixed, but the coordinate labels change. A matrix representatio
 - [Vectors](Vectors.md)
 - [Linear Operators](Linear%20Operators.md)
 - [Matrices](Matrices.md)
-- [Eigenvalues](Eigenvalues.md)
-- [Unitary Matrices](Unitary%20Matrices.md)
+- [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
+- [Unitary Operators](Unitary%20Matrices.md)
 - [Singular Value Decomposition](Singular%20Value%20Decomposition.md)

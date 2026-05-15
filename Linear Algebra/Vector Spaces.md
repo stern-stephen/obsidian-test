@@ -162,7 +162,7 @@ $$
 \langle x, y \rangle = 0
 $$
 
-Inner product spaces are where concepts like [Adjoints](Adjoints.md), [Projection Matrices](Projection%20Matrices.md), [Unitary Matrices](Unitary%20Matrices.md), [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md), and [Gram-Schmidt](Gram-Schmidt.md) naturally live.
+Inner product spaces are where concepts like [Adjoints](Adjoints.md), [Projection Operators](Projection%20Matrices.md), [Unitary Operators](Unitary%20Matrices.md), [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md), and [Gram-Schmidt](Gram-Schmidt.md) naturally live.
 
 ## Related Concepts
 
@@ -172,8 +172,8 @@ Inner product spaces are where concepts like [Adjoints](Adjoints.md), [Projectio
 - [Bra-Ket Notation](Bra-Ket%20Notation.md)
 - [Change of Basis](Change%20of%20Basis.md)
 - [Gram-Schmidt](Gram-Schmidt.md)
-- [Projection Matrices](Projection%20Matrices.md)
+- [Projection Operators](Projection%20Matrices.md)
 - [Four Fundamental Subspaces](Four%20Fundamental%20Subspaces.md)
-- [Eigenvalues](Eigenvalues.md)
-- [Unitary Matrices](Unitary%20Matrices.md)
-- [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md)
+- [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
+- [Unitary Operators](Unitary%20Matrices.md)
+- [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)

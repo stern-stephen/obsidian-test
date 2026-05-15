@@ -1,4 +1,4 @@
-# Projection Operators And Matrices
+# Projection Operators
 
 ## Overview
 
@@ -43,7 +43,7 @@ $$
 If $u$ is a nonzero vector, the projection of $x$ onto the line spanned by $u$ is:
 
 $$
-\operatorname{proj}_u(x) = \frac{u^\dagger x}{u^\dagger u}u
+\mathrm{proj}_u(x) = \frac{u^\dagger x}{u^\dagger u}u
 $$
 
 The corresponding projection matrix is:
@@ -76,7 +76,7 @@ This formula appears often in least squares problems, where a vector is approxim
 
 ## Eigenvalues
 
-Projection operators have simple [Eigenvalues](Eigenvalues.md).
+Projection operators have simple [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md).
 
 If $P^2 = P$ and $Pv = \lambda v$, then:
 
@@ -116,7 +116,7 @@ The vector $Px$ lies in the target subspace. For an orthogonal projection, $x - 
 - [Matrices](Matrices.md)
 - [Vector Spaces](Vector%20Spaces.md)
 - [Adjoints](Adjoints.md)
-- [Eigenvalues](Eigenvalues.md)
-- [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md)
+- [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
+- [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
 - [Gram-Schmidt](Gram-Schmidt.md)
 - [Four Fundamental Subspaces](Four%20Fundamental%20Subspaces.md)

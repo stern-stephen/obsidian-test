@@ -37,13 +37,13 @@ The key step is removing the part of one vector that points in the direction of 
 The projection of $v$ onto a unit vector $q$ is:
 
 $$
-\operatorname{proj}_q(v) = \langle q, v \rangle q
+\mathrm{proj}_q(v) = \langle q, v \rangle q
 $$
 
 If $q$ is not already normalized, then:
 
 $$
-\operatorname{proj}_q(v) =
+\mathrm{proj}_q(v) =
 \frac{\langle q, v \rangle}{\langle q, q \rangle}q
 $$
 
@@ -92,8 +92,8 @@ Gram-Schmidt is useful because many parts of [Linear Algebra](Linear%20Algebra.m
 It appears in:
 
 - Building orthonormal bases for [Vector Spaces](Vector%20Spaces.md).
-- Understanding [Unitary Matrices](Unitary%20Matrices.md), whose columns are orthonormal.
-- Diagonalizing [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md).
+- Understanding [Unitary Operators](Unitary%20Matrices.md), whose matrix representations have orthonormal columns.
+- Diagonalizing [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md).
 - Constructing the $Q$ factor in QR decomposition.
 
 ## Intuition
@@ -106,6 +106,6 @@ What remains is the genuinely new direction. After normalizing it, that new dire
 
 - [Vector Spaces](Vector%20Spaces.md)
 - [Adjoints](Adjoints.md)
-- [Unitary Matrices](Unitary%20Matrices.md)
-- [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md)
-- [Eigenvalues](Eigenvalues.md)
+- [Unitary Operators](Unitary%20Matrices.md)
+- [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
+- [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)

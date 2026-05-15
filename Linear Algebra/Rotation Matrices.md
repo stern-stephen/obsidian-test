@@ -1,4 +1,4 @@
-# Rotation Operators And Matrices
+# Rotation Operators
 
 ## Overview
 
@@ -68,7 +68,7 @@ The $z$-coordinate stays fixed, while the $x$-$y$ plane rotates.
 
 ## Eigenvalues
 
-A two-dimensional rotation operator usually has complex [Eigenvalues](Eigenvalues.md):
+A two-dimensional rotation operator usually has complex [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md):
 
 $$
 \lambda = e^{i\theta}
@@ -82,7 +82,7 @@ In three dimensions, a rotation around an axis has eigenvalue $1$ in the directi
 
 ## Connection To Unitary Operators
 
-Real rotation operators are closely related to [Unitary Matrices](Unitary%20Matrices.md).
+Real rotation operators are closely related to [Unitary Operators](Unitary%20Matrices.md).
 
 A real rotation matrix representation satisfies:
 
@@ -109,6 +109,6 @@ So unitary operators are the complex analogue of real orthogonal transformations
 - [Linear Algebra](Linear%20Algebra.md)
 - [Matrices](Matrices.md)
 - [Vectors](Vectors.md)
-- [Eigenvalues](Eigenvalues.md)
-- [Unitary Matrices](Unitary%20Matrices.md)
+- [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
+- [Unitary Operators](Unitary%20Matrices.md)
 - [Adjoints](Adjoints.md)
