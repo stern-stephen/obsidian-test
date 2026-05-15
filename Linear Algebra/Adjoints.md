@@ -2,15 +2,15 @@
 
 ## Overview
 
-The **adjoint** of a matrix or operator is the object that moves an operation from one side of an inner product to the other.
+The **adjoint** of an operator is the object that moves the operator from one side of an inner product to the other.
 
-For a complex matrix $A$, the adjoint is written:
+For an operator $A$, the adjoint is written:
 
 $$
 A^\dagger
 $$
 
-It is formed by transposing the matrix and taking the complex conjugate of each entry.
+When the operator is represented by a complex matrix, the adjoint matrix is formed by transposing the matrix and taking the complex conjugate of each entry.
 
 ## Matrix Adjoint
 
@@ -56,11 +56,11 @@ This equation says that applying $T$ to the first input of the inner product is 
 
 ## Why Adjoints Matter
 
-Adjoints are the language behind several important matrix classes:
+Adjoints are the language behind several important operator classes:
 
-- A matrix is [Hermitian](Hermitian%20Matrices%20and%20Operators.md) when $A = A^\dagger$.
-- A matrix is [unitary](Unitary%20Matrices.md) when $A^\dagger A = I$.
-- A projection matrix is often characterized by being both Hermitian and idempotent.
+- An operator is [Hermitian](Hermitian%20Matrices%20and%20Operators.md) when $A = A^\dagger$.
+- An operator is [unitary](Unitary%20Matrices.md) when $A^\dagger A = I$.
+- An orthogonal projection operator is often characterized by being both Hermitian and idempotent.
 
 They also explain why conjugate transpose, rather than ordinary transpose, is the natural operation in complex vector spaces.
 
@@ -83,6 +83,7 @@ This is the same idea as turning a column vector into a conjugate-transposed row
 ## Related Concepts
 
 - [Vector Spaces](Vector%20Spaces.md)
+- [Linear Operators](Linear%20Operators.md)
 - [Bra-Ket Notation](Bra-Ket%20Notation.md)
 - [Hermitian Matrices and Operators](Hermitian%20Matrices%20and%20Operators.md)
 - [Unitary Matrices](Unitary%20Matrices.md)

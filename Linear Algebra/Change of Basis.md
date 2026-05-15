@@ -2,7 +2,7 @@
 
 ## Overview
 
-A **change of basis** rewrites the same vector or linear transformation using a different coordinate system.
+A **change of basis** rewrites the same vector or linear operator using a different coordinate system.
 
 The underlying vector does not change. Only its coordinates change.
 
@@ -111,7 +111,7 @@ is the change of basis matrix from $B$-coordinates to $C$-coordinates.
 
 ## Linear Transformations In A New Basis
 
-If a linear transformation has matrix $A$ in the standard basis, then its matrix in the basis $B$ is:
+If a linear operator has matrix representation $A$ in the standard basis, then its matrix representation in the basis $B$ is:
 
 $$
 [A]_B = P_B^{-1} A P_B
@@ -120,7 +120,7 @@ $$
 This formula has a natural order:
 
 - $P_B$ converts input coordinates from the $B$ basis into standard coordinates.
-- $A$ applies the transformation in standard coordinates.
+- $A$ applies the operator in standard coordinates.
 - $P_B^{-1}$ converts the output back into the $B$ basis.
 
 Matrices related by:
@@ -129,7 +129,7 @@ $$
 B = P^{-1}AP
 $$
 
-are called **similar matrices**. They represent the same linear transformation in different bases.
+are called **similar matrices**. They represent the same linear operator in different bases.
 
 ## Connection To Diagonalization
 
@@ -147,26 +147,27 @@ $$
 D = P^{-1} A P
 $$
 
-In the eigenvector basis, the transformation becomes diagonal. This means the transformation acts by simple scaling along each eigenvector direction.
+In the eigenvector basis, the operator becomes diagonal. This means the operator acts by simple scaling along each eigenvector direction.
 
 ## Intuition
 
 Changing basis is like describing the same location with a different coordinate grid.
 
-The object stays fixed, but the coordinate labels change. A matrix changes too because a matrix is not just the transformation itself; it is the transformation written in a chosen coordinate system.
+The object stays fixed, but the coordinate labels change. A matrix representation changes too because a matrix is not just the operator itself; it is the operator written in a chosen coordinate system.
 
 ## Common Confusions
 
 - The vector $v$ and its coordinate vector $[v]_B$ are not the same thing. The first is the actual vector; the second is its description in basis $B$.
 - The columns of $P_B$ are basis vectors written in standard coordinates.
 - $P_B$ converts from $B$-coordinates to standard coordinates, not the other way around.
-- Similar matrices can look different but describe the same linear transformation in different bases.
+- Similar matrices can look different but describe the same linear operator in different bases.
 
 ## Related Concepts
 
 - [Linear Algebra](Linear%20Algebra.md)
 - [Vector Spaces](Vector%20Spaces.md)
 - [Vectors](Vectors.md)
+- [Linear Operators](Linear%20Operators.md)
 - [Matrices](Matrices.md)
 - [Eigenvalues](Eigenvalues.md)
 - [Unitary Matrices](Unitary%20Matrices.md)

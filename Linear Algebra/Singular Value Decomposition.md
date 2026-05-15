@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **singular value decomposition**, or **SVD**, rewrites a matrix as a product of three simpler matrices:
+The **singular value decomposition**, or **SVD**, rewrites a matrix representation of an operator as a product of three simpler matrices:
 
 $$
 A = U \Sigma V^\dagger
@@ -10,7 +10,7 @@ $$
 
 where $U$ and $V$ are unitary matrices, and $\Sigma$ is a diagonal or rectangular diagonal matrix whose diagonal entries are nonnegative real numbers.
 
-SVD is useful because it works for any matrix, even when the matrix is not square or not diagonalizable. It separates a linear transformation into a change of orthonormal coordinates, a scaling along perpendicular directions, and another change of orthonormal coordinates.
+SVD is useful because it works for any matrix representation, even when the matrix is not square or not diagonalizable. It separates a linear operator into a change of orthonormal coordinates, a scaling along perpendicular directions, and another change of orthonormal coordinates.
 
 ## Definition
 
@@ -37,7 +37,7 @@ For real matrices, $U$ and $V$ can be chosen to be orthogonal matrices, and $V^\
 
 ## Geometric Meaning
 
-The SVD describes the action of $A$ in three stages:
+The SVD describes the action of the operator represented by $A$ in three stages:
 
 $$
 x \mapsto V^\dagger x \mapsto \Sigma V^\dagger x \mapsto U \Sigma V^\dagger x
@@ -45,7 +45,7 @@ $$
 
 The matrix $V^\dagger$ rotates or reflects the input coordinates into special directions. The matrix $\Sigma$ stretches or shrinks those directions by the singular values. The matrix $U$ rotates or reflects the result into the output space.
 
-This means SVD turns a complicated linear transformation into:
+This means SVD turns a complicated linear operator into:
 
 - input directions,
 - independent scalings,
@@ -85,7 +85,7 @@ $$
 A \approx \sum_{i=1}^k \sigma_i u_i v_i^\dagger
 $$
 
-This is useful in data compression, noise reduction, numerical linear algebra, and machine learning. Large singular values capture the strongest directions of the transformation, while small singular values often represent weaker structure or noise.
+This is useful in data compression, noise reduction, numerical linear algebra, and machine learning. Large singular values capture the strongest directions of the operator, while small singular values often represent weaker structure or noise.
 
 ## Example
 
@@ -112,7 +112,7 @@ U = I,\quad
 V = I
 $$
 
-The singular values are $3$ and $1$. Geometrically, the matrix stretches one coordinate direction by $3$ and leaves the other unchanged.
+The singular values are $3$ and $1$. Geometrically, this operator stretches one coordinate direction by $3$ and leaves the other unchanged.
 
 ## Difference From Diagonalization
 
@@ -141,14 +141,14 @@ The key differences are:
 
 In quantum information, SVD helps explain decompositions of states and operators. The [Schmidt decomposition](../Book%20Notes/Nielsen%20Chuang/Chapter%202/Schmidt%20Decomposition%20and%20Purifications.md) is closely related to SVD: it rewrites a bipartite quantum state using orthonormal bases and nonnegative coefficients.
 
-SVD also complements [Unitary Matrices](Unitary%20Matrices.md) because it factors a general matrix into unitary transformations plus a nonnegative scaling matrix.
+SVD also complements [Unitary Matrices](Unitary%20Matrices.md) because it factors a general matrix representation into unitary operators plus a nonnegative scaling matrix.
 
 ## Common Confusions
 
 - Singular values are not the same as eigenvalues. They are always nonnegative, while eigenvalues may be negative or complex.
 - The SVD is not unique. If singular values repeat, there can be many valid choices of singular vectors.
 - $\Sigma$ is not always square. If $A$ is $m \times n$, then $\Sigma$ is also $m \times n$.
-- A zero singular value means the matrix collapses at least one input direction.
+- A zero singular value means the operator collapses at least one input direction.
 
 ## Related Concepts
 

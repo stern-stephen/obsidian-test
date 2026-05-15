@@ -72,6 +72,24 @@ $$
 
 So a vector space is like an abelian group with a compatible way for numbers to stretch, shrink, flip, or phase-shift its elements.
 
+## Linear Operators
+
+A **linear operator** is a function that sends vectors to vectors while preserving vector addition and scalar multiplication.
+
+If $T$ is a linear operator, then:
+
+$$
+T(u + v) = T(u) + T(v)
+$$
+
+and:
+
+$$
+T(cv) = cT(v)
+$$
+
+Linear operators are the natural maps between vector spaces. Once a basis is chosen, a linear operator can be represented by a [matrix](Matrices.md). See [Linear Operators](Linear%20Operators.md).
+
 ## Linear Combinations
 
 A **linear combination** of vectors $v_1, v_2, \ldots, v_n$ has the form:
@@ -149,6 +167,7 @@ Inner product spaces are where concepts like [Adjoints](Adjoints.md), [Projectio
 ## Related Concepts
 
 - [Linear Algebra](Linear%20Algebra.md)
+- [Linear Operators](Linear%20Operators.md)
 - [Adjoints](Adjoints.md)
 - [Bra-Ket Notation](Bra-Ket%20Notation.md)
 - [Change of Basis](Change%20of%20Basis.md)

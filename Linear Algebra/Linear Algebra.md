@@ -1,11 +1,12 @@
 # Linear Algebra
 
-Linear algebra studies vectors, matrices, linear transformations, vector spaces, and the structure of systems of linear equations.
+Linear algebra studies vectors, vector spaces, linear operators, matrices, and the structure of systems of linear equations.
 
 ## Core Topics
 
 - [Vector Spaces](Vector%20Spaces.md)
 - [Vectors](Vectors.md)
+- [Linear Operators](Linear%20Operators.md)
 - [Matrices](Matrices.md)
 - [Change of Basis](Change%20of%20Basis.md)
 - [Gaussian Elimination](Gaussian%20Elimination.md)

@@ -1,24 +1,24 @@
-# Unitary Matrices
+# Unitary Operators And Matrices
 
 ## Overview
 
-A **unitary matrix** is a complex square matrix whose inverse is equal to its conjugate transpose.
+A **unitary operator** is a length-preserving linear operator on an inner product space.
 
-For a matrix $U$, this means:
+For an operator $U$, this means:
 
 $$
 U^\dagger U = U U^\dagger = I
 $$
 
-where $U^\dagger$ is the conjugate transpose of $U$, and $I$ is the identity matrix.
+where $U^\dagger$ is the adjoint of $U$, and $I$ is the identity operator.
 
-Unitary matrices are the complex-number version of **orthogonal matrices**. Orthogonal matrices preserve lengths and angles in real vector spaces; unitary matrices do the same thing in complex vector spaces.
+When a unitary operator is written in a basis, its matrix is called a **unitary matrix**. Unitary matrices are the complex-number version of **orthogonal matrices**.
 
 The operation $U^\dagger$ is the [adjoint](Adjoints.md) of $U$.
 
 ## Definition
 
-A square complex matrix $U$ is unitary when:
+A linear operator $U$ is unitary when:
 
 $$
 U^{-1} = U^\dagger
@@ -30,7 +30,7 @@ $$
 U^\dagger U = I
 $$
 
-This means the columns of $U$ form an **orthonormal basis**. Each column has length $1$, and different columns are orthogonal to each other.
+For a matrix representation, this means the columns of $U$ form an **orthonormal basis**. Each column has length $1$, and different columns are orthogonal to each other.
 
 The [Gram-Schmidt](Gram-Schmidt.md) process is one way to construct orthonormal bases from linearly independent vectors.
 
@@ -57,18 +57,18 @@ Since this example is real-valued, $U^\dagger$ is the same as the ordinary trans
 
 ## Key Properties
 
-Unitary matrices are important because they preserve the geometry of complex vector spaces.
+Unitary operators are important because they preserve the geometry of complex vector spaces.
 
 - They preserve vector lengths.
 - They preserve inner products.
-- Their columns form an orthonormal basis.
+- In matrix representations, their columns form an orthonormal basis.
 - Their eigenvalues lie on the complex unit circle.
-- The inverse of a unitary matrix is its conjugate transpose.
-- Products of unitary matrices are unitary.
+- The inverse of a unitary operator is its adjoint.
+- Products of unitary operators are unitary.
 
 ## Preserving Lengths And Inner Products
 
-If $U$ is unitary, then applying $U$ to a vector does not change the vector's length.
+If $U$ is unitary, then applying the operator $U$ to a vector does not change the vector's length.
 
 For any vector $x$:
 
@@ -82,17 +82,17 @@ $$
 \langle Ux, Ux \rangle = \langle x, U^\dagger Ux \rangle = \langle x, x \rangle
 $$
 
-Unitary matrices also preserve inner products. For any vectors $x$ and $y$:
+Unitary operators also preserve inner products. For any vectors $x$ and $y$:
 
 $$
 \langle Ux, Uy \rangle = \langle x, y \rangle
 $$
 
-This means unitary transformations preserve both lengths and angles.
+This means unitary operators preserve both lengths and angles.
 
 ## Eigenvalues
 
-Unitary matrices have [Eigenvalues](Eigenvalues.md) that lie on the complex unit circle.
+Unitary operators have [Eigenvalues](Eigenvalues.md) that lie on the complex unit circle.
 
 If $U$ is unitary and $Uv = \lambda v$ for a nonzero vector $v$, then:
 
@@ -126,7 +126,7 @@ $$
 |\lambda| = 1
 $$
 
-This means unitary matrices may change direction or phase, but their eigenvalues cannot stretch or shrink eigenvectors.
+This means unitary operators may change direction or phase, but their eigenvalues cannot stretch or shrink eigenvectors.
 
 Examples of possible unitary eigenvalues include:
 
@@ -135,9 +135,7 @@ Examples of possible unitary eigenvalues include:
 - $i$
 - $e^{i\theta}$
 
-## Unitary Operators
-
-A **unitary operator** is the abstract vector-space version of a unitary matrix.
+## Operator Definition
 
 An operator $T$ on an inner product space is unitary if:
 
@@ -235,9 +233,9 @@ The Pauli matrices are useful because they describe basic two-state quantum meas
 
 ## Intuition
 
-You can think of a unitary matrix as a rotation or reflection in a complex vector space.
+You can think of a unitary operator as a rotation or reflection in a complex vector space.
 
-It can change a vector's direction and phase, but it cannot change the vector's length. This makes unitary matrices the natural language for reversible transformations, especially in quantum mechanics.
+It can change a vector's direction and phase, but it cannot change the vector's length. This makes unitary operators the natural language for reversible transformations, especially in quantum mechanics.
 
 ## Related Concepts
 

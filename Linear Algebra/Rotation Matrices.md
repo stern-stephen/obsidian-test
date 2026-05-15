@@ -1,12 +1,12 @@
-# Rotation Matrices
+# Rotation Operators And Matrices
 
 ## Overview
 
-A **rotation matrix** represents a rotation of space around the origin.
+A **rotation operator** represents a rotation of space around the origin.
 
-Rotation matrices preserve lengths and angles, so they are examples of length-preserving linear transformations.
+Rotation operators preserve lengths and angles, so they are examples of length-preserving linear operators.
 
-In real vector spaces, rotation matrices are **orthogonal matrices** with determinant $1$:
+In an orthonormal basis for a real vector space, rotation operators are represented by **orthogonal matrices** with determinant $1$:
 
 $$
 R^T R = I
@@ -32,7 +32,7 @@ R(\theta) =
 \end{bmatrix}
 $$
 
-Applying this matrix rotates every vector by the same angle $\theta$ without changing its length.
+Applying this operator rotates every vector by the same angle $\theta$ without changing its length.
 
 For example:
 
@@ -68,7 +68,7 @@ The $z$-coordinate stays fixed, while the $x$-$y$ plane rotates.
 
 ## Eigenvalues
 
-A two-dimensional rotation matrix usually has complex [Eigenvalues](Eigenvalues.md):
+A two-dimensional rotation operator usually has complex [Eigenvalues](Eigenvalues.md):
 
 $$
 \lambda = e^{i\theta}
@@ -80,27 +80,27 @@ These eigenvalues have absolute value $1$, which matches the fact that rotations
 
 In three dimensions, a rotation around an axis has eigenvalue $1$ in the direction of the rotation axis.
 
-## Connection To Unitary Matrices
+## Connection To Unitary Operators
 
-Real rotation matrices are closely related to [Unitary Matrices](Unitary%20Matrices.md).
+Real rotation operators are closely related to [Unitary Matrices](Unitary%20Matrices.md).
 
-A real rotation matrix satisfies:
+A real rotation matrix representation satisfies:
 
 $$
 R^T R = I
 $$
 
-A complex unitary matrix satisfies:
+A complex unitary operator satisfies:
 
 $$
 U^\dagger U = I
 $$
 
-So unitary matrices are the complex analogue of real orthogonal transformations, including rotations and reflections.
+So unitary operators are the complex analogue of real orthogonal transformations, including rotations and reflections.
 
 ## Common Confusions
 
-- A rotation matrix must preserve length. A matrix that only spins some vectors but stretches others is not a pure rotation.
+- A rotation operator must preserve length. An operator that only spins some vectors but stretches others is not a pure rotation.
 - An orthogonal matrix can be a rotation or a reflection. The determinant separates them: determinant $1$ gives rotations, while determinant $-1$ gives reflections.
 - In $\mathbb{R}^2$, most nontrivial rotations do not have real eigenvectors.
 

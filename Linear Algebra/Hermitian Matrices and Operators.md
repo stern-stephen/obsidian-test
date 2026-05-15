@@ -1,24 +1,24 @@
-# Hermitian Matrices and Operators
+# Hermitian Operators And Matrices
 
 ## Overview
 
-A **Hermitian matrix** is a complex square matrix that is equal to its own conjugate transpose.
+A **Hermitian operator** is an operator that is equal to its own adjoint.
 
-For a matrix $A$, this means:
+For an operator $A$, this means:
 
 $$
 A = A^\dagger
 $$
 
-where $A^\dagger$ means transpose the matrix and take the complex conjugate of every entry.
+where $A^\dagger$ is the adjoint of $A$.
 
-In real-valued matrices, Hermitian matrices reduce to **symmetric matrices**, since complex conjugation has no effect.
+When a Hermitian operator is represented by a complex matrix, that matrix is equal to its conjugate transpose. In real-valued matrix representations, Hermitian matrices reduce to **symmetric matrices**, since complex conjugation has no effect.
 
 The operation $A^\dagger$ is called the [adjoint](Adjoints.md).
 
 ## Definition
 
-If $A = [a_{ij}]$, then $A$ is Hermitian when:
+For a matrix representation $A = [a_{ij}]$, the operator is Hermitian when:
 
 $$
 a_{ij} = \overline{a_{ji}}
@@ -38,23 +38,23 @@ A =
 \end{bmatrix}
 $$
 
-This matrix is Hermitian because:
+This matrix represents a Hermitian operator because:
 
 - The diagonal entries $2$ and $5$ are real.
 - The off-diagonal entries $3+i$ and $3-i$ are complex conjugates.
 
 ## Key Properties
 
-Hermitian matrices are important because they behave like real numbers in many linear algebra settings.
+Hermitian operators are important because they behave like real numbers in many linear algebra settings.
 
-- Every eigenvalue of a Hermitian matrix is real.
+- Every eigenvalue of a Hermitian operator is real.
 - Eigenvectors belonging to distinct eigenvalues are orthogonal.
-- A Hermitian matrix can be diagonalized by a unitary matrix.
-- Hermitian matrices represent observable quantities in quantum mechanics.
+- A Hermitian operator can be diagonalized by a unitary operator.
+- Hermitian operators represent observable quantities in quantum mechanics.
 
 ## Eigenvalues And Eigenvectors
 
-Hermitian matrices have especially well-behaved [Eigenvalues](Eigenvalues.md).
+Hermitian operators have especially well-behaved [Eigenvalues](Eigenvalues.md).
 
 ### Real Eigenvalues
 
@@ -161,21 +161,21 @@ $$
 v^\dagger w = 0
 $$
 
-This means a Hermitian matrix has a clean geometry: its eigenvectors point in mutually perpendicular directions.
+This means a Hermitian operator has a clean geometry: its eigenvectors point in mutually perpendicular directions.
 
-A Hermitian matrix can be written using an orthonormal basis of eigenvectors:
+A Hermitian operator can be written in an orthonormal basis of eigenvectors. In matrix form:
 
 $$
 A = U \Lambda U^\dagger
 $$
 
-where $U$ is a unitary matrix whose columns are eigenvectors, and $\Lambda$ is a diagonal matrix containing the eigenvalues. This is the **spectral theorem** for Hermitian matrices.
+where $U$ is a unitary matrix whose columns are eigenvectors, and $\Lambda$ is a diagonal matrix containing the eigenvalues. This is the **spectral theorem** for Hermitian operators.
 
 The orthonormal eigenvector basis can be understood using ideas from [Vector Spaces](Vector%20Spaces.md) and [Gram-Schmidt](Gram-Schmidt.md).
 
-## Hermitian Operators
+## Inner Product Definition
 
-A **Hermitian operator** is the infinite-dimensional or abstract vector-space version of a Hermitian matrix.
+The definition of a Hermitian operator can also be written directly in terms of the inner product.
 
 An operator $T$ on an inner product space is Hermitian, also called **self-adjoint**, if:
 
@@ -202,9 +202,9 @@ The reason is that measurements must produce real values, and Hermitian operator
 
 ## Intuition
 
-You can think of a Hermitian matrix as a complex matrix with a special kind of symmetry.
+You can think of a Hermitian operator as an operator with a special kind of symmetry relative to the inner product.
 
-Instead of mirroring entries exactly, it mirrors them with complex conjugation. This gives the matrix enough structure to guarantee real eigenvalues and orthogonal eigenvectors.
+In a matrix representation, this symmetry appears by mirroring entries with complex conjugation. This gives the operator enough structure to guarantee real eigenvalues and orthogonal eigenvectors.
 
 ## Related Concepts
 
