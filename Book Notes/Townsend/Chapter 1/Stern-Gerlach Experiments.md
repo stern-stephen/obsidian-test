@@ -98,9 +98,7 @@ Experiment 3 shows that a state prepared with definite $S_z$ does not have a def
 The relationship between the $z$-basis and $x$-basis states is expressed through superpositions:
 
 $$
-|+z\rangle =
-\frac{1}{\sqrt{2}}|+x\rangle
-+ \frac{1}{\sqrt{2}}|-x\rangle
+|+z\rangle = \frac{1}{\sqrt{2}}|+x\rangle + \frac{1}{\sqrt{2}}|-x\rangle
 $$
 
 This equation says that a particle prepared as $|+z\rangle$ has equal probabilities for the two $S_x$ outcomes.
@@ -108,9 +106,7 @@ This equation says that a particle prepared as $|+z\rangle$ has equal probabilit
 The reverse relationship is also useful:
 
 $$
-|+x\rangle =
-\frac{1}{\sqrt{2}}|+z\rangle
-+ \frac{1}{\sqrt{2}}|-z\rangle
+|+x\rangle = \frac{1}{\sqrt{2}}|+z\rangle + \frac{1}{\sqrt{2}}|-z\rangle
 $$
 
 The important physical point is that measurement in the $x$ direction prepares the outgoing beam in an $S_x$ eigenstate. If a later $S_z$ analyzer is used, the probabilities reflect that new state, not the earlier preparation.

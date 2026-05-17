@@ -93,9 +93,7 @@ $$
 Therefore:
 
 $$
-\lambda = 0
-\quad \text{or} \quad
-\lambda = 1
+\lambda = 0 \quad \text{or} \quad \lambda = 1
 $$
 
 Eigenvalue $1$ corresponds to directions kept by the projection. Eigenvalue $0$ corresponds to directions collapsed by the projection.

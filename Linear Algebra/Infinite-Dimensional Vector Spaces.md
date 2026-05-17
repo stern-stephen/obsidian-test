@@ -87,9 +87,7 @@ $$
 and the sum becomes an integral:
 
 $$
-(A\psi)(x)
-=
-\int dx' A(x,x')\psi(x')
+(A\psi)(x) = \int dx' A(x,x')\psi(x')
 $$
 
 The identity operator has kernel:
@@ -101,11 +99,7 @@ $$
 because:
 
 $$
-(I\psi)(x)
-=
-\int dx' \delta(x-x')\psi(x')
-=
-\psi(x)
+(I\psi)(x) = \int dx' \delta(x-x')\psi(x') = \psi(x)
 $$
 
 A multiplication operator, such as position, has kernel:
@@ -117,29 +111,19 @@ $$
 so:
 
 $$
-(X\psi)(x)
-=
-\int dx' x\delta(x-x')\psi(x')
-=
-x\psi(x)
+(X\psi)(x) = \int dx' x\delta(x-x')\psi(x') = x\psi(x)
 $$
 
 A derivative operator can be represented using a derivative of the delta function:
 
 $$
-D(x,x')
-=
-\frac{\partial}{\partial x}\delta(x-x')
+D(x,x') = \frac{\partial}{\partial x}\delta(x-x')
 $$
 
 so:
 
 $$
-(D\psi)(x)
-=
-\int dx' \frac{\partial}{\partial x}\delta(x-x')\psi(x')
-=
-\frac{d\psi}{dx}
+(D\psi)(x) = \int dx' \frac{\partial}{\partial x}\delta(x-x')\psi(x') = \frac{d\psi}{dx}
 $$
 
 The derivative here is with respect to the output variable $x$. This is why the sign differs from the identity $\int dx \delta'(x-a)f(x)=-f'(a)$, where the derivative is attached to the integration variable.

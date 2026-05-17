@@ -19,8 +19,7 @@ $$
 Together, these say that a linear operator respects linear combinations:
 
 $$
-T(c_1v_1 + c_2v_2 + \cdots + c_nv_n)
-= c_1T(v_1) + c_2T(v_2) + \cdots + c_nT(v_n)
+T(c_1v_1 + c_2v_2 + \cdots + c_nv_n) = c_1T(v_1) + c_2T(v_2) + \cdots + c_nT(v_n)
 $$
 
 ## Operators Versus Matrices

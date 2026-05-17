@@ -81,10 +81,7 @@ $$
 But $v^\dagger A v$ is equal to its own complex conjugate:
 
 $$
-\overline{v^\dagger A v}
-= (v^\dagger A v)^\dagger
-= v^\dagger A^\dagger v
-= v^\dagger A v
+\overline{v^\dagger A v} = (v^\dagger A v)^\dagger = v^\dagger A^\dagger v = v^\dagger A v
 $$
 
 So $v^\dagger A v$ is real. Also, $v^\dagger v$ is the squared length of $v$, so it is real and positive:

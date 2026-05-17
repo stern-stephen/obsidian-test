@@ -71,9 +71,7 @@ The $z$-coordinate stays fixed, while the $x$-$y$ plane rotates.
 A two-dimensional rotation operator usually has complex [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md):
 
 $$
-\lambda = e^{i\theta}
-\quad \text{and} \quad
-\lambda = e^{-i\theta}
+\lambda = e^{i\theta} \quad \text{and} \quad \lambda = e^{-i\theta}
 $$
 
 These eigenvalues have absolute value $1$, which matches the fact that rotations preserve length.

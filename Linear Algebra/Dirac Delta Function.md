@@ -47,9 +47,7 @@ $$
 Acting on a state:
 
 $$
-\int dx |x\rangle\langle x|\psi\rangle
-= \int dx \psi(x)|x\rangle
-= |\psi\rangle
+\int dx |x\rangle\langle x|\psi\rangle = \int dx \psi(x)|x\rangle = |\psi\rangle
 $$
 
 ## Derivative Of The Delta Function
@@ -63,17 +61,13 @@ $$
 The minus sign comes from integration by parts:
 
 $$
-\int dx \delta'(x-a)f(x)
-= \left[\delta(x-a)f(x)\right]_{-\infty}^{\infty}
-- \int dx \delta(x-a)f'(x)
+\int dx \delta'(x-a)f(x) = \left[\delta(x-a)f(x)\right]_{-\infty}^{\infty} - \int dx \delta(x-a)f'(x)
 $$
 
 The boundary term vanishes for the kinds of test functions used with distributions, leaving:
 
 $$
-\int dx \delta'(x-a)f(x)
-= -\int dx \delta(x-a)f'(x)
-= -f'(a)
+\int dx \delta'(x-a)f(x) = -\int dx \delta(x-a)f'(x) = -f'(a)
 $$
 
 So $\delta'(x-a)$ does not pick out $f(a)$. It picks out the negative slope of $f$ at $a$.
@@ -89,10 +83,7 @@ $$
 One way to make the delta function less mysterious is to approach it with normalized Gaussians:
 
 $$
-\delta_{\epsilon}(x)
-=
-\frac{1}{\sqrt{2\pi}\epsilon}
-e^{-x^2/2\epsilon^2}
+\delta_{\epsilon}(x) = \frac{1}{\sqrt{2\pi}\epsilon} e^{-x^2/2\epsilon^2}
 $$
 
 Each $\delta_{\epsilon}(x)$ has total area $1$:
@@ -104,33 +95,19 @@ $$
 As $\epsilon \to 0$, the Gaussian gets narrower and taller while keeping area $1$. In the distribution sense:
 
 $$
-\delta(x)
-=
-\lim_{\epsilon \to 0}
-\frac{1}{\sqrt{2\pi}\epsilon}
-e^{-x^2/2\epsilon^2}
+\delta(x) = \lim_{\epsilon \to 0} \frac{1}{\sqrt{2\pi}\epsilon} e^{-x^2/2\epsilon^2}
 $$
 
 The phrase "distribution sense" matters. The pointwise limit is not an ordinary function. The meaningful statement is:
 
 $$
-\lim_{\epsilon \to 0}
-\int_{-\infty}^{\infty} dx 
-\frac{1}{\sqrt{2\pi}\epsilon}
-e^{-x^2/2\epsilon^2}
-f(x)
-=
-f(0)
+\lim_{\epsilon \to 0} \int_{-\infty}^{\infty} dx \frac{1}{\sqrt{2\pi}\epsilon} e^{-x^2/2\epsilon^2} f(x) = f(0)
 $$
 
 For a delta centered at $a$:
 
 $$
-\delta(x-a)
-=
-\lim_{\epsilon \to 0}
-\frac{1}{\sqrt{2\pi}\epsilon}
-e^{-(x-a)^2/2\epsilon^2}
+\delta(x-a) = \lim_{\epsilon \to 0} \frac{1}{\sqrt{2\pi}\epsilon} e^{-(x-a)^2/2\epsilon^2}
 $$
 
 ## Fourier Representation
@@ -148,18 +125,13 @@ $\displaystyle \delta_K(x)=\frac{1}{2\pi}\int_{-K}^{K} e^{ikx} dk$
 Evaluating the integral gives:
 
 $$
-\delta_K(x)
-=
-\frac{\sin(Kx)}{\pi x}
+\delta_K(x) = \frac{\sin(Kx)}{\pi x}
 $$
 
 Then:
 
 $$
-\delta(x)
-=
-\lim_{K \to \infty}
-\frac{\sin(Kx)}{\pi x}
+\delta(x) = \lim_{K \to \infty} \frac{\sin(Kx)}{\pi x}
 $$
 
 Again, this is a distributional limit. Away from $x=0$ the expression oscillates more and more rapidly, so its contributions cancel when integrated against a smooth function. The surviving contribution is the value of the function at $x=0$.

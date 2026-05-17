@@ -43,8 +43,7 @@ $$
 If $q$ is not already normalized, then:
 
 $$
-\mathrm{proj}_q(v) =
-\frac{\langle q, v \rangle}{\langle q, q \rangle}q
+\mathrm{proj}_q(v) = \frac{\langle q, v \rangle}{\langle q, q \rangle}q
 $$
 
 ## The Process

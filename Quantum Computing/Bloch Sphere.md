@@ -21,9 +21,7 @@ $$
 Because two states that differ only by a global phase represent the same physical state, every pure single-qubit state can also be written as:
 
 $$
-|\psi\rangle =
-\cos\left(\frac{\theta}{2}\right)|0\rangle
-+ e^{i\phi}\sin\left(\frac{\theta}{2}\right)|1\rangle
+|\psi\rangle = \cos\left(\frac{\theta}{2}\right)|0\rangle + e^{i\phi}\sin\left(\frac{\theta}{2}\right)|1\rangle
 $$
 
 The angles $\theta$ and $\phi$ locate a point on the unit sphere:

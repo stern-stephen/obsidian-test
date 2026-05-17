@@ -19,6 +19,8 @@ For evaluated boundary terms, prefer bracket notation such as `$\left[f(x)\right
 
 Avoid LaTeX spacing commands such as `\,` in notes that should render cleanly in web Markdown previews. Some browser renderers expose them poorly when math parsing fails or is partial. Prefer ordinary spacing in the source, or rewrite expressions so the differential comes at the end, such as `$\int e^{ikx} dk$`.
 
+For simple display equations, keep the math expression on a single line between `$$` delimiters. Some browser Markdown renderers fail on stacked display equations such as putting `=` on separate lines. Multi-line display blocks are fine for true structured environments such as `\begin{bmatrix}...\end{bmatrix}`.
+
 ## Markdown Links
 
 Use standard Markdown links instead of Obsidian wiki links so notes remain readable in regular editors and on GitHub.

@@ -95,32 +95,19 @@ $$
 The minus sign comes from integration by parts. In distribution language, differentiating the delta function means asking how it acts on a smooth test function:
 
 $$
-\int dx \delta'(x-a)f(x)
-=
--\int dx \delta(x-a)f'(x)
-=
--f'(a)
+\int dx \delta'(x-a)f(x) = -\int dx \delta(x-a)f'(x) = -f'(a)
 $$
 
 One way to picture $\delta(x)$ is as the limit of normalized Gaussians:
 
 $$
-\delta(x)
-=
-\lim_{\epsilon \to 0}
-\frac{1}{\sqrt{2\pi}\epsilon}
-e^{-x^2/2\epsilon^2}
+\delta(x) = \lim_{\epsilon \to 0} \frac{1}{\sqrt{2\pi}\epsilon} e^{-x^2/2\epsilon^2}
 $$
 
 This is not a pointwise limit of ordinary functions. It means:
 
 $$
-\lim_{\epsilon \to 0}
-\int_{-\infty}^{\infty} dx 
-\frac{1}{\sqrt{2\pi}\epsilon}
-e^{-x^2/2\epsilon^2}f(x)
-=
-f(0)
+\lim_{\epsilon \to 0} \int_{-\infty}^{\infty} dx \frac{1}{\sqrt{2\pi}\epsilon} e^{-x^2/2\epsilon^2}f(x) = f(0)
 $$
 
 The Fourier representation is:
@@ -164,11 +151,7 @@ $$
 In the continuous position basis, the discrete labels $i,j$ become continuous labels $x,x'$. The sum becomes an integral:
 
 $$
-\psi_A(x)
-=
-\langle x|A|\psi\rangle
-=
-\int dx' \langle x|A|x'\rangle \psi(x')
+\psi_A(x) = \langle x|A|\psi\rangle = \int dx' \langle x|A|x'\rangle \psi(x')
 $$
 
 The object
@@ -197,11 +180,7 @@ $$
 Then:
 
 $$
-(I\psi)(x)
-=
-\int dx' \delta(x-x')\psi(x')
-=
-\psi(x)
+(I\psi)(x) = \int dx' \delta(x-x')\psi(x') = \psi(x)
 $$
 
 This is exactly the continuous version of multiplying by the identity matrix.
@@ -223,11 +202,7 @@ $$
 because:
 
 $$
-(X\psi)(x)
-=
-\int dx' x\delta(x-x')\psi(x')
-=
-x\psi(x)
+(X\psi)(x) = \int dx' x\delta(x-x')\psi(x') = x\psi(x)
 $$
 
 This is why multiplication operators are like diagonal matrices. They do not mix different $x'$ values together; they only multiply the value already sitting at $x$.
@@ -249,14 +224,7 @@ $$
 Then:
 
 $$
-(D\psi)(x)
-=
-\int dx' \frac{\partial}{\partial x}\delta(x-x')\psi(x')
-=
-\frac{\partial}{\partial x}
-\int dx' \delta(x-x')\psi(x')
-=
-\frac{d\psi}{dx}
+(D\psi)(x) = \int dx' \frac{\partial}{\partial x}\delta(x-x')\psi(x') = \frac{\partial}{\partial x} \int dx' \delta(x-x')\psi(x') = \frac{d\psi}{dx}
 $$
 
 This is a subtle but important point: the derivative here is with respect to the output variable $x$, not the integration variable $x'$. That is why this expression gives $+\psi'(x)$. By contrast, the earlier identity
@@ -282,9 +250,7 @@ $$
 and its kernel can be written as:
 
 $$
-\langle x|P|x'\rangle
-=
--i\hbar \frac{\partial}{\partial x}\delta(x-x')
+\langle x|P|x'\rangle = -i\hbar \frac{\partial}{\partial x}\delta(x-x')
 $$
 
 ### The Big Picture
@@ -298,9 +264,7 @@ When Shankar writes operators in infinite-dimensional spaces, keep asking:
 The scary-looking notation is mostly the same old matrix multiplication wearing continuous labels:
 
 $$
-\sum_j A_{ij}v_j
-\quad \longrightarrow \quad
-\int dx' A(x,x')\psi(x')
+\sum_j A_{ij}v_j \quad \longrightarrow \quad \int dx' A(x,x')\psi(x')
 $$
 
 ## How To Read This Section

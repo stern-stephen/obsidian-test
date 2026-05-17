@@ -94,8 +94,7 @@ $$
 then:
 
 $$
-\langle \phi|\psi\rangle =
-\overline{a}c + \overline{b}d
+\langle \phi|\psi\rangle = \overline{a}c + \overline{b}d
 $$
 
 Two states are orthogonal when:
