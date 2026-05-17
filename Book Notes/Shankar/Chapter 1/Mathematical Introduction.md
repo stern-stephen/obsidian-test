@@ -23,6 +23,14 @@ Book chapter: 1, pages 1-73.
 
 ## Section Notes
 
+- [Linear Vector Spaces Basics](Linear%20Vector%20Spaces%20Basics.md)
+- [Inner Product Spaces](Inner%20Product%20Spaces.md)
+- [Dual Spaces and Dirac Notation](Dual%20Spaces%20and%20Dirac%20Notation.md)
+- [Subspaces](Subspaces.md)
+- [Linear Operators](Linear%20Operators.md)
+- [Matrix Elements of Linear Operators](Matrix%20Elements%20of%20Linear%20Operators.md)
+- [Active and Passive Transformations](Active%20and%20Passive%20Transformations.md)
+- [The Eigenvalue Problem](The%20Eigenvalue%20Problem.md)
 - [Functions of Operators](Functions%20of%20Operators.md)
 - [Infinite-Dimensional Spaces](Infinite-Dimensional%20Spaces.md)
 

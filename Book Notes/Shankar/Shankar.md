@@ -12,6 +12,14 @@ Use this page to track chapter notes, questions, and concept pages created while
 
 - Chapter 1
   - [Mathematical Introduction](Chapter%201/Mathematical%20Introduction.md)
+  - [Linear Vector Spaces Basics](Chapter%201/Linear%20Vector%20Spaces%20Basics.md)
+  - [Inner Product Spaces](Chapter%201/Inner%20Product%20Spaces.md)
+  - [Dual Spaces and Dirac Notation](Chapter%201/Dual%20Spaces%20and%20Dirac%20Notation.md)
+  - [Subspaces](Chapter%201/Subspaces.md)
+  - [Linear Operators](Chapter%201/Linear%20Operators.md)
+  - [Matrix Elements of Linear Operators](Chapter%201/Matrix%20Elements%20of%20Linear%20Operators.md)
+  - [Active and Passive Transformations](Chapter%201/Active%20and%20Passive%20Transformations.md)
+  - [The Eigenvalue Problem](Chapter%201/The%20Eigenvalue%20Problem.md)
   - [Functions of Operators](Chapter%201/Functions%20of%20Operators.md)
   - [Infinite-Dimensional Spaces](Chapter%201/Infinite-Dimensional%20Spaces.md)
 
