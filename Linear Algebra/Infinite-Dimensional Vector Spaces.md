@@ -64,10 +64,92 @@ $$
 
 In quantum mechanics, position and momentum are represented by operators on wavefunctions.
 
+## Operator Kernels
+
+In finite dimensions, an operator $A$ is represented by matrix elements:
+
+$$
+A_{ij} = \langle i|A|j\rangle
+$$
+
+and acts on components by:
+
+$$
+w_i = \sum_j A_{ij}v_j
+$$
+
+In a continuous basis, the matrix elements become a kernel:
+
+$$
+A(x,x') = \langle x|A|x'\rangle
+$$
+
+and the sum becomes an integral:
+
+$$
+(A\psi)(x)
+=
+\int dx'\, A(x,x')\psi(x')
+$$
+
+The identity operator has kernel:
+
+$$
+I(x,x')=\delta(x-x')
+$$
+
+because:
+
+$$
+(I\psi)(x)
+=
+\int dx'\, \delta(x-x')\psi(x')
+=
+\psi(x)
+$$
+
+A multiplication operator, such as position, has kernel:
+
+$$
+\langle x|X|x'\rangle = x\delta(x-x')
+$$
+
+so:
+
+$$
+(X\psi)(x)
+=
+\int dx'\, x\delta(x-x')\psi(x')
+=
+x\psi(x)
+$$
+
+A derivative operator can be represented using a derivative of the delta function:
+
+$$
+D(x,x')
+=
+\frac{\partial}{\partial x}\delta(x-x')
+$$
+
+so:
+
+$$
+(D\psi)(x)
+=
+\int dx'\, \frac{\partial}{\partial x}\delta(x-x')\psi(x')
+=
+\frac{d\psi}{dx}
+$$
+
+The derivative here is with respect to the output variable $x$. This is why the sign differs from the identity $\int dx\, \delta'(x-a)f(x)=-f'(a)$, where the derivative is attached to the integration variable.
+
 ## Common Confusions
 
 - A function can be a vector even though it is not an arrow.
 - Infinite-dimensional spaces follow the same vector-space logic, but sums may become infinite sums or integrals.
+- An operator kernel $A(x,x')$ is the continuous-basis version of a matrix $A_{ij}$.
+- Multiplication operators are like diagonal matrices; derivative operators are not diagonal in the position basis.
 - Some basis objects used in physics, such as $|x\rangle$, are idealized and are not normalizable vectors in the ordinary sense.
 
 ## Related Concepts
