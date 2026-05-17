@@ -7,6 +7,7 @@ Welcome to a tiny Obsidian vault for working with Codex.
 - [2026-05-10 First Codex Session](Codex%20Sessions/2026-05-10%20First%20Codex%20Session.md)
 - [Nielsen And Chuang](Book%20Notes/Nielsen%20Chuang/Nielsen%20Chuang.md)
 - [Townsend](Book%20Notes/Townsend/Townsend.md)
+- [Shankar](Book%20Notes/Shankar/Shankar.md)
 - [Linear Algebra](Linear%20Algebra/Linear%20Algebra.md)
 - [Quantum Mechanics](Quantum%20Mechanics/Quantum%20Mechanics.md)
 - [Quantum Computing](Quantum%20Computing/Quantum%20Computing.md)

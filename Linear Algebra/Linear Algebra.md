@@ -7,6 +7,7 @@ Linear algebra studies vectors, vector spaces, linear operators, matrices, and t
 - [Vector Spaces](Vector%20Spaces.md)
 - [Vectors](Vectors.md)
 - [Linear Operators](Linear%20Operators.md)
+- [Functions of Operators](Functions%20of%20Operators.md)
 - [Matrices](Matrices.md)
 - [Change of Basis](Change%20of%20Basis.md)
 - [Gaussian Elimination](Gaussian%20Elimination.md)
@@ -21,6 +22,8 @@ Linear algebra studies vectors, vector spaces, linear operators, matrices, and t
 - [Unitary Operators](Unitary%20Matrices.md)
 - [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
 - [Pauli Matrices](Pauli%20Matrices.md)
+- [Infinite-Dimensional Vector Spaces](Infinite-Dimensional%20Vector%20Spaces.md)
+- [Dirac Delta Function](Dirac%20Delta%20Function.md)
 
 ## Why It Matters
 
