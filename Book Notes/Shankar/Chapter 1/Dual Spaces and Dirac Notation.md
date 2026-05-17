@@ -103,7 +103,7 @@ $$
 The Schwarz inequality says:
 
 $$
-|\langle u|v\rangle| \le \|u\|\,\|v\|
+|\langle u|v\rangle| \le \|u\| \|v\|
 $$
 
 The triangle inequality says:
@@ -127,3 +127,4 @@ These are basic consistency conditions behind the geometry of inner product spac
 - [Gram-Schmidt](../../../Linear%20Algebra/Gram-Schmidt.md)
 - [Projection Operators](../../../Linear%20Algebra/Projection%20Matrices.md)
 - [Inner Product Spaces](Inner%20Product%20Spaces.md)
+

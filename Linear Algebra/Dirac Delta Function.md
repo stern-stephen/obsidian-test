@@ -7,7 +7,7 @@ The Dirac delta function $\delta(x-a)$ is best understood by what it does inside
 It extracts the value of a function at a point:
 
 $$
-\int dx\, \delta(x-a)f(x) = f(a)
+\int dx \delta(x-a)f(x) = f(a)
 $$
 
 It is not an ordinary function in the usual sense. It is a distribution, or generalized function.
@@ -41,14 +41,14 @@ $$
 In a continuous basis:
 
 $$
-I = \int dx\, |x\rangle\langle x|
+I = \int dx |x\rangle\langle x|
 $$
 
 Acting on a state:
 
 $$
-\int dx\, |x\rangle\langle x|\psi\rangle
-= \int dx\, \psi(x)|x\rangle
+\int dx |x\rangle\langle x|\psi\rangle
+= \int dx \psi(x)|x\rangle
 = |\psi\rangle
 $$
 
@@ -57,22 +57,22 @@ $$
 The derivative $\delta'(x-a)$ is also defined by what it does inside an integral. The reliable rule is:
 
 $$
-\int_{-\infty}^{\infty} dx\, \delta'(x-a) f(x) = -f'(a)
+\int_{-\infty}^{\infty} dx \delta'(x-a) f(x) = -f'(a)
 $$
 
 The minus sign comes from integration by parts:
 
 $$
-\int dx\, \delta'(x-a)f(x)
+\int dx \delta'(x-a)f(x)
 = \left[\delta(x-a)f(x)\right]_{-\infty}^{\infty}
-- \int dx\, \delta(x-a)f'(x)
+- \int dx \delta(x-a)f'(x)
 $$
 
 The boundary term vanishes for the kinds of test functions used with distributions, leaving:
 
 $$
-\int dx\, \delta'(x-a)f(x)
-= -\int dx\, \delta(x-a)f'(x)
+\int dx \delta'(x-a)f(x)
+= -\int dx \delta(x-a)f'(x)
 = -f'(a)
 $$
 
@@ -81,7 +81,7 @@ So $\delta'(x-a)$ does not pick out $f(a)$. It picks out the negative slope of $
 More generally:
 
 $$
-\int dx\, \delta^{(n)}(x-a) f(x) = (-1)^n f^{(n)}(a)
+\int dx \delta^{(n)}(x-a) f(x) = (-1)^n f^{(n)}(a)
 $$
 
 ## Gaussian Approximation
@@ -98,7 +98,7 @@ $$
 Each $\delta_{\epsilon}(x)$ has total area $1$:
 
 $$
-\int_{-\infty}^{\infty} dx\, \delta_{\epsilon}(x) = 1
+\int_{-\infty}^{\infty} dx \delta_{\epsilon}(x) = 1
 $$
 
 As $\epsilon \to 0$, the Gaussian gets narrower and taller while keeping area $1$. In the distribution sense:
@@ -115,7 +115,7 @@ The phrase "distribution sense" matters. The pointwise limit is not an ordinary 
 
 $$
 \lim_{\epsilon \to 0}
-\int_{-\infty}^{\infty} dx\,
+\int_{-\infty}^{\infty} dx 
 \frac{1}{\sqrt{2\pi}\epsilon}
 e^{-x^2/2\epsilon^2}
 f(x)
@@ -137,23 +137,13 @@ $$
 
 The Fourier representation is:
 
-$$
-\delta(x)
-=
-\frac{1}{2\pi}
-\int_{-\infty}^{\infty} dk\, e^{ikx}
-$$
+$\displaystyle \delta(x)=\frac{1}{2\pi}\int_{-\infty}^{\infty} e^{ikx} dk$
 
 This integral is not an ordinary convergent integral. It is a distributional identity, meaning it is meant to be used inside an integral against a suitable function.
 
 A more careful version starts with a finite cutoff:
 
-$$
-\delta_K(x)
-=
-\frac{1}{2\pi}
-\int_{-K}^{K} dk\, e^{ikx}
-$$
+$\displaystyle \delta_K(x)=\frac{1}{2\pi}\int_{-K}^{K} e^{ikx} dk$
 
 Evaluating the integral gives:
 
@@ -176,34 +166,17 @@ Again, this is a distributional limit. Away from $x=0$ the expression oscillates
 
 For a shifted delta:
 
-$$
-\delta(x-a)
-=
-\frac{1}{2\pi}
-\int_{-\infty}^{\infty} dk\, e^{ik(x-a)}
-$$
+$\displaystyle \delta(x-a)=\frac{1}{2\pi}\int_{-\infty}^{\infty} e^{ik(x-a)} dk$
 
 ## Gaussian And Fourier Connection
 
 The Gaussian approximation and Fourier representation are connected because the Fourier transform of a Gaussian is another Gaussian:
 
-$$
-\frac{1}{2\pi}
-\int_{-\infty}^{\infty}
-dk\, e^{ikx}e^{-\epsilon k^2/2}
-=
-\frac{1}{\sqrt{2\pi\epsilon}}
-e^{-x^2/2\epsilon}
-$$
+$\displaystyle \frac{1}{2\pi}\int_{-\infty}^{\infty} e^{ikx}e^{-\epsilon k^2/2} dk=\frac{1}{\sqrt{2\pi\epsilon}}e^{-x^2/2\epsilon}$
 
 As $\epsilon \to 0$, the right side becomes $\delta(x)$ in the distribution sense. On the left side, the factor $e^{-\epsilon k^2/2}$ becomes a regulator that approaches $1$. This makes the formal identity
 
-$$
-\delta(x)
-=
-\frac{1}{2\pi}
-\int_{-\infty}^{\infty} dk\, e^{ikx}
-$$
+$\displaystyle \delta(x)=\frac{1}{2\pi}\int_{-\infty}^{\infty} e^{ikx} dk$
 
 feel less like a trick: it is the limit of a well-behaved Gaussian-regulated Fourier integral.
 
@@ -221,3 +194,4 @@ feel less like a trick: it is the limit of a well-behaved Gaussian-regulated Fou
 - [Bra-Ket Notation](Bra-Ket%20Notation.md)
 - [Projection Operators](Projection%20Matrices.md)
 - [Shankar 1.10](../Book%20Notes/Shankar/Chapter%201/Infinite-Dimensional%20Spaces.md#kronecker-delta-to-dirac-delta)
+

@@ -21,7 +21,7 @@ In a function space, the "components" may be the values or expansion coefficient
 For a continuous position basis:
 
 $$
-|\psi\rangle = \int dx\, \psi(x)|x\rangle
+|\psi\rangle = \int dx \psi(x)|x\rangle
 $$
 
 where:
@@ -37,7 +37,7 @@ The function $\psi(x)$ is the representation of the abstract vector $|\psi\rangl
 For complex functions, the inner product usually has the form:
 
 $$
-\langle f|g\rangle = \int dx\, f^*(x)g(x)
+\langle f|g\rangle = \int dx f^*(x)g(x)
 $$
 
 This is the continuous analogue of:
@@ -89,7 +89,7 @@ and the sum becomes an integral:
 $$
 (A\psi)(x)
 =
-\int dx'\, A(x,x')\psi(x')
+\int dx' A(x,x')\psi(x')
 $$
 
 The identity operator has kernel:
@@ -103,7 +103,7 @@ because:
 $$
 (I\psi)(x)
 =
-\int dx'\, \delta(x-x')\psi(x')
+\int dx' \delta(x-x')\psi(x')
 =
 \psi(x)
 $$
@@ -119,7 +119,7 @@ so:
 $$
 (X\psi)(x)
 =
-\int dx'\, x\delta(x-x')\psi(x')
+\int dx' x\delta(x-x')\psi(x')
 =
 x\psi(x)
 $$
@@ -137,12 +137,12 @@ so:
 $$
 (D\psi)(x)
 =
-\int dx'\, \frac{\partial}{\partial x}\delta(x-x')\psi(x')
+\int dx' \frac{\partial}{\partial x}\delta(x-x')\psi(x')
 =
 \frac{d\psi}{dx}
 $$
 
-The derivative here is with respect to the output variable $x$. This is why the sign differs from the identity $\int dx\, \delta'(x-a)f(x)=-f'(a)$, where the derivative is attached to the integration variable.
+The derivative here is with respect to the output variable $x$. This is why the sign differs from the identity $\int dx \delta'(x-a)f(x)=-f'(a)$, where the derivative is attached to the integration variable.
 
 ## Common Confusions
 
@@ -159,3 +159,4 @@ The derivative here is with respect to the output variable $x$. This is why the 
 - [Bra-Ket Notation](Bra-Ket%20Notation.md)
 - [Dirac Delta Function](Dirac%20Delta%20Function.md)
 - [Shankar 1.10](../Book%20Notes/Shankar/Chapter%201/Infinite-Dimensional%20Spaces.md)
+

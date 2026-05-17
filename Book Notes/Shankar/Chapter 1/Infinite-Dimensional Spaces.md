@@ -39,7 +39,7 @@ $$
 For a continuous basis, the sum becomes an integral:
 
 $$
-|\psi\rangle = \int dx\, \psi(x)|x\rangle
+|\psi\rangle = \int dx \psi(x)|x\rangle
 $$
 
 Here $\psi(x)$ is not the abstract vector itself. It is the coordinate representation of the abstract ket $|\psi\rangle$ in the $x$ basis:
@@ -73,13 +73,13 @@ $$
 and:
 
 $$
-I = \int dx\, |x\rangle\langle x|
+I = \int dx |x\rangle\langle x|
 $$
 
 The Dirac delta is not an ordinary function. It is a rule that extracts a value from an integral:
 
 $$
-\int dx'\, \delta(x - x')\psi(x') = \psi(x)
+\int dx' \delta(x - x')\psi(x') = \psi(x)
 $$
 
 That is why it acts like the continuous version of "same basis vector or different basis vector."
@@ -89,15 +89,15 @@ That is why it acts like the continuous version of "same basis vector or differe
 Shankar's notation becomes easier if the delta function is treated as a distribution rather than a literal spike. The derivative of the delta function is defined by moving the derivative onto the function being integrated against:
 
 $$
-\int_{-\infty}^{\infty} dx\, \delta'(x-a)f(x) = -f'(a)
+\int_{-\infty}^{\infty} dx \delta'(x-a)f(x) = -f'(a)
 $$
 
 The minus sign comes from integration by parts. In distribution language, differentiating the delta function means asking how it acts on a smooth test function:
 
 $$
-\int dx\, \delta'(x-a)f(x)
+\int dx \delta'(x-a)f(x)
 =
--\int dx\, \delta(x-a)f'(x)
+-\int dx \delta(x-a)f'(x)
 =
 -f'(a)
 $$
@@ -116,7 +116,7 @@ This is not a pointwise limit of ordinary functions. It means:
 
 $$
 \lim_{\epsilon \to 0}
-\int_{-\infty}^{\infty} dx\,
+\int_{-\infty}^{\infty} dx 
 \frac{1}{\sqrt{2\pi}\epsilon}
 e^{-x^2/2\epsilon^2}f(x)
 =
@@ -125,34 +125,17 @@ $$
 
 The Fourier representation is:
 
-$$
-\delta(x)
-=
-\frac{1}{2\pi}
-\int_{-\infty}^{\infty} dk\, e^{ikx}
-$$
+$\displaystyle \delta(x)=\frac{1}{2\pi}\int_{-\infty}^{\infty} e^{ikx} dk$
 
 A cutoff version makes the formula more concrete:
 
-$$
-\frac{1}{2\pi}
-\int_{-K}^{K} dk\, e^{ikx}
-=
-\frac{\sin(Kx)}{\pi x}
-$$
+$\displaystyle \frac{1}{2\pi}\int_{-K}^{K} e^{ikx} dk=\frac{\sin(Kx)}{\pi x}$
 
 As $K \to \infty$, this approaches $\delta(x)$ in the distribution sense: the oscillations cancel away from $x=0$, while the total effect under an integral samples the value at $0$.
 
 The Gaussian and Fourier pictures are connected by a regulated Fourier integral:
 
-$$
-\frac{1}{2\pi}
-\int_{-\infty}^{\infty}
-dk\, e^{ikx}e^{-\epsilon k^2/2}
-=
-\frac{1}{\sqrt{2\pi\epsilon}}
-e^{-x^2/2\epsilon}
-$$
+$\displaystyle \frac{1}{2\pi}\int_{-\infty}^{\infty} e^{ikx}e^{-\epsilon k^2/2} dk=\frac{1}{\sqrt{2\pi\epsilon}}e^{-x^2/2\epsilon}$
 
 Letting $\epsilon \to 0$ turns the right side into $\delta(x)$ and removes the regulator on the left. See [Dirac Delta Function](../../../Linear%20Algebra/Dirac%20Delta%20Function.md) for the standalone concept note.
 
@@ -185,7 +168,7 @@ $$
 =
 \langle x|A|\psi\rangle
 =
-\int dx'\, \langle x|A|x'\rangle \psi(x')
+\int dx' \langle x|A|x'\rangle \psi(x')
 $$
 
 The object
@@ -199,7 +182,7 @@ is the continuous analogue of the matrix element $A_{ij}$. It is often called th
 | Finite matrix language | Continuous operator language |
 | --- | --- |
 | $A_{ij}$ | $A(x,x')=\langle x\vert A\vert x'\rangle$ |
-| $w_i=\sum_j A_{ij}v_j$ | $\psi_A(x)=\int dx'\, A(x,x')\psi(x')$ |
+| $w_i=\sum_j A_{ij}v_j$ | $\psi_A(x)=\int dx' A(x,x')\psi(x')$ |
 | identity matrix $\delta_{ij}$ | identity kernel $\delta(x-x')$ |
 | diagonal matrix $A_{ij}=a_i\delta_{ij}$ | multiplication kernel $A(x,x')=a(x)\delta(x-x')$ |
 
@@ -216,7 +199,7 @@ Then:
 $$
 (I\psi)(x)
 =
-\int dx'\, \delta(x-x')\psi(x')
+\int dx' \delta(x-x')\psi(x')
 =
 \psi(x)
 $$
@@ -242,7 +225,7 @@ because:
 $$
 (X\psi)(x)
 =
-\int dx'\, x\delta(x-x')\psi(x')
+\int dx' x\delta(x-x')\psi(x')
 =
 x\psi(x)
 $$
@@ -268,10 +251,10 @@ Then:
 $$
 (D\psi)(x)
 =
-\int dx'\, \frac{\partial}{\partial x}\delta(x-x')\psi(x')
+\int dx' \frac{\partial}{\partial x}\delta(x-x')\psi(x')
 =
 \frac{\partial}{\partial x}
-\int dx'\, \delta(x-x')\psi(x')
+\int dx' \delta(x-x')\psi(x')
 =
 \frac{d\psi}{dx}
 $$
@@ -279,7 +262,7 @@ $$
 This is a subtle but important point: the derivative here is with respect to the output variable $x$, not the integration variable $x'$. That is why this expression gives $+\psi'(x)$. By contrast, the earlier identity
 
 $$
-\int dx\, \delta'(x-a)f(x)=-f'(a)
+\int dx \delta'(x-a)f(x)=-f'(a)
 $$
 
 has the derivative attached to the integration variable. Same delta distribution, different variable being differentiated. That little sign issue is one of the sneakiest parts of this section.
@@ -317,7 +300,7 @@ The scary-looking notation is mostly the same old matrix multiplication wearing 
 $$
 \sum_j A_{ij}v_j
 \quad \longrightarrow \quad
-\int dx'\, A(x,x')\psi(x')
+\int dx' A(x,x')\psi(x')
 $$
 
 ## How To Read This Section
@@ -333,16 +316,16 @@ Keep this dictionary nearby:
 | basis vector $\vert i\rangle$ | position basis ket $\vert x\rangle$ |
 | component $v_i = \langle i\vert v\rangle$ | wavefunction $\psi(x) = \langle x\vert\psi\rangle$ |
 | Kronecker delta $\delta_{ij}$ | Dirac delta $\delta(x-x')$ |
-| identity $\sum_i \vert i\rangle\langle i\vert$ | identity $\int dx\, \vert x\rangle\langle x\vert$ |
+| identity $\sum_i \vert i\rangle\langle i\vert$ | identity $\int dx \vert x\rangle\langle x\vert$ |
 | matrix element $A_{ij}$ | kernel $A(x,x')=\langle x\vert A\vert x'\rangle$ |
-| matrix multiplication $\sum_j A_{ij}v_j$ | integral action $\int dx'\, A(x,x')\psi(x')$ |
+| matrix multiplication $\sum_j A_{ij}v_j$ | integral action $\int dx' A(x,x')\psi(x')$ |
 
 ## Common Confusions
 
 - A wavefunction $\psi(x)$ is not "more real" than a ket. It is the ket written in the position basis.
 - The ket $|x\rangle$ is not a normalizable physical state in the usual sense. It is an idealized basis object used to represent states.
 - The Dirac delta is not a spike-shaped ordinary function. In this setting, it is best treated by what it does under an integral.
-- The derivative $\delta'(x-a)$ has a minus sign in its integral rule: $\int dx\, \delta'(x-a)f(x)=-f'(a)$.
+- The derivative $\delta'(x-a)$ has a minus sign in its integral rule: $\int dx \delta'(x-a)f(x)=-f'(a)$.
 - In an operator kernel such as $\frac{\partial}{\partial x}\delta(x-x')$, the derivative is with respect to the output variable $x$, so it gives $+\psi'(x)$ after integration over $x'$.
 - An operator kernel $A(x,x')$ is the infinite-dimensional version of a matrix $A_{ij}$.
 - Gaussian and Fourier formulas for $\delta(x)$ are distributional limits, so they should be checked by placing them inside an integral.
@@ -351,12 +334,12 @@ Keep this dictionary nearby:
 ## Study Questions
 
 - What changes when the basis label $i$ becomes a continuous label $x$?
-- Why does $\int dx\, |x\rangle\langle x|$ behave like the identity operator?
+- Why does $\int dx |x\rangle\langle x|$ behave like the identity operator?
 - Why is $\psi(x)=\langle x|\psi\rangle$ a coordinate representation rather than a different physical object?
-- Why does $\int dx\, \delta'(x-a)f(x)$ equal $-f'(a)$ instead of $f'(a)$?
+- Why does $\int dx \delta'(x-a)f(x)$ equal $-f'(a)$ instead of $f'(a)$?
 - How do the Gaussian and Fourier representations of $\delta(x)$ express the same distributional idea?
 - Why is $A(x,x')=\langle x|A|x'\rangle$ the continuous analogue of a matrix element $A_{ij}$?
-- How does $\int dx'\, A(x,x')\psi(x')$ generalize ordinary matrix multiplication?
+- How does $\int dx' A(x,x')\psi(x')$ generalize ordinary matrix multiplication?
 
 ## Links To Concept Notes
 
@@ -366,3 +349,4 @@ Keep this dictionary nearby:
 - [Linear Operators](../../../Linear%20Algebra/Linear%20Operators.md)
 - [Projection Operators](../../../Linear%20Algebra/Projection%20Matrices.md)
 - [Functions of Operators](Functions%20of%20Operators.md)
+
