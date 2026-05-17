@@ -198,7 +198,7 @@ is the continuous analogue of the matrix element $A_{ij}$. It is often called th
 
 | Finite matrix language | Continuous operator language |
 | --- | --- |
-| $A_{ij}$ | $A(x,x')=\langle x|A|x'\rangle$ |
+| $A_{ij}$ | $A(x,x')=\langle x\vert A\vert x'\rangle$ |
 | $w_i=\sum_j A_{ij}v_j$ | $\psi_A(x)=\int dx'\, A(x,x')\psi(x')$ |
 | identity matrix $\delta_{ij}$ | identity kernel $\delta(x-x')$ |
 | diagonal matrix $A_{ij}=a_i\delta_{ij}$ | multiplication kernel $A(x,x')=a(x)\delta(x-x')$ |
@@ -330,11 +330,11 @@ Keep this dictionary nearby:
 | --- | --- |
 | column vector $v_i$ | function $\psi(x)$ |
 | sum $\sum_i$ | integral $\int dx$ |
-| basis vector $|i\rangle$ | position basis ket $|x\rangle$ |
-| component $v_i = \langle i|v\rangle$ | wavefunction $\psi(x) = \langle x|\psi\rangle$ |
+| basis vector $\vert i\rangle$ | position basis ket $\vert x\rangle$ |
+| component $v_i = \langle i\vert v\rangle$ | wavefunction $\psi(x) = \langle x\vert\psi\rangle$ |
 | Kronecker delta $\delta_{ij}$ | Dirac delta $\delta(x-x')$ |
-| identity $\sum_i |i\rangle\langle i|$ | identity $\int dx\, |x\rangle\langle x|$ |
-| matrix element $A_{ij}$ | kernel $A(x,x')=\langle x|A|x'\rangle$ |
+| identity $\sum_i \vert i\rangle\langle i\vert$ | identity $\int dx\, \vert x\rangle\langle x\vert$ |
+| matrix element $A_{ij}$ | kernel $A(x,x')=\langle x\vert A\vert x'\rangle$ |
 | matrix multiplication $\sum_j A_{ij}v_j$ | integral action $\int dx'\, A(x,x')\psi(x')$ |
 
 ## Common Confusions

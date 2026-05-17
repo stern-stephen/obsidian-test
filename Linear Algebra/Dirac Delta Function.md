@@ -64,7 +64,7 @@ The minus sign comes from integration by parts:
 
 $$
 \int dx\, \delta'(x-a)f(x)
-= \delta(x-a)f(x)\bigg|_{-\infty}^{\infty}
+= \left[\delta(x-a)f(x)\right]_{-\infty}^{\infty}
 - \int dx\, \delta(x-a)f'(x)
 $$
 
