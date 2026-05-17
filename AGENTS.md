@@ -23,10 +23,20 @@ Avoid LaTeX spacing commands such as `\,` in notes that should render cleanly in
 
 Use standard Markdown links instead of Obsidian wiki links so notes remain readable in regular editors and on GitHub.
 
-- Prefer `[Eigenvalues](Linear%20Algebra/Eigenvalues.md)` over Obsidian wiki-link syntax.
+- Prefer `[Eigenvalues](Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md)` over Obsidian wiki-link syntax.
 - Use relative links from the current note.
 - Percent-encode spaces in link destinations, such as `Book%20Notes/Nielsen%20Chuang/Nielsen%20Chuang.md`.
-- Section links should use Markdown anchors, such as `[Pauli Matrices](Linear%20Algebra/Eigenvalues.md#Pauli%20Matrices)`.
+- Section links should use Markdown anchors, such as `[Pauli Matrices](Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md#pauli-matrices)`.
+
+## Book Notes And Topic Notes
+
+Keep book notes and topic notes separate.
+
+- Use `Book Notes/` for source-specific reading notes: what a particular book says, section references, examples, page ranges, questions, and reading status.
+- Use topic folders such as `Linear Algebra/`, `Quantum Mechanics/`, and `Quantum Computing/` for reusable concepts that span multiple books.
+- When a book section introduces a durable concept, create or update the relevant topic note and link to it from the book note.
+- Do not let general explanations live only inside a book note when they will be useful across books.
+- Topic notes should synthesize in original words and may link back to the book sections that motivated them.
 
 ## Git Workflow
 

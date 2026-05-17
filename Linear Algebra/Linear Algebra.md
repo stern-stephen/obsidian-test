@@ -6,7 +6,9 @@ Linear algebra studies vectors, vector spaces, linear operators, matrices, and t
 
 - [Vector Spaces](Vector%20Spaces.md)
 - [Vectors](Vectors.md)
+- [Inner Product Spaces](Inner%20Product%20Spaces.md)
 - [Linear Operators](Linear%20Operators.md)
+- [Commutators](Commutators.md)
 - [Functions of Operators](Functions%20of%20Operators.md)
 - [Matrices](Matrices.md)
 - [Change of Basis](Change%20of%20Basis.md)
@@ -17,6 +19,7 @@ Linear algebra studies vectors, vector spaces, linear operators, matrices, and t
 - [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
 - [Adjoints](Adjoints.md)
 - [Bra-Ket Notation](Bra-Ket%20Notation.md)
+- [Tensor Products](Tensor%20Products.md)
 - [Gram-Schmidt](Gram-Schmidt.md)
 - [Singular Value Decomposition](Singular%20Value%20Decomposition.md)
 - [Unitary Operators](Unitary%20Matrices.md)

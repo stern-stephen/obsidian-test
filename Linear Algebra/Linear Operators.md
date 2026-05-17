@@ -77,6 +77,16 @@ $$
 
 This is one reason matrix multiplication is usually not commutative.
 
+## Commutators
+
+For operators $A$ and $B$, the commutator is:
+
+$$
+[A,B]=AB-BA
+$$
+
+It measures whether the order of applying operators matters. See [Commutators](Commutators.md).
+
 ## Related Concepts
 
 - [Linear Algebra](Linear%20Algebra.md)
@@ -86,4 +96,5 @@ This is one reason matrix multiplication is usually not commutative.
 - [Projection Operators](Projection%20Matrices.md)
 - [Rotation Operators](Rotation%20Matrices.md)
 - [Adjoints](Adjoints.md)
+- [Commutators](Commutators.md)
 - [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)

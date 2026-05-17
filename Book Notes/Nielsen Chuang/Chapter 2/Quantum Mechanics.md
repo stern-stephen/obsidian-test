@@ -22,7 +22,7 @@ Book hub: [Nielsen And Chuang](../Nielsen%20Chuang.md)
 - [Linear Algebra](Linear%20Algebra.md)
 - [Postulates Of Quantum Mechanics](Postulates%20of%20Quantum%20Mechanics.md)
 - [Superdense Coding](Superdense%20Coding.md)
-- [Density Operator](Density%20Operator.md)
+- [Density Operators](../../../Quantum%20Mechanics/Density%20Operators.md)
 - [Schmidt Decomposition And Purifications](Schmidt%20Decomposition%20and%20Purifications.md)
 - [EPR And The Bell Inequality](EPR%20and%20Bell%20Inequality.md)
 
@@ -30,10 +30,11 @@ Book hub: [Nielsen And Chuang](../Nielsen%20Chuang.md)
 
 - Quantum state
 - Unitary evolution
-- Measurement operator
+- [Postulates of Quantum Mechanics](../../../Quantum%20Mechanics/Postulates%20of%20Quantum%20Mechanics.md)
+- [Quantum Measurement](../../../Quantum%20Mechanics/Quantum%20Measurement.md)
 - Projective measurement
 - POVM
-- Density operator
+- [Density Operators](../../../Quantum%20Mechanics/Density%20Operators.md)
 - Reduced density operator
 - Schmidt decomposition
 - Purification
@@ -54,9 +55,14 @@ $$
 ## Links To Concept Notes
 
 - [Quantum Mechanics](../../../Quantum%20Mechanics/Quantum%20Mechanics.md)
+- [Postulates of Quantum Mechanics](../../../Quantum%20Mechanics/Postulates%20of%20Quantum%20Mechanics.md)
 - [Linear Algebra](Linear%20Algebra.md)
 - [Postulates Of Quantum Mechanics](Postulates%20of%20Quantum%20Mechanics.md)
-- [Density Operator](Density%20Operator.md)
+- [Density Operators](../../../Quantum%20Mechanics/Density%20Operators.md)
+- [Quantum Measurement](../../../Quantum%20Mechanics/Quantum%20Measurement.md)
+- [Composite Quantum Systems](../../../Quantum%20Mechanics/Composite%20Quantum%20Systems.md)
+- [Entanglement](../../../Quantum%20Mechanics/Entanglement.md)
+- [Tensor Products](../../../Linear%20Algebra/Tensor%20Products.md)
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Vector Spaces](../../../Linear%20Algebra/Vector%20Spaces.md)
 - [Unitary Matrices](../../../Linear%20Algebra/Unitary%20Matrices.md)
@@ -64,4 +70,4 @@ $$
 
 ## Notes To Process Later
 
-- Create durable concept notes for tensor products, density operators, entanglement, and measurement.
+- Create durable concept notes for Bell inequalities and superdense coding.

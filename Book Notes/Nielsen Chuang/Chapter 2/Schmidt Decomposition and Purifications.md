@@ -14,6 +14,12 @@ The Schmidt decomposition is a canonical way to write pure states of bipartite q
 
 It exposes the entanglement structure of a state and connects naturally to reduced density operators.
 
+Reusable topic notes:
+
+- [Entanglement](../../../Quantum%20Mechanics/Entanglement.md)
+- [Density Operators](../../../Quantum%20Mechanics/Density%20Operators.md)
+- [Composite Quantum Systems](../../../Quantum%20Mechanics/Composite%20Quantum%20Systems.md)
+
 ## Schmidt Decomposition
 
 For a pure state $|\psi\rangle$ of a composite system $AB$, there exist orthonormal bases $\{|i_A\rangle\}$ and $\{|i_B\rangle\}$ such that:
@@ -73,8 +79,11 @@ They help explain:
 
 ## Related Concepts
 
-- [Density Operator](Density%20Operator.md)
+- [Density Operators](../../../Quantum%20Mechanics/Density%20Operators.md)
+- [Entanglement](../../../Quantum%20Mechanics/Entanglement.md)
+- [Composite Quantum Systems](../../../Quantum%20Mechanics/Composite%20Quantum%20Systems.md)
 - [Quantum Mechanics](../../../Quantum%20Mechanics/Quantum%20Mechanics.md)
 - [Quantum Computing](../../../Quantum%20Computing/Quantum%20Computing.md)
 - [Vector Spaces](../../../Linear%20Algebra/Vector%20Spaces.md)
-- [Eigenvalues](../../../Linear%20Algebra/Eigenvalues.md)
+- [Tensor Products](../../../Linear%20Algebra/Tensor%20Products.md)
+- [Eigenvalues](../../../Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md)

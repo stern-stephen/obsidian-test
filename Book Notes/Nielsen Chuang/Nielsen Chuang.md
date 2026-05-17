@@ -42,4 +42,4 @@ Use this page to track chapter notes, questions, and concept pages created while
 - [Bra-Ket Notation](../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Unitary Matrices](../../Linear%20Algebra/Unitary%20Matrices.md)
 - [Hermitian Matrices and Operators](../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
-- [Eigenvalues](../../Linear%20Algebra/Eigenvalues.md)
+- [Eigenvalues](../../Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md)

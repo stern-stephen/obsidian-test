@@ -98,7 +98,7 @@ $$
 
 They are important because they are both [Hermitian](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md) and [unitary](../../../Linear%20Algebra/Unitary%20Matrices.md).
 
-Their eigenvalues and eigenvectors are collected in [Eigenvalues: Pauli Matrices](../../../Linear%20Algebra/Eigenvalues.md#Pauli%20Matrices).
+Their eigenvalues and eigenvectors are collected in [Eigenvalues: Pauli Matrices](../../../Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md#pauli-matrices).
 
 ## 2.1.4 Inner Products
 
@@ -133,6 +133,7 @@ The inner product is one of the main reasons complex conjugation appears through
 Related notes:
 
 - [Vector Spaces](../../../Linear%20Algebra/Vector%20Spaces.md)
+- [Inner Product Spaces](../../../Linear%20Algebra/Inner%20Product%20Spaces.md)
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Gram-Schmidt](../../../Linear%20Algebra/Gram-Schmidt.md)
 
@@ -152,7 +153,7 @@ Eigenvalues matter in quantum mechanics because measurement outcomes are tied to
 
 Related notes:
 
-- [Eigenvalues](../../../Linear%20Algebra/Eigenvalues.md)
+- [Eigenvalues](../../../Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md)
 - [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
 
 ## 2.1.6 Adjoints And Hermitian Operators
@@ -216,6 +217,7 @@ Related notes:
 - [Quantum Mechanics](../../../Quantum%20Mechanics/Quantum%20Mechanics.md)
 - [Quantum Computing](../../../Quantum%20Computing/Quantum%20Computing.md)
 - [Vector Spaces](../../../Linear%20Algebra/Vector%20Spaces.md)
+- [Tensor Products](../../../Linear%20Algebra/Tensor%20Products.md)
 
 ## 2.1.8 Operator Functions
 
@@ -243,7 +245,7 @@ Operator exponentials appear naturally in quantum time evolution.
 
 Related notes:
 
-- [Eigenvalues](../../../Linear%20Algebra/Eigenvalues.md)
+- [Eigenvalues](../../../Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md)
 - [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
 - [Unitary Matrices](../../../Linear%20Algebra/Unitary%20Matrices.md)
 
@@ -273,6 +275,8 @@ then $A$ and $B$ commute.
 
 In quantum mechanics, commutators are tied to compatibility of observables, uncertainty relations, and the algebraic structure of quantum operations.
 
+Related note: [Commutators](../../../Linear%20Algebra/Commutators.md).
+
 ## 2.1.10 Polar And Singular Value Decompositions
 
 The polar decomposition factors an operator into a unitary part and a positive part.
@@ -296,7 +300,7 @@ The important study takeaway is that many operators can be understood by separat
 Related notes:
 
 - [Unitary Matrices](../../../Linear%20Algebra/Unitary%20Matrices.md)
-- [Eigenvalues](../../../Linear%20Algebra/Eigenvalues.md)
+- [Eigenvalues](../../../Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md)
 
 ## Study Takeaways
 
@@ -320,9 +324,12 @@ Related notes:
 
 - [Linear Algebra](../../../Linear%20Algebra/Linear%20Algebra.md)
 - [Vector Spaces](../../../Linear%20Algebra/Vector%20Spaces.md)
+- [Inner Product Spaces](../../../Linear%20Algebra/Inner%20Product%20Spaces.md)
+- [Tensor Products](../../../Linear%20Algebra/Tensor%20Products.md)
+- [Commutators](../../../Linear%20Algebra/Commutators.md)
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Adjoints](../../../Linear%20Algebra/Adjoints.md)
-- [Eigenvalues](../../../Linear%20Algebra/Eigenvalues.md)
+- [Eigenvalues](../../../Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md)
 - [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
 - [Singular Value Decomposition](../../../Linear%20Algebra/Singular%20Value%20Decomposition.md)
 - [Unitary Matrices](../../../Linear%20Algebra/Unitary%20Matrices.md)

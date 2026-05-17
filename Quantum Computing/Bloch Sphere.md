@@ -52,5 +52,5 @@ The Bloch sphere turns an abstract two-dimensional complex vector into a three-d
 - [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)
 - [Vectors](../Linear%20Algebra/Vectors.md)
 - [Bra-Ket Notation](../Linear%20Algebra/Bra-Ket%20Notation.md)
-- [Eigenvalues](../Linear%20Algebra/Eigenvalues.md)
+- [Eigenvalues](../Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md)
 - [Unitary Matrices](../Linear%20Algebra/Unitary%20Matrices.md)

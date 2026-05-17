@@ -14,6 +14,8 @@ Section 2.2 gives the basic postulates of quantum mechanics in a form suitable f
 
 The postulates connect the linear algebra from [Linear Algebra](Linear%20Algebra.md) to physical interpretation: states are vectors, closed-system evolution is unitary, measurements are described by measurement operators, and composite systems use tensor products.
 
+Reusable topic note: [Postulates of Quantum Mechanics](../../../Quantum%20Mechanics/Postulates%20of%20Quantum%20Mechanics.md).
+
 ## 2.2.1 State Space
 
 An isolated quantum system is associated with a complex vector space with an inner product.
@@ -94,6 +96,8 @@ $$
 
 This guarantees that the total probability of all outcomes is $1$.
 
+Reusable topic note: [Quantum Measurement](../../../Quantum%20Mechanics/Quantum%20Measurement.md).
+
 ## 2.2.4 Distinguishing Quantum States
 
 Quantum states are not always perfectly distinguishable.
@@ -130,7 +134,7 @@ $$
 \frac{P_m|\psi\rangle}{\sqrt{p(m)}}
 $$
 
-Projective measurements are closely connected to [Hermitian operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md) and [eigenvalues](../../../Linear%20Algebra/Eigenvalues.md).
+Projective measurements are closely connected to [Hermitian operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md) and [eigenvalues](../../../Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md).
 
 ## 2.2.6 POVM Measurements
 
@@ -155,6 +159,8 @@ p(m) = \langle \psi|E_m|\psi\rangle
 $$
 
 POVMs are useful when the main question is what outcome probabilities are possible, rather than what happens to the state afterward.
+
+Reusable topic note: [Quantum Measurement](../../../Quantum%20Mechanics/Quantum%20Measurement.md#povms).
 
 ## 2.2.7 Phase
 
@@ -212,6 +218,12 @@ $$
 
 Composite systems allow entangled states, which cannot be written as a simple tensor product of individual subsystem states.
 
+Reusable topic notes:
+
+- [Composite Quantum Systems](../../../Quantum%20Mechanics/Composite%20Quantum%20Systems.md)
+- [Tensor Products](../../../Linear%20Algebra/Tensor%20Products.md)
+- [Entanglement](../../../Quantum%20Mechanics/Entanglement.md)
+
 ## 2.2.9 Global View
 
 The postulates give a compact model for quantum information:
@@ -234,8 +246,13 @@ The rest of the chapter develops these tools through superdense coding, density 
 ## Related Concepts
 
 - [Quantum Mechanics](../../../Quantum%20Mechanics/Quantum%20Mechanics.md)
+- [Postulates of Quantum Mechanics](../../../Quantum%20Mechanics/Postulates%20of%20Quantum%20Mechanics.md)
+- [Quantum Measurement](../../../Quantum%20Mechanics/Quantum%20Measurement.md)
+- [Composite Quantum Systems](../../../Quantum%20Mechanics/Composite%20Quantum%20Systems.md)
+- [Entanglement](../../../Quantum%20Mechanics/Entanglement.md)
 - [Quantum Computing](../../../Quantum%20Computing/Quantum%20Computing.md)
+- [Tensor Products](../../../Linear%20Algebra/Tensor%20Products.md)
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Unitary Matrices](../../../Linear%20Algebra/Unitary%20Matrices.md)
 - [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
-- [Eigenvalues](../../../Linear%20Algebra/Eigenvalues.md)
+- [Eigenvalues](../../../Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md)

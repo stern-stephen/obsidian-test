@@ -90,6 +90,7 @@ $$
 
 ## Links To Concept Notes
 
+- [Inner Product Spaces](../../../Linear%20Algebra/Inner%20Product%20Spaces.md)
 - [Vector Spaces](../../../Linear%20Algebra/Vector%20Spaces.md)
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Gram-Schmidt](../../../Linear%20Algebra/Gram-Schmidt.md)

@@ -14,6 +14,8 @@ The density operator is a way to describe quantum states when there may be uncer
 
 It is also the natural language for subsystems of entangled composite systems.
 
+Reusable topic note: [Density Operators](../../../Quantum%20Mechanics/Density%20Operators.md).
+
 ## 2.4.1 Ensembles Of Quantum States
 
 Suppose a system is prepared in state $|\psi_i\rangle$ with probability $p_i$.
@@ -114,6 +116,10 @@ They become essential for later topics such as noise, decoherence, quantum chann
 ## Related Concepts
 
 - [Quantum Mechanics](../../../Quantum%20Mechanics/Quantum%20Mechanics.md)
+- [Density Operators](../../../Quantum%20Mechanics/Density%20Operators.md)
+- [Quantum Measurement](../../../Quantum%20Mechanics/Quantum%20Measurement.md)
+- [Composite Quantum Systems](../../../Quantum%20Mechanics/Composite%20Quantum%20Systems.md)
+- [Entanglement](../../../Quantum%20Mechanics/Entanglement.md)
 - [Postulates Of Quantum Mechanics](Postulates%20of%20Quantum%20Mechanics.md)
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)

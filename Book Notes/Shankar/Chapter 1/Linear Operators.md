@@ -70,6 +70,6 @@ $$
 
 - [Linear Operators](../../../Linear%20Algebra/Linear%20Operators.md)
 - [Matrices](../../../Linear%20Algebra/Matrices.md)
-- [Commutators](../../../Book%20Notes/Nielsen%20Chuang/Chapter%202/Linear%20Algebra.md#219-commutators-and-anti-commutators)
+- [Commutators](../../../Linear%20Algebra/Commutators.md)
 - [Functions of Operators](Functions%20of%20Operators.md)
 - [Matrix Elements of Linear Operators](Matrix%20Elements%20of%20Linear%20Operators.md)

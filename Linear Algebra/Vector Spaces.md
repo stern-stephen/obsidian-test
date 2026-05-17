@@ -164,10 +164,26 @@ $$
 
 Inner product spaces are where concepts like [Adjoints](Adjoints.md), [Projection Operators](Projection%20Matrices.md), [Unitary Operators](Unitary%20Matrices.md), [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md), and [Gram-Schmidt](Gram-Schmidt.md) naturally live.
 
+See [Inner Product Spaces](Inner%20Product%20Spaces.md) for a fuller reusable note, especially for the quantum mechanics interpretation.
+
+## Tensor Products
+
+Tensor products combine vector spaces into larger vector spaces. They are essential for composite quantum systems and multi-qubit states.
+
+If $V$ and $W$ are vector spaces, their tensor product is:
+
+$$
+V \otimes W
+$$
+
+See [Tensor Products](Tensor%20Products.md).
+
 ## Related Concepts
 
 - [Linear Algebra](Linear%20Algebra.md)
 - [Linear Operators](Linear%20Operators.md)
+- [Inner Product Spaces](Inner%20Product%20Spaces.md)
+- [Tensor Products](Tensor%20Products.md)
 - [Adjoints](Adjoints.md)
 - [Bra-Ket Notation](Bra-Ket%20Notation.md)
 - [Change of Basis](Change%20of%20Basis.md)

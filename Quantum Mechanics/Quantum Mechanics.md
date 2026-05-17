@@ -13,6 +13,10 @@ This page is the hub for quantum mechanics concepts that recur across the textbo
 - Single-qubit pure states can be visualized using the [Bloch sphere](../Quantum%20Computing/Bloch%20Sphere.md).
 - Reversible evolution is represented by [unitary operators](../Linear%20Algebra/Unitary%20Matrices.md).
 - Measurable quantities are represented by [Hermitian operators](../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md).
+- The [postulates of quantum mechanics](Postulates%20of%20Quantum%20Mechanics.md) connect the math to states, evolution, measurement, and composition.
+- Measurements are described in [Quantum Measurement](Quantum%20Measurement.md).
+- Composite systems use [tensor products](../Linear%20Algebra/Tensor%20Products.md), which make [entanglement](Entanglement.md) possible.
+- Mixed states and subsystems are described by [density operators](Density%20Operators.md).
 - Stern-Gerlach experiments make the measurement and state-preparation role of apparatuses concrete.
 
 ## Book Links
@@ -31,12 +35,6 @@ This page is the hub for quantum mechanics concepts that recur across the textbo
 
 ## Concept Notes To Add
 
-- Postulates of quantum mechanics
-- Measurement
-- Tensor products
-- Composite systems
-- Density matrices
-- Entanglement
 - Bell inequalities
 
 ## Related Concepts
@@ -44,8 +42,14 @@ This page is the hub for quantum mechanics concepts that recur across the textbo
 - [Linear Algebra](../Linear%20Algebra/Linear%20Algebra.md)
 - [Stern-Gerlach Experiments](Stern-Gerlach%20Experiments.md)
 - [Quantum State Vector](Quantum%20State%20Vector.md)
+- [Postulates of Quantum Mechanics](Postulates%20of%20Quantum%20Mechanics.md)
+- [Quantum Measurement](Quantum%20Measurement.md)
+- [Composite Quantum Systems](Composite%20Quantum%20Systems.md)
+- [Density Operators](Density%20Operators.md)
+- [Entanglement](Entanglement.md)
 - [Spin-1/2 Systems](Spin-1-2%20Systems.md)
 - [Bra-Ket Notation](../Linear%20Algebra/Bra-Ket%20Notation.md)
+- [Tensor Products](../Linear%20Algebra/Tensor%20Products.md)
 - [Unitary Matrices](../Linear%20Algebra/Unitary%20Matrices.md)
 - [Hermitian Matrices and Operators](../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
 - [Quantum Computing](../Quantum%20Computing/Quantum%20Computing.md)

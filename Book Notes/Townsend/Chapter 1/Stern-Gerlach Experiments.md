@@ -159,6 +159,7 @@ The problems are likely useful for practicing:
 ## Related Concepts
 
 - [Stern-Gerlach Experiments](../../../Quantum%20Mechanics/Stern-Gerlach%20Experiments.md)
+- [Quantum Measurement](../../../Quantum%20Mechanics/Quantum%20Measurement.md)
 - [Quantum State Vector](../../../Quantum%20Mechanics/Quantum%20State%20Vector.md)
 - [Spin-1/2 Systems](../../../Quantum%20Mechanics/Spin-1-2%20Systems.md)
 - [Quantum Mechanics](../../../Quantum%20Mechanics/Quantum%20Mechanics.md)
