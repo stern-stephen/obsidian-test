@@ -9,6 +9,7 @@ Welcome to a tiny Obsidian vault for working with Codex.
 - [Townsend](Book%20Notes/Townsend/Townsend.md)
 - [Shankar](Book%20Notes/Shankar/Shankar.md)
 - [Linear Algebra](Linear%20Algebra/Linear%20Algebra.md)
+- [Mechanics](Mechanics/Mechanics.md)
 - [Quantum Mechanics](Quantum%20Mechanics/Quantum%20Mechanics.md)
 - [Quantum Computing](Quantum%20Computing/Quantum%20Computing.md)
 - [Vector Spaces](Linear%20Algebra/Vector%20Spaces.md)

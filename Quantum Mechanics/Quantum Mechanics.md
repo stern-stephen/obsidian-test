@@ -17,6 +17,7 @@ This page is the hub for quantum mechanics concepts that recur across the textbo
 - Measurements are described in [Quantum Measurement](Quantum%20Measurement.md).
 - Composite systems use [tensor products](../Linear%20Algebra/Tensor%20Products.md), which make [entanglement](Entanglement.md) possible.
 - Mixed states and subsystems are described by [density operators](Density%20Operators.md).
+- Quantum dynamics inherits much of its notation from [Hamiltonian mechanics](../Mechanics/Hamiltonian%20Mechanics.md).
 - Stern-Gerlach experiments make the measurement and state-preparation role of apparatuses concrete.
 
 ## Book Links
@@ -27,6 +28,7 @@ This page is the hub for quantum mechanics concepts that recur across the textbo
 - [Stern-Gerlach Experiments](../Book%20Notes/Townsend/Chapter%201/Stern-Gerlach%20Experiments.md)
 - [Functions of Operators](../Book%20Notes/Shankar/Chapter%201/Functions%20of%20Operators.md)
 - [Infinite-Dimensional Spaces](../Book%20Notes/Shankar/Chapter%201/Infinite-Dimensional%20Spaces.md)
+- [Review of Classical Mechanics](../Book%20Notes/Shankar/Chapter%202/Review%20of%20Classical%20Mechanics.md)
 - [Quantum Mechanics](../Book%20Notes/Nielsen%20Chuang/Chapter%202/Quantum%20Mechanics.md)
 - [Postulates Of Quantum Mechanics](../Book%20Notes/Nielsen%20Chuang/Chapter%202/Postulates%20of%20Quantum%20Mechanics.md)
 - [Density Operator](../Book%20Notes/Nielsen%20Chuang/Chapter%202/Density%20Operator.md)
@@ -52,4 +54,5 @@ This page is the hub for quantum mechanics concepts that recur across the textbo
 - [Tensor Products](../Linear%20Algebra/Tensor%20Products.md)
 - [Unitary Matrices](../Linear%20Algebra/Unitary%20Matrices.md)
 - [Hermitian Matrices and Operators](../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
+- [Mechanics](../Mechanics/Mechanics.md)
 - [Quantum Computing](../Quantum%20Computing/Quantum%20Computing.md)
