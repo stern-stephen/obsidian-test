@@ -22,6 +22,7 @@ Use this page to track chapter notes, questions, and concept pages created while
   - [The Eigenvalue Problem](Chapter%201/The%20Eigenvalue%20Problem.md)
   - [Functions of Operators](Chapter%201/Functions%20of%20Operators.md)
   - [Infinite-Dimensional Spaces](Chapter%201/Infinite-Dimensional%20Spaces.md)
+  - [Operators in Infinite Dimensions - Walkthrough](Chapter%201/Operators%20in%20Infinite%20Dimensions%20-%20Walkthrough.md)
 - Chapter 2
   - [Review of Classical Mechanics](Chapter%202/Review%20of%20Classical%20Mechanics.md)
   - [The Principle of Least Action and Lagrangian Mechanics](Chapter%202/The%20Principle%20of%20Least%20Action%20and%20Lagrangian%20Mechanics.md)

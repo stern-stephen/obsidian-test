@@ -6,6 +6,8 @@ Book hub: [Shankar](../Shankar.md)
 
 Book section: 1.10.
 
+Focused walkthrough: [Operators in Infinite Dimensions - Walkthrough](Operators%20in%20Infinite%20Dimensions%20-%20Walkthrough.md)
+
 ## Reading Status
 
 - Status: started
@@ -313,4 +315,4 @@ Keep this dictionary nearby:
 - [Linear Operators](../../../Linear%20Algebra/Linear%20Operators.md)
 - [Projection Operators](../../../Linear%20Algebra/Projection%20Matrices.md)
 - [Functions of Operators](Functions%20of%20Operators.md)
-
+- [Operators in Infinite Dimensions - Walkthrough](Operators%20in%20Infinite%20Dimensions%20-%20Walkthrough.md)
