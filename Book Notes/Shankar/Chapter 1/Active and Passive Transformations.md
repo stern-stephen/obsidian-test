@@ -62,6 +62,84 @@ This is a similarity transformation.
 - A vector and its coordinate list are not the same object.
 - A basis change does not change the physical vector; it changes its description.
 
+## Exercise Answers
+
+These are answer summaries for Shankar Chapter 1 exercises in this section. I am not reproducing the full problem statements here.
+
+### Exercise 1.7.1
+
+The trace is:
+
+$$
+\operatorname{Tr}A=\sum_i A_{ii}
+$$
+
+For a product of two matrices:
+
+$$
+\operatorname{Tr}(AB)=\sum_i(AB)_{ii}
+$$
+
+Using matrix multiplication:
+
+$$
+\operatorname{Tr}(AB)=\sum_{i,j}A_{ij}B_{ji}
+$$
+
+Swap the dummy labels $i$ and $j$:
+
+$$
+\operatorname{Tr}(AB)=\sum_{i,j}B_{ij}A_{ji}=\operatorname{Tr}(BA)
+$$
+
+More generally, the trace is cyclic:
+
+$$
+\operatorname{Tr}(ABC)=\operatorname{Tr}(BCA)=\operatorname{Tr}(CAB)
+$$
+
+Under a unitary change of basis:
+
+$$
+A\to U^\dagger A U
+$$
+
+so:
+
+$$
+\operatorname{Tr}(U^\dagger A U)=\operatorname{Tr}(UU^\dagger A)=\operatorname{Tr}A
+$$
+
+The trace is basis independent.
+
+### Exercise 1.7.2
+
+Under a unitary change of basis:
+
+$$
+A\to U^\dagger A U
+$$
+
+Taking determinants:
+
+$$
+\det(U^\dagger A U)=\det(U^\dagger)\det(A)\det(U)
+$$
+
+Since $U$ is unitary:
+
+$$
+\det(U^\dagger)\det(U)=1
+$$
+
+Therefore:
+
+$$
+\det(U^\dagger A U)=\det A
+$$
+
+The determinant is also basis independent.
+
 ## Links To Concept Notes
 
 - [Change of Basis](../../../Linear%20Algebra/Change%20of%20Basis.md)

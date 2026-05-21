@@ -102,6 +102,130 @@ The object $|a_i\rangle\langle a_i|$ is the projection onto the eigendirection $
 - If $A$ is diagonal with entries $a_1,a_2,\ldots,a_n$, what is $e^A$?
 - Why does $f(A)$ usually not mean applying $f$ separately to every matrix entry?
 
+## Exercise Answers
+
+These are answer summaries for Shankar Chapter 1 exercises in this section. I am not reproducing the full problem statements here.
+
+### Exercise 1.9.1
+
+The scalar geometric series:
+
+$$
+\sum_{n=0}^{\infty}x^n
+$$
+
+equals:
+
+$$
+\frac{1}{1-x}
+$$
+
+only when:
+
+$$
+|x|<1
+$$
+
+For a Hermitian operator $\Omega$, go to its eigenbasis:
+
+$$
+\Omega|\omega_i\rangle=\omega_i|\omega_i\rangle
+$$
+
+Then:
+
+$$
+\sum_{n=0}^{\infty}\Omega^n|\omega_i\rangle=\sum_{n=0}^{\infty}\omega_i^n|\omega_i\rangle
+$$
+
+The series converges on each eigenvector only if:
+
+$$
+|\omega_i|<1
+$$
+
+for every eigenvalue. In that case:
+
+$$
+\sum_{n=0}^{\infty}\Omega^n=(I-\Omega)^{-1}
+$$
+
+So the operator series may be identified with $(I-\Omega)^{-1}$ only when all eigenvalues of $\Omega$ have magnitude less than $1$.
+
+### Exercise 1.9.2
+
+Let $H$ be Hermitian and define:
+
+$$
+U=e^{iH}
+$$
+
+Then:
+
+$$
+U^\dagger=(e^{iH})^\dagger=e^{-iH^\dagger}
+$$
+
+Since $H^\dagger=H$:
+
+$$
+U^\dagger=e^{-iH}
+$$
+
+Therefore:
+
+$$
+U^\dagger U=e^{-iH}e^{iH}=I
+$$
+
+So $U$ is unitary.
+
+The eigenbasis proof says the same thing: if $H|h_i\rangle=h_i|h_i\rangle$ with real $h_i$, then:
+
+$$
+U|h_i\rangle=e^{ih_i}|h_i\rangle
+$$
+
+and each eigenvalue $e^{ih_i}$ has unit modulus.
+
+### Exercise 1.9.3
+
+If $H$ has eigenvalues $h_i$, then:
+
+$$
+U=e^{iH}
+$$
+
+has eigenvalues:
+
+$$
+e^{ih_i}
+$$
+
+Thus:
+
+$$
+\det U=\prod_i e^{ih_i}
+$$
+
+Using exponent rules:
+
+$$
+\det U=e^{i\sum_i h_i}
+$$
+
+Since:
+
+$$
+\operatorname{Tr}H=\sum_i h_i
+$$
+
+we get:
+
+$$
+\det(e^{iH})=e^{i\operatorname{Tr}H}
+$$
+
 ## Links To Concept Notes
 
 - [Functions of Operators](../../../Linear%20Algebra/Functions%20of%20Operators.md)

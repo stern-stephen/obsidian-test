@@ -307,6 +307,166 @@ Keep this dictionary nearby:
 - Why is $A(x,x')=\langle x|A|x'\rangle$ the continuous analogue of a matrix element $A_{ij}$?
 - How does $\int dx' A(x,x')\psi(x')$ generalize ordinary matrix multiplication?
 
+## Exercise Answers
+
+These are answer summaries for Shankar Chapter 1 exercises in this section. I am not reproducing the full problem statements here.
+
+### Exercise 1.10.1
+
+Use the defining property of the delta function:
+
+$$
+\int dx \delta(x)f(x)=f(0)
+$$
+
+For $\delta(ax)$, change variables:
+
+$$
+u=ax,\qquad du=a dx
+$$
+
+The orientation of the integral depends on the sign of $a$, so the scale factor is $|a|$, not $a$. Thus:
+
+$$
+\int dx \delta(ax)f(x)=\frac{1}{|a|}\int du \delta(u)f(u/a)
+$$
+
+Therefore:
+
+$$
+\int dx \delta(ax)f(x)=\frac{1}{|a|}f(0)
+$$
+
+So:
+
+$$
+\delta(ax)=\frac{1}{|a|}\delta(x)
+$$
+
+### Exercise 1.10.2
+
+Suppose $f(x)$ has simple zeros $x_i$, meaning:
+
+$$
+f(x_i)=0,\qquad f'(x_i)\ne 0
+$$
+
+Near each zero:
+
+$$
+f(x)\approx f'(x_i)(x-x_i)
+$$
+
+Using the result from Exercise 1.10.1:
+
+$$
+\delta(f'(x_i)(x-x_i))=\frac{1}{|f'(x_i)|}\delta(x-x_i)
+$$
+
+Summing over all zeros gives:
+
+$$
+\delta(f(x))=\sum_i \frac{\delta(x-x_i)}{|f'(x_i)|}
+$$
+
+This identity says the delta function localizes at every zero of $f$, with a weight determined by how steeply $f$ crosses zero there.
+
+### Exercise 1.10.3
+
+Let $\theta(x-x')$ be the step function that jumps from $0$ to $1$ at $x=x'$.
+
+For $x\ne x'$, the derivative is zero:
+
+$$
+\frac{d}{dx}\theta(x-x')=0
+$$
+
+But at $x=x'$, the function has a unit jump. To test its derivative, integrate around the jump:
+
+$$
+\int_{x'-\epsilon}^{x'+\epsilon} dx \frac{d}{dx}\theta(x-x')=\theta(\epsilon)-\theta(-\epsilon)=1
+$$
+
+The distribution with zero value away from $x=x'$ and total integral $1$ at $x=x'$ is the delta function. Therefore:
+
+$$
+\frac{d}{dx}\theta(x-x')=\delta(x-x')
+$$
+
+### Exercise 1.10.4
+
+This exercise uses the normal modes of a string fixed at $x=0$ and $x=L$.
+
+For zero initial velocity, the displacement has the form:
+
+$$
+\psi(x,t)=\sum_{m=1}^{\infty} b_m \sin\left(\frac{m\pi x}{L}\right)\cos(\omega_m t)
+$$
+
+The coefficients are determined by the initial displacement:
+
+$$
+b_m=\frac{2}{L}\int_0^L dx \psi(x,0)\sin\left(\frac{m\pi x}{L}\right)
+$$
+
+For Shankar's triangular initial displacement, split the integral at $L/2$:
+
+$$
+b_m=\frac{2}{L}\left[\int_0^{L/2} dx \frac{2hx}{L}\sin\left(\frac{m\pi x}{L}\right)+\int_{L/2}^{L} dx \frac{2h(L-x)}{L}\sin\left(\frac{m\pi x}{L}\right)\right]
+$$
+
+In the second integral, substitute $u=L-x$. Since:
+
+$$
+\sin\left(\frac{m\pi(L-u)}{L}\right)=\sin(m\pi-\frac{m\pi u}{L})=(-1)^{m+1}\sin\left(\frac{m\pi u}{L}\right)
+$$
+
+the coefficient becomes:
+
+$$
+b_m=\frac{2}{L}\left[1+(-1)^{m+1}\right]\int_0^{L/2} dx \frac{2hx}{L}\sin\left(\frac{m\pi x}{L}\right)
+$$
+
+Use integration by parts:
+
+$$
+\int x\sin(ax) dx=-\frac{x\cos(ax)}{a}+\frac{\sin(ax)}{a^2}
+$$
+
+with:
+
+$$
+a=\frac{m\pi}{L}
+$$
+
+Evaluating from $0$ to $L/2$ and simplifying gives:
+
+$$
+b_m=\frac{8h}{\pi^2m^2}\sin\left(\frac{m\pi}{2}\right)
+$$
+
+Therefore:
+
+$$
+\psi(x,t)=\sum_{m=1}^{\infty}\frac{8h}{\pi^2m^2}\sin\left(\frac{m\pi}{2}\right)\sin\left(\frac{m\pi x}{L}\right)\cos(\omega_m t)
+$$
+
+Only odd $m$ contribute, because the factor:
+
+$$
+1+(-1)^{m+1}
+$$
+
+vanishes for even $m$. Equivalently, the final coefficient contains $\sin(m\pi/2)$, which is zero for even $m$.
+
+This matches the expected physical picture: the triangular shape is symmetric about the midpoint, so only the symmetric sine modes appear.
+
+The related eigenfunctions of the string operator are:
+
+$$
+\langle x|m\rangle=\sqrt{\frac{2}{L}}\sin\left(\frac{m\pi x}{L}\right)
+$$
+
 ## Links To Concept Notes
 
 - [Infinite-Dimensional Vector Spaces](../../../Linear%20Algebra/Infinite-Dimensional%20Vector%20Spaces.md)
