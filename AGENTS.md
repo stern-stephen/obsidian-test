@@ -40,6 +40,19 @@ Keep book notes and topic notes separate.
 - Do not let general explanations live only inside a book note when they will be useful across books.
 - Topic notes should synthesize in original words and may link back to the book sections that motivated them.
 
+## Textbook Exercise Answers
+
+When adding answers to textbook exercises:
+
+- Put answers in the corresponding section document, under a `## Exercise Answers` heading, unless the user asks for a separate solutions file.
+- Keep exercise statements as short references only. Do not reproduce long copyrighted problem text.
+- Write solutions in original words with enough intermediate steps to be useful for self-study.
+- Preserve the book's exercise numbering exactly, such as `### Exercise 1.8.10`.
+- If exercise numbering or content is uncertain, verify against the local PDF and note any uncertainty.
+- For matrix-heavy answers, sanity-check eigenvalues, eigenvectors, commutators, traces, determinants, and normalization with a quick computation when practical.
+- For section-specific answer work, update only the relevant section notes unless a hub link or topic note is clearly needed.
+- Before finishing, scan the edited notes for the vault's MathJax conventions and run a Git diff check when possible.
+
 ## Git Workflow
 
 This project is an Obsidian vault stored in Git.
