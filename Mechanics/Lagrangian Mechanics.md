@@ -50,6 +50,148 @@ After defining $p_i$, solve for $\dot{q}_i$ in terms of $q_i,p_i,t$ before treat
 
 The Lagrangian approach is especially useful when constraints make Cartesian force equations awkward. Good coordinates can make the problem simpler before solving any differential equations.
 
+## Examples
+
+### Particle In A Potential
+
+For a particle moving in one dimension:
+
+$$
+L=\frac{1}{2}m\dot{x}^2-V(x)
+$$
+
+Use the Euler-Lagrange equation:
+
+$$
+\frac{d}{dt}\frac{\partial L}{\partial \dot{x}}-\frac{\partial L}{\partial x}=0
+$$
+
+Compute the velocity derivative:
+
+$$
+\frac{\partial L}{\partial \dot{x}}=m\dot{x}
+$$
+
+Then:
+
+$$
+\frac{d}{dt}\frac{\partial L}{\partial \dot{x}}=m\ddot{x}
+$$
+
+Compute the position derivative:
+
+$$
+\frac{\partial L}{\partial x}=-\frac{dV}{dx}
+$$
+
+So:
+
+$$
+m\ddot{x}+\frac{dV}{dx}=0
+$$
+
+or:
+
+$$
+m\ddot{x}=-\frac{dV}{dx}
+$$
+
+This recovers Newton's second law for a conservative force.
+
+### Harmonic Oscillator
+
+For a mass on a spring:
+
+$$
+V(x)=\frac{1}{2}kx^2
+$$
+
+so:
+
+$$
+L=\frac{1}{2}m\dot{x}^2-\frac{1}{2}kx^2
+$$
+
+The derivatives are:
+
+$$
+\frac{\partial L}{\partial \dot{x}}=m\dot{x}
+$$
+
+and:
+
+$$
+\frac{\partial L}{\partial x}=-kx
+$$
+
+The Euler-Lagrange equation gives:
+
+$$
+m\ddot{x}+kx=0
+$$
+
+or:
+
+$$
+\ddot{x}+\frac{k}{m}x=0
+$$
+
+This is the familiar harmonic oscillator equation.
+
+### Simple Pendulum
+
+For a pendulum of length $\ell$, use the angle $\theta$ as the generalized coordinate.
+
+The kinetic energy is:
+
+$$
+T=\frac{1}{2}m\ell^2\dot{\theta}^2
+$$
+
+Choosing the lowest point as zero potential energy:
+
+$$
+V=mg\ell(1-\cos\theta)
+$$
+
+So:
+
+$$
+L=\frac{1}{2}m\ell^2\dot{\theta}^2-mg\ell(1-\cos\theta)
+$$
+
+Now:
+
+$$
+\frac{\partial L}{\partial \dot{\theta}}=m\ell^2\dot{\theta}
+$$
+
+and:
+
+$$
+\frac{\partial L}{\partial \theta}=-mg\ell\sin\theta
+$$
+
+The Euler-Lagrange equation gives:
+
+$$
+m\ell^2\ddot{\theta}+mg\ell\sin\theta=0
+$$
+
+or:
+
+$$
+\ddot{\theta}+\frac{g}{\ell}\sin\theta=0
+$$
+
+For small angles, $\sin\theta\approx\theta$, giving:
+
+$$
+\ddot{\theta}+\frac{g}{\ell}\theta=0
+$$
+
+This shows why generalized coordinates are useful: the pendulum's constraint is built into the coordinate $\theta$.
+
 ## Related Concepts
 
 - [Action Principle](Action%20Principle.md)

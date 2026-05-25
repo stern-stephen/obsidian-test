@@ -114,6 +114,144 @@ $$
 
 But this is a result of the example, not the definition. The definition is the Legendre transform from $L(q,\dot{q},t)$ to $H(q,p,t)$.
 
+## Examples
+
+### Particle In A Potential
+
+Start from the Hamiltonian:
+
+$$
+H(x,p)=\frac{p^2}{2m}+V(x)
+$$
+
+Hamilton's equations are:
+
+$$
+\dot{x}=\frac{\partial H}{\partial p}
+$$
+
+and:
+
+$$
+\dot{p}=-\frac{\partial H}{\partial x}
+$$
+
+Compute:
+
+$$
+\dot{x}=\frac{p}{m}
+$$
+
+and:
+
+$$
+\dot{p}=-\frac{dV}{dx}
+$$
+
+Since $p=m\dot{x}$, the second equation becomes:
+
+$$
+m\ddot{x}=-\frac{dV}{dx}
+$$
+
+So Hamiltonian mechanics recovers the same equation of motion as the Lagrangian method, but written as two first-order equations in phase space.
+
+### Harmonic Oscillator
+
+For:
+
+$$
+V(x)=\frac{1}{2}kx^2
+$$
+
+the Hamiltonian is:
+
+$$
+H(x,p)=\frac{p^2}{2m}+\frac{1}{2}kx^2
+$$
+
+Hamilton's equations give:
+
+$$
+\dot{x}=\frac{\partial H}{\partial p}=\frac{p}{m}
+$$
+
+and:
+
+$$
+\dot{p}=-\frac{\partial H}{\partial x}=-kx
+$$
+
+Differentiate the first equation:
+
+$$
+\ddot{x}=\frac{\dot{p}}{m}
+$$
+
+Substitute $\dot{p}=-kx$:
+
+$$
+\ddot{x}=-\frac{k}{m}x
+$$
+
+So:
+
+$$
+\ddot{x}+\frac{k}{m}x=0
+$$
+
+The Hamiltonian viewpoint tracks the motion as a curve in the $x,p$ phase plane. For the harmonic oscillator, constant-energy curves are ellipses:
+
+$$
+\frac{p^2}{2m}+\frac{1}{2}kx^2=E
+$$
+
+### Simple Pendulum
+
+For a pendulum with coordinate $\theta$, the conjugate momentum is:
+
+$$
+p_\theta=\frac{\partial L}{\partial \dot{\theta}}=m\ell^2\dot{\theta}
+$$
+
+So:
+
+$$
+\dot{\theta}=\frac{p_\theta}{m\ell^2}
+$$
+
+The Hamiltonian is:
+
+$$
+H(\theta,p_\theta)=\frac{p_\theta^2}{2m\ell^2}+mg\ell(1-\cos\theta)
+$$
+
+Hamilton's equations give:
+
+$$
+\dot{\theta}=\frac{\partial H}{\partial p_\theta}=\frac{p_\theta}{m\ell^2}
+$$
+
+and:
+
+$$
+\dot{p}_\theta=-\frac{\partial H}{\partial \theta}=-mg\ell\sin\theta
+$$
+
+Since $p_\theta=m\ell^2\dot{\theta}$:
+
+$$
+m\ell^2\ddot{\theta}=-mg\ell\sin\theta
+$$
+
+or:
+
+$$
+\ddot{\theta}+\frac{g}{\ell}\sin\theta=0
+$$
+
+This is the same pendulum equation found from the Lagrangian, but expressed through the phase-space variables $\theta$ and $p_\theta$.
+
 ## Quantum Bridge
 
 The Hamiltonian becomes the operator that generates time evolution in quantum mechanics.
