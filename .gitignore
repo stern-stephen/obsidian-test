@@ -1,9 +1,9 @@
 # Obsidian local workspace state
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+.obsidian/graph.json
 .obsidian/cache/
 
 # Operating system noise
 .DS_Store
 Thumbs.db
-
