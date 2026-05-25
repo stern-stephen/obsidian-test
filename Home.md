@@ -8,6 +8,7 @@ Welcome to a tiny Obsidian vault for working with Codex.
 - [Nielsen And Chuang](Book%20Notes/Nielsen%20Chuang/Nielsen%20Chuang.md)
 - [Townsend](Book%20Notes/Townsend/Townsend.md)
 - [Shankar](Book%20Notes/Shankar/Shankar.md)
+- [Mathematics](Mathematics/Mathematics.md)
 - [Linear Algebra](Linear%20Algebra/Linear%20Algebra.md)
 - [Mechanics](Mechanics/Mechanics.md)
 - [Quantum Mechanics](Quantum%20Mechanics/Quantum%20Mechanics.md)

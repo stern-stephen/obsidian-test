@@ -39,6 +39,7 @@ Keep book notes and topic notes separate.
 - When a book section introduces a durable concept, create or update the relevant topic note and link to it from the book note.
 - Do not let general explanations live only inside a book note when they will be useful across books.
 - Topic notes should synthesize in original words and may link back to the book sections that motivated them.
+- When the user asks a conceptual question and the answer would clarify or improve an existing durable note, update the appropriate concept note automatically unless the user asks for chat-only help.
 
 ## Book Chapter Navigation
 

@@ -20,11 +20,12 @@ This page is the hub for classical mechanics concepts that recur across the text
 - [Conservation Laws](Conservation%20Laws.md)
 - [Two-Body Problem](Two-Body%20Problem.md)
 - [Electromagnetic Lagrangian](Electromagnetic%20Lagrangian.md)
+- [Legendre Transforms](../Mathematics/Legendre%20Transforms.md)
 
 ## Book Links
 
 - [Shankar](../Book%20Notes/Shankar/Shankar.md)
-- [Review of Classical Mechanics](../Book%20Notes/Shankar/Chapter%202/Review%20of%20Classical%20Mechanics.md)
+- [Shankar Chapter 2 Overview](../Book%20Notes/Shankar/Chapter%202/Chapter%20Overview.md)
 
 ## Why It Matters
 
