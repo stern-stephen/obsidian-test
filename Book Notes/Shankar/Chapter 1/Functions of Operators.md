@@ -6,6 +6,10 @@ Book hub: [Shankar](../Shankar.md)
 
 Book section: 1.9.
 
+Previous: [The Eigenvalue Problem](The%20Eigenvalue%20Problem.md)
+
+Next: [Infinite-Dimensional Spaces](Infinite-Dimensional%20Spaces.md)
+
 ## Reading Status
 
 - Status: started

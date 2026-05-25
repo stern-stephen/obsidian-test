@@ -6,6 +6,10 @@ Book hub: [Shankar](../Shankar.md)
 
 Book section: 1.7.
 
+Previous: [Matrix Elements of Linear Operators](Matrix%20Elements%20of%20Linear%20Operators.md)
+
+Next: [The Eigenvalue Problem](The%20Eigenvalue%20Problem.md)
+
 ## Reading Status
 
 - Status: started

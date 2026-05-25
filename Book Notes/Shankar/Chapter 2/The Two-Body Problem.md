@@ -6,6 +6,10 @@ Book hub: [Shankar](../Shankar.md)
 
 Book section: 2.3.
 
+Previous: [The Electromagnetic Lagrangian](The%20Electromagnetic%20Lagrangian.md)
+
+Next: [How Smart Is a Particle](How%20Smart%20Is%20a%20Particle.md)
+
 ## Reading Status
 
 - Status: started

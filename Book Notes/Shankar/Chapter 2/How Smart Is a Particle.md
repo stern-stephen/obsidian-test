@@ -6,6 +6,10 @@ Book hub: [Shankar](../Shankar.md)
 
 Book section: 2.4.
 
+Previous: [The Two-Body Problem](The%20Two-Body%20Problem.md)
+
+Next: [The Hamiltonian Formalism](The%20Hamiltonian%20Formalism.md)
+
 ## Reading Status
 
 - Status: started

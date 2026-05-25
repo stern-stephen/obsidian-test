@@ -6,6 +6,10 @@ Book hub: [Shankar](../Shankar.md)
 
 Book section: 2.6.
 
+Previous: [The Hamiltonian Formalism](The%20Hamiltonian%20Formalism.md)
+
+Next: [Cyclic Coordinates, Poisson Brackets, and Canonical Transformations](Cyclic%20Coordinates%20Poisson%20Brackets%20and%20Canonical%20Transformations.md)
+
 ## Reading Status
 
 - Status: started

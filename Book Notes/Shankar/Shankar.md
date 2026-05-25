@@ -11,7 +11,7 @@ Use this page to track chapter notes, questions, and concept pages created while
 ## Chapter Notes
 
 - Chapter 1
-  - [Mathematical Introduction](Chapter%201/Mathematical%20Introduction.md)
+  - [Chapter 1 Overview](Chapter%201/Chapter%20Overview.md)
   - [Linear Vector Spaces Basics](Chapter%201/Linear%20Vector%20Spaces%20Basics.md)
   - [Inner Product Spaces](Chapter%201/Inner%20Product%20Spaces.md)
   - [Dual Spaces and Dirac Notation](Chapter%201/Dual%20Spaces%20and%20Dirac%20Notation.md)
@@ -24,7 +24,7 @@ Use this page to track chapter notes, questions, and concept pages created while
   - [Infinite-Dimensional Spaces](Chapter%201/Infinite-Dimensional%20Spaces.md)
   - [Operators in Infinite Dimensions - Walkthrough](Chapter%201/Operators%20in%20Infinite%20Dimensions%20-%20Walkthrough.md)
 - Chapter 2
-  - [Review of Classical Mechanics](Chapter%202/Review%20of%20Classical%20Mechanics.md)
+  - [Chapter 2 Overview](Chapter%202/Chapter%20Overview.md)
   - [The Principle of Least Action and Lagrangian Mechanics](Chapter%202/The%20Principle%20of%20Least%20Action%20and%20Lagrangian%20Mechanics.md)
   - [The Electromagnetic Lagrangian](Chapter%202/The%20Electromagnetic%20Lagrangian.md)
   - [The Two-Body Problem](Chapter%202/The%20Two-Body%20Problem.md)

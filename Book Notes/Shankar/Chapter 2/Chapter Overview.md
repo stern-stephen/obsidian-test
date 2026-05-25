@@ -1,10 +1,12 @@
-# Review of Classical Mechanics
+# Chapter Overview
 
 Source: [Principles of Quantum Mechanics](../../../References/Principals%20of%20quantum%20mechanics%20Shankar%20.pdf)
 
 Book hub: [Shankar](../Shankar.md)
 
 Book chapter: 2.
+
+Next: [The Principle of Least Action and Lagrangian Mechanics](The%20Principle%20of%20Least%20Action%20and%20Lagrangian%20Mechanics.md)
 
 ## Reading Status
 

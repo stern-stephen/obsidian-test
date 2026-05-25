@@ -1,10 +1,12 @@
-# Mathematical Introduction
+# Chapter Overview
 
 Source: [Principles of Quantum Mechanics](../../../References/Principals%20of%20quantum%20mechanics%20Shankar%20.pdf)
 
 Book hub: [Shankar](../Shankar.md)
 
 Book chapter: 1, pages 1-73.
+
+Next: [Linear Vector Spaces Basics](Linear%20Vector%20Spaces%20Basics.md)
 
 ## Reading Status
 

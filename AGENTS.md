@@ -40,6 +40,17 @@ Keep book notes and topic notes separate.
 - Do not let general explanations live only inside a book note when they will be useful across books.
 - Topic notes should synthesize in original words and may link back to the book sections that motivated them.
 
+## Book Chapter Navigation
+
+For book chapter folders, make the chapter overview note act as the entry point.
+
+- Prefer naming chapter overview notes as `Chapter Overview.md`.
+- Link to the chapter overview from the book hub before the section notes.
+- Add simple `Previous:` and `Next:` links near the top of each section note, after the book section/page metadata and before `## Reading Status`.
+- The first section should link back to `Chapter Overview.md` as `Previous:`.
+- The last section should usually have only a `Previous:` link unless there is a clear next chapter note to continue into.
+- Keep navigation links as standard Markdown links with percent-encoded spaces.
+
 ## Textbook Exercise Answers
 
 When adding answers to textbook exercises:

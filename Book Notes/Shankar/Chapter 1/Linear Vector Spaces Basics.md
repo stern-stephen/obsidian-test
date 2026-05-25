@@ -6,6 +6,10 @@ Book hub: [Shankar](../Shankar.md)
 
 Book section: 1.1.
 
+Previous: [Chapter Overview](Chapter%20Overview.md)
+
+Next: [Inner Product Spaces](Inner%20Product%20Spaces.md)
+
 ## Reading Status
 
 - Status: started

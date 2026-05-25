@@ -6,6 +6,10 @@ Book hub: [Shankar](../Shankar.md)
 
 Book section: 1.2.
 
+Previous: [Linear Vector Spaces Basics](Linear%20Vector%20Spaces%20Basics.md)
+
+Next: [Dual Spaces and Dirac Notation](Dual%20Spaces%20and%20Dirac%20Notation.md)
+
 ## Reading Status
 
 - Status: started

@@ -6,6 +6,10 @@ Book hub: [Shankar](../Shankar.md)
 
 Book section: 2.5.
 
+Previous: [How Smart Is a Particle](How%20Smart%20Is%20a%20Particle.md)
+
+Next: [The Electromagnetic Force in the Hamiltonian Scheme](The%20Electromagnetic%20Force%20in%20the%20Hamiltonian%20Scheme.md)
+
 ## Reading Status
 
 - Status: started

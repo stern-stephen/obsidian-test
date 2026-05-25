@@ -6,6 +6,10 @@ Book hub: [Shankar](../Shankar.md)
 
 Book section: 1.4.
 
+Previous: [Dual Spaces and Dirac Notation](Dual%20Spaces%20and%20Dirac%20Notation.md)
+
+Next: [Linear Operators](Linear%20Operators.md)
+
 ## Reading Status
 
 - Status: started

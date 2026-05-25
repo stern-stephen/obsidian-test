@@ -6,6 +6,10 @@ Book hub: [Shankar](../Shankar.md)
 
 Book section: 1.5.
 
+Previous: [Subspaces](Subspaces.md)
+
+Next: [Matrix Elements of Linear Operators](Matrix%20Elements%20of%20Linear%20Operators.md)
+
 ## Reading Status
 
 - Status: started

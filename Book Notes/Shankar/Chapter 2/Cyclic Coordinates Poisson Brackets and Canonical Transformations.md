@@ -6,6 +6,10 @@ Book hub: [Shankar](../Shankar.md)
 
 Book section: 2.7.
 
+Previous: [The Electromagnetic Force in the Hamiltonian Scheme](The%20Electromagnetic%20Force%20in%20the%20Hamiltonian%20Scheme.md)
+
+Next: [Symmetries and Their Consequences](Symmetries%20and%20Their%20Consequences.md)
+
 ## Reading Status
 
 - Status: started

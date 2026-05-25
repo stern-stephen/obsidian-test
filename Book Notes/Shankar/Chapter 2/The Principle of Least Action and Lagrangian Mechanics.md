@@ -6,6 +6,10 @@ Book hub: [Shankar](../Shankar.md)
 
 Book section: 2.1.
 
+Previous: [Chapter Overview](Chapter%20Overview.md)
+
+Next: [The Electromagnetic Lagrangian](The%20Electromagnetic%20Lagrangian.md)
+
 ## Reading Status
 
 - Status: started

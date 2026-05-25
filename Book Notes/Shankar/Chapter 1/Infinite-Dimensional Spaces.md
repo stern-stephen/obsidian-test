@@ -8,6 +8,8 @@ Book section: 1.10.
 
 Focused walkthrough: [Operators in Infinite Dimensions - Walkthrough](Operators%20in%20Infinite%20Dimensions%20-%20Walkthrough.md)
 
+Previous: [Functions of Operators](Functions%20of%20Operators.md)
+
 ## Reading Status
 
 - Status: started

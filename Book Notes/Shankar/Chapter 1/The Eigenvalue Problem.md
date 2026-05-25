@@ -6,6 +6,10 @@ Book hub: [Shankar](../Shankar.md)
 
 Book section: 1.8.
 
+Previous: [Active and Passive Transformations](Active%20and%20Passive%20Transformations.md)
+
+Next: [Functions of Operators](Functions%20of%20Operators.md)
+
 ## Reading Status
 
 - Status: started

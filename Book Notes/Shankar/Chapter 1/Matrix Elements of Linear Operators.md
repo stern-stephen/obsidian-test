@@ -6,6 +6,10 @@ Book hub: [Shankar](../Shankar.md)
 
 Book section: 1.6.
 
+Previous: [Linear Operators](Linear%20Operators.md)
+
+Next: [Active and Passive Transformations](Active%20and%20Passive%20Transformations.md)
+
 ## Reading Status
 
 - Status: started
