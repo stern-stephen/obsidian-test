@@ -50,6 +50,50 @@ $$
 
 Projective measurements are closely tied to Hermitian operators: the possible measurement outcomes are eigenvalues, and the projectors pick out the corresponding eigenspaces.
 
+## Collapse Of The State Vector
+
+Collapse is the measurement-update rule for a quantum state after a particular outcome is observed.
+
+Suppose an observable $\Omega$ has eigenstates $|\omega_n\rangle$, and the state before measurement is:
+
+$$
+|\psi\rangle=\sum_n c_n|\omega_n\rangle
+$$
+
+The state is not saying that one hidden outcome has already been selected and the measurement merely reveals it. It is a superposition whose amplitudes determine the probabilities for possible outcomes.
+
+If the measured value is $\omega_k$, the probability of that result is:
+
+$$
+P(\omega_k)=|c_k|^2
+$$
+
+After the result is obtained, the state used for later predictions is replaced by the corresponding eigenstate:
+
+$$
+|\psi\rangle \rightarrow |\omega_k\rangle
+$$
+
+For degenerate outcomes, the state is projected into the whole eigenspace associated with the observed eigenvalue. If $P_k$ is the projector onto that eigenspace, the normalized post-measurement state is:
+
+$$
+|\psi'\rangle=\frac{P_k|\psi\rangle}{\sqrt{\langle \psi|P_k|\psi\rangle}}
+$$
+
+This is different from ordinary Schrodinger evolution. Schrodinger evolution is deterministic and unitary; collapse is probabilistic and depends on the measurement outcome. Operationally, collapse means the measurement has prepared a new state, so future measurements must be predicted from that new state.
+
+The repeatability of projective measurement follows from collapse. If a measurement of $\Omega$ gives $\omega_k$ and the same measurement is repeated immediately, the second measurement gives $\omega_k$ again, because the first measurement prepared the state in the $\omega_k$ eigenspace.
+
+## Disturbance And Resolution
+
+A gentle measurement is not automatically a precise measurement. In a position measurement, one may reduce the momentum kick by using a low-momentum, long-wavelength probe, but that also makes the position resolution poor. To localize the particle sharply, the post-measurement state must be narrow in position, which makes its momentum spread large.
+
+This is why "small disturbance in momentum" does not imply simultaneous sharp knowledge of position and momentum. The relevant tradeoff is:
+
+$$
+\Delta x \Delta p \geq \frac{\hbar}{2}
+$$
+
 ## POVMs
 
 A POVM focuses on outcome probabilities. Its elements are:

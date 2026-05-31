@@ -49,6 +49,40 @@ If measurement of $\Omega$ gives the eigenvalue $\omega$, the state is projected
 
 Repeated immediate measurement of the same observable gives the same result, because the first measurement prepares an eigenstate of that observable.
 
+### Collapse Of The State Vector
+
+Before measurement, the state can be a superposition of many possible outcomes for the observable being measured. If $\Omega$ has eigenstates $|\omega_n\rangle$, the state may be written as:
+
+$$
+|\psi\rangle=\sum_n c_n|\omega_n\rangle
+$$
+
+The coefficients $c_n$ are probability amplitudes. A measurement of $\Omega$ does not reveal all the coefficients. Instead, it produces one eigenvalue, say $\omega_k$, with probability:
+
+$$
+P(\omega_k)=|c_k|^2
+$$
+
+After that result is obtained, the state used for future predictions is no longer the original superposition. It is replaced by the eigenstate corresponding to the observed result:
+
+$$
+|\psi\rangle \rightarrow |\omega_k\rangle
+$$
+
+This replacement is what Shankar calls collapse of the state vector. It is a rule for updating the quantum state after a measurement outcome is obtained. The collapse is not ordinary time evolution under the Schrodinger equation; Schrodinger evolution is smooth and deterministic, while collapse is outcome-dependent and probabilistic.
+
+The practical meaning is that measurement also prepares a new state. If a second measurement of the same observable is made immediately, it gives the same result because the first measurement left the system in an eigenstate of that observable. But a later measurement of an incompatible observable may have a spread of possible outcomes.
+
+For an observable with degenerate eigenvalues, collapse is into the eigenspace associated with the measured eigenvalue rather than necessarily into one unique eigenvector.
+
+Around page 122, Shankar's point is not that position and momentum can both be known arbitrarily well. A position measurement can be made so gentle that the momentum kick is small, but only by using a probe with poor position resolution. To know position sharply, the apparatus must localize the particle sharply, and that collapse produces a broad momentum spread. Conversely, a sharp momentum state is delocalized in position.
+
+For approximate states, the tradeoff is summarized by:
+
+$$
+\Delta x \Delta p \geq \frac{\hbar}{2}
+$$
+
 ## Compatible Observables
 
 Two observables that commute can have simultaneous eigenstates. In that case, one can prepare a state with definite values for both observables.
