@@ -43,6 +43,12 @@ $$
 
 Unitarity preserves inner products and therefore preserves total probability.
 
+In Shankar's single-particle formulation, the continuous-time version is the Schrodinger equation:
+
+$$
+i\hbar \frac{d}{dt}|\psi(t)\rangle=H|\psi(t)\rangle
+$$
+
 ## Measurement
 
 Measurement is probabilistic. In the general measurement-operator formalism, outcome $m$ has probability:
@@ -52,6 +58,8 @@ p(m)=\langle \psi|M_m^\dagger M_m|\psi\rangle
 $$
 
 See [Quantum Measurement](Quantum%20Measurement.md) for the reusable measurement note.
+
+In Shankar's projective-measurement presentation, measuring an observable gives one of the corresponding Hermitian operator's eigenvalues, with probabilities determined by projection onto the eigenspaces.
 
 ## Composite Systems
 
@@ -67,13 +75,14 @@ Tensor products make entangled states possible.
 
 - [Nielsen and Chuang: Postulates of Quantum Mechanics](../Book%20Notes/Nielsen%20Chuang/Chapter%202/Postulates%20of%20Quantum%20Mechanics.md)
 - [Townsend: Stern-Gerlach Experiments](../Book%20Notes/Townsend/Chapter%201/Stern-Gerlach%20Experiments.md)
-- [Shankar: Mathematical Introduction](../Book%20Notes/Shankar/Chapter%201/Mathematical%20Introduction.md)
+- [Shankar Chapter 4: The Postulates](../Book%20Notes/Shankar/Chapter%204/The%20Postulates.md)
 
 ## Related Concepts
 
 - [Quantum Mechanics](Quantum%20Mechanics.md)
 - [Quantum State Vector](Quantum%20State%20Vector.md)
 - [Quantum Measurement](Quantum%20Measurement.md)
+- [Schrodinger Equation](Schrodinger%20Equation.md)
 - [Composite Quantum Systems](Composite%20Quantum%20Systems.md)
 - [Tensor Products](../Linear%20Algebra/Tensor%20Products.md)
 - [Inner Product Spaces](../Linear%20Algebra/Inner%20Product%20Spaces.md)

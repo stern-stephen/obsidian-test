@@ -44,6 +44,23 @@ The state vector is richer than a list of probabilities.
 
 Two states can give the same probabilities for one measurement but different probabilities for another measurement. This happens because relative phases between amplitudes can affect later outcomes.
 
+In a continuous position basis, the wavefunction is the position representation of the state vector:
+
+$$
+\psi(x)=\langle x|\psi\rangle
+$$
+
+The corresponding position probability density is:
+
+$$
+P(x)=|\psi(x)|^2
+$$
+
+## Related Book Notes
+
+- [Shankar Chapter 3: Conclusions](../Book%20Notes/Shankar/Chapter%203/Conclusions.md)
+- [Shankar Chapter 4: Discussion of Postulates I-III](../Book%20Notes/Shankar/Chapter%204/Discussion%20of%20Postulates%20I-III.md)
+
 ## Related Concepts
 
 - [Quantum Mechanics](Quantum%20Mechanics.md)

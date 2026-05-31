@@ -33,6 +33,18 @@ Use this page to track chapter notes, questions, and concept pages created while
   - [The Electromagnetic Force in the Hamiltonian Scheme](Chapter%202/The%20Electromagnetic%20Force%20in%20the%20Hamiltonian%20Scheme.md)
   - [Cyclic Coordinates, Poisson Brackets, and Canonical Transformations](Chapter%202/Cyclic%20Coordinates%20Poisson%20Brackets%20and%20Canonical%20Transformations.md)
   - [Symmetries and Their Consequences](Chapter%202/Symmetries%20and%20Their%20Consequences.md)
+- Chapter 3
+  - [Chapter 3 Overview](Chapter%203/Chapter%20Overview.md)
+  - [Particles and Waves in Classical Physics](Chapter%203/Particles%20and%20Waves%20in%20Classical%20Physics.md)
+  - [An Experiment with Waves and Particles](Chapter%203/An%20Experiment%20with%20Waves%20and%20Particles.md)
+  - [The Double-Slit Experiment with Light](Chapter%203/The%20Double-Slit%20Experiment%20with%20Light.md)
+  - [Matter Waves](Chapter%203/Matter%20Waves.md)
+  - [Conclusions](Chapter%203/Conclusions.md)
+- Chapter 4
+  - [Chapter 4 Overview](Chapter%204/Chapter%20Overview.md)
+  - [The Postulates](Chapter%204/The%20Postulates.md)
+  - [Discussion of Postulates I-III](Chapter%204/Discussion%20of%20Postulates%20I-III.md)
+  - [The Schrodinger Equation](Chapter%204/The%20Schrodinger%20Equation.md)
 
 ## Core Concept Areas
 
@@ -46,6 +58,8 @@ Use this page to track chapter notes, questions, and concept pages created while
 - How do finite-dimensional ideas like basis, inner product, adjoint, and eigenvectors survive in infinite-dimensional spaces?
 - What is the right way to think about a function as a vector?
 - How do classical structures like phase space, Poisson brackets, and Hamiltonians become quantum structures?
+- How should I think about the wavefunction: a physical wave, a probability amplitude, or a coordinate representation of a ket?
+- What exactly changes during measurement, and what is only an update to prediction?
 
 ## Concepts To Extract
 
@@ -54,6 +68,8 @@ Use this page to track chapter notes, questions, and concept pages created while
 - [Dirac Delta Function](../../Linear%20Algebra/Dirac%20Delta%20Function.md)
 - [Action Principle](../../Mechanics/Action%20Principle.md)
 - [Poisson Brackets](../../Mechanics/Poisson%20Brackets.md)
+- [Wave-Particle Duality](../../Quantum%20Mechanics/Wave-Particle%20Duality.md)
+- [Schrodinger Equation](../../Quantum%20Mechanics/Schrodinger%20Equation.md)
 - Hilbert spaces
 - Spectral decomposition
 
@@ -66,3 +82,7 @@ Use this page to track chapter notes, questions, and concept pages created while
 - [Bra-Ket Notation](../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Classical Mechanics](../../Mechanics/Classical%20Mechanics.md)
 - [Hamiltonian Mechanics](../../Mechanics/Hamiltonian%20Mechanics.md)
+- [Wave-Particle Duality](../../Quantum%20Mechanics/Wave-Particle%20Duality.md)
+- [Postulates of Quantum Mechanics](../../Quantum%20Mechanics/Postulates%20of%20Quantum%20Mechanics.md)
+- [Quantum Measurement](../../Quantum%20Mechanics/Quantum%20Measurement.md)
+- [Schrodinger Equation](../../Quantum%20Mechanics/Schrodinger%20Equation.md)

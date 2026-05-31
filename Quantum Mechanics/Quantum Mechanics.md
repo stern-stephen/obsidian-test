@@ -18,6 +18,8 @@ This page is the hub for quantum mechanics concepts that recur across the textbo
 - Composite systems use [tensor products](../Linear%20Algebra/Tensor%20Products.md), which make [entanglement](Entanglement.md) possible.
 - Mixed states and subsystems are described by [density operators](Density%20Operators.md).
 - Quantum dynamics inherits much of its notation from [Hamiltonian mechanics](../Mechanics/Hamiltonian%20Mechanics.md).
+- Wave-particle duality motivates why quantum states use probability amplitudes rather than definite classical trajectories.
+- The [Schrodinger equation](Schrodinger%20Equation.md) gives the time evolution of the state vector in ordinary nonrelativistic quantum mechanics.
 - Stern-Gerlach experiments make the measurement and state-preparation role of apparatuses concrete.
 
 ## Book Links
@@ -25,6 +27,8 @@ This page is the hub for quantum mechanics concepts that recur across the textbo
 - [Nielsen And Chuang](../Book%20Notes/Nielsen%20Chuang/Nielsen%20Chuang.md)
 - [Townsend](../Book%20Notes/Townsend/Townsend.md)
 - [Shankar](../Book%20Notes/Shankar/Shankar.md)
+- [Shankar Chapter 3: All Is Not Well with Classical Mechanics](../Book%20Notes/Shankar/Chapter%203/Chapter%20Overview.md)
+- [Shankar Chapter 4: The Postulates](../Book%20Notes/Shankar/Chapter%204/Chapter%20Overview.md)
 - [Stern-Gerlach Experiments](../Book%20Notes/Townsend/Chapter%201/Stern-Gerlach%20Experiments.md)
 - [Functions of Operators](../Book%20Notes/Shankar/Chapter%201/Functions%20of%20Operators.md)
 - [Infinite-Dimensional Spaces](../Book%20Notes/Shankar/Chapter%201/Infinite-Dimensional%20Spaces.md)
@@ -44,8 +48,10 @@ This page is the hub for quantum mechanics concepts that recur across the textbo
 - [Linear Algebra](../Linear%20Algebra/Linear%20Algebra.md)
 - [Stern-Gerlach Experiments](Stern-Gerlach%20Experiments.md)
 - [Quantum State Vector](Quantum%20State%20Vector.md)
+- [Wave-Particle Duality](Wave-Particle%20Duality.md)
 - [Postulates of Quantum Mechanics](Postulates%20of%20Quantum%20Mechanics.md)
 - [Quantum Measurement](Quantum%20Measurement.md)
+- [Schrodinger Equation](Schrodinger%20Equation.md)
 - [Composite Quantum Systems](Composite%20Quantum%20Systems.md)
 - [Density Operators](Density%20Operators.md)
 - [Entanglement](Entanglement.md)
