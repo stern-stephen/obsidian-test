@@ -19,6 +19,18 @@ Continuous symmetries lead to conserved quantities:
 - Spatial translation symmetry gives momentum conservation.
 - Rotational symmetry gives angular momentum conservation.
 
+The conserved quantity is the generator of the symmetry. In Hamiltonian mechanics, if $G$ generates a transformation and the Hamiltonian is unchanged by that transformation, then:
+
+$$
+\{G,H\}=0
+$$
+
+When $G$ has no explicit time dependence, this means:
+
+$$
+\frac{dG}{dt}=0
+$$
+
 ## Hamiltonian Form
 
 If a quantity $G$ has no explicit time dependence, then it is conserved when:
@@ -38,6 +50,7 @@ $$
 ## Related Concepts
 
 - [Poisson Brackets](Poisson%20Brackets.md)
+- [Symmetries](Symmetries.md)
 - [Hamiltonian Mechanics](Hamiltonian%20Mechanics.md)
 - [Cyclic Coordinates](Cyclic%20Coordinates.md)
 - [Commutators](../Linear%20Algebra/Commutators.md)

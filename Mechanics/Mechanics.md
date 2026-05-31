@@ -17,6 +17,7 @@ This page is the hub for classical mechanics concepts that recur across the text
 - [Poisson Brackets](Poisson%20Brackets.md)
 - [Canonical Transformations](Canonical%20Transformations.md)
 - [Cyclic Coordinates](Cyclic%20Coordinates.md)
+- [Symmetries](Symmetries.md)
 - [Conservation Laws](Conservation%20Laws.md)
 - [Two-Body Problem](Two-Body%20Problem.md)
 - [Electromagnetic Lagrangian](Electromagnetic%20Lagrangian.md)
