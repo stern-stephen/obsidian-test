@@ -58,6 +58,8 @@ $$
 \{q_i,p_j\} = \delta_{ij}
 $$
 
+The reusable concept note [Poisson Brackets](../../../Mechanics/Poisson%20Brackets.md) collects the standard identities and proofs: bilinearity, antisymmetry, product rules, fundamental brackets, brackets with $q_i$ and $p_i$, the Jacobi identity, and the conservation condition $\{f,H\}=0$.
+
 ## Canonical Transformations
 
 A canonical transformation is a change of phase-space coordinates that preserves Hamilton's form of the equations of motion.
