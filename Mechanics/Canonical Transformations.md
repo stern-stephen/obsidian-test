@@ -14,9 +14,59 @@ $$
 \{Q_i,P_j\} = \delta_{ij}
 $$
 
+with:
+
+$$
+\{Q_i,Q_j\}=0,\quad \{P_i,P_j\}=0
+$$
+
 ## Intuition
 
 Canonical transformations are the phase-space analogue of choosing better coordinates while preserving the mechanics.
+
+They preserve the pairing between coordinates and momenta, not just the number of variables.
+
+## Point Transformations
+
+A point transformation changes only the configuration coordinates:
+
+$$
+Q_i=Q_i(q)
+$$
+
+If the inverse relation is $q_i=q_i(Q)$, the momenta must transform as:
+
+$$
+P_i=\sum_j p_j \frac{\partial q_j}{\partial Q_i}
+$$
+
+Equivalently:
+
+$$
+p_i=\sum_j P_j \frac{\partial Q_j}{\partial q_i}
+$$
+
+This keeps the phase-space one-form invariant:
+
+$$
+\sum_i p_i dq_i=\sum_i P_i dQ_i
+$$
+
+That is why ordinary coordinate changes in configuration space become canonical transformations only when the momenta transform with the inverse Jacobian.
+
+## Active View
+
+An active canonical transformation moves the phase-space point while keeping the coordinate system fixed. If $G(q,p)$ generates an infinitesimal transformation with parameter $\epsilon$, then:
+
+$$
+\delta f=\epsilon \{f,G\}
+$$
+
+So:
+
+$$
+\delta q_i=\epsilon \frac{\partial G}{\partial p_i},\quad \delta p_i=-\epsilon \frac{\partial G}{\partial q_i}
+$$
 
 ## Why It Matters
 

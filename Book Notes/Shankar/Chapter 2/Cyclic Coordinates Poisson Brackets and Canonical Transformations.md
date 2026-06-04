@@ -68,11 +68,213 @@ A canonical transformation is a change of phase-space coordinates that preserves
 
 This matters because it identifies transformations that change coordinates without changing the underlying mechanics.
 
+If $(q,p)$ are canonical variables, a new set $(Q,P)$ is canonical when the fundamental Poisson brackets have the same form:
+
+$$
+\{Q_i,Q_j\}=0,\quad \{P_i,P_j\}=0,\quad \{Q_i,P_j\}=\delta_{ij}
+$$
+
+This is stronger than merely changing labels. A general change in configuration coordinates $Q_i=Q_i(q)$ must also transform the momenta in the right way:
+
+$$
+P_i=\sum_j p_j \frac{\partial q_j}{\partial Q_i}
+$$
+
+Equivalently:
+
+$$
+p_i=\sum_j P_j \frac{\partial Q_j}{\partial q_i}
+$$
+
+These are inverse Jacobian relations. The momentum components transform oppositely to the coordinate differentials, so that the phase-space one-form is unchanged:
+
+$$
+\sum_i p_i dq_i=\sum_i P_i dQ_i
+$$
+
+That invariance is the geometric reason point transformations preserve the Poisson bracket structure.
+
+### Point Transformations
+
+A point transformation changes only the configuration-space coordinates:
+
+$$
+Q_i=Q_i(q)
+$$
+
+The new coordinates have no explicit dependence on the old momenta. This is a special case of a canonical transformation; more general canonical transformations can mix $q$ and $p$.
+
+For a point transformation, the inverse relation is:
+
+$$
+q_i=q_i(Q)
+$$
+
+Taking a time derivative gives:
+
+$$
+\dot q_i=\sum_j \frac{\partial q_i}{\partial Q_j}\dot Q_j
+$$
+
+Because $q_i$ depends on $Q$ but not on $\dot Q$, differentiating with respect to $\dot Q_j$ gives:
+
+$$
+\frac{\partial \dot q_i}{\partial \dot Q_j}=\frac{\partial q_i}{\partial Q_j}
+$$
+
+This is the key step in deriving the momentum transformation from the Lagrangian.
+
+### Active Transformations In Phase Space
+
+There are two related ways to think about transformations.
+
+In a passive transformation, the physical point in phase space is the same, but we describe it with new canonical coordinates $(Q,P)$ instead of $(q,p)$. A point transformation such as Cartesian to polar coordinates is passive in this sense.
+
+In an active transformation, the coordinate system is held fixed and the phase-space point is moved to a new point. If $G(q,p)$ generates an infinitesimal active transformation with parameter $\epsilon$, then any phase-space function changes by:
+
+$$
+\delta f=\epsilon \{f,G\}
+$$
+
+In particular:
+
+$$
+\delta q_i=\epsilon \{q_i,G\}=\epsilon \frac{\partial G}{\partial p_i}
+$$
+
+and:
+
+$$
+\delta p_i=\epsilon \{p_i,G\}=-\epsilon \frac{\partial G}{\partial q_i}
+$$
+
+This mirrors the active/passive distinction from [Active and Passive Transformations](../Chapter%201/Active%20and%20Passive%20Transformations.md), but now the objects being transformed are phase-space points and phase-space functions rather than vectors and bases.
+
 ## Common Confusions
 
 - A cyclic coordinate is absent from the dynamics formula, but it can still describe a real physical direction.
 - Poisson brackets are operations on functions on phase space, not ordinary products.
 - Canonical transformations are special phase-space transformations, not arbitrary changes of variables.
+- A point transformation changes configuration coordinates, but it becomes a canonical transformation only when the momenta are transformed with the inverse Jacobian.
+- Active and passive transformations can share formulas, but they answer different questions: "did the state move?" versus "did the description change?"
+
+## Exercise Answers
+
+These are answer summaries for Shankar Chapter 2 exercises in this section. I am not reproducing the full problem statements here.
+
+### Exercise 2.7.8
+
+This exercise derives the momentum rule for a point transformation and then checks that the transformation is canonical.
+
+Let the new coordinates be:
+
+$$
+Q_i=Q_i(q)
+$$
+
+Assume the transformation can be inverted:
+
+$$
+q_i=q_i(Q)
+$$
+
+Then the velocities transform by the chain rule:
+
+$$
+\dot q_i=\sum_j \frac{\partial q_i}{\partial Q_j}\dot Q_j
+$$
+
+Since $q_i=q_i(Q)$ has no dependence on the velocities:
+
+$$
+\frac{\partial \dot q_i}{\partial \dot Q_j}=\frac{\partial q_i}{\partial Q_j}
+$$
+
+Now define the transformed Lagrangian by substitution:
+
+$$
+L'(Q,\dot Q)=L(q(Q),\dot q(Q,\dot Q))
+$$
+
+The new momentum conjugate to $Q_j$ is:
+
+$$
+P_j=\frac{\partial L'}{\partial \dot Q_j}
+$$
+
+Use the chain rule:
+
+$$
+P_j=\sum_i \frac{\partial L}{\partial \dot q_i}\frac{\partial \dot q_i}{\partial \dot Q_j}
+$$
+
+Since $p_i=\partial L/\partial \dot q_i$, this becomes:
+
+$$
+P_j=\sum_i p_i \frac{\partial q_i}{\partial Q_j}
+$$
+
+This is Shankar's momentum-transformation law for a point transformation. Multiplying by the inverse Jacobian gives the equivalent form:
+
+$$
+p_i=\sum_j P_j \frac{\partial Q_j}{\partial q_i}
+$$
+
+Now verify the Poisson bracket conditions. Since each $Q_i$ depends only on the old coordinates $q$:
+
+$$
+\{Q_i,Q_j\}=0
+$$
+
+For the mixed bracket:
+
+$$
+\{Q_i,P_j\}=\sum_k \frac{\partial Q_i}{\partial q_k}\frac{\partial P_j}{\partial p_k}
+$$
+
+Using:
+
+$$
+P_j=\sum_l p_l \frac{\partial q_l}{\partial Q_j}
+$$
+
+we get:
+
+$$
+\frac{\partial P_j}{\partial p_k}=\frac{\partial q_k}{\partial Q_j}
+$$
+
+Therefore:
+
+$$
+\{Q_i,P_j\}=\sum_k \frac{\partial Q_i}{\partial q_k}\frac{\partial q_k}{\partial Q_j}=\delta_{ij}
+$$
+
+Finally, the momentum-momentum bracket vanishes. Write:
+
+$$
+P_i=\sum_a p_a \frac{\partial q_a}{\partial Q_i}
+$$
+
+The bracket $\{P_i,P_j\}$ contains terms proportional to second derivatives of the coordinate transformation. These terms cancel pairwise because mixed partial derivatives commute:
+
+$$
+\frac{\partial^2 q_a}{\partial Q_i \partial Q_j}=\frac{\partial^2 q_a}{\partial Q_j \partial Q_i}
+$$
+
+So:
+
+$$
+\{P_i,P_j\}=0
+$$
+
+The transformed variables obey:
+
+$$
+\{Q_i,Q_j\}=0,\quad \{P_i,P_j\}=0,\quad \{Q_i,P_j\}=\delta_{ij}
+$$
+
+Thus the point transformation, with momenta transformed as $P_j=\sum_i p_i \partial q_i/\partial Q_j$, is canonical.
 
 ## Links To Concept Notes
 
