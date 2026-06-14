@@ -100,6 +100,8 @@ $$
 \mathbf{F}=-\nabla V
 $$
 
+This follows from path-independent work: define $V(\mathbf{r})$ as minus the work from a fixed reference point to $\mathbf{r}$. Changing the endpoint by $d\mathbf{r}$ gives $dV=-\mathbf{F}\cdot d\mathbf{r}$, while the differential of a scalar field is $dV=\nabla V\cdot d\mathbf{r}$. Therefore $\mathbf{F}=-\nabla V$. See [Conservative Forces](../../../Mechanics/Conservative%20Forces.md) for the full proof and the necessary domain assumptions.
+
 and:
 
 $$
@@ -118,4 +120,5 @@ If $V(\mathbf{r},t)$ depends explicitly on time, a force may still be obtained f
 ## Links To Concept Notes
 
 - [Classical Mechanics](../../../Mechanics/Classical%20Mechanics.md)
+- [Conservative Forces](../../../Mechanics/Conservative%20Forces.md)
 - [Conservation Laws](../../../Mechanics/Conservation%20Laws.md)
