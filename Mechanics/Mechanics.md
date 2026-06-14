@@ -11,6 +11,8 @@ This page is the hub for classical mechanics concepts that recur across the text
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Euler-Lagrange Equations](Euler-Lagrange%20Equations.md)
 - [Generalized Coordinates](Generalized%20Coordinates.md)
+- [Constraints](Constraints.md)
+- [Virtual Work and D'Alembert's Principle](Virtual%20Work%20and%20DAlemberts%20Principle.md)
 - [Hamiltonian Mechanics](Hamiltonian%20Mechanics.md)
 - [Phase Space](Phase%20Space.md)
 - [Canonical Momentum](Canonical%20Momentum.md)
@@ -21,12 +23,15 @@ This page is the hub for classical mechanics concepts that recur across the text
 - [Conservation Laws](Conservation%20Laws.md)
 - [Two-Body Problem](Two-Body%20Problem.md)
 - [Electromagnetic Lagrangian](Electromagnetic%20Lagrangian.md)
+- [Rayleigh Dissipation Function](Rayleigh%20Dissipation%20Function.md)
 - [Legendre Transforms](../Mathematics/Legendre%20Transforms.md)
 
 ## Book Links
 
 - [Shankar](../Book%20Notes/Shankar/Shankar.md)
 - [Shankar Chapter 2 Overview](../Book%20Notes/Shankar/Chapter%202/Chapter%20Overview.md)
+- [Goldstein](../Book%20Notes/Goldstein/Goldstein.md)
+- [Goldstein Chapter 1 Overview](../Book%20Notes/Goldstein/Chapter%201/Chapter%20Overview.md)
 
 ## Why It Matters
 
