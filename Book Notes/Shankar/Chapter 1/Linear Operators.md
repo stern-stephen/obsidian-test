@@ -26,43 +26,11 @@ Next: [Matrix Elements of Linear Operators](Matrix%20Elements%20of%20Linear%20Op
 
 ## Notes
 
-An operator $A$ is linear if:
+Shankar introduces operators as transformations of abstract vectors before representing them by matrices. That order matters for quantum mechanics: the operator is the basis-independent object, while its matrix elements depend on a chosen basis.
 
-$$
-A(a|u\rangle + b|v\rangle) = aA|u\rangle + bA|v\rangle
-$$
+He also emphasizes ordered composition. The product $AB$ applies $B$ first, and the failure of $A$ and $B$ to commute becomes physically significant once operators represent observables and transformations.
 
-The identity operator leaves every vector unchanged:
-
-$$
-I|v\rangle = |v\rangle
-$$
-
-The zero operator sends every vector to the zero vector:
-
-$$
-0|v\rangle = |0\rangle
-$$
-
-## Products And Commutators
-
-The product $AB$ means "apply $B$ first, then $A$":
-
-$$
-AB|v\rangle = A(B|v\rangle)
-$$
-
-In general:
-
-$$
-AB \ne BA
-$$
-
-The commutator measures this failure:
-
-$$
-[A,B] = AB - BA
-$$
+See [Linear Operators](../../../Linear%20Algebra/Linear%20Operators.md) for the reusable definition and examples, and [Commutators](../../../Linear%20Algebra/Commutators.md) for the canonical algebra. The next section develops their coordinate representations as matrix elements.
 
 ## Common Confusions
 

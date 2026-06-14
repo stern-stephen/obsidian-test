@@ -164,6 +164,7 @@ The object stays fixed, but the coordinate labels change. A matrix representatio
 
 ## Related Concepts
 
+- [Shankar: Active and Passive Transformations](../Book%20Notes/Shankar/Chapter%201/Active%20and%20Passive%20Transformations.md)
 - [Linear Algebra](Linear%20Algebra.md)
 - [Vector Spaces](Vector%20Spaces.md)
 - [Vectors](Vectors.md)

@@ -70,6 +70,7 @@ $$
 
 ## Related Concepts
 
+- [Shankar: Matrix Elements of Linear Operators](../Book%20Notes/Shankar/Chapter%201/Matrix%20Elements%20of%20Linear%20Operators.md)
 - [Linear Algebra](Linear%20Algebra.md)
 - [Vectors](Vectors.md)
 - [Vector Spaces](Vector%20Spaces.md)

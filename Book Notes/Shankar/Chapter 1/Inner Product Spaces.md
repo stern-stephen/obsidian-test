@@ -26,65 +26,11 @@ Next: [Dual Spaces and Dirac Notation](Dual%20Spaces%20and%20Dirac%20Notation.md
 
 ## Notes
 
-An inner product takes two vectors and returns a scalar:
+Shankar adds an inner product immediately after defining abstract vector spaces because quantum theory needs more than linear combinations. The inner product supplies normalization, orthogonality, and the amplitudes that later determine probabilities.
 
-$$
-\langle u|v\rangle
-$$
+The section also fixes the physics convention that the bra slot is conjugate-linear and the ket slot is linear. This convention is used throughout the later Dirac-notation and operator sections.
 
-It behaves like a generalized dot product.
-
-The norm of a vector is:
-
-$$
-\|v\| = \sqrt{\langle v|v\rangle}
-$$
-
-A normalized vector has length $1$:
-
-$$
-\langle v|v\rangle = 1
-$$
-
-Two vectors are orthogonal when:
-
-$$
-\langle u|v\rangle = 0
-$$
-
-## Complex Inner Products
-
-For complex vector spaces, conjugation matters. A common convention in physics notation is:
-
-$$
-\langle u|cv\rangle = c\langle u|v\rangle
-$$
-
-and:
-
-$$
-\langle cu|v\rangle = c^*\langle u|v\rangle
-$$
-
-This convention makes:
-
-$$
-\langle u|v\rangle = \langle v|u\rangle^*
-$$
-
-## Orthonormal Bases
-
-A basis is orthonormal when:
-
-$$
-\langle i|j\rangle = \delta_{ij}
-$$
-
-This is the cleanest kind of basis because components can be found by projection:
-
-$$
-v_i = \langle i|v\rangle
-$$
+The canonical definitions, norm formulas, and orthonormal-basis relations live in [Inner Product Spaces](../../../Linear%20Algebra/Inner%20Product%20Spaces.md). Shankar's next step is to turn the inner product into the bra-ket machinery developed in [Dual Spaces and Dirac Notation](Dual%20Spaces%20and%20Dirac%20Notation.md).
 
 ## Common Confusions
 

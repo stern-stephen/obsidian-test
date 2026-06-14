@@ -100,6 +100,7 @@ Their eigenvectors and diagonalizations are collected in [Pauli Matrices](Pauli%
 
 ## Related Concepts
 
+- [Shankar: The Eigenvalue Problem](../Book%20Notes/Shankar/Chapter%201/The%20Eigenvalue%20Problem.md)
 - [Linear Algebra](Linear%20Algebra.md)
 - [Vector Spaces](Vector%20Spaces.md)
 - [Linear Operators](Linear%20Operators.md)

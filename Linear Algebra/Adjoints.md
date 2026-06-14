@@ -82,6 +82,8 @@ This is the same idea as turning a column vector into a conjugate-transposed row
 
 ## Related Concepts
 
+- [Shankar: Dual Spaces and Dirac Notation](../Book%20Notes/Shankar/Chapter%201/Dual%20Spaces%20and%20Dirac%20Notation.md)
+- [Shankar: Matrix Elements of Linear Operators](../Book%20Notes/Shankar/Chapter%201/Matrix%20Elements%20of%20Linear%20Operators.md)
 - [Vector Spaces](Vector%20Spaces.md)
 - [Linear Operators](Linear%20Operators.md)
 - [Bra-Ket Notation](Bra-Ket%20Notation.md)

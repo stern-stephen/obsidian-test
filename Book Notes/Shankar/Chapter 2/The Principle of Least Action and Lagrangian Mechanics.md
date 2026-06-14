@@ -27,39 +27,13 @@ Next: [The Electromagnetic Lagrangian](The%20Electromagnetic%20Lagrangian.md)
 
 ## Notes
 
-The Lagrangian is usually written as:
+Shankar begins his classical review with the action because the path-based formulation has the closest structural resemblance to quantum mechanics. A trajectory is treated as a whole object, and the local Euler-Lagrange equations follow from varying that path with fixed endpoints.
 
-$$
-L(q,\dot{q},t) = T - V
-$$
-
-The action of a path is:
-
-$$
-S[q] = \int_{t_1}^{t_2} L(q,\dot{q},t) dt
-$$
-
-Hamilton's principle says that the physical path has stationary action:
-
-$$
-\delta S = 0
-$$
-
-For coordinates $q_i$, this gives the Euler-Lagrange equations:
-
-$$
-\frac{d}{dt}\frac{\partial L}{\partial \dot{q}_i} - \frac{\partial L}{\partial q_i} = 0
-$$
+The reusable action, variation, and Euler-Lagrange derivation lives in [Action Principle](../../../Mechanics/Action%20Principle.md) and [Euler-Lagrange Equations](../../../Mechanics/Euler-Lagrange%20Equations.md). Here the source-specific point is the bridge Shankar is building from classical trajectories to the later quantum formalism.
 
 ## Generalized Momentum
 
-The momentum conjugate to $q_i$ is:
-
-$$
-p_i = \frac{\partial L}{\partial \dot{q}_i}
-$$
-
-This equals ordinary momentum in simple Cartesian problems, but it can differ in generalized coordinates or in electromagnetic fields.
+Shankar defines momentum through the Lagrangian rather than assuming it must be $m\mathbf{v}$. That choice prepares the electromagnetic example, where [canonical momentum](../../../Mechanics/Canonical%20Momentum.md) differs from mechanical momentum.
 
 ## Common Confusions
 

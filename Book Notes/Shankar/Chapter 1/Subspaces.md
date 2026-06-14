@@ -26,39 +26,9 @@ Next: [Linear Operators](Linear%20Operators.md)
 
 ## Notes
 
-A subset $W$ of a vector space $V$ is a subspace if, whenever $|u\rangle$ and $|v\rangle$ are in $W$:
+Shankar develops subspaces after dual vectors because orthogonality now lets the full space be decomposed into a subspace and its orthogonal complement. This becomes the geometric basis for projection operators and, later, projection onto eigenspaces during measurement.
 
-$$
-|u\rangle + |v\rangle \in W
-$$
-
-and for any scalar $c$:
-
-$$
-c|u\rangle \in W
-$$
-
-The zero vector must also be in the subspace.
-
-## Span
-
-The span of a set of vectors is the set of all linear combinations of them:
-
-$$
-\operatorname{span}\{|v_1\rangle,\ldots,|v_n\rangle\}
-$$
-
-This span is itself a subspace.
-
-## Orthogonal Complements
-
-If $W$ is a subspace, its orthogonal complement $W^\perp$ contains all vectors orthogonal to every vector in $W$:
-
-$$
-W^\perp = \{|v\rangle : \langle w|v\rangle = 0 \text{ for all } |w\rangle \in W\}
-$$
-
-This is useful because a vector can often be decomposed into a part inside a subspace and a part orthogonal to it.
+The general closure and span definitions remain in [Vector Spaces](../../../Linear%20Algebra/Vector%20Spaces.md). Projection formulas and the decomposition into retained and orthogonal components live in [Projection Operators](../../../Linear%20Algebra/Projection%20Matrices.md).
 
 ## Common Confusions
 

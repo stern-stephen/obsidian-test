@@ -110,6 +110,7 @@ The vector $Px$ lies in the target subspace. For an orthogonal projection, $x - 
 
 ## Related Concepts
 
+- [Shankar: Subspaces](../Book%20Notes/Shankar/Chapter%201/Subspaces.md)
 - [Linear Algebra](Linear%20Algebra.md)
 - [Matrices](Matrices.md)
 - [Vector Spaces](Vector%20Spaces.md)

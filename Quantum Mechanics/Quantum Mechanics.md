@@ -32,7 +32,7 @@ This page is the hub for quantum mechanics concepts that recur across the textbo
 - [Stern-Gerlach Experiments](../Book%20Notes/Townsend/Chapter%201/Stern-Gerlach%20Experiments.md)
 - [Functions of Operators](../Book%20Notes/Shankar/Chapter%201/Functions%20of%20Operators.md)
 - [Infinite-Dimensional Spaces](../Book%20Notes/Shankar/Chapter%201/Infinite-Dimensional%20Spaces.md)
-- [Review of Classical Mechanics](../Book%20Notes/Shankar/Chapter%202/Review%20of%20Classical%20Mechanics.md)
+- [Shankar Chapter 2: Classical Mechanics Review](../Book%20Notes/Shankar/Chapter%202/Chapter%20Overview.md)
 - [Quantum Mechanics](../Book%20Notes/Nielsen%20Chuang/Chapter%202/Quantum%20Mechanics.md)
 - [Postulates Of Quantum Mechanics](../Book%20Notes/Nielsen%20Chuang/Chapter%202/Postulates%20of%20Quantum%20Mechanics.md)
 - [Density Operator](../Book%20Notes/Nielsen%20Chuang/Chapter%202/Density%20Operator.md)

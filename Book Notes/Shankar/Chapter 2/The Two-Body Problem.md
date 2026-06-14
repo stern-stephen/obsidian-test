@@ -25,28 +25,9 @@ Next: [How Smart Is a Particle](How%20Smart%20Is%20a%20Particle.md)
 
 ## Notes
 
-For two masses $m_1$ and $m_2$, the center-of-mass coordinate is:
+Shankar includes the two-body reduction because the same change to center-of-mass and relative coordinates will reappear in quantum systems such as hydrogen. For an interaction depending only on separation, the overall motion decouples from an effective one-body problem with reduced mass.
 
-$$
-\mathbf{R} = \frac{m_1\mathbf{r}_1 + m_2\mathbf{r}_2}{m_1 + m_2}
-$$
-
-The relative coordinate is:
-
-$$
-\mathbf{r} = \mathbf{r}_1 - \mathbf{r}_2
-$$
-
-The reduced mass is:
-
-$$
-\mu = \frac{m_1m_2}{m_1 + m_2}
-$$
-
-For an interaction that depends only on $\mathbf{r}$, the motion separates into:
-
-- free center-of-mass motion,
-- relative motion in an effective one-body potential.
+The coordinate definitions and reduced-mass formula are maintained in [Two-Body Problem](../../../Mechanics/Two-Body%20Problem.md). The durable lesson is that this separation is an exact change of variables under the stated interaction assumption, not an approximation.
 
 ## Common Confusions
 

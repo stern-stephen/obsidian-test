@@ -22,6 +22,7 @@ Hamiltonian mechanics treats motion as a flow through phase space. Poisson brack
 
 ## Related Concepts
 
+- [Shankar: The Hamiltonian Formalism](../Book%20Notes/Shankar/Chapter%202/The%20Hamiltonian%20Formalism.md)
 - [Hamiltonian Mechanics](Hamiltonian%20Mechanics.md)
 - [Canonical Momentum](Canonical%20Momentum.md)
 - [Poisson Brackets](Poisson%20Brackets.md)

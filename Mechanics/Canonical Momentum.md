@@ -32,6 +32,8 @@ $$
 
 ## Related Concepts
 
+- [Shankar: The Electromagnetic Lagrangian](../Book%20Notes/Shankar/Chapter%202/The%20Electromagnetic%20Lagrangian.md)
+- [Shankar: Electromagnetic Force in the Hamiltonian Scheme](../Book%20Notes/Shankar/Chapter%202/The%20Electromagnetic%20Force%20in%20the%20Hamiltonian%20Scheme.md)
 - [Hamiltonian Mechanics](Hamiltonian%20Mechanics.md)
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Electromagnetic Lagrangian](Electromagnetic%20Lagrangian.md)

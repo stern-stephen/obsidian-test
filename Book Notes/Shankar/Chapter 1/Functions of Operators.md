@@ -26,73 +26,11 @@ Next: [Infinite-Dimensional Spaces](Infinite-Dimensional%20Spaces.md)
 
 ## Notes
 
-For an ordinary number, $f(x)$ is familiar. For an operator $A$, the expression $f(A)$ means "build a new operator from $A$."
-
-The easiest starting point is a polynomial:
-
-$$
-f(x) = a_0 + a_1x + a_2x^2
-$$
-
-Then:
-
-$$
-f(A) = a_0I + a_1A + a_2A^2
-$$
-
-This works because sums, scalar multiples, and products of operators are already defined.
-
-The same idea extends to power series, such as the exponential:
-
-$$
-e^A = I + A + \frac{A^2}{2!} + \frac{A^3}{3!} + \cdots
-$$
-
-The important simplification comes from eigenvectors. If:
-
-$$
-A|a_i\rangle = a_i|a_i\rangle
-$$
-
-then:
-
-$$
-f(A)|a_i\rangle = f(a_i)|a_i\rangle
-$$
-
-So $A$ and $f(A)$ have the same eigenvectors, while the eigenvalues get transformed by $f$.
+Shankar places operator functions directly after the eigenvalue problem. His main move is to define them first through polynomials or convergent power series, then use an eigenbasis to reduce the calculation to ordinary scalar functions.
 
 ## Why This Helps
 
-If a vector is expanded in the eigenbasis of $A$:
-
-$$
-|\psi\rangle = \sum_i c_i |a_i\rangle
-$$
-
-then:
-
-$$
-f(A)|\psi\rangle = \sum_i c_i f(a_i)|a_i\rangle
-$$
-
-This is the main mental model: decompose the vector into eigen-directions, apply the scalar function to each eigenvalue, and put the pieces back together.
-
-## Spectral Form
-
-If the eigenvectors form an orthonormal basis, the operator can be written:
-
-$$
-A = \sum_i a_i |a_i\rangle\langle a_i|
-$$
-
-Then:
-
-$$
-f(A) = \sum_i f(a_i)|a_i\rangle\langle a_i|
-$$
-
-The object $|a_i\rangle\langle a_i|$ is the projection onto the eigendirection $|a_i\rangle$.
+This section prepares expressions such as $e^{-iHt/\hbar}$: once a state is decomposed into energy eigenvectors, time evolution acts by multiplying each component by a scalar phase. [Functions of Operators](../../../Linear%20Algebra/Functions%20of%20Operators.md) owns the general polynomial, power-series, and spectral formulas.
 
 ## Common Confusions
 

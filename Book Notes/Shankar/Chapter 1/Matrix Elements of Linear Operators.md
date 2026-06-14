@@ -26,67 +26,15 @@ Next: [Active and Passive Transformations](Active%20and%20Passive%20Transformati
 
 ## Notes
 
-If $\{|i\rangle\}$ is an orthonormal basis, the matrix element of $A$ is:
+Shankar now translates the abstract operator language into computations in a chosen orthonormal basis. The central dictionary entry is:
 
 $$
 A_{ij} = \langle i|A|j\rangle
 $$
 
-This entry answers: if $A$ acts on basis vector $|j\rangle$, how much of the result points along $|i\rangle$?
+The right index identifies the input basis ket; the left index extracts an output component with a bra. Inserting completeness between operators produces ordinary matrix multiplication, while taking an adjoint produces conjugate transpose.
 
-The operator can be reconstructed from its matrix elements:
-
-$$
-A = \sum_{ij} |i\rangle A_{ij}\langle j|
-$$
-
-## Products Of Operators
-
-For a product $AB$:
-
-$$
-(AB)_{ij} = \sum_k A_{ik}B_{kj}
-$$
-
-This is the usual matrix multiplication rule.
-
-## Adjoint Of An Operator
-
-The adjoint satisfies:
-
-$$
-\langle u|A v\rangle = \langle A^\dagger u|v\rangle
-$$
-
-In matrix form:
-
-$$
-(A^\dagger)_{ij} = A_{ji}^*
-$$
-
-So the matrix of $A^\dagger$ is the conjugate transpose of the matrix of $A$.
-
-## Special Operator Classes
-
-A Hermitian operator satisfies:
-
-$$
-A^\dagger = A
-$$
-
-An anti-Hermitian operator satisfies:
-
-$$
-A^\dagger = -A
-$$
-
-A unitary operator satisfies:
-
-$$
-U^\dagger U = I
-$$
-
-Hermitian operators matter because their eigenvalues are real. Unitary operators matter because they preserve inner products and norms.
+The reusable representation and product rules are maintained in [Matrices](../../../Linear%20Algebra/Matrices.md) and [Adjoints](../../../Linear%20Algebra/Adjoints.md). The special operator classes belong in [Hermitian Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md) and [Unitary Operators](../../../Linear%20Algebra/Unitary%20Matrices.md).
 
 ## Common Confusions
 

@@ -26,37 +26,13 @@ Next: [The Electromagnetic Force in the Hamiltonian Scheme](The%20Electromagneti
 
 ## Notes
 
-Starting from a Lagrangian $L(q,\dot{q},t)$, define:
+Shankar changes from $(q,\dot q)$ to $(q,p)$ because the Hamiltonian language is the classical structure most directly reused in quantum mechanics. The [Legendre transform](../../../Mathematics/Legendre%20Transforms.md), Hamilton's equations, and worked examples are maintained in [Hamiltonian Mechanics](../../../Mechanics/Hamiltonian%20Mechanics.md).
 
-$$
-p_i = \frac{\partial L}{\partial \dot{q}_i}
-$$
-
-The Hamiltonian is the Legendre transform:
-
-$$
-H(q,p,t) = \sum_i p_i\dot{q}_i - L(q,\dot{q},t)
-$$
-
-Hamilton's equations are:
-
-$$
-\dot{q}_i = \frac{\partial H}{\partial p_i}
-$$
-
-$$
-\dot{p}_i = -\frac{\partial H}{\partial q_i}
-$$
+The source-specific emphasis is that $H$ is not merely another expression for energy. It is the function that generates time evolution, foreshadowing the Hamiltonian operator in the Schrodinger equation.
 
 ## Phase Space
 
-For $n$ generalized coordinates, the phase space has coordinates:
-
-$$
-(q_1,\ldots,q_n,p_1,\ldots,p_n)
-$$
-
-A point in phase space specifies the instantaneous classical state.
+A classical state becomes a point in [Phase Space](../../../Mechanics/Phase%20Space.md), with one canonical momentum paired with each generalized coordinate. Shankar later contrasts this state description with a quantum state vector.
 
 ## Common Confusions
 

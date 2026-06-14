@@ -88,6 +88,7 @@ It measures whether the order of applying operators matters. See [Commutators](C
 
 ## Related Concepts
 
+- [Shankar: Linear Operators](../Book%20Notes/Shankar/Chapter%201/Linear%20Operators.md)
 - [Linear Algebra](Linear%20Algebra.md)
 - [Vector Spaces](Vector%20Spaces.md)
 - [Matrices](Matrices.md)

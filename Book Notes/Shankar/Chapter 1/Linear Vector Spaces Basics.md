@@ -26,57 +26,11 @@ Next: [Inner Product Spaces](Inner%20Product%20Spaces.md)
 
 ## Notes
 
-The point of this section is to abstract away from the usual picture of vectors as arrows.
+Shankar begins by separating an abstract vector from any particular picture or coordinate list. Arrows, columns, matrices, polynomials, and functions can all be vectors when they obey the same linear rules.
 
-If $V$ is a vector space, then vectors $|u\rangle$ and $|v\rangle$ can be added, and vectors can be multiplied by scalars:
+His immediate purpose is preparation for quantum mechanics: a ket is the vector, while its components depend on the chosen basis. Linear combinations, independence, span, basis, and dimension are developed as the language needed to describe states without confusing them with one representation.
 
-$$
-|u\rangle + |v\rangle \in V
-$$
-
-$$
-a|v\rangle \in V
-$$
-
-The rules are the familiar linearity rules: addition is associative and commutative, scalar multiplication distributes over vector addition, there is a zero vector, and every vector has an additive inverse.
-
-## Linear Combinations
-
-A linear combination has the form:
-
-$$
-a_1|v_1\rangle + a_2|v_2\rangle + \cdots + a_n|v_n\rangle
-$$
-
-This is the basic building block for almost everything that follows.
-
-## Linear Independence
-
-A set of vectors is linearly independent when:
-
-$$
-a_1|v_1\rangle + a_2|v_2\rangle + \cdots + a_n|v_n\rangle = |0\rangle
-$$
-
-only has the trivial solution:
-
-$$
-a_1 = a_2 = \cdots = a_n = 0
-$$
-
-If there is a nontrivial solution, one of the vectors is redundant because it can be built from the others.
-
-## Basis And Components
-
-A basis is a set of vectors that is both linearly independent and spanning.
-
-If $\{|i\rangle\}$ is a basis, then:
-
-$$
-|v\rangle = \sum_i v_i |i\rangle
-$$
-
-The numbers $v_i$ are the components of $|v\rangle$ in that basis.
+The reusable definitions and equations are collected in [Vector Spaces](../../../Linear%20Algebra/Vector%20Spaces.md). The distinction between a vector and its coordinate representation continues in [Change of Basis](../../../Linear%20Algebra/Change%20of%20Basis.md).
 
 ## Common Confusions
 

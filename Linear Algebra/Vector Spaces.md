@@ -180,6 +180,7 @@ See [Tensor Products](Tensor%20Products.md).
 
 ## Related Concepts
 
+- [Shankar: Linear Vector Spaces Basics](../Book%20Notes/Shankar/Chapter%201/Linear%20Vector%20Spaces%20Basics.md)
 - [Linear Algebra](Linear%20Algebra.md)
 - [Linear Operators](Linear%20Operators.md)
 - [Inner Product Spaces](Inner%20Product%20Spaces.md)

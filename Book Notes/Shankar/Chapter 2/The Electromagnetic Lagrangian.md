@@ -26,29 +26,13 @@ Next: [The Two-Body Problem](The%20Two-Body%20Problem.md)
 
 ## Notes
 
-For a particle of charge $q$ and mass $m$, a common electromagnetic Lagrangian is:
-
-$$
-L = \frac{1}{2}m\dot{\mathbf{r}}^2 - q\phi + q\dot{\mathbf{r}}\cdot\mathbf{A}
-$$
-
-The canonical momentum is:
-
-$$
-\mathbf{p} = \frac{\partial L}{\partial \dot{\mathbf{r}}} = m\dot{\mathbf{r}} + q\mathbf{A}
-$$
-
-The mechanical momentum is:
-
-$$
-\mathbf{p}_{\text{mech}} = m\dot{\mathbf{r}}
-$$
-
-The two are related by:
+Shankar uses electromagnetic coupling to show why generalized momentum is a structural definition rather than a new name for $m\dot{\mathbf r}$. For the electromagnetic Lagrangian, the key distinction is:
 
 $$
 \mathbf{p}_{\text{mech}} = \mathbf{p} - q\mathbf{A}
 $$
+
+The full Lagrangian, canonical momentum, and Hamiltonian formulas are consolidated in [Electromagnetic Lagrangian](../../../Mechanics/Electromagnetic%20Lagrangian.md) and [Canonical Momentum](../../../Mechanics/Canonical%20Momentum.md).
 
 ## Why This Matters
 

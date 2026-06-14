@@ -44,4 +44,4 @@ Quantum mechanics keeps many classical labels, especially $q$, $p$, and $H$, but
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Hamiltonian Mechanics](Hamiltonian%20Mechanics.md)
 - [Conservation Laws](Conservation%20Laws.md)
-- [Review of Classical Mechanics](../Book%20Notes/Shankar/Chapter%202/Review%20of%20Classical%20Mechanics.md)
+- [Shankar Chapter 2 Overview](../Book%20Notes/Shankar/Chapter%202/Chapter%20Overview.md)

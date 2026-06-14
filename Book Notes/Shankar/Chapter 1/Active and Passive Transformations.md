@@ -26,39 +26,9 @@ Next: [The Eigenvalue Problem](The%20Eigenvalue%20Problem.md)
 
 ## Notes
 
-In an active transformation, an operator acts on the vector:
+Shankar pauses to distinguish two readings of similar matrix formulas. An active transformation changes the vector while the basis stays fixed; a passive transformation keeps the abstract vector fixed while changing the basis and therefore its components.
 
-$$
-|v\rangle \mapsto |v'\rangle = U|v\rangle
-$$
-
-The basis is held fixed, and the vector changes.
-
-In a passive transformation, the vector is held fixed but the basis changes. The components of the same vector change because the coordinate system changed.
-
-## Components
-
-If:
-
-$$
-|v\rangle = \sum_i v_i |i\rangle
-$$
-
-then the components $v_i$ depend on the basis $\{|i\rangle\}$.
-
-Changing the basis changes the list of numbers used to describe $|v\rangle$, even if the abstract vector is unchanged.
-
-## Operator Representations
-
-The matrix representation of an operator also changes with basis.
-
-If $S$ is the change-of-basis operator, the same abstract operator $A$ may be represented as:
-
-$$
-A' = S^{-1}AS
-$$
-
-This is a similarity transformation.
+This distinction matters later because unitary operators may describe physical transformations, changes of representation, or both depending on what is held fixed. [Change of Basis](../../../Linear%20Algebra/Change%20of%20Basis.md) owns the coordinate and similarity-transformation formulas; this note retains Shankar's active/passive interpretation and exercise applications.
 
 ## Common Confusions
 

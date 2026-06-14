@@ -27,72 +27,11 @@ Next: [Functions of Operators](Functions%20of%20Operators.md)
 
 ## Notes
 
-The eigenvalue equation is:
+Shankar treats the eigenvalue problem as the culmination of the finite-dimensional toolkit. An eigenbasis reveals the coordinates in which an operator acts by independent scalar multiplication, making diagonalization a particularly useful passive transformation.
 
-$$
-A|v\rangle = \lambda |v\rangle
-$$
+The quantum motivation is already visible: Hermitian operators have real eigenvalues and orthogonal eigenspaces, while commuting Hermitian operators can be organized around shared eigenvectors. These facts later become statements about measurement outcomes and compatible observables.
 
-where $|v\rangle \ne |0\rangle$.
-
-The scalar $\lambda$ is the eigenvalue, and $|v\rangle$ is the eigenvector.
-
-## Characteristic Equation
-
-In matrix form, the eigenvalue equation becomes:
-
-$$
-(A-\lambda I)|v\rangle = |0\rangle
-$$
-
-For a nonzero solution to exist:
-
-$$
-\det(A-\lambda I) = 0
-$$
-
-This is the characteristic equation.
-
-## Degeneracy
-
-An eigenvalue is degenerate when more than one linearly independent eigenvector has that same eigenvalue.
-
-The subspace of vectors with the same eigenvalue is called an eigenspace.
-
-## Diagonalization
-
-If an operator has enough linearly independent eigenvectors to form a basis, then its matrix in that basis is diagonal:
-
-$$
-A =
-\begin{pmatrix}
-\lambda_1 & 0 & \cdots \\
-0 & \lambda_2 & \cdots \\
-\vdots & \vdots & \ddots
-\end{pmatrix}
-$$
-
-In that basis, applying $A$ just multiplies each component by the corresponding eigenvalue.
-
-## Hermitian Operators
-
-Hermitian operators are central in quantum mechanics because:
-
-- their eigenvalues are real,
-- eigenvectors with distinct eigenvalues are orthogonal,
-- they can be diagonalized using an orthonormal eigenbasis.
-
-This is why they are used for observables.
-
-## Simultaneous Diagonalization
-
-Two Hermitian operators can be simultaneously diagonalized when they commute and have the right shared eigenspace structure:
-
-$$
-[A,B] = 0
-$$
-
-This means there is a basis of vectors that are eigenvectors of both operators.
+The characteristic equation, degeneracy, diagonalization, and reusable examples live in [Eigenvalues and Eigenvectors](../../../Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md). Proofs and the spectral structure of Hermitian operators live in [Hermitian Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md).
 
 ## Common Confusions
 

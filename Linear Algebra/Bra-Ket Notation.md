@@ -123,6 +123,7 @@ When $A$ is a [Hermitian operator](Hermitian%20Matrices%20and%20Operators.md), t
 
 ## Related Concepts
 
+- [Shankar: Dual Spaces and Dirac Notation](../Book%20Notes/Shankar/Chapter%201/Dual%20Spaces%20and%20Dirac%20Notation.md)
 - [Vector Spaces](Vector%20Spaces.md)
 - [Adjoints](Adjoints.md)
 - [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
