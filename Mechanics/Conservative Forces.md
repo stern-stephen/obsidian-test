@@ -20,31 +20,51 @@ $$
 V(\mathbf{r})=-\int_{\mathbf{r}_0}^{\mathbf{r}}\mathbf{F}\cdot d\mathbf{l}
 $$
 
-This defines a single-valued function because the integral is path independent.
+This definition needs path independence. Without it, different paths from $\mathbf{r}_0$ to $\mathbf{r}$ could give different values of $V(\mathbf{r})$, so $V$ would not be a single-valued function of position.
 
-Now move the endpoint by a small displacement $d\mathbf{r}$. The resulting change in the potential is:
-
-$$
-dV=-\mathbf{F}(\mathbf{r})\cdot d\mathbf{r}
-$$
-
-But the differential of any scalar field is:
+To find how $V$ changes with position, compare two nearby endpoints, $\mathbf{r}$ and $\mathbf{r}+\Delta\mathbf{r}$. Choose the path to $\mathbf{r}+\Delta\mathbf{r}$ so that it first follows the path from $\mathbf{r}_0$ to $\mathbf{r}$ and then follows a short straight segment from $\mathbf{r}$ to $\mathbf{r}+\Delta\mathbf{r}$. Path independence allows this convenient choice.
 
 $$
-dV=\nabla V\cdot d\mathbf{r}
+V(\mathbf{r}+\Delta\mathbf{r})=-\int_{\mathbf{r}_0}^{\mathbf{r}}\mathbf{F}\cdot d\mathbf{l}-\int_{\mathbf{r}}^{\mathbf{r}+\Delta\mathbf{r}}\mathbf{F}\cdot d\mathbf{l}
 $$
 
-Because these equations hold for every possible displacement $d\mathbf{r}$:
+The first integral is $V(\mathbf{r})$, so:
 
 $$
-\nabla V=-\mathbf{F}
+V(\mathbf{r}+\Delta\mathbf{r})-V(\mathbf{r})=-\int_{\mathbf{r}}^{\mathbf{r}+\Delta\mathbf{r}}\mathbf{F}\cdot d\mathbf{l}
 $$
 
-Thus:
+If $\mathbf{F}$ is continuous, then over a sufficiently short segment it is approximately constant. Therefore:
+
+$$
+V(\mathbf{r}+\Delta\mathbf{r})-V(\mathbf{r})=-\mathbf{F}(\mathbf{r})\cdot\Delta\mathbf{r}+o(\lVert\Delta\mathbf{r}\rVert)
+$$
+
+Here the final term becomes negligible compared with the length of the displacement as $\Delta\mathbf{r}\to 0$. On the other hand, differentiability of the scalar field $V$ means:
+
+$$
+V(\mathbf{r}+\Delta\mathbf{r})-V(\mathbf{r})=\nabla V(\mathbf{r})\cdot\Delta\mathbf{r}+o(\lVert\Delta\mathbf{r}\rVert)
+$$
+
+Comparing the terms that are linear in the arbitrary displacement $\Delta\mathbf{r}$ gives:
+
+$$
+\nabla V(\mathbf{r})\cdot\Delta\mathbf{r}=-\mathbf{F}(\mathbf{r})\cdot\Delta\mathbf{r}
+$$
+
+This must hold for every direction of $\Delta\mathbf{r}$. Two vectors having the same dot product with every displacement must be equal, so:
+
+$$
+\nabla V(\mathbf{r})=-\mathbf{F}(\mathbf{r})
+$$
+
+Therefore:
 
 $$
 \mathbf{F}=-\nabla V
 $$
+
+Equivalently, move only in the $x$ direction. Dividing by $\Delta x$ and taking the limit gives $F_x=-\partial V/\partial x$. Repeating this in the $y$ and $z$ directions gives all three components of $\mathbf{F}=-\nabla V$.
 
 The minus sign means that the force points in the direction in which potential energy decreases most rapidly.
 
