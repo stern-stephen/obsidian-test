@@ -39,6 +39,16 @@ $$
 
 The comparison paths have the same configurations at $t_1$ and $t_2$. The actual path agrees with nearby paths to first order in the variation of the action.
 
+More explicitly, a neighboring path may be written as:
+
+$$
+q_i(t,\epsilon)=q_i(t)+\epsilon\eta_i(t),\qquad \eta_i(t_1)=\eta_i(t_2)=0
+$$
+
+The varied paths satisfy the endpoint and kinematic restrictions, but they are not required to satisfy the equations of motion. Hamilton's principle selects the physical path by requiring the derivative of the action with respect to $\epsilon$ to vanish at $\epsilon=0$ for every admissible $\eta_i$.
+
+The adjective "integral" refers to the action's dependence on the complete interval from $t_1$ to $t_2$. It does not imply that the resulting dynamics is nonlocal: arbitrary interior variations convert the stationary integral condition into the local Euler-Lagrange equations.
+
 ## Meaning Of Stationary
 
 Stationary does not mean that the action must be the smallest possible value. The first variation may vanish at a minimum, maximum, or another stationary path. The principle determines the equations of motion without by itself classifying the stationary path.
