@@ -1,0 +1,54 @@
+# Hamilton's Principle
+
+Source: [Classical Mechanics](../../../References/GoldsteinPooleSafkoClassicalMechanics.pdf)
+
+Book hub: [Goldstein](../Goldstein.md)
+
+Book section: 2.1, printed pages 34-36.
+
+Previous: [Chapter Overview](Chapter%20Overview.md)
+
+Next: [Some Techniques of the Calculus of Variations](Some%20Techniques%20of%20the%20Calculus%20of%20Variations.md)
+
+## Reading Status
+
+- Status: started
+- Pages: 34-36
+- Date started: 2026-06-19
+- Date finished:
+
+## Differential And Integral Principles
+
+D'Alembert's principle compares virtual displacements around one instantaneous configuration. Hamilton's principle instead compares complete motions between two fixed times. It is therefore an integral principle.
+
+An $n$-degree-of-freedom system is represented by a point in configuration space with coordinates $(q_1,\ldots,q_n)$. Its history is a curve in that space. This curve represents the evolution of the entire configuration, not the spatial path of one particle.
+
+## Action And Stationarity
+
+For a monogenic system, whose applied forces derive from an ordinary or generalized potential, the action is:
+
+$$
+I[q]=\int_{t_1}^{t_2}L(q,\dot q,t)dt
+$$
+
+Hamilton's principle states:
+
+$$
+\delta I=0
+$$
+
+The comparison paths have the same configurations at $t_1$ and $t_2$. The actual path agrees with nearby paths to first order in the variation of the action.
+
+## Meaning Of Stationary
+
+Stationary does not mean that the action must be the smallest possible value. The first variation may vanish at a minimum, maximum, or another stationary path. The principle determines the equations of motion without by itself classifying the stationary path.
+
+## Scope And Significance
+
+For holonomic systems, Hamilton's principle is equivalent to Lagrange's equations. Because the action is a scalar independent of the chosen generalized coordinates, the resulting equations retain their Lagrangian form under coordinate changes. This makes the action a useful starting postulate and prepares the extension from mechanics to field theories.
+
+## Links To Concept Notes
+
+- [Action Principle](../../../Mechanics/Action%20Principle.md)
+- [Lagrangian Mechanics](../../../Mechanics/Lagrangian%20Mechanics.md)
+- [Generalized Coordinates](../../../Mechanics/Generalized%20Coordinates.md)

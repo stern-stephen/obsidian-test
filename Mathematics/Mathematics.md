@@ -5,6 +5,7 @@ This page is the hub for mathematical tools that recur across physics, quantum m
 ## Core Ideas
 
 - [Legendre Transforms](Legendre%20Transforms.md)
+- [Calculus of Variations](Calculus%20of%20Variations.md)
 
 ## Related Areas
 

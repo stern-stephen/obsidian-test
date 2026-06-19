@@ -18,6 +18,15 @@ Use this page to track chapter notes, questions, and concept pages created while
   - [D'Alembert's Principle and Lagrange's Equations](Chapter%201/DAlemberts%20Principle%20and%20Lagranges%20Equations.md)
   - [Velocity-Dependent Potentials and the Dissipation Function](Chapter%201/Velocity-Dependent%20Potentials%20and%20the%20Dissipation%20Function.md)
   - [Simple Applications of the Lagrangian Formulation](Chapter%201/Simple%20Applications%20of%20the%20Lagrangian%20Formulation.md)
+- Chapter 2
+  - [Chapter 2 Overview](Chapter%202/Chapter%20Overview.md)
+  - [Hamilton's Principle](Chapter%202/Hamilton%27s%20Principle.md)
+  - [Some Techniques of the Calculus of Variations](Chapter%202/Some%20Techniques%20of%20the%20Calculus%20of%20Variations.md)
+  - [Derivation of Lagrange's Equations from Hamilton's Principle](Chapter%202/Derivation%20of%20Lagrange%27s%20Equations%20from%20Hamilton%27s%20Principle.md)
+  - [Extending Hamilton's Principle to Systems with Constraints](Chapter%202/Extending%20Hamilton%27s%20Principle%20to%20Systems%20with%20Constraints.md)
+  - [Advantages of a Variational Principle Formulation](Chapter%202/Advantages%20of%20a%20Variational%20Principle%20Formulation.md)
+  - [Conservation Theorems and Symmetry Properties](Chapter%202/Conservation%20Theorems%20and%20Symmetry%20Properties.md)
+  - [Energy Function and the Conservation of Energy](Chapter%202/Energy%20Function%20and%20the%20Conservation%20of%20Energy.md)
 
 ## Core Concept Areas
 
@@ -37,6 +46,8 @@ Use this page to track chapter notes, questions, and concept pages created while
 - [Constraints](../../Mechanics/Constraints.md)
 - [Virtual Work and D'Alembert's Principle](../../Mechanics/Virtual%20Work%20and%20DAlemberts%20Principle.md)
 - [Rayleigh Dissipation Function](../../Mechanics/Rayleigh%20Dissipation%20Function.md)
+- [Calculus of Variations](../../Mathematics/Calculus%20of%20Variations.md)
+- [Energy Function](../../Mechanics/Energy%20Function.md)
 
 ## Related Notes
 

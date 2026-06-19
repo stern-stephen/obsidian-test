@@ -110,6 +110,7 @@ which is Newton's second law for a conservative force.
 
 ## Related Concepts
 
+- [Goldstein Section 2.3](../Book%20Notes/Goldstein/Chapter%202/Derivation%20of%20Lagrange%27s%20Equations%20from%20Hamilton%27s%20Principle.md)
 - [Action Principle](Action%20Principle.md)
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Generalized Coordinates](Generalized%20Coordinates.md)

@@ -22,6 +22,7 @@ This page is the hub for classical mechanics concepts that recur across the text
 - [Symmetries](Symmetries.md)
 - [Conservative Forces](Conservative%20Forces.md)
 - [Conservation Laws](Conservation%20Laws.md)
+- [Energy Function](Energy%20Function.md)
 - [Two-Body Problem](Two-Body%20Problem.md)
 - [Electromagnetic Lagrangian](Electromagnetic%20Lagrangian.md)
 - [Rayleigh Dissipation Function](Rayleigh%20Dissipation%20Function.md)
@@ -33,6 +34,7 @@ This page is the hub for classical mechanics concepts that recur across the text
 - [Shankar Chapter 2 Overview](../Book%20Notes/Shankar/Chapter%202/Chapter%20Overview.md)
 - [Goldstein](../Book%20Notes/Goldstein/Goldstein.md)
 - [Goldstein Chapter 1 Overview](../Book%20Notes/Goldstein/Chapter%201/Chapter%20Overview.md)
+- [Goldstein Chapter 2 Overview](../Book%20Notes/Goldstein/Chapter%202/Chapter%20Overview.md)
 
 ## Why It Matters
 

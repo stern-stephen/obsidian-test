@@ -37,6 +37,16 @@ So the generator has two roles:
 
 ## Symmetry And Conservation
 
+In Lagrangian mechanics, if a transformation parameter is an independent cyclic coordinate $q_j$, then:
+
+$$
+\frac{\partial L}{\partial q_j}=0\quad\Rightarrow\quad\frac{d}{dt}\left(\frac{\partial L}{\partial\dot q_j}\right)=0
+$$
+
+Translations make the associated linear momentum component the conserved conjugate momentum. Rotations make the corresponding angular momentum component the conserved conjugate momentum.
+
+In Hamiltonian mechanics, the same connection appears through generators.
+
 If $G$ generates a symmetry of the Hamiltonian, then:
 
 $$
@@ -89,6 +99,7 @@ $$
 ## Related Book Notes
 
 - [Shankar Chapter 2: Symmetries and Their Consequences](../Book%20Notes/Shankar/Chapter%202/Symmetries%20and%20Their%20Consequences.md)
+- [Goldstein Section 2.6](../Book%20Notes/Goldstein/Chapter%202/Conservation%20Theorems%20and%20Symmetry%20Properties.md)
 
 ## Related Concepts
 
