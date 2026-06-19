@@ -9,9 +9,4 @@
 Thumbs.db
 
 # Graphify local build state
-graphify-out/.graphify_python
-graphify-out/.graphify_root
-graphify-out/__pycache__/
-graphify-out/cache/
-graphify-out/cost.json
-graphify-out/manifest.json
+graphify-out/
