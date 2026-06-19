@@ -45,7 +45,7 @@ These are answer summaries for Shankar Chapter 1 exercises in this section. I am
 Let $|V\rangle\ne |0\rangle$ in an $n$-dimensional vector space. Consider:
 
 $$
-W=\{|W\rangle:\langle V|W\rangle=0\}
+W=\lbrace |W\rangle:\langle V|W\rangle=0\rbrace
 $$
 
 First show $W$ is a subspace. If $|W_1\rangle,|W_2\rangle\in W$, then:
@@ -59,7 +59,7 @@ So $a|W_1\rangle+b|W_2\rangle$ is also in $W$.
 Now normalize $|V\rangle$ and extend it to an orthonormal basis by Gram-Schmidt:
 
 $$
-\{|e_1\rangle,|e_2\rangle,\ldots,|e_n\rangle\}
+\lbrace |e_1\rangle,|e_2\rangle,\ldots,|e_n\rangle\rbrace
 $$
 
 with $|e_1\rangle$ parallel to $|V\rangle$. The vectors:
@@ -77,19 +77,19 @@ Let $V_1$ and $V_2$ have dimensions $n_1$ and $n_2$, and suppose every vector in
 Choose an orthonormal basis for $V_1$:
 
 $$
-\{|e_1\rangle,\ldots,|e_{n_1}\rangle\}
+\lbrace |e_1\rangle,\ldots,|e_{n_1}\rangle\rbrace
 $$
 
 and an orthonormal basis for $V_2$:
 
 $$
-\{|f_1\rangle,\ldots,|f_{n_2}\rangle\}
+\lbrace |f_1\rangle,\ldots,|f_{n_2}\rangle\rbrace
 $$
 
 Because the two subspaces are orthogonal, the combined list is still orthonormal:
 
 $$
-\{|e_1\rangle,\ldots,|e_{n_1}\rangle,|f_1\rangle,\ldots,|f_{n_2}\rangle\}
+\lbrace |e_1\rangle,\ldots,|e_{n_1}\rangle,|f_1\rangle,\ldots,|f_{n_2}\rangle\rbrace
 $$
 
 This gives $n_1+n_2$ mutually orthogonal basis vectors for $V_1\oplus V_2$. Therefore:

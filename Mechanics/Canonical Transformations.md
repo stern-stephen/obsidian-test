@@ -11,13 +11,13 @@ A transformation from $(q,p)$ to $(Q,P)$ is canonical when the new variables obe
 Equivalently, canonical variables preserve the basic Poisson bracket structure:
 
 $$
-\{Q_i,P_j\} = \delta_{ij}
+\lbrace Q_i,P_j\rbrace = \delta_{ij}
 $$
 
 with:
 
 $$
-\{Q_i,Q_j\}=0,\quad \{P_i,P_j\}=0
+\lbrace Q_i,Q_j\rbrace=0,\quad \lbrace P_i,P_j\rbrace=0
 $$
 
 ## Intuition
@@ -59,7 +59,7 @@ That is why ordinary coordinate changes in configuration space become canonical 
 An active canonical transformation moves the phase-space point while keeping the coordinate system fixed. If $G(q,p)$ generates an infinitesimal transformation with parameter $\epsilon$, then:
 
 $$
-\delta f=\epsilon \{f,G\}
+\delta f=\epsilon \lbrace f,G\rbrace
 $$
 
 So:

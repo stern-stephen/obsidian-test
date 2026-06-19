@@ -260,7 +260,7 @@ $$
 The anti-commutator is:
 
 $$
-\{A, B\} = AB + BA
+\lbrace A, B\rbrace = AB + BA
 $$
 
 Commutators measure the failure of two operators to commute.

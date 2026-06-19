@@ -6,7 +6,7 @@ Quantum measurement connects the abstract state vector to observable outcomes. U
 
 ## Measurement Operators
 
-A general measurement is described by measurement operators $\{M_m\}$, where $m$ labels the possible outcomes.
+A general measurement is described by measurement operators $\lbrace M_m\rbrace$, where $m$ labels the possible outcomes.
 
 For a state $|\psi\rangle$, the probability of outcome $m$ is:
 

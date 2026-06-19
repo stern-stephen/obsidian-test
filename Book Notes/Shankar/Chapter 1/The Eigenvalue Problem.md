@@ -235,14 +235,14 @@ $$
 Equivalently, it consists of all vectors orthogonal to the $\omega=2$ eigenvector:
 
 $$
-\left\{
+\left\lbrace
 \begin{bmatrix}
 a\\
 b\\
 b
 \end{bmatrix}
 :a,b\in\mathbb{C}
-\right\}
+\right\rbrace
 $$
 
 ### Exercise 1.8.4

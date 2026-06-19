@@ -42,7 +42,7 @@ The vector is the same object, but the list of coordinates depends on the basis.
 
 ## Coordinates In A Basis
 
-Let $B = \{b_1, b_2, \ldots, b_n\}$ be a basis for a vector space.
+Let $B = \lbrace b_1, b_2, \ldots, b_n\rbrace$ be a basis for a vector space.
 
 If:
 

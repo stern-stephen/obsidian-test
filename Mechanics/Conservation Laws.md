@@ -22,7 +22,7 @@ Continuous symmetries lead to conserved quantities:
 The conserved quantity is the generator of the symmetry. In Hamiltonian mechanics, if $G$ generates a transformation and the Hamiltonian is unchanged by that transformation, then:
 
 $$
-\{G,H\}=0
+\lbrace G,H\rbrace=0
 $$
 
 When $G$ has no explicit time dependence, this means:
@@ -36,7 +36,7 @@ $$
 If a quantity $G$ has no explicit time dependence, then it is conserved when:
 
 $$
-\{G,H\} = 0
+\lbrace G,H\rbrace = 0
 $$
 
 ## Quantum Bridge

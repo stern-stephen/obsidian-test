@@ -24,7 +24,7 @@ $$
 
 ## Basis Construction
 
-If $V$ has basis $\{|i\rangle\}$ and $W$ has basis $\{|j\rangle\}$, then $V \otimes W$ has basis vectors:
+If $V$ has basis $\lbrace |i\rangle\rbrace$ and $W$ has basis $\lbrace |j\rangle\rbrace$, then $V \otimes W$ has basis vectors:
 
 $$
 |i\rangle|j\rangle

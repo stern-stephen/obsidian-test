@@ -71,7 +71,7 @@ Related note: [Unitary Matrices](../../../Linear%20Algebra/Unitary%20Matrices.md
 Quantum measurements are described by a collection of measurement operators:
 
 $$
-\{M_m\}
+\lbrace M_m\rbrace
 $$
 
 The index $m$ labels the possible measurement outcomes.

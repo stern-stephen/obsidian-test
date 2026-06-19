@@ -19,6 +19,8 @@ For evaluated boundary terms, prefer bracket notation such as `$\left[f(x)\right
 
 Avoid LaTeX spacing commands such as `\,` in notes that should render cleanly in web Markdown previews. Some browser renderers expose them poorly when math parsing fails or is partial. Prefer ordinary spacing in the source, or rewrite expressions so the differential comes at the end, such as `$\int e^{ikx} dk$`.
 
+For literal braces that should appear in rendered math, use `\lbrace` and `\rbrace` instead of `\{` and `\}`. GitHub Markdown may consume the backslashes in the shorter forms before its math renderer runs, causing notation such as Poisson brackets, anticommutators, and sets to display without braces.
+
 For simple display equations, keep the math expression on a single line between `$$` delimiters. Some browser Markdown renderers fail on stacked display equations such as putting `=` on separate lines. Multi-line display blocks are fine for true structured environments such as `\begin{bmatrix}...\end{bmatrix}`.
 
 ## Markdown Links

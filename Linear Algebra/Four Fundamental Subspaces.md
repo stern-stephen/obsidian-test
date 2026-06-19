@@ -50,7 +50,7 @@ there is a solution exactly when $b$ lies in $\mathrm{Col}(A)$.
 The **null space** of $A$ is the set of vectors sent to zero:
 
 $$
-\mathrm{Null}(A) = \{x : Ax = 0\}
+\mathrm{Null}(A) = \lbrace x : Ax = 0\rbrace
 $$
 
 If $A$ is an $m \times n$ matrix, then:
@@ -96,7 +96,7 @@ $$
 The **left null space** of $A$ is the null space of $A^\dagger$:
 
 $$
-\mathrm{Null}(A^\dagger) = \{y : A^\dagger y = 0\}
+\mathrm{Null}(A^\dagger) = \lbrace y : A^\dagger y = 0\rbrace
 $$
 
 For real matrices, this is:

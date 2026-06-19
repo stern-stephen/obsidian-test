@@ -22,7 +22,7 @@ Reusable topic notes:
 
 ## Schmidt Decomposition
 
-For a pure state $|\psi\rangle$ of a composite system $AB$, there exist orthonormal bases $\{|i_A\rangle\}$ and $\{|i_B\rangle\}$ such that:
+For a pure state $|\psi\rangle$ of a composite system $AB$, there exist orthonormal bases $\lbrace |i_A\rangle\rbrace$ and $\lbrace |i_B\rangle\rbrace$ such that:
 
 $$
 |\psi\rangle = \sum_i \lambda_i |i_A\rangle|i_B\rangle

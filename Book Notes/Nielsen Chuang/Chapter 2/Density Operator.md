@@ -23,7 +23,7 @@ Suppose a system is prepared in state $|\psi_i\rangle$ with probability $p_i$.
 The ensemble is:
 
 $$
-\{p_i, |\psi_i\rangle\}
+\lbrace p_i, |\psi_i\rangle\rbrace
 $$
 
 The corresponding density operator is:

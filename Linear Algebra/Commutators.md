@@ -23,7 +23,7 @@ then $A$ and $B$ commute.
 The anti-commutator is:
 
 $$
-\{A,B\}=AB+BA
+\lbrace A,B\rbrace=AB+BA
 $$
 
 Anti-commutators appear in operator algebra, spin systems, and later quantum information calculations.

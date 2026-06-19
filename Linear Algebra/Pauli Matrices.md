@@ -44,7 +44,7 @@ $$
 \sigma_k^\dagger \sigma_k = I
 $$
 
-for $k \in \{x, y, z\}$.
+for $k \in \lbrace x, y, z\rbrace$.
 
 Since they are Hermitian, their eigenvalues are real. Since they are unitary, their eigenvalues have absolute value $1$. Together, these facts force their eigenvalues to be:
 
