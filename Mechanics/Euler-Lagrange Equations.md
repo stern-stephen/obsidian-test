@@ -72,7 +72,19 @@ $$
 \delta S=\int_{t_1}^{t_2}\left[\frac{\partial L}{\partial q}-\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}}\right)\right]\delta q dt
 $$
 
-For the action to be stationary, $\delta S=0$ for every allowed variation $\delta q(t)$. The only way this can hold for arbitrary $\delta q(t)$ is:
+For the action to be stationary, $\delta S=0$ for every allowed variation $\delta q(t)$. The fundamental lemma of the calculus of variations says that if a continuous function $F(t)$ satisfies
+
+$$
+\int_{t_1}^{t_2}F(t)\delta q(t)dt=0
+$$
+
+for every sufficiently smooth variation that vanishes at the endpoints, then $F(t)=0$ throughout the interval. Here,
+
+$$
+F(t)=\frac{\partial L}{\partial q}-\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}}\right)
+$$
+
+so the coefficient of the arbitrary variation must vanish pointwise:
 
 $$
 \frac{\partial L}{\partial q}-\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}}\right)=0
