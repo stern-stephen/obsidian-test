@@ -11,6 +11,8 @@ $$
 A = A^\dagger
 $$
 
+When a list item mainly introduces an equation, put the label on its own line and place the equation in a `$$` display block. Do not put command-heavy MathJax, such as expressions containing `\mathbf`, subscripts, or superscripts, directly in the list item when the equation can stand alone. During validation, treat inline math in list items as a rendering-risk warning rather than an absolute error, since short inline expressions may still be appropriate.
+
 Avoid `\(...\)` and `\[...\]` delimiters because they may not render nicely in the Obsidian UI.
 
 When writing math inside Markdown tables, avoid literal `|` characters inside inline math because web Markdown renderers may treat them as table separators before MathJax renders. Use `\vert` for bra-ket separators in table cells, such as `$\langle x\vert A\vert x'\rangle$` instead of `$\langle x|A|x'\rangle$`.

@@ -48,7 +48,12 @@ Therefore zero total external force implies conservation of total linear momentu
 
 ## Weak And Strong Action-Reaction Laws
 
-- Weak law: $\mathbf{F}_{ij}=-\mathbf{F}_{ji}$.
+Weak law:
+
+$$
+\mathbf{F}_{ij}=-\mathbf{F}_{ji}
+$$
+
 - Strong law: the forces are also directed along the line joining particles $i$ and $j$.
 
 The weak law is enough for the center-of-mass momentum theorem. The strong law is needed for internal torques to cancel, giving:
