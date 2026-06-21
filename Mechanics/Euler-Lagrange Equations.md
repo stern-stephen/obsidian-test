@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Euler-Lagrange equations are the equations of motion that follow from stationary action.
+The Euler-Lagrange equations can be reached either by projecting Newton's laws through D'Alembert's principle or by requiring the action to be stationary.
 
 ## Definition
 
@@ -15,6 +15,22 @@ $$
 ## Intuition
 
 The equation balances how the Lagrangian changes with velocity against how it changes with position. It is the local condition that replaces the global variational statement $\delta S=0$.
+
+## Derivation From D'Alembert's Principle
+
+D'Alembert's principle removes ideal constraint forces and projects the applied and inertial forces onto independent generalized-coordinate variations. The key kinetic-energy identity is
+
+$$
+\sum_i\dot{\mathbf{p}}_i\cdot\frac{\partial\mathbf{r}_i}{\partial q_j}=\frac{d}{dt}\frac{\partial T}{\partial\dot q_j}-\frac{\partial T}{\partial q_j}
+$$
+
+It produces Lagrange's equation
+
+$$
+\frac{d}{dt}\frac{\partial T}{\partial\dot q_j}-\frac{\partial T}{\partial q_j}=Q_j
+$$
+
+For $Q_j=-\partial V/\partial q_j$ and $L=T-V$, this is the Euler-Lagrange equation. See [Virtual Work and D'Alembert's Principle](Virtual%20Work%20and%20DAlemberts%20Principle.md#dalemberts-principle) for the complete derivation.
 
 ## Derivation From Stationary Action
 
@@ -124,5 +140,6 @@ which is Newton's second law for a conservative force.
 
 - [Goldstein Section 2.3](../Book%20Notes/Goldstein/Chapter%202/Derivation%20of%20Lagrange%27s%20Equations%20from%20Hamilton%27s%20Principle.md)
 - [Action Principle](Action%20Principle.md)
+- [Virtual Work and D'Alembert's Principle](Virtual%20Work%20and%20DAlemberts%20Principle.md)
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Generalized Coordinates](Generalized%20Coordinates.md)

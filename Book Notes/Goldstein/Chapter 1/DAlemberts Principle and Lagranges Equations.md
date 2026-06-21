@@ -90,11 +90,13 @@ $Q_j$ need not have units of force, but $Q_j\delta q_j$ always has units of work
 
 ## Lagrange's Equations
 
-Transforming the inertial term gives:
+Projecting the inertial term onto each independent $\delta q_j$ and rewriting it in terms of $T$ gives:
 
 $$
 \frac{d}{dt}\frac{\partial T}{\partial\dot q_j}-\frac{\partial T}{\partial q_j}=Q_j
 $$
+
+The intermediate kinetic-energy identity is derived in [Virtual Work and D'Alembert's Principle](../../../Mechanics/Virtual%20Work%20and%20DAlemberts%20Principle.md#dalemberts-principle).
 
 For forces derived from an ordinary potential $V(q,t)$:
 

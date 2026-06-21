@@ -36,13 +36,85 @@ $$
 \sum_i\left(\mathbf{F}_i-\dot{\mathbf{p}}_i\right)\cdot\delta\mathbf{r}_i=0
 $$
 
-After ideal constraint forces are removed, transform the remaining expression to independent generalized-coordinate variations. This gives:
+After ideal constraint forces are removed, only the applied forces remain. For independent generalized coordinates,
+
+$$
+\delta\mathbf{r}_i=\sum_j\frac{\partial\mathbf{r}_i}{\partial q_j}\delta q_j
+$$
+
+Define the generalized applied force by
+
+$$
+Q_j=\sum_i\mathbf{F}_i^{(a)}\cdot\frac{\partial\mathbf{r}_i}{\partial q_j}
+$$
+
+Substitution into D'Alembert's principle gives
+
+$$
+\sum_j\left[Q_j-\sum_i\dot{\mathbf{p}}_i\cdot\frac{\partial\mathbf{r}_i}{\partial q_j}\right]\delta q_j=0
+$$
+
+The remaining task is to rewrite the projected inertial term using the kinetic energy
+
+$$
+T=\frac{1}{2}\sum_i m_i\dot{\mathbf{r}}_i^2
+$$
+
+Because
+
+$$
+\frac{\partial\dot{\mathbf{r}}_i}{\partial\dot q_j}=\frac{\partial\mathbf{r}_i}{\partial q_j}
+$$
+
+we have
+
+$$
+\frac{\partial T}{\partial\dot q_j}=\sum_i\mathbf{p}_i\cdot\frac{\partial\mathbf{r}_i}{\partial q_j}
+$$
+
+Taking a time derivative gives
+
+$$
+\frac{d}{dt}\frac{\partial T}{\partial\dot q_j}=\sum_i\dot{\mathbf{p}}_i\cdot\frac{\partial\mathbf{r}_i}{\partial q_j}+\sum_i\mathbf{p}_i\cdot\frac{d}{dt}\frac{\partial\mathbf{r}_i}{\partial q_j}
+$$
+
+The other derivative of the kinetic energy is
+
+$$
+\frac{\partial T}{\partial q_j}=\sum_i\mathbf{p}_i\cdot\frac{\partial\dot{\mathbf{r}}_i}{\partial q_j}=\sum_i\mathbf{p}_i\cdot\frac{d}{dt}\frac{\partial\mathbf{r}_i}{\partial q_j}
+$$
+
+Subtracting these two equations isolates the inertial projection:
+
+$$
+\sum_i\dot{\mathbf{p}}_i\cdot\frac{\partial\mathbf{r}_i}{\partial q_j}=\frac{d}{dt}\frac{\partial T}{\partial\dot q_j}-\frac{\partial T}{\partial q_j}
+$$
+
+D'Alembert's principle therefore becomes
+
+$$
+\sum_j\left[Q_j-\frac{d}{dt}\frac{\partial T}{\partial\dot q_j}+\frac{\partial T}{\partial q_j}\right]\delta q_j=0
+$$
+
+The variations $\delta q_j$ are independent, so every coefficient must vanish:
 
 $$
 \frac{d}{dt}\frac{\partial T}{\partial\dot q_j}-\frac{\partial T}{\partial q_j}=Q_j
 $$
 
-For conservative forces, this becomes the Euler-Lagrange equation.
+For a velocity-independent conservative potential,
+
+$$
+Q_j=-\frac{\partial V}{\partial q_j}
+$$
+
+Defining $L=T-V$ then gives the Euler-Lagrange equations:
+
+$$
+\frac{d}{dt}\frac{\partial L}{\partial\dot q_j}-\frac{\partial L}{\partial q_j}=0
+$$
+
+This derivation assumes independent generalized coordinates and ideal constraints, so the constraint forces do no total virtual work. The last step also assumes the applied forces come from an ordinary velocity-independent potential.
 
 ## Intuition
 
