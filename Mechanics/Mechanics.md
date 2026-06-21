@@ -22,6 +22,7 @@ This page is the hub for classical mechanics concepts that recur across the text
 - [Symmetries](Symmetries.md)
 - [Conservative Forces](Conservative%20Forces.md)
 - [Conservation Laws](Conservation%20Laws.md)
+- [Center of Mass](Center%20of%20Mass.md)
 - [Energy Function](Energy%20Function.md)
 - [Two-Body Problem](Two-Body%20Problem.md)
 - [Electromagnetic Lagrangian](Electromagnetic%20Lagrangian.md)

@@ -67,6 +67,14 @@ $$
 \mathbf{r}_i=\mathbf{R}+\mathbf{r}'_i
 $$
 
+Because $\mathbf{r}'_i=\mathbf{r}_i-\mathbf{R}$ and $M\mathbf{R}=\sum_i m_i\mathbf{r}_i$ by definition,
+
+$$
+\sum_i m_i\mathbf{r}'_i=\sum_i m_i\mathbf{r}_i-\mathbf{R}\sum_i m_i=M\mathbf{R}-M\mathbf{R}=0
+$$
+
+Thus the mass-weighted relative positions vanish identically; this is what removes the cross terms in the center-of-mass separation. See [Center of Mass](../../../Mechanics/Center%20of%20Mass.md) for the general identity and its time derivative.
+
 Then total angular momentum separates as:
 
 $$
@@ -103,4 +111,5 @@ For a rigid body, all pair distances are fixed. The internal forces therefore do
 ## Links To Concept Notes
 
 - [Conservation Laws](../../../Mechanics/Conservation%20Laws.md)
+- [Center of Mass](../../../Mechanics/Center%20of%20Mass.md)
 - [Two-Body Problem](../../../Mechanics/Two-Body%20Problem.md)
