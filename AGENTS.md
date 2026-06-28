@@ -69,6 +69,17 @@ When adding answers to textbook exercises:
 - For section-specific answer work, update only the relevant section notes unless a hub link or topic note is clearly needed.
 - Before finishing, scan the edited notes for the vault's MathJax conventions and run a Git diff check when possible.
 
+## Graphify Without API Keys
+
+The user does not currently have an API key to give Graphify. Use Graphify as a local navigation and graph-structure tool, and let Codex do the semantic reading and synthesis.
+
+- Use non-LLM Graphify commands such as `graphify query`, `graphify path`, `graphify explain`, and structural `graphify update` when helpful.
+- Phrase Graphify queries around concrete anchors: note titles, headings, filenames, and known concept names.
+- Treat Graphify output as a map to likely files and relationships, not as the authority.
+- Read the actual Markdown notes or local source PDFs before answering conceptual questions or editing notes.
+- When a semantic relationship is missing from the graph, add explicit Markdown links, headings, or durable concept-note text so future structural graph updates can discover it.
+- Do not rely on Graphify's LLM-backed semantic extraction unless the user later provides a suitable API key.
+
 ## Git Workflow
 
 This project is an Obsidian vault stored in Git.
