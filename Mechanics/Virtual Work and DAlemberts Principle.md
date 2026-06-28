@@ -128,11 +128,15 @@ This derivation assumes independent generalized coordinates and ideal constraint
 
 The inertial term $-\dot{\mathbf{p}}_i$ lets a dynamical trajectory be treated as an instantaneous virtual-work balance. The method is valuable because the allowed virtual displacements automatically respect the constraints.
 
+In Coopersmith's terminology, the inertial force is the reversed mass-acceleration term $-m_i\mathbf{a}_i$. It is not an additional applied interaction; it is the term that lets the dynamical problem be handled like a virtual-work equilibrium problem.
+
 ## Related Concepts
 
 - [Constraints](Constraints.md)
 - [Generalized Coordinates](Generalized%20Coordinates.md)
+- [Inertial Forces](Inertial%20Forces.md)
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Euler-Lagrange Equations](Euler-Lagrange%20Equations.md)
 - [Goldstein Section 1.4](../Book%20Notes/Goldstein/Chapter%201/DAlemberts%20Principle%20and%20Lagranges%20Equations.md)
 - [Coopersmith Chapter 4](../Book%20Notes/Coopersmith/Chapter%204/Chapter%20Overview.md)
+- [Coopersmith Chapter 5](../Book%20Notes/Coopersmith/Chapter%205/Chapter%20Overview.md)

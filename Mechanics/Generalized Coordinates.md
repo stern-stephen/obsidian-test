@@ -32,6 +32,8 @@ The transformation then contains the holonomic constraints implicitly.
 
 The point of generalized coordinates is to describe only the actual degrees of freedom. For constrained systems, this can remove constraint forces from the equations.
 
+The configuration of an $n$-degree-of-freedom system is one point in [Configuration Space](Configuration%20Space.md), not necessarily a point in ordinary physical space.
+
 ## Examples
 
 - A pendulum can be described by its angle instead of Cartesian coordinates.
@@ -46,5 +48,7 @@ Generalized coordinates are also useful without constraints. Spherical coordinat
 - [Euler-Lagrange Equations](Euler-Lagrange%20Equations.md)
 - [Canonical Momentum](Canonical%20Momentum.md)
 - [Constraints](Constraints.md)
+- [Configuration Space](Configuration%20Space.md)
 - [Goldstein Section 1.3](../Book%20Notes/Goldstein/Chapter%201/Constraints.md)
+- [Coopersmith Sections 3.1-3.4](../Book%20Notes/Coopersmith/Chapter%203/Chapter%20Overview.md)
 - [Coopersmith Section 4.7](../Book%20Notes/Coopersmith/Chapter%204/Generalized%20Coordinates.md)

@@ -6,6 +6,8 @@ Book hub: [Coopersmith](../Coopersmith.md)
 
 Book chapter: 4, printed pages 59-87.
 
+Previous: [Chapter 3 Overview](../Chapter%203/Chapter%20Overview.md)
+
 Next: [Introduction and Non-Interacting Particles](Introduction%20and%20Non-Interacting%20Particles.md)
 
 ## Reading Status

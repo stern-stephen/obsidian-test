@@ -1,0 +1,48 @@
+# Configuration Space and Invariants
+
+Source: [The Lazy Universe](../../../References/Coopersmith2017TheLazyUniverse.pdf)
+
+Book hub: [Coopersmith](../Coopersmith.md)
+
+Book section: 3.5-3.6, printed pages 40-47.
+
+Previous: [Degrees of Freedom and Generalized Mechanics](Degrees%20of%20Freedom%20and%20Generalized%20Mechanics.md)
+
+Next: [Calculus of Variations](Calculus%20of%20Variations.md)
+
+## Reading Status
+
+- Status: started
+- Pages: 40-47
+- Date started: 2026-06-28
+- Date finished:
+
+## Big Ideas
+
+- Configuration space is an abstract mathematical space whose axes are the generalized coordinates.
+- A single point in configuration space represents the state of the whole system at one time.
+- A system's history becomes a curve in configuration space.
+- Invariants are quantities or statements that survive changes of coordinates and therefore point to physical content rather than descriptive convention.
+
+## Configuration Space
+
+For generalized coordinates $q_1,\ldots,q_n$, the system is represented by one configuration point:
+
+$$
+(q_1,\ldots,q_n)
+$$
+
+As the system changes, this point traces a curve in configuration space. Coopersmith uses this abstraction to prepare for virtual displacements, virtual work, and the later action principle.
+
+## Invariants
+
+Coopersmith's discussion of invariants is about objectivity: a physical conclusion should not depend on a chosen coordinate system or descriptive viewpoint. Coordinate transformations may change the numbers used to describe the system, but not the underlying physical result.
+
+The theme is a bridge from geometry to mechanics. Variational principles are useful partly because they can express physics in forms less tied to a particular coordinate representation.
+
+## Links To Concept Notes
+
+- [Configuration Space](../../../Mechanics/Configuration%20Space.md)
+- [Generalized Coordinates](../../../Mechanics/Generalized%20Coordinates.md)
+- [Action Principle](../../../Mechanics/Action%20Principle.md)
+- [Canonical Transformations](../../../Mechanics/Canonical%20Transformations.md)

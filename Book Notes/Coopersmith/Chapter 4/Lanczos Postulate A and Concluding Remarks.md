@@ -8,6 +8,8 @@ Book section: 4.11-4.12, printed pages 84-87.
 
 Previous: [Examples Using the Principle of Virtual Work](Examples%20Using%20the%20Principle%20of%20Virtual%20Work.md)
 
+Next: [Chapter 5 Overview](../Chapter%205/Chapter%20Overview.md)
+
 ## Reading Status
 
 - Status: started

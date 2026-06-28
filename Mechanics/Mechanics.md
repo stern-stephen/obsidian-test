@@ -11,8 +11,10 @@ This page is the hub for classical mechanics concepts that recur across the text
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Euler-Lagrange Equations](Euler-Lagrange%20Equations.md)
 - [Generalized Coordinates](Generalized%20Coordinates.md)
+- [Configuration Space](Configuration%20Space.md)
 - [Constraints](Constraints.md)
 - [Virtual Work and D'Alembert's Principle](Virtual%20Work%20and%20DAlemberts%20Principle.md)
+- [Inertial Forces](Inertial%20Forces.md)
 - [Hamiltonian Mechanics](Hamiltonian%20Mechanics.md)
 - [Phase Space](Phase%20Space.md)
 - [Canonical Momentum](Canonical%20Momentum.md)
@@ -37,7 +39,9 @@ This page is the hub for classical mechanics concepts that recur across the text
 - [Goldstein Chapter 1 Overview](../Book%20Notes/Goldstein/Chapter%201/Chapter%20Overview.md)
 - [Goldstein Chapter 2 Overview](../Book%20Notes/Goldstein/Chapter%202/Chapter%20Overview.md)
 - [Coopersmith](../Book%20Notes/Coopersmith/Coopersmith.md)
+- [Coopersmith Chapter 3 Overview](../Book%20Notes/Coopersmith/Chapter%203/Chapter%20Overview.md)
 - [Coopersmith Chapter 4 Overview](../Book%20Notes/Coopersmith/Chapter%204/Chapter%20Overview.md)
+- [Coopersmith Chapter 5 Overview](../Book%20Notes/Coopersmith/Chapter%205/Chapter%20Overview.md)
 
 ## Why It Matters
 

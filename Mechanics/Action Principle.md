@@ -109,3 +109,4 @@ Thus Hamilton's principle does not replace Newtonian dynamics with a different p
 - [How Smart Is a Particle](../Book%20Notes/Shankar/Chapter%202/How%20Smart%20Is%20a%20Particle.md)
 - [Calculus of Variations](../Mathematics/Calculus%20of%20Variations.md)
 - [Goldstein Section 2.1](../Book%20Notes/Goldstein/Chapter%202/Hamilton%27s%20Principle.md)
+- [Coopersmith Chapter 3](../Book%20Notes/Coopersmith/Chapter%203/Chapter%20Overview.md)

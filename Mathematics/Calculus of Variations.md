@@ -69,3 +69,4 @@ Ordinary calculus varies a number and sets a derivative to zero. Variational cal
 - [Action Principle](../Mechanics/Action%20Principle.md)
 - [Euler-Lagrange Equations](../Mechanics/Euler-Lagrange%20Equations.md)
 - [Goldstein Section 2.2](../Book%20Notes/Goldstein/Chapter%202/Some%20Techniques%20of%20the%20Calculus%20of%20Variations.md)
+- [Coopersmith Section 3.7](../Book%20Notes/Coopersmith/Chapter%203/Calculus%20of%20Variations.md)
