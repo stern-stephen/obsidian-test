@@ -47,3 +47,4 @@ Generalized coordinates are also useful without constraints. Spherical coordinat
 - [Canonical Momentum](Canonical%20Momentum.md)
 - [Constraints](Constraints.md)
 - [Goldstein Section 1.3](../Book%20Notes/Goldstein/Chapter%201/Constraints.md)
+- [Coopersmith Section 4.7](../Book%20Notes/Coopersmith/Chapter%204/Generalized%20Coordinates.md)

@@ -22,6 +22,14 @@ $$
 
 so only applied forces remain in the virtual-work equation.
 
+For an internal holonomic constraint $f(\mathbf{r}_1,\ldots,\mathbf{r}_N,t)=0$, the constraint force has the direction needed to enforce that relation. Its virtual work is proportional to the virtual change of the constraint:
+
+$$
+\delta f=\sum_i\frac{\partial f}{\partial\mathbf{r}_i}\cdot\delta\mathbf{r}_i
+$$
+
+Allowed virtual displacements keep the system on the constraint surface, so $\delta f=0$. Thus the internal constraint force can be omitted from D'Alembert's principle even though the force itself is not zero.
+
 ## D'Alembert's Principle
 
 Write Newton's law as:
@@ -127,3 +135,4 @@ The inertial term $-\dot{\mathbf{p}}_i$ lets a dynamical trajectory be treated a
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Euler-Lagrange Equations](Euler-Lagrange%20Equations.md)
 - [Goldstein Section 1.4](../Book%20Notes/Goldstein/Chapter%201/DAlemberts%20Principle%20and%20Lagranges%20Equations.md)
+- [Coopersmith Chapter 4](../Book%20Notes/Coopersmith/Chapter%204/Chapter%20Overview.md)

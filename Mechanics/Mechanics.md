@@ -36,6 +36,8 @@ This page is the hub for classical mechanics concepts that recur across the text
 - [Goldstein](../Book%20Notes/Goldstein/Goldstein.md)
 - [Goldstein Chapter 1 Overview](../Book%20Notes/Goldstein/Chapter%201/Chapter%20Overview.md)
 - [Goldstein Chapter 2 Overview](../Book%20Notes/Goldstein/Chapter%202/Chapter%20Overview.md)
+- [Coopersmith](../Book%20Notes/Coopersmith/Coopersmith.md)
+- [Coopersmith Chapter 4 Overview](../Book%20Notes/Coopersmith/Chapter%204/Chapter%20Overview.md)
 
 ## Why It Matters
 

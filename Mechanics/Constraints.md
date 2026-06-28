@@ -51,6 +51,14 @@ $$
 
 This property allows constraint forces to be eliminated through D'Alembert's principle.
 
+For an internal holonomic constraint, the word "eliminated" means eliminated from the equations for the allowed motion, not physically absent. If the virtual displacement is compatible with the constraint, the virtual change of the constraint equation is zero:
+
+$$
+\delta f=\sum_i\frac{\partial f}{\partial\mathbf{r}_i}\cdot\delta\mathbf{r}_i=0
+$$
+
+The corresponding internal constraint force therefore contributes no virtual work in the allowed directions. This is why generalized coordinates can build in ideal internal constraints without needing to solve for the constraint forces first.
+
 ## Lagrange Multipliers
 
 When it is inconvenient to eliminate holonomic constraints $f_\alpha(q,t)=0$, retain the dependent coordinates and use an augmented Lagrangian:
@@ -80,3 +88,4 @@ Together with the constraint equations, these determine the motion and multiplie
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Goldstein Section 1.3](../Book%20Notes/Goldstein/Chapter%201/Constraints.md)
 - [Goldstein Section 2.4](../Book%20Notes/Goldstein/Chapter%202/Extending%20Hamilton%27s%20Principle%20to%20Systems%20with%20Constraints.md)
+- [Coopersmith Section 4.8](../Book%20Notes/Coopersmith/Chapter%204/Constraints%20and%20Kinematical%20Conditions.md)
