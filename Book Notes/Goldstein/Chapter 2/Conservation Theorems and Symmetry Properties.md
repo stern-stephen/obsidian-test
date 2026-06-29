@@ -93,3 +93,11 @@ Goldstein presents these as the symmetry content of cyclic coordinates and point
 - [Canonical Momentum](../../../Mechanics/Canonical%20Momentum.md)
 - [Symmetries](../../../Mechanics/Symmetries.md)
 - [Conservation Laws](../../../Mechanics/Conservation%20Laws.md)
+
+<!-- semantic-edges
+{"source":"Conservation Theorems and Symmetry Properties","relation":"PART_OF","target":"Goldstein Chapter 2","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Goldstein Chapter 2.","confidence":0.85}
+{"source":"Conservation Theorems and Symmetry Properties","relation":"SOURCE_CONTEXT_FOR","target":"Advantages of a Variational Principle Formulation","evidence_heading":"Conservation Theorems and Symmetry Properties","evidence_summary":"This source note explicitly links its treatment to Advantages of a Variational Principle Formulation.","confidence":0.8}
+{"source":"Conservation Theorems and Symmetry Properties","relation":"SOURCE_CONTEXT_FOR","target":"Energy Function and the Conservation of Energy","evidence_heading":"Conservation Theorems and Symmetry Properties","evidence_summary":"This source note explicitly links its treatment to Energy Function and the Conservation of Energy.","confidence":0.8}
+{"source":"Conservation Theorems and Symmetry Properties","relation":"SOURCE_CONTEXT_FOR","target":"Cyclic Coordinates","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Cyclic Coordinates.","confidence":0.8}
+{"source":"Conservation Theorems and Symmetry Properties","relation":"SOURCE_CONTEXT_FOR","target":"Canonical Momentum","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Canonical Momentum.","confidence":0.8}
+-->

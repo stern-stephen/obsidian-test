@@ -42,3 +42,11 @@ Shankar then connects compatible observables with shared eigenvectors and commut
 - [Postulates of Quantum Mechanics](../../../Quantum%20Mechanics/Postulates%20of%20Quantum%20Mechanics.md)
 - [Commutators](../../../Linear%20Algebra/Commutators.md)
 - [Projection Matrices](../../../Linear%20Algebra/Projection%20Matrices.md)
+
+<!-- semantic-edges
+{"source":"Discussion of Postulates I-III","relation":"PART_OF","target":"Shankar Chapter 4","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Shankar Chapter 4.","confidence":0.85}
+{"source":"Discussion of Postulates I-III","relation":"SOURCE_CONTEXT_FOR","target":"The Postulates","evidence_heading":"Discussion of Postulates I-III","evidence_summary":"This source note explicitly links its treatment to The Postulates.","confidence":0.8}
+{"source":"Discussion of Postulates I-III","relation":"SOURCE_CONTEXT_FOR","target":"The Schrodinger Equation","evidence_heading":"Discussion of Postulates I-III","evidence_summary":"This source note explicitly links its treatment to The Schrodinger Equation.","confidence":0.8}
+{"source":"Discussion of Postulates I-III","relation":"SOURCE_CONTEXT_FOR","target":"Quantum State Vector","evidence_heading":"Notes","evidence_summary":"This source note explicitly links its treatment to Quantum State Vector.","confidence":0.8}
+{"source":"Discussion of Postulates I-III","relation":"SOURCE_CONTEXT_FOR","target":"Quantum Measurement","evidence_heading":"Notes","evidence_summary":"This source note explicitly links its treatment to Quantum Measurement.","confidence":0.8}
+-->

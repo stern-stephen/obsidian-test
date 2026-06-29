@@ -52,3 +52,11 @@ Generalized coordinates are also useful without constraints. Spherical coordinat
 - [Goldstein Section 1.3](../Book%20Notes/Goldstein/Chapter%201/Constraints.md)
 - [Coopersmith Sections 3.1-3.4](../Book%20Notes/Coopersmith/Chapter%203/Chapter%20Overview.md)
 - [Coopersmith Section 4.7](../Book%20Notes/Coopersmith/Chapter%204/Generalized%20Coordinates.md)
+
+<!-- semantic-edges
+{"source":"Generalized Coordinates","relation":"PART_OF","target":"Mechanics","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Mechanics area of the vault.","confidence":0.85}
+{"source":"Generalized Coordinates","relation":"MECHANICS_RELATED_TO","target":"Configuration Space","evidence_heading":"Intuition","evidence_summary":"The note explicitly connects Generalized Coordinates with Configuration Space in its discussion or related-note links.","confidence":0.75}
+{"source":"Generalized Coordinates","relation":"MECHANICS_RELATED_TO","target":"Lagrangian Mechanics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Generalized Coordinates with Lagrangian Mechanics in its discussion or related-note links.","confidence":0.75}
+{"source":"Generalized Coordinates","relation":"MECHANICS_RELATED_TO","target":"Euler-Lagrange Equations","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Generalized Coordinates with Euler-Lagrange Equations in its discussion or related-note links.","confidence":0.75}
+{"source":"Generalized Coordinates","relation":"MECHANICS_RELATED_TO","target":"Canonical Momentum","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Generalized Coordinates with Canonical Momentum in its discussion or related-note links.","confidence":0.75}
+-->

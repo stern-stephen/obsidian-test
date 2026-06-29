@@ -47,3 +47,11 @@ A classical state becomes a point in [Phase Space](../../../Mechanics/Phase%20Sp
 - [Phase Space](../../../Mechanics/Phase%20Space.md)
 - [Canonical Momentum](../../../Mechanics/Canonical%20Momentum.md)
 - [Lagrangian Mechanics](../../../Mechanics/Lagrangian%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"The Hamiltonian Formalism","relation":"PART_OF","target":"Shankar Chapter 2","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Shankar Chapter 2.","confidence":0.85}
+{"source":"The Hamiltonian Formalism","relation":"SOURCE_CONTEXT_FOR","target":"How Smart Is a Particle","evidence_heading":"The Hamiltonian Formalism","evidence_summary":"This source note explicitly links its treatment to How Smart Is a Particle.","confidence":0.8}
+{"source":"The Hamiltonian Formalism","relation":"SOURCE_CONTEXT_FOR","target":"The Electromagnetic Force in the Hamiltonian Scheme","evidence_heading":"The Hamiltonian Formalism","evidence_summary":"This source note explicitly links its treatment to The Electromagnetic Force in the Hamiltonian Scheme.","confidence":0.8}
+{"source":"The Hamiltonian Formalism","relation":"SOURCE_CONTEXT_FOR","target":"Legendre transform","evidence_heading":"Notes","evidence_summary":"This source note explicitly links its treatment to Legendre transform.","confidence":0.8}
+{"source":"The Hamiltonian Formalism","relation":"SOURCE_CONTEXT_FOR","target":"Hamiltonian Mechanics","evidence_heading":"Notes","evidence_summary":"This source note explicitly links its treatment to Hamiltonian Mechanics.","confidence":0.8}
+-->

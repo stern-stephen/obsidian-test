@@ -43,3 +43,11 @@ The quantum-mechanical echo is deeper. In the path-integral formulation, amplitu
 - [Action Principle](../../../Mechanics/Action%20Principle.md)
 - [Lagrangian Mechanics](../../../Mechanics/Lagrangian%20Mechanics.md)
 - [Classical Mechanics](../../../Mechanics/Classical%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"How Smart Is a Particle","relation":"PART_OF","target":"Shankar Chapter 2","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Shankar Chapter 2.","confidence":0.85}
+{"source":"How Smart Is a Particle","relation":"SOURCE_CONTEXT_FOR","target":"The Two-Body Problem","evidence_heading":"How Smart Is a Particle","evidence_summary":"This source note explicitly links its treatment to The Two-Body Problem.","confidence":0.8}
+{"source":"How Smart Is a Particle","relation":"SOURCE_CONTEXT_FOR","target":"The Hamiltonian Formalism","evidence_heading":"How Smart Is a Particle","evidence_summary":"This source note explicitly links its treatment to The Hamiltonian Formalism.","confidence":0.8}
+{"source":"How Smart Is a Particle","relation":"SOURCE_CONTEXT_FOR","target":"Action Principle","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Action Principle.","confidence":0.8}
+{"source":"How Smart Is a Particle","relation":"SOURCE_CONTEXT_FOR","target":"Lagrangian Mechanics","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Lagrangian Mechanics.","confidence":0.8}
+-->

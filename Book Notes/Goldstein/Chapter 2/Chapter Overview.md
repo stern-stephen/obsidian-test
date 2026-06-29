@@ -64,3 +64,11 @@ Next: [Hamilton's Principle](Hamilton%27s%20Principle.md)
 - Exactly which nonholonomic constraints admit a multiplier-based variational treatment?
 - When does a conserved canonical momentum differ physically from mechanical momentum?
 - How does the energy function change under time-dependent coordinates?
+
+<!-- semantic-edges
+{"source":"Chapter Overview","relation":"PART_OF","target":"Goldstein Chapter 2","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Goldstein Chapter 2.","confidence":0.85}
+{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"Simple Applications of the Lagrangian Formulation","evidence_heading":"Chapter Overview","evidence_summary":"This source note explicitly links its treatment to Simple Applications of the Lagrangian Formulation.","confidence":0.8}
+{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"Hamilton's Principle","evidence_heading":"Chapter Overview","evidence_summary":"This source note explicitly links its treatment to Hamilton's Principle.","confidence":0.8}
+{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"Some Techniques of the Calculus of Variations","evidence_heading":"Section Notes","evidence_summary":"This source note explicitly links its treatment to Some Techniques of the Calculus of Variations.","confidence":0.8}
+{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"Derivation of Lagrange's Equations from Hamilton's Principle","evidence_heading":"Section Notes","evidence_summary":"This source note explicitly links its treatment to Derivation of Lagrange's Equations from Hamilton's Principle.","confidence":0.8}
+-->

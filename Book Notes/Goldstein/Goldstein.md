@@ -57,3 +57,11 @@ Use this page to track chapter notes, questions, and concept pages created while
 - [Euler-Lagrange Equations](../../Mechanics/Euler-Lagrange%20Equations.md)
 - [Conservation Laws](../../Mechanics/Conservation%20Laws.md)
 - [Electromagnetic Lagrangian](../../Mechanics/Electromagnetic%20Lagrangian.md)
+
+<!-- semantic-edges
+{"source":"Goldstein","relation":"BOOK_NOTES_FOR","target":"Classical Mechanics","evidence_heading":"Overview","evidence_summary":"The Goldstein hub organizes source-specific reading notes for Classical Mechanics.","confidence":0.85}
+{"source":"Goldstein","relation":"ORGANIZES","target":"Chapter 1 Overview","evidence_heading":"Chapter Notes","evidence_summary":"The Goldstein hub links to Chapter 1 Overview as part of its reading-note structure.","confidence":0.75}
+{"source":"Goldstein","relation":"ORGANIZES","target":"Mechanics of a Particle","evidence_heading":"Chapter Notes","evidence_summary":"The Goldstein hub links to Mechanics of a Particle as part of its reading-note structure.","confidence":0.75}
+{"source":"Goldstein","relation":"ORGANIZES","target":"Mechanics of a System of Particles","evidence_heading":"Chapter Notes","evidence_summary":"The Goldstein hub links to Mechanics of a System of Particles as part of its reading-note structure.","confidence":0.75}
+{"source":"Goldstein","relation":"ORGANIZES","target":"Constraints","evidence_heading":"Chapter Notes","evidence_summary":"The Goldstein hub links to Constraints as part of its reading-note structure.","confidence":0.75}
+-->

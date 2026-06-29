@@ -52,3 +52,11 @@ The Bloch sphere turns an abstract two-dimensional complex vector into a three-d
 - [Bra-Ket Notation](../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Eigenvalues](../Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md)
 - [Unitary Matrices](../Linear%20Algebra/Unitary%20Matrices.md)
+
+<!-- semantic-edges
+{"source":"Bloch Sphere","relation":"PART_OF","target":"Quantum Computing","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Quantum Computing area of the vault.","confidence":0.85}
+{"source":"Bloch Sphere","relation":"QUANTUM_COMPUTING_RELATED_TO","target":"Quantum Computing","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Bloch Sphere with Quantum Computing in its discussion or related-note links.","confidence":0.75}
+{"source":"Bloch Sphere","relation":"QUANTUM_COMPUTING_RELATED_TO","target":"Quantum Mechanics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Bloch Sphere with Quantum Mechanics in its discussion or related-note links.","confidence":0.75}
+{"source":"Bloch Sphere","relation":"QUANTUM_COMPUTING_RELATED_TO","target":"Vectors","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Bloch Sphere with Vectors in its discussion or related-note links.","confidence":0.75}
+{"source":"Bloch Sphere","relation":"QUANTUM_COMPUTING_RELATED_TO","target":"Bra-Ket Notation","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Bloch Sphere with Bra-Ket Notation in its discussion or related-note links.","confidence":0.75}
+-->

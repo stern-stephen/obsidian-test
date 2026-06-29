@@ -335,3 +335,11 @@ Related notes:
 - [Unitary Matrices](../../../Linear%20Algebra/Unitary%20Matrices.md)
 - [Quantum Mechanics](../../../Quantum%20Mechanics/Quantum%20Mechanics.md)
 - [Quantum Computing](../../../Quantum%20Computing/Quantum%20Computing.md)
+
+<!-- semantic-edges
+{"source":"Linear Algebra","relation":"PART_OF","target":"Nielsen Chuang Chapter 2","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Nielsen Chuang Chapter 2.","confidence":0.85}
+{"source":"Linear Algebra","relation":"SOURCE_CONTEXT_FOR","target":"Nielsen And Chuang","evidence_heading":"Linear Algebra","evidence_summary":"This source note explicitly links its treatment to Nielsen And Chuang.","confidence":0.8}
+{"source":"Linear Algebra","relation":"SOURCE_CONTEXT_FOR","target":"Quantum Mechanics","evidence_heading":"Linear Algebra","evidence_summary":"This source note explicitly links its treatment to Quantum Mechanics.","confidence":0.8}
+{"source":"Linear Algebra","relation":"SOURCE_CONTEXT_FOR","target":"linear algebra","evidence_heading":"Overview","evidence_summary":"This source note explicitly links its treatment to linear algebra.","confidence":0.8}
+{"source":"Linear Algebra","relation":"SOURCE_CONTEXT_FOR","target":"Vector Spaces","evidence_heading":"2.1.1 Bases And Linear Independence","evidence_summary":"This source note explicitly links its treatment to Vector Spaces.","confidence":0.8}
+-->

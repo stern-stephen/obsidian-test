@@ -64,3 +64,11 @@ $$
 - [Electromagnetic Lagrangian](../../../Mechanics/Electromagnetic%20Lagrangian.md)
 - [Canonical Momentum](../../../Mechanics/Canonical%20Momentum.md)
 - [Hamiltonian Mechanics](../../../Mechanics/Hamiltonian%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"The Electromagnetic Force in the Hamiltonian Scheme","relation":"PART_OF","target":"Shankar Chapter 2","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Shankar Chapter 2.","confidence":0.85}
+{"source":"The Electromagnetic Force in the Hamiltonian Scheme","relation":"SOURCE_CONTEXT_FOR","target":"The Hamiltonian Formalism","evidence_heading":"The Electromagnetic Force in the Hamiltonian Scheme","evidence_summary":"This source note explicitly links its treatment to The Hamiltonian Formalism.","confidence":0.8}
+{"source":"The Electromagnetic Force in the Hamiltonian Scheme","relation":"SOURCE_CONTEXT_FOR","target":"Cyclic Coordinates, Poisson Brackets, and Canonical Transformations","evidence_heading":"The Electromagnetic Force in the Hamiltonian Scheme","evidence_summary":"This source note explicitly links its treatment to Cyclic Coordinates, Poisson Brackets, and Canonical Transformations.","confidence":0.8}
+{"source":"The Electromagnetic Force in the Hamiltonian Scheme","relation":"SOURCE_CONTEXT_FOR","target":"Electromagnetic Lagrangian","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Electromagnetic Lagrangian.","confidence":0.8}
+{"source":"The Electromagnetic Force in the Hamiltonian Scheme","relation":"SOURCE_CONTEXT_FOR","target":"Canonical Momentum","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Canonical Momentum.","confidence":0.8}
+-->

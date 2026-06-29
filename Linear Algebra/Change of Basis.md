@@ -173,3 +173,11 @@ The object stays fixed, but the coordinate labels change. A matrix representatio
 - [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
 - [Unitary Operators](Unitary%20Matrices.md)
 - [Singular Value Decomposition](Singular%20Value%20Decomposition.md)
+
+<!-- semantic-edges
+{"source":"Change of Basis","relation":"PART_OF","target":"Linear Algebra","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Linear Algebra area of the vault.","confidence":0.85}
+{"source":"Change of Basis","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Diagonalization","evidence_heading":"Connection To Diagonalization","evidence_summary":"The note explicitly connects Change of Basis with Diagonalization in its discussion or related-note links.","confidence":0.75}
+{"source":"Change of Basis","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Shankar: Active and Passive Transformations","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Change of Basis with Shankar: Active and Passive Transformations in its discussion or related-note links.","confidence":0.75}
+{"source":"Change of Basis","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Linear Algebra","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Change of Basis with Linear Algebra in its discussion or related-note links.","confidence":0.75}
+{"source":"Change of Basis","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Vector Spaces","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Change of Basis with Vector Spaces in its discussion or related-note links.","confidence":0.75}
+-->

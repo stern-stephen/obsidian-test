@@ -50,3 +50,11 @@ Next: [The Principle of Least Action and Lagrangian Mechanics](The%20Principle%2
 
 - Add printed page ranges for each section from the PDF.
 - Revisit the symmetry discussion after Chapter 11, where Shankar returns to symmetries in quantum mechanics.
+
+<!-- semantic-edges
+{"source":"Chapter Overview","relation":"PART_OF","target":"Shankar Chapter 2","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Shankar Chapter 2.","confidence":0.85}
+{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"The Principle of Least Action and Lagrangian Mechanics","evidence_heading":"Chapter Overview","evidence_summary":"This source note explicitly links its treatment to The Principle of Least Action and Lagrangian Mechanics.","confidence":0.8}
+{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"The Electromagnetic Lagrangian","evidence_heading":"Section Notes","evidence_summary":"This source note explicitly links its treatment to The Electromagnetic Lagrangian.","confidence":0.8}
+{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"The Two-Body Problem","evidence_heading":"Section Notes","evidence_summary":"This source note explicitly links its treatment to The Two-Body Problem.","confidence":0.8}
+{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"How Smart Is a Particle","evidence_heading":"Section Notes","evidence_summary":"This source note explicitly links its treatment to How Smart Is a Particle.","confidence":0.8}
+-->

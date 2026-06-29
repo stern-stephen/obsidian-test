@@ -38,3 +38,11 @@ $$
 - [Hamiltonian Mechanics](Hamiltonian%20Mechanics.md)
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Electromagnetic Lagrangian](Electromagnetic%20Lagrangian.md)
+
+<!-- semantic-edges
+{"source":"Canonical Momentum","relation":"PART_OF","target":"Mechanics","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Mechanics area of the vault.","confidence":0.85}
+{"source":"Canonical Momentum","relation":"MECHANICS_RELATED_TO","target":"Goldstein Section 2.6","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Canonical Momentum with Goldstein Section 2.6 in its discussion or related-note links.","confidence":0.75}
+{"source":"Canonical Momentum","relation":"MECHANICS_RELATED_TO","target":"Shankar: The Electromagnetic Lagrangian","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Canonical Momentum with Shankar: The Electromagnetic Lagrangian in its discussion or related-note links.","confidence":0.75}
+{"source":"Canonical Momentum","relation":"MECHANICS_RELATED_TO","target":"Shankar: Electromagnetic Force in the Hamiltonian Scheme","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Canonical Momentum with Shankar: Electromagnetic Force in the Hamiltonian Scheme in its discussion or related-note links.","confidence":0.75}
+{"source":"Canonical Momentum","relation":"MECHANICS_RELATED_TO","target":"Hamiltonian Mechanics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Canonical Momentum with Hamiltonian Mechanics in its discussion or related-note links.","confidence":0.75}
+-->

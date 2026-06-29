@@ -148,3 +148,11 @@ $$
 - [Vector Spaces](Vector%20Spaces.md)
 - [Vectors](Vectors.md)
 - [Four Fundamental Subspaces](Four%20Fundamental%20Subspaces.md)
+
+<!-- semantic-edges
+{"source":"Gaussian Elimination","relation":"PART_OF","target":"Linear Algebra","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Linear Algebra area of the vault.","confidence":0.85}
+{"source":"Gaussian Elimination","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Four Fundamental Subspaces","evidence_heading":"Rank","evidence_summary":"The note explicitly connects Gaussian Elimination with Four Fundamental Subspaces in its discussion or related-note links.","confidence":0.75}
+{"source":"Gaussian Elimination","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Linear Algebra","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Gaussian Elimination with Linear Algebra in its discussion or related-note links.","confidence":0.75}
+{"source":"Gaussian Elimination","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Matrices","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Gaussian Elimination with Matrices in its discussion or related-note links.","confidence":0.75}
+{"source":"Gaussian Elimination","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Vector Spaces","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Gaussian Elimination with Vector Spaces in its discussion or related-note links.","confidence":0.75}
+-->

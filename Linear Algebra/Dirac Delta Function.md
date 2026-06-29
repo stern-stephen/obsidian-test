@@ -167,3 +167,10 @@ feel less like a trick: it is the limit of a well-behaved Gaussian-regulated Fou
 - [Projection Operators](Projection%20Matrices.md)
 - [Shankar 1.10](../Book%20Notes/Shankar/Chapter%201/Infinite-Dimensional%20Spaces.md#kronecker-delta-to-dirac-delta)
 
+<!-- semantic-edges
+{"source":"Dirac Delta Function","relation":"PART_OF","target":"Linear Algebra","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Linear Algebra area of the vault.","confidence":0.85}
+{"source":"Dirac Delta Function","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Infinite-Dimensional Vector Spaces","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Dirac Delta Function with Infinite-Dimensional Vector Spaces in its discussion or related-note links.","confidence":0.75}
+{"source":"Dirac Delta Function","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Bra-Ket Notation","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Dirac Delta Function with Bra-Ket Notation in its discussion or related-note links.","confidence":0.75}
+{"source":"Dirac Delta Function","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Projection Operators","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Dirac Delta Function with Projection Operators in its discussion or related-note links.","confidence":0.75}
+{"source":"Dirac Delta Function","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Shankar 1.10","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Dirac Delta Function with Shankar 1.10 in its discussion or related-note links.","confidence":0.75}
+-->

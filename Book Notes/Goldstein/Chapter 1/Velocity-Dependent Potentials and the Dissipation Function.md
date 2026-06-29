@@ -110,3 +110,11 @@ For the convention used here, $2\mathcal{F}$ is the rate at which mechanical ene
 - [Electromagnetic Lagrangian](../../../Mechanics/Electromagnetic%20Lagrangian.md)
 - [Canonical Momentum](../../../Mechanics/Canonical%20Momentum.md)
 - [Rayleigh Dissipation Function](../../../Mechanics/Rayleigh%20Dissipation%20Function.md)
+
+<!-- semantic-edges
+{"source":"Velocity-Dependent Potentials and the Dissipation Function","relation":"PART_OF","target":"Goldstein Chapter 1","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Goldstein Chapter 1.","confidence":0.85}
+{"source":"Velocity-Dependent Potentials and the Dissipation Function","relation":"SOURCE_CONTEXT_FOR","target":"D'Alembert's Principle and Lagrange's Equations","evidence_heading":"Velocity-Dependent Potentials and the Dissipation Function","evidence_summary":"This source note explicitly links its treatment to D'Alembert's Principle and Lagrange's Equations.","confidence":0.8}
+{"source":"Velocity-Dependent Potentials and the Dissipation Function","relation":"SOURCE_CONTEXT_FOR","target":"Simple Applications of the Lagrangian Formulation","evidence_heading":"Velocity-Dependent Potentials and the Dissipation Function","evidence_summary":"This source note explicitly links its treatment to Simple Applications of the Lagrangian Formulation.","confidence":0.8}
+{"source":"Velocity-Dependent Potentials and the Dissipation Function","relation":"SOURCE_CONTEXT_FOR","target":"Electromagnetic Lagrangian","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Electromagnetic Lagrangian.","confidence":0.8}
+{"source":"Velocity-Dependent Potentials and the Dissipation Function","relation":"SOURCE_CONTEXT_FOR","target":"Canonical Momentum","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Canonical Momentum.","confidence":0.8}
+-->

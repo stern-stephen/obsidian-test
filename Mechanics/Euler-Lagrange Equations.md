@@ -143,3 +143,11 @@ which is Newton's second law for a conservative force.
 - [Virtual Work and D'Alembert's Principle](Virtual%20Work%20and%20DAlemberts%20Principle.md)
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Generalized Coordinates](Generalized%20Coordinates.md)
+
+<!-- semantic-edges
+{"source":"Euler-Lagrange Equations","relation":"PART_OF","target":"Mechanics","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Mechanics area of the vault.","confidence":0.85}
+{"source":"Euler-Lagrange Equations","relation":"MECHANICS_RELATED_TO","target":"Virtual Work and D'Alembert's Principle","evidence_heading":"Derivation From D'Alembert's Principle","evidence_summary":"The note explicitly connects Euler-Lagrange Equations with Virtual Work and D'Alembert's Principle in its discussion or related-note links.","confidence":0.75}
+{"source":"Euler-Lagrange Equations","relation":"MECHANICS_RELATED_TO","target":"Goldstein Section 2.3","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Euler-Lagrange Equations with Goldstein Section 2.3 in its discussion or related-note links.","confidence":0.75}
+{"source":"Euler-Lagrange Equations","relation":"MECHANICS_RELATED_TO","target":"Action Principle","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Euler-Lagrange Equations with Action Principle in its discussion or related-note links.","confidence":0.75}
+{"source":"Euler-Lagrange Equations","relation":"MECHANICS_RELATED_TO","target":"Lagrangian Mechanics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Euler-Lagrange Equations with Lagrangian Mechanics in its discussion or related-note links.","confidence":0.75}
+-->

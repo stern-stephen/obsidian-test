@@ -80,3 +80,11 @@ The extension still assumes that constraint forces do no virtual work in the all
 - [Constraints](../../../Mechanics/Constraints.md)
 - [Generalized Coordinates](../../../Mechanics/Generalized%20Coordinates.md)
 - [Virtual Work and D'Alembert's Principle](../../../Mechanics/Virtual%20Work%20and%20DAlemberts%20Principle.md)
+
+<!-- semantic-edges
+{"source":"Extending Hamilton's Principle to Systems with Constraints","relation":"PART_OF","target":"Goldstein Chapter 2","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Goldstein Chapter 2.","confidence":0.85}
+{"source":"Extending Hamilton's Principle to Systems with Constraints","relation":"SOURCE_CONTEXT_FOR","target":"Derivation of Lagrange's Equations from Hamilton's Principle","evidence_heading":"Extending Hamilton's Principle to Systems with Constraints","evidence_summary":"This source note explicitly links its treatment to Derivation of Lagrange's Equations from Hamilton's Principle.","confidence":0.8}
+{"source":"Extending Hamilton's Principle to Systems with Constraints","relation":"SOURCE_CONTEXT_FOR","target":"Advantages of a Variational Principle Formulation","evidence_heading":"Extending Hamilton's Principle to Systems with Constraints","evidence_summary":"This source note explicitly links its treatment to Advantages of a Variational Principle Formulation.","confidence":0.8}
+{"source":"Extending Hamilton's Principle to Systems with Constraints","relation":"SOURCE_CONTEXT_FOR","target":"Constraints","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Constraints.","confidence":0.8}
+{"source":"Extending Hamilton's Principle to Systems with Constraints","relation":"SOURCE_CONTEXT_FOR","target":"Generalized Coordinates","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Generalized Coordinates.","confidence":0.8}
+-->

@@ -51,3 +51,11 @@ This is why composite quantum systems are not just a bookkeeping device. The ten
 - [Entanglement](Entanglement.md)
 - [Density Operators](Density%20Operators.md)
 - [Quantum Computing](../Quantum%20Computing/Quantum%20Computing.md)
+
+<!-- semantic-edges
+{"source":"Composite Quantum Systems","relation":"PART_OF","target":"Quantum Mechanics","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Quantum Mechanics area of the vault.","confidence":0.85}
+{"source":"Composite Quantum Systems","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"Nielsen and Chuang: Postulates of Quantum Mechanics","evidence_heading":"Related Book Notes","evidence_summary":"The note explicitly connects Composite Quantum Systems with Nielsen and Chuang: Postulates of Quantum Mechanics in its discussion or related-note links.","confidence":0.75}
+{"source":"Composite Quantum Systems","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"Nielsen and Chuang: Schmidt Decomposition and Purifications","evidence_heading":"Related Book Notes","evidence_summary":"The note explicitly connects Composite Quantum Systems with Nielsen and Chuang: Schmidt Decomposition and Purifications in its discussion or related-note links.","confidence":0.75}
+{"source":"Composite Quantum Systems","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"Nielsen and Chuang: EPR and Bell Inequality","evidence_heading":"Related Book Notes","evidence_summary":"The note explicitly connects Composite Quantum Systems with Nielsen and Chuang: EPR and Bell Inequality in its discussion or related-note links.","confidence":0.75}
+{"source":"Composite Quantum Systems","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"Quantum Mechanics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Composite Quantum Systems with Quantum Mechanics in its discussion or related-note links.","confidence":0.75}
+-->

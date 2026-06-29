@@ -104,3 +104,11 @@ $$
 - [Projection Operators](../../../Linear%20Algebra/Projection%20Matrices.md)
 - [Four Fundamental Subspaces](../../../Linear%20Algebra/Four%20Fundamental%20Subspaces.md)
 - [Gram-Schmidt](../../../Linear%20Algebra/Gram-Schmidt.md)
+
+<!-- semantic-edges
+{"source":"Subspaces","relation":"PART_OF","target":"Shankar Chapter 1","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Shankar Chapter 1.","confidence":0.85}
+{"source":"Subspaces","relation":"SOURCE_CONTEXT_FOR","target":"Dual Spaces and Dirac Notation","evidence_heading":"Subspaces","evidence_summary":"This source note explicitly links its treatment to Dual Spaces and Dirac Notation.","confidence":0.8}
+{"source":"Subspaces","relation":"SOURCE_CONTEXT_FOR","target":"Linear Operators","evidence_heading":"Subspaces","evidence_summary":"This source note explicitly links its treatment to Linear Operators.","confidence":0.8}
+{"source":"Subspaces","relation":"SOURCE_CONTEXT_FOR","target":"Vector Spaces","evidence_heading":"Notes","evidence_summary":"This source note explicitly links its treatment to Vector Spaces.","confidence":0.8}
+{"source":"Subspaces","relation":"SOURCE_CONTEXT_FOR","target":"Projection Operators","evidence_heading":"Notes","evidence_summary":"This source note explicitly links its treatment to Projection Operators.","confidence":0.8}
+-->

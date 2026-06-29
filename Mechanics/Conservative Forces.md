@@ -130,3 +130,11 @@ If $V(\mathbf{r},t)$ depends explicitly on time, the force can still be derived 
 - [Classical Mechanics](Classical%20Mechanics.md)
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Goldstein Section 1.1](../Book%20Notes/Goldstein/Chapter%201/Mechanics%20of%20a%20Particle.md)
+
+<!-- semantic-edges
+{"source":"Conservative Forces","relation":"PART_OF","target":"Mechanics","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Mechanics area of the vault.","confidence":0.85}
+{"source":"Conservative Forces","relation":"MECHANICS_RELATED_TO","target":"Conservation Laws","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Conservative Forces with Conservation Laws in its discussion or related-note links.","confidence":0.75}
+{"source":"Conservative Forces","relation":"MECHANICS_RELATED_TO","target":"Classical Mechanics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Conservative Forces with Classical Mechanics in its discussion or related-note links.","confidence":0.75}
+{"source":"Conservative Forces","relation":"MECHANICS_RELATED_TO","target":"Lagrangian Mechanics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Conservative Forces with Lagrangian Mechanics in its discussion or related-note links.","confidence":0.75}
+{"source":"Conservative Forces","relation":"MECHANICS_RELATED_TO","target":"Goldstein Section 1.1","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Conservative Forces with Goldstein Section 1.1 in its discussion or related-note links.","confidence":0.75}
+-->

@@ -130,3 +130,11 @@ When $A$ is a [Hermitian operator](Hermitian%20Matrices%20and%20Operators.md), t
 - [Unitary Operators](Unitary%20Matrices.md)
 - [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
 - [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Bra-Ket Notation","relation":"PART_OF","target":"Linear Algebra","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Linear Algebra area of the vault.","confidence":0.85}
+{"source":"Bra-Ket Notation","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Adjoints","evidence_heading":"Bras","evidence_summary":"The note explicitly connects Bra-Ket Notation with Adjoints in its discussion or related-note links.","confidence":0.75}
+{"source":"Bra-Ket Notation","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Hermitian operator","evidence_heading":"Operators","evidence_summary":"The note explicitly connects Bra-Ket Notation with Hermitian operator in its discussion or related-note links.","confidence":0.75}
+{"source":"Bra-Ket Notation","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Shankar: Dual Spaces and Dirac Notation","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Bra-Ket Notation with Shankar: Dual Spaces and Dirac Notation in its discussion or related-note links.","confidence":0.75}
+{"source":"Bra-Ket Notation","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Vector Spaces","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Bra-Ket Notation with Vector Spaces in its discussion or related-note links.","confidence":0.75}
+-->

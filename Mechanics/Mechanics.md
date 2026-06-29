@@ -46,3 +46,11 @@ This page is the hub for classical mechanics concepts that recur across the text
 ## Why It Matters
 
 Classical mechanics gives quantum mechanics much of its notation and intuition: coordinates, momenta, Hamiltonians, symmetries, and conservation laws all survive in transformed form.
+
+<!-- semantic-edges
+{"source":"Mechanics","relation":"ORGANIZES","target":"Mechanics Concepts","evidence_heading":"Overview","evidence_summary":"The Mechanics hub organizes notes in the Mechanics area.","confidence":0.8}
+{"source":"Mechanics","relation":"MECHANICS_RELATED_TO","target":"Classical Mechanics","evidence_heading":"Core Ideas","evidence_summary":"The note explicitly connects Mechanics with Classical Mechanics in its discussion or related-note links.","confidence":0.75}
+{"source":"Mechanics","relation":"MECHANICS_RELATED_TO","target":"Action Principle","evidence_heading":"Core Ideas","evidence_summary":"The note explicitly connects Mechanics with Action Principle in its discussion or related-note links.","confidence":0.75}
+{"source":"Mechanics","relation":"MECHANICS_RELATED_TO","target":"Lagrangian Mechanics","evidence_heading":"Core Ideas","evidence_summary":"The note explicitly connects Mechanics with Lagrangian Mechanics in its discussion or related-note links.","confidence":0.75}
+{"source":"Mechanics","relation":"MECHANICS_RELATED_TO","target":"Euler-Lagrange Equations","evidence_heading":"Core Ideas","evidence_summary":"The note explicitly connects Mechanics with Euler-Lagrange Equations in its discussion or related-note links.","confidence":0.75}
+-->

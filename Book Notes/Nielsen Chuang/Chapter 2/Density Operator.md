@@ -123,3 +123,11 @@ They become essential for later topics such as noise, decoherence, quantum chann
 - [Postulates Of Quantum Mechanics](Postulates%20of%20Quantum%20Mechanics.md)
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
+
+<!-- semantic-edges
+{"source":"Density Operator","relation":"PART_OF","target":"Nielsen Chuang Chapter 2","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Nielsen Chuang Chapter 2.","confidence":0.85}
+{"source":"Density Operator","relation":"SOURCE_CONTEXT_FOR","target":"Nielsen And Chuang","evidence_heading":"Density Operator","evidence_summary":"This source note explicitly links its treatment to Nielsen And Chuang.","confidence":0.8}
+{"source":"Density Operator","relation":"SOURCE_CONTEXT_FOR","target":"Quantum Mechanics","evidence_heading":"Density Operator","evidence_summary":"This source note explicitly links its treatment to Quantum Mechanics.","confidence":0.8}
+{"source":"Density Operator","relation":"SOURCE_CONTEXT_FOR","target":"Density Operators","evidence_heading":"Overview","evidence_summary":"This source note explicitly links its treatment to Density Operators.","confidence":0.8}
+{"source":"Density Operator","relation":"SOURCE_CONTEXT_FOR","target":"Quantum Measurement","evidence_heading":"Related Concepts","evidence_summary":"This source note explicitly links its treatment to Quantum Measurement.","confidence":0.8}
+-->

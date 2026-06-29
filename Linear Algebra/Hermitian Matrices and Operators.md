@@ -219,3 +219,11 @@ In a matrix representation, this symmetry appears by mirroring entries with comp
 - [Unitary Operators](Unitary%20Matrices.md)
 - [Pauli Matrices](Pauli%20Matrices.md)
 - [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Hermitian Operators","relation":"PART_OF","target":"Linear Algebra","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Linear Algebra area of the vault.","confidence":0.85}
+{"source":"Hermitian Operators","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"adjoint","evidence_heading":"Overview","evidence_summary":"The note explicitly connects Hermitian Operators with adjoint in its discussion or related-note links.","confidence":0.75}
+{"source":"Hermitian Operators","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Eigenvalues and Eigenvectors","evidence_heading":"Eigenvalues And Eigenvectors","evidence_summary":"The note explicitly connects Hermitian Operators with Eigenvalues and Eigenvectors in its discussion or related-note links.","confidence":0.75}
+{"source":"Hermitian Operators","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Vector Spaces","evidence_heading":"Orthogonal Eigenvectors","evidence_summary":"The note explicitly connects Hermitian Operators with Vector Spaces in its discussion or related-note links.","confidence":0.75}
+{"source":"Hermitian Operators","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Gram-Schmidt","evidence_heading":"Orthogonal Eigenvectors","evidence_summary":"The note explicitly connects Hermitian Operators with Gram-Schmidt in its discussion or related-note links.","confidence":0.75}
+-->

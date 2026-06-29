@@ -68,3 +68,11 @@ The global condition $\delta I=0$ and the local Lagrange equations contain the s
 
 - [Euler-Lagrange Equations](../../../Mechanics/Euler-Lagrange%20Equations.md)
 - [Action Principle](../../../Mechanics/Action%20Principle.md)
+
+<!-- semantic-edges
+{"source":"Derivation of Lagrange's Equations from Hamilton's Principle","relation":"PART_OF","target":"Goldstein Chapter 2","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Goldstein Chapter 2.","confidence":0.85}
+{"source":"Derivation of Lagrange's Equations from Hamilton's Principle","relation":"SOURCE_CONTEXT_FOR","target":"Some Techniques of the Calculus of Variations","evidence_heading":"Derivation of Lagrange's Equations from Hamilton's Principle","evidence_summary":"This source note explicitly links its treatment to Some Techniques of the Calculus of Variations.","confidence":0.8}
+{"source":"Derivation of Lagrange's Equations from Hamilton's Principle","relation":"SOURCE_CONTEXT_FOR","target":"Extending Hamilton's Principle to Systems with Constraints","evidence_heading":"Derivation of Lagrange's Equations from Hamilton's Principle","evidence_summary":"This source note explicitly links its treatment to Extending Hamilton's Principle to Systems with Constraints.","confidence":0.8}
+{"source":"Derivation of Lagrange's Equations from Hamilton's Principle","relation":"SOURCE_CONTEXT_FOR","target":"Euler-Lagrange Equations","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Euler-Lagrange Equations.","confidence":0.8}
+{"source":"Derivation of Lagrange's Equations from Hamilton's Principle","relation":"SOURCE_CONTEXT_FOR","target":"Action Principle","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Action Principle.","confidence":0.8}
+-->

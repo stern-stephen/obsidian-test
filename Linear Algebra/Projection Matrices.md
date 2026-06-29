@@ -119,3 +119,11 @@ The vector $Px$ lies in the target subspace. For an orthogonal projection, $x - 
 - [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
 - [Gram-Schmidt](Gram-Schmidt.md)
 - [Four Fundamental Subspaces](Four%20Fundamental%20Subspaces.md)
+
+<!-- semantic-edges
+{"source":"Projection Operators","relation":"PART_OF","target":"Linear Algebra","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Linear Algebra area of the vault.","confidence":0.85}
+{"source":"Projection Operators","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Hermitian","evidence_heading":"Orthogonal Projections","evidence_summary":"The note explicitly connects Projection Operators with Hermitian in its discussion or related-note links.","confidence":0.75}
+{"source":"Projection Operators","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Eigenvalues and Eigenvectors","evidence_heading":"Eigenvalues","evidence_summary":"The note explicitly connects Projection Operators with Eigenvalues and Eigenvectors in its discussion or related-note links.","confidence":0.75}
+{"source":"Projection Operators","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Shankar: Subspaces","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Projection Operators with Shankar: Subspaces in its discussion or related-note links.","confidence":0.75}
+{"source":"Projection Operators","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Linear Algebra","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Projection Operators with Linear Algebra in its discussion or related-note links.","confidence":0.75}
+-->

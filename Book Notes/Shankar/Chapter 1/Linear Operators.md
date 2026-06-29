@@ -45,3 +45,11 @@ See [Linear Operators](../../../Linear%20Algebra/Linear%20Operators.md) for the 
 - [Commutators](../../../Linear%20Algebra/Commutators.md)
 - [Functions of Operators](Functions%20of%20Operators.md)
 - [Matrix Elements of Linear Operators](Matrix%20Elements%20of%20Linear%20Operators.md)
+
+<!-- semantic-edges
+{"source":"Linear Operators","relation":"PART_OF","target":"Shankar Chapter 1","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Shankar Chapter 1.","confidence":0.85}
+{"source":"Linear Operators","relation":"SOURCE_CONTEXT_FOR","target":"Subspaces","evidence_heading":"Linear Operators","evidence_summary":"This source note explicitly links its treatment to Subspaces.","confidence":0.8}
+{"source":"Linear Operators","relation":"SOURCE_CONTEXT_FOR","target":"Matrix Elements of Linear Operators","evidence_heading":"Linear Operators","evidence_summary":"This source note explicitly links its treatment to Matrix Elements of Linear Operators.","confidence":0.8}
+{"source":"Linear Operators","relation":"SOURCE_CONTEXT_FOR","target":"Commutators","evidence_heading":"Notes","evidence_summary":"This source note explicitly links its treatment to Commutators.","confidence":0.8}
+{"source":"Linear Operators","relation":"SOURCE_CONTEXT_FOR","target":"Matrices","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Matrices.","confidence":0.8}
+-->

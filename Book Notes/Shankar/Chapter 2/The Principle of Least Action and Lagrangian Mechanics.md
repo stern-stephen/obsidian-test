@@ -49,3 +49,11 @@ Shankar defines momentum through the Lagrangian rather than assuming it must be 
 - [Euler-Lagrange Equations](../../../Mechanics/Euler-Lagrange%20Equations.md)
 - [Generalized Coordinates](../../../Mechanics/Generalized%20Coordinates.md)
 - [Conservation Laws](../../../Mechanics/Conservation%20Laws.md)
+
+<!-- semantic-edges
+{"source":"The Principle of Least Action and Lagrangian Mechanics","relation":"PART_OF","target":"Shankar Chapter 2","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Shankar Chapter 2.","confidence":0.85}
+{"source":"The Principle of Least Action and Lagrangian Mechanics","relation":"SOURCE_CONTEXT_FOR","target":"Chapter Overview","evidence_heading":"The Principle of Least Action and Lagrangian Mechanics","evidence_summary":"This source note explicitly links its treatment to Chapter Overview.","confidence":0.8}
+{"source":"The Principle of Least Action and Lagrangian Mechanics","relation":"SOURCE_CONTEXT_FOR","target":"The Electromagnetic Lagrangian","evidence_heading":"The Principle of Least Action and Lagrangian Mechanics","evidence_summary":"This source note explicitly links its treatment to The Electromagnetic Lagrangian.","confidence":0.8}
+{"source":"The Principle of Least Action and Lagrangian Mechanics","relation":"SOURCE_CONTEXT_FOR","target":"Action Principle","evidence_heading":"Notes","evidence_summary":"This source note explicitly links its treatment to Action Principle.","confidence":0.8}
+{"source":"The Principle of Least Action and Lagrangian Mechanics","relation":"SOURCE_CONTEXT_FOR","target":"Euler-Lagrange Equations","evidence_heading":"Notes","evidence_summary":"This source note explicitly links its treatment to Euler-Lagrange Equations.","confidence":0.8}
+-->

@@ -110,3 +110,11 @@ So unitary operators are the complex analogue of real orthogonal transformations
 - [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
 - [Unitary Operators](Unitary%20Matrices.md)
 - [Adjoints](Adjoints.md)
+
+<!-- semantic-edges
+{"source":"Rotation Operators","relation":"PART_OF","target":"Linear Algebra","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Linear Algebra area of the vault.","confidence":0.85}
+{"source":"Rotation Operators","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Eigenvalues and Eigenvectors","evidence_heading":"Eigenvalues","evidence_summary":"The note explicitly connects Rotation Operators with Eigenvalues and Eigenvectors in its discussion or related-note links.","confidence":0.75}
+{"source":"Rotation Operators","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Unitary Operators","evidence_heading":"Connection To Unitary Operators","evidence_summary":"The note explicitly connects Rotation Operators with Unitary Operators in its discussion or related-note links.","confidence":0.75}
+{"source":"Rotation Operators","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Linear Algebra","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Rotation Operators with Linear Algebra in its discussion or related-note links.","confidence":0.75}
+{"source":"Rotation Operators","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Matrices","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Rotation Operators with Matrices in its discussion or related-note links.","confidence":0.75}
+-->

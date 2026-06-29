@@ -31,3 +31,11 @@ Linear algebra studies vectors, vector spaces, linear operators, matrices, and t
 ## Why It Matters
 
 Linear algebra gives a language for describing geometry, data, transformations, and quantum systems. Many advanced ideas in physics, machine learning, computer graphics, and numerical computing are built on linear algebra.
+
+<!-- semantic-edges
+{"source":"Linear Algebra","relation":"ORGANIZES","target":"Linear Algebra Concepts","evidence_heading":"Overview","evidence_summary":"The Linear Algebra hub organizes notes in the Linear Algebra area.","confidence":0.8}
+{"source":"Linear Algebra","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Vector Spaces","evidence_heading":"Core Topics","evidence_summary":"The note explicitly connects Linear Algebra with Vector Spaces in its discussion or related-note links.","confidence":0.75}
+{"source":"Linear Algebra","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Vectors","evidence_heading":"Core Topics","evidence_summary":"The note explicitly connects Linear Algebra with Vectors in its discussion or related-note links.","confidence":0.75}
+{"source":"Linear Algebra","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Inner Product Spaces","evidence_heading":"Core Topics","evidence_summary":"The note explicitly connects Linear Algebra with Inner Product Spaces in its discussion or related-note links.","confidence":0.75}
+{"source":"Linear Algebra","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Linear Operators","evidence_heading":"Core Topics","evidence_summary":"The note explicitly connects Linear Algebra with Linear Operators in its discussion or related-note links.","confidence":0.75}
+-->

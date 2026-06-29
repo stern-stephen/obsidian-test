@@ -38,3 +38,11 @@ The next chapter turns this motivation into postulates: what counts as a state, 
 - [Wave-Particle Duality](../../../Quantum%20Mechanics/Wave-Particle%20Duality.md)
 - [Quantum State Vector](../../../Quantum%20Mechanics/Quantum%20State%20Vector.md)
 - [Postulates of Quantum Mechanics](../../../Quantum%20Mechanics/Postulates%20of%20Quantum%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Conclusions","relation":"PART_OF","target":"Shankar Chapter 3","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Shankar Chapter 3.","confidence":0.85}
+{"source":"Conclusions","relation":"SOURCE_CONTEXT_FOR","target":"Matter Waves","evidence_heading":"Conclusions","evidence_summary":"This source note explicitly links its treatment to Matter Waves.","confidence":0.8}
+{"source":"Conclusions","relation":"SOURCE_CONTEXT_FOR","target":"Wave-Particle Duality","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Wave-Particle Duality.","confidence":0.8}
+{"source":"Conclusions","relation":"SOURCE_CONTEXT_FOR","target":"Quantum State Vector","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Quantum State Vector.","confidence":0.8}
+{"source":"Conclusions","relation":"SOURCE_CONTEXT_FOR","target":"Postulates of Quantum Mechanics","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Postulates of Quantum Mechanics.","confidence":0.8}
+-->

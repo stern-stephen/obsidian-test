@@ -59,3 +59,11 @@ Next: [Mechanics of a Particle](Mechanics%20of%20a%20Particle.md)
 
 - Add selected derivation and exercise answers as the chapter is worked through.
 - Compare Goldstein's derivation of Lagrange's equations with the action-based derivation in Chapter 2.
+
+<!-- semantic-edges
+{"source":"Chapter Overview","relation":"PART_OF","target":"Goldstein Chapter 1","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Goldstein Chapter 1.","confidence":0.85}
+{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"Mechanics of a Particle","evidence_heading":"Chapter Overview","evidence_summary":"This source note explicitly links its treatment to Mechanics of a Particle.","confidence":0.8}
+{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"Mechanics of a System of Particles","evidence_heading":"Section Notes","evidence_summary":"This source note explicitly links its treatment to Mechanics of a System of Particles.","confidence":0.8}
+{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"Constraints","evidence_heading":"Section Notes","evidence_summary":"This source note explicitly links its treatment to Constraints.","confidence":0.8}
+{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"D'Alembert's Principle and Lagrange's Equations","evidence_heading":"Section Notes","evidence_summary":"This source note explicitly links its treatment to D'Alembert's Principle and Lagrange's Equations.","confidence":0.8}
+-->

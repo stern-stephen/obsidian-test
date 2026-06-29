@@ -194,3 +194,11 @@ So the Legendre transform is the bridge from velocity language to momentum langu
 - [Lagrangian Mechanics](../Mechanics/Lagrangian%20Mechanics.md)
 - [Canonical Momentum](../Mechanics/Canonical%20Momentum.md)
 - [Phase Space](../Mechanics/Phase%20Space.md)
+
+<!-- semantic-edges
+{"source":"Legendre Transforms","relation":"PART_OF","target":"Mathematics","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Mathematics area of the vault.","confidence":0.85}
+{"source":"Legendre Transforms","relation":"MATHEMATICS_RELATED_TO","target":"Hamiltonian Mechanics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Legendre Transforms with Hamiltonian Mechanics in its discussion or related-note links.","confidence":0.75}
+{"source":"Legendre Transforms","relation":"MATHEMATICS_RELATED_TO","target":"Lagrangian Mechanics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Legendre Transforms with Lagrangian Mechanics in its discussion or related-note links.","confidence":0.75}
+{"source":"Legendre Transforms","relation":"MATHEMATICS_RELATED_TO","target":"Canonical Momentum","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Legendre Transforms with Canonical Momentum in its discussion or related-note links.","confidence":0.75}
+{"source":"Legendre Transforms","relation":"MATHEMATICS_RELATED_TO","target":"Phase Space","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Legendre Transforms with Phase Space in its discussion or related-note links.","confidence":0.75}
+-->

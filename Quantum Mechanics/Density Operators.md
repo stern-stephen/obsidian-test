@@ -89,3 +89,11 @@ This explains how part of an entangled pure state can look mixed when considered
 - [Entanglement](Entanglement.md)
 - [Bra-Ket Notation](../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Hermitian Operators](../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
+
+<!-- semantic-edges
+{"source":"Density Operators","relation":"PART_OF","target":"Quantum Mechanics","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Quantum Mechanics area of the vault.","confidence":0.85}
+{"source":"Density Operators","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"Nielsen and Chuang: Density Operator","evidence_heading":"Related Book Notes","evidence_summary":"The note explicitly connects Density Operators with Nielsen and Chuang: Density Operator in its discussion or related-note links.","confidence":0.75}
+{"source":"Density Operators","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"Nielsen and Chuang: Schmidt Decomposition and Purifications","evidence_heading":"Related Book Notes","evidence_summary":"The note explicitly connects Density Operators with Nielsen and Chuang: Schmidt Decomposition and Purifications in its discussion or related-note links.","confidence":0.75}
+{"source":"Density Operators","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"Nielsen and Chuang: Postulates of Quantum Mechanics","evidence_heading":"Related Book Notes","evidence_summary":"The note explicitly connects Density Operators with Nielsen and Chuang: Postulates of Quantum Mechanics in its discussion or related-note links.","confidence":0.75}
+{"source":"Density Operators","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"Quantum Mechanics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Density Operators with Quantum Mechanics in its discussion or related-note links.","confidence":0.75}
+-->

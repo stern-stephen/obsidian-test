@@ -176,3 +176,11 @@ $$
 - [Projection Operators](../../../Linear%20Algebra/Projection%20Matrices.md)
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Infinite-Dimensional Spaces](Infinite-Dimensional%20Spaces.md)
+
+<!-- semantic-edges
+{"source":"Functions of Operators","relation":"PART_OF","target":"Shankar Chapter 1","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Shankar Chapter 1.","confidence":0.85}
+{"source":"Functions of Operators","relation":"SOURCE_CONTEXT_FOR","target":"The Eigenvalue Problem","evidence_heading":"Functions of Operators","evidence_summary":"This source note explicitly links its treatment to The Eigenvalue Problem.","confidence":0.8}
+{"source":"Functions of Operators","relation":"SOURCE_CONTEXT_FOR","target":"Infinite-Dimensional Spaces","evidence_heading":"Functions of Operators","evidence_summary":"This source note explicitly links its treatment to Infinite-Dimensional Spaces.","confidence":0.8}
+{"source":"Functions of Operators","relation":"SOURCE_CONTEXT_FOR","target":"Linear Operators","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Linear Operators.","confidence":0.8}
+{"source":"Functions of Operators","relation":"SOURCE_CONTEXT_FOR","target":"Eigenvalues and Eigenvectors","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Eigenvalues and Eigenvectors.","confidence":0.8}
+-->

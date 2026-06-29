@@ -194,3 +194,11 @@ It can change a vector's direction and phase, but it cannot change the vector's 
 - [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
 - [Pauli Matrices](Pauli%20Matrices.md)
 - [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Unitary Operators","relation":"PART_OF","target":"Linear Algebra","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Linear Algebra area of the vault.","confidence":0.85}
+{"source":"Unitary Operators","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"adjoint","evidence_heading":"Overview","evidence_summary":"The note explicitly connects Unitary Operators with adjoint in its discussion or related-note links.","confidence":0.75}
+{"source":"Unitary Operators","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Gram-Schmidt","evidence_heading":"Definition","evidence_summary":"The note explicitly connects Unitary Operators with Gram-Schmidt in its discussion or related-note links.","confidence":0.75}
+{"source":"Unitary Operators","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Eigenvalues and Eigenvectors","evidence_heading":"Eigenvalues","evidence_summary":"The note explicitly connects Unitary Operators with Eigenvalues and Eigenvectors in its discussion or related-note links.","confidence":0.75}
+{"source":"Unitary Operators","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Pauli Matrices","evidence_heading":"Pauli Matrices","evidence_summary":"The note explicitly connects Unitary Operators with Pauli Matrices in its discussion or related-note links.","confidence":0.75}
+-->

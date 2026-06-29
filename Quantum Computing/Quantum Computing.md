@@ -40,3 +40,11 @@ For the Nielsen and Chuang reading project, this page is the hub for quantum com
 - [Unitary Matrices](../Linear%20Algebra/Unitary%20Matrices.md)
 - [Hermitian Matrices and Operators](../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
 - [Eigenvalues](../Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md)
+
+<!-- semantic-edges
+{"source":"Quantum Computing","relation":"ORGANIZES","target":"Quantum Computing Concepts","evidence_heading":"Overview","evidence_summary":"The Quantum Computing hub organizes notes in the Quantum Computing area.","confidence":0.8}
+{"source":"Quantum Computing","relation":"QUANTUM_COMPUTING_RELATED_TO","target":"Quantum Mechanics","evidence_heading":"Overview","evidence_summary":"The note explicitly connects Quantum Computing with Quantum Mechanics in its discussion or related-note links.","confidence":0.75}
+{"source":"Quantum Computing","relation":"QUANTUM_COMPUTING_RELATED_TO","target":"Linear Algebra","evidence_heading":"Overview","evidence_summary":"The note explicitly connects Quantum Computing with Linear Algebra in its discussion or related-note links.","confidence":0.75}
+{"source":"Quantum Computing","relation":"QUANTUM_COMPUTING_RELATED_TO","target":"Bloch sphere","evidence_heading":"Core Ideas","evidence_summary":"The note explicitly connects Quantum Computing with Bloch sphere in its discussion or related-note links.","confidence":0.75}
+{"source":"Quantum Computing","relation":"QUANTUM_COMPUTING_RELATED_TO","target":"unitary matrices","evidence_heading":"Core Ideas","evidence_summary":"The note explicitly connects Quantum Computing with unitary matrices in its discussion or related-note links.","confidence":0.75}
+-->

@@ -34,3 +34,11 @@ The vector potential shifts canonical momentum away from mechanical momentum. Th
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Hamiltonian Mechanics](Hamiltonian%20Mechanics.md)
 - [The Electromagnetic Lagrangian](../Book%20Notes/Shankar/Chapter%202/The%20Electromagnetic%20Lagrangian.md)
+
+<!-- semantic-edges
+{"source":"Electromagnetic Lagrangian","relation":"PART_OF","target":"Mechanics","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Mechanics area of the vault.","confidence":0.85}
+{"source":"Electromagnetic Lagrangian","relation":"MECHANICS_RELATED_TO","target":"Canonical Momentum","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Electromagnetic Lagrangian with Canonical Momentum in its discussion or related-note links.","confidence":0.75}
+{"source":"Electromagnetic Lagrangian","relation":"MECHANICS_RELATED_TO","target":"Lagrangian Mechanics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Electromagnetic Lagrangian with Lagrangian Mechanics in its discussion or related-note links.","confidence":0.75}
+{"source":"Electromagnetic Lagrangian","relation":"MECHANICS_RELATED_TO","target":"Hamiltonian Mechanics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Electromagnetic Lagrangian with Hamiltonian Mechanics in its discussion or related-note links.","confidence":0.75}
+{"source":"Electromagnetic Lagrangian","relation":"MECHANICS_RELATED_TO","target":"The Electromagnetic Lagrangian","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Electromagnetic Lagrangian with The Electromagnetic Lagrangian in its discussion or related-note links.","confidence":0.75}
+-->

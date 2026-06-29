@@ -36,4 +36,11 @@ $$
 
 ## Notes To Process Later
 
-- 
+-
+
+<!-- semantic-edges
+{"source":"Computer Science","relation":"PART_OF","target":"Nielsen Chuang Chapter 3","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Nielsen Chuang Chapter 3.","confidence":0.85}
+{"source":"Computer Science","relation":"SOURCE_CONTEXT_FOR","target":"Nielsen And Chuang","evidence_heading":"Computer Science","evidence_summary":"This source note explicitly links its treatment to Nielsen And Chuang.","confidence":0.8}
+{"source":"Computer Science","relation":"SOURCE_CONTEXT_FOR","target":"Quantum Computing","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Quantum Computing.","confidence":0.8}
+{"source":"Computer Science","relation":"SOURCE_CONTEXT_FOR","target":"Linear Algebra","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Linear Algebra.","confidence":0.8}
+-->

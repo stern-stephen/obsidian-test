@@ -60,3 +60,11 @@ This is why Townsend begins quantum mechanics with [Stern-Gerlach experiments](S
 - [Bra-Ket Notation](../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Bloch Sphere](../Quantum%20Computing/Bloch%20Sphere.md)
 - [Townsend Chapter 1](../Book%20Notes/Townsend/Chapter%201/Stern-Gerlach%20Experiments.md)
+
+<!-- semantic-edges
+{"source":"Spin-1/2 Systems","relation":"PART_OF","target":"Quantum Mechanics","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Quantum Mechanics area of the vault.","confidence":0.85}
+{"source":"Spin-1/2 Systems","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"Stern-Gerlach experiments","evidence_heading":"Intuition","evidence_summary":"The note explicitly connects Spin-1/2 Systems with Stern-Gerlach experiments in its discussion or related-note links.","confidence":0.75}
+{"source":"Spin-1/2 Systems","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"Quantum Mechanics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Spin-1/2 Systems with Quantum Mechanics in its discussion or related-note links.","confidence":0.75}
+{"source":"Spin-1/2 Systems","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"Quantum State Vector","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Spin-1/2 Systems with Quantum State Vector in its discussion or related-note links.","confidence":0.75}
+{"source":"Spin-1/2 Systems","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"Stern-Gerlach Experiments","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Spin-1/2 Systems with Stern-Gerlach Experiments in its discussion or related-note links.","confidence":0.75}
+-->

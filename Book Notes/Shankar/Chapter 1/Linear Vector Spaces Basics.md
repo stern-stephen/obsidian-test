@@ -157,3 +157,11 @@ So the second set is linearly independent.
 - [Change of Basis](../../../Linear%20Algebra/Change%20of%20Basis.md)
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Infinite-Dimensional Spaces](Infinite-Dimensional%20Spaces.md)
+
+<!-- semantic-edges
+{"source":"Linear Vector Spaces Basics","relation":"PART_OF","target":"Shankar Chapter 1","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Shankar Chapter 1.","confidence":0.85}
+{"source":"Linear Vector Spaces Basics","relation":"SOURCE_CONTEXT_FOR","target":"Chapter Overview","evidence_heading":"Linear Vector Spaces Basics","evidence_summary":"This source note explicitly links its treatment to Chapter Overview.","confidence":0.8}
+{"source":"Linear Vector Spaces Basics","relation":"SOURCE_CONTEXT_FOR","target":"Inner Product Spaces","evidence_heading":"Linear Vector Spaces Basics","evidence_summary":"This source note explicitly links its treatment to Inner Product Spaces.","confidence":0.8}
+{"source":"Linear Vector Spaces Basics","relation":"SOURCE_CONTEXT_FOR","target":"Vector Spaces","evidence_heading":"Notes","evidence_summary":"This source note explicitly links its treatment to Vector Spaces.","confidence":0.8}
+{"source":"Linear Vector Spaces Basics","relation":"SOURCE_CONTEXT_FOR","target":"Change of Basis","evidence_heading":"Notes","evidence_summary":"This source note explicitly links its treatment to Change of Basis.","confidence":0.8}
+-->

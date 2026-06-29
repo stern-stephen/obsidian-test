@@ -45,3 +45,11 @@ The canonical definitions, norm formulas, and orthonormal-basis relations live i
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Gram-Schmidt](../../../Linear%20Algebra/Gram-Schmidt.md)
 - [Quantum State Vector](../../../Quantum%20Mechanics/Quantum%20State%20Vector.md)
+
+<!-- semantic-edges
+{"source":"Inner Product Spaces","relation":"PART_OF","target":"Shankar Chapter 1","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Shankar Chapter 1.","confidence":0.85}
+{"source":"Inner Product Spaces","relation":"SOURCE_CONTEXT_FOR","target":"Linear Vector Spaces Basics","evidence_heading":"Inner Product Spaces","evidence_summary":"This source note explicitly links its treatment to Linear Vector Spaces Basics.","confidence":0.8}
+{"source":"Inner Product Spaces","relation":"SOURCE_CONTEXT_FOR","target":"Dual Spaces and Dirac Notation","evidence_heading":"Inner Product Spaces","evidence_summary":"This source note explicitly links its treatment to Dual Spaces and Dirac Notation.","confidence":0.8}
+{"source":"Inner Product Spaces","relation":"SOURCE_CONTEXT_FOR","target":"Vector Spaces","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Vector Spaces.","confidence":0.8}
+{"source":"Inner Product Spaces","relation":"SOURCE_CONTEXT_FOR","target":"Bra-Ket Notation","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Bra-Ket Notation.","confidence":0.8}
+-->

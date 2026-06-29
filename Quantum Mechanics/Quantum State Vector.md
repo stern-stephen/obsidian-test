@@ -69,3 +69,11 @@ $$
 - [Bra-Ket Notation](../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Vector Spaces](../Linear%20Algebra/Vector%20Spaces.md)
 - [Townsend Chapter 1](../Book%20Notes/Townsend/Chapter%201/Stern-Gerlach%20Experiments.md)
+
+<!-- semantic-edges
+{"source":"Quantum State Vector","relation":"PART_OF","target":"Quantum Mechanics","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Quantum Mechanics area of the vault.","confidence":0.85}
+{"source":"Quantum State Vector","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"bra-ket notation","evidence_heading":"Overview","evidence_summary":"The note explicitly connects Quantum State Vector with bra-ket notation in its discussion or related-note links.","confidence":0.75}
+{"source":"Quantum State Vector","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"Shankar Chapter 3: Conclusions","evidence_heading":"Related Book Notes","evidence_summary":"The note explicitly connects Quantum State Vector with Shankar Chapter 3: Conclusions in its discussion or related-note links.","confidence":0.75}
+{"source":"Quantum State Vector","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"Shankar Chapter 4: Discussion of Postulates I-III","evidence_heading":"Related Book Notes","evidence_summary":"The note explicitly connects Quantum State Vector with Shankar Chapter 4: Discussion of Postulates I-III in its discussion or related-note links.","confidence":0.75}
+{"source":"Quantum State Vector","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"Quantum Mechanics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Quantum State Vector with Quantum Mechanics in its discussion or related-note links.","confidence":0.75}
+-->

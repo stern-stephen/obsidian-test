@@ -45,3 +45,11 @@ Next: [The Postulates](The%20Postulates.md)
 
 - Add more worked examples from the fictitious finite-dimensional Hilbert spaces after doing the exercises.
 - Revisit operator ordering once later chapters give more examples beyond $X$ and $P$.
+
+<!-- semantic-edges
+{"source":"Chapter Overview","relation":"PART_OF","target":"Shankar Chapter 4","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Shankar Chapter 4.","confidence":0.85}
+{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"Conclusions","evidence_heading":"Chapter Overview","evidence_summary":"This source note explicitly links its treatment to Conclusions.","confidence":0.8}
+{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"The Postulates","evidence_heading":"Chapter Overview","evidence_summary":"This source note explicitly links its treatment to The Postulates.","confidence":0.8}
+{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"Discussion of Postulates I-III","evidence_heading":"Section Notes","evidence_summary":"This source note explicitly links its treatment to Discussion of Postulates I-III.","confidence":0.8}
+{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"The Schrodinger Equation","evidence_heading":"Section Notes","evidence_summary":"This source note explicitly links its treatment to The Schrodinger Equation.","confidence":0.8}
+-->

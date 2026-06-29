@@ -108,3 +108,11 @@ What remains is the genuinely new direction. After normalizing it, that new dire
 - [Unitary Operators](Unitary%20Matrices.md)
 - [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
 - [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
+
+<!-- semantic-edges
+{"source":"Gram-Schmidt","relation":"PART_OF","target":"Linear Algebra","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Linear Algebra area of the vault.","confidence":0.85}
+{"source":"Gram-Schmidt","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Linear Algebra","evidence_heading":"Why It Matters","evidence_summary":"The note explicitly connects Gram-Schmidt with Linear Algebra in its discussion or related-note links.","confidence":0.75}
+{"source":"Gram-Schmidt","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Vector Spaces","evidence_heading":"Why It Matters","evidence_summary":"The note explicitly connects Gram-Schmidt with Vector Spaces in its discussion or related-note links.","confidence":0.75}
+{"source":"Gram-Schmidt","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Unitary Operators","evidence_heading":"Why It Matters","evidence_summary":"The note explicitly connects Gram-Schmidt with Unitary Operators in its discussion or related-note links.","confidence":0.75}
+{"source":"Gram-Schmidt","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Hermitian Operators","evidence_heading":"Why It Matters","evidence_summary":"The note explicitly connects Gram-Schmidt with Hermitian Operators in its discussion or related-note links.","confidence":0.75}
+-->

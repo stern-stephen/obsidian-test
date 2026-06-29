@@ -38,3 +38,11 @@ In non-inertial reference frames, inertial forces such as centrifugal and Coriol
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Euler-Lagrange Equations](Euler-Lagrange%20Equations.md)
 - [Coopersmith Chapter 5](../Book%20Notes/Coopersmith/Chapter%205/Chapter%20Overview.md)
+
+<!-- semantic-edges
+{"source":"Inertial Forces","relation":"PART_OF","target":"Mechanics","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Mechanics area of the vault.","confidence":0.85}
+{"source":"Inertial Forces","relation":"MECHANICS_RELATED_TO","target":"Virtual Work and D'Alembert's Principle","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Inertial Forces with Virtual Work and D'Alembert's Principle in its discussion or related-note links.","confidence":0.75}
+{"source":"Inertial Forces","relation":"MECHANICS_RELATED_TO","target":"Lagrangian Mechanics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Inertial Forces with Lagrangian Mechanics in its discussion or related-note links.","confidence":0.75}
+{"source":"Inertial Forces","relation":"MECHANICS_RELATED_TO","target":"Euler-Lagrange Equations","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Inertial Forces with Euler-Lagrange Equations in its discussion or related-note links.","confidence":0.75}
+{"source":"Inertial Forces","relation":"MECHANICS_RELATED_TO","target":"Coopersmith Chapter 5","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Inertial Forces with Coopersmith Chapter 5 in its discussion or related-note links.","confidence":0.75}
+-->

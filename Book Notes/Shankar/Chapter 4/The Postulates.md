@@ -48,3 +48,11 @@ $$
 - [Quantum Measurement](../../../Quantum%20Mechanics/Quantum%20Measurement.md)
 - [Schrodinger Equation](../../../Quantum%20Mechanics/Schrodinger%20Equation.md)
 - [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
+
+<!-- semantic-edges
+{"source":"The Postulates","relation":"PART_OF","target":"Shankar Chapter 4","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Shankar Chapter 4.","confidence":0.85}
+{"source":"The Postulates","relation":"SOURCE_CONTEXT_FOR","target":"Chapter Overview","evidence_heading":"The Postulates","evidence_summary":"This source note explicitly links its treatment to Chapter Overview.","confidence":0.8}
+{"source":"The Postulates","relation":"SOURCE_CONTEXT_FOR","target":"Discussion of Postulates I-III","evidence_heading":"The Postulates","evidence_summary":"This source note explicitly links its treatment to Discussion of Postulates I-III.","confidence":0.8}
+{"source":"The Postulates","relation":"SOURCE_CONTEXT_FOR","target":"Postulates of Quantum Mechanics","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Postulates of Quantum Mechanics.","confidence":0.8}
+{"source":"The Postulates","relation":"SOURCE_CONTEXT_FOR","target":"Quantum State Vector","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Quantum State Vector.","confidence":0.8}
+-->

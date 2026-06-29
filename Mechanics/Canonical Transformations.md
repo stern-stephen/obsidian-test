@@ -77,3 +77,10 @@ They reveal which features of Hamiltonian mechanics are coordinate-independent a
 - [Hamiltonian Mechanics](Hamiltonian%20Mechanics.md)
 - [Phase Space](Phase%20Space.md)
 - [Poisson Brackets](Poisson%20Brackets.md)
+
+<!-- semantic-edges
+{"source":"Canonical Transformations","relation":"PART_OF","target":"Mechanics","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Mechanics area of the vault.","confidence":0.85}
+{"source":"Canonical Transformations","relation":"MECHANICS_RELATED_TO","target":"Hamiltonian Mechanics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Canonical Transformations with Hamiltonian Mechanics in its discussion or related-note links.","confidence":0.75}
+{"source":"Canonical Transformations","relation":"MECHANICS_RELATED_TO","target":"Phase Space","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Canonical Transformations with Phase Space in its discussion or related-note links.","confidence":0.75}
+{"source":"Canonical Transformations","relation":"MECHANICS_RELATED_TO","target":"Poisson Brackets","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Canonical Transformations with Poisson Brackets in its discussion or related-note links.","confidence":0.75}
+-->

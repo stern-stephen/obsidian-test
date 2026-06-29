@@ -62,3 +62,11 @@ This page is the hub for quantum mechanics concepts that recur across the textbo
 - [Hermitian Matrices and Operators](../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
 - [Mechanics](../Mechanics/Mechanics.md)
 - [Quantum Computing](../Quantum%20Computing/Quantum%20Computing.md)
+
+<!-- semantic-edges
+{"source":"Quantum Mechanics","relation":"ORGANIZES","target":"Quantum Mechanics Concepts","evidence_heading":"Overview","evidence_summary":"The Quantum Mechanics hub organizes notes in the Quantum Mechanics area.","confidence":0.8}
+{"source":"Quantum Mechanics","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"bra-ket notation","evidence_heading":"Core Ideas","evidence_summary":"The note explicitly connects Quantum Mechanics with bra-ket notation in its discussion or related-note links.","confidence":0.75}
+{"source":"Quantum Mechanics","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"vector spaces","evidence_heading":"Core Ideas","evidence_summary":"The note explicitly connects Quantum Mechanics with vector spaces in its discussion or related-note links.","confidence":0.75}
+{"source":"Quantum Mechanics","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"Bloch sphere","evidence_heading":"Core Ideas","evidence_summary":"The note explicitly connects Quantum Mechanics with Bloch sphere in its discussion or related-note links.","confidence":0.75}
+{"source":"Quantum Mechanics","relation":"QUANTUM_MECHANICS_RELATED_TO","target":"unitary operators","evidence_heading":"Core Ideas","evidence_summary":"The note explicitly connects Quantum Mechanics with unitary operators in its discussion or related-note links.","confidence":0.75}
+-->

@@ -97,3 +97,11 @@ Generalized coordinates solve the first problem for holonomic systems. D'Alember
 - [Constraints](../../../Mechanics/Constraints.md)
 - [Generalized Coordinates](../../../Mechanics/Generalized%20Coordinates.md)
 - [Virtual Work and D'Alembert's Principle](../../../Mechanics/Virtual%20Work%20and%20DAlemberts%20Principle.md)
+
+<!-- semantic-edges
+{"source":"Constraints","relation":"PART_OF","target":"Goldstein Chapter 1","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Goldstein Chapter 1.","confidence":0.85}
+{"source":"Constraints","relation":"SOURCE_CONTEXT_FOR","target":"Mechanics of a System of Particles","evidence_heading":"Constraints","evidence_summary":"This source note explicitly links its treatment to Mechanics of a System of Particles.","confidence":0.8}
+{"source":"Constraints","relation":"SOURCE_CONTEXT_FOR","target":"D'Alembert's Principle and Lagrange's Equations","evidence_heading":"Constraints","evidence_summary":"This source note explicitly links its treatment to D'Alembert's Principle and Lagrange's Equations.","confidence":0.8}
+{"source":"Constraints","relation":"SOURCE_CONTEXT_FOR","target":"Generalized Coordinates","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Generalized Coordinates.","confidence":0.8}
+{"source":"Constraints","relation":"SOURCE_CONTEXT_FOR","target":"Virtual Work and D'Alembert's Principle","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Virtual Work and D'Alembert's Principle.","confidence":0.8}
+-->

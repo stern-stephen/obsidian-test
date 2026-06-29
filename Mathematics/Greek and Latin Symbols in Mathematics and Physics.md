@@ -130,3 +130,11 @@ When a symbol is unfamiliar, use this order:
 - [Linear Algebra](../Linear%20Algebra/Linear%20Algebra.md)
 - [Mechanics](../Mechanics/Mechanics.md)
 - [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Greek and Latin Symbols in Mathematics and Physics","relation":"PART_OF","target":"Mathematics","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Mathematics area of the vault.","confidence":0.85}
+{"source":"Greek and Latin Symbols in Mathematics and Physics","relation":"MATHEMATICS_RELATED_TO","target":"Mathematics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Greek and Latin Symbols in Mathematics and Physics with Mathematics in its discussion or related-note links.","confidence":0.75}
+{"source":"Greek and Latin Symbols in Mathematics and Physics","relation":"MATHEMATICS_RELATED_TO","target":"Linear Algebra","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Greek and Latin Symbols in Mathematics and Physics with Linear Algebra in its discussion or related-note links.","confidence":0.75}
+{"source":"Greek and Latin Symbols in Mathematics and Physics","relation":"MATHEMATICS_RELATED_TO","target":"Mechanics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Greek and Latin Symbols in Mathematics and Physics with Mechanics in its discussion or related-note links.","confidence":0.75}
+{"source":"Greek and Latin Symbols in Mathematics and Physics","relation":"MATHEMATICS_RELATED_TO","target":"Quantum Mechanics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Greek and Latin Symbols in Mathematics and Physics with Quantum Mechanics in its discussion or related-note links.","confidence":0.75}
+-->

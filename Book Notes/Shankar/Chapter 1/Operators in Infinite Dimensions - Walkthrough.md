@@ -661,3 +661,11 @@ That is the heart of operators in infinite dimensions.
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Adjoints](../../../Linear%20Algebra/Adjoints.md)
 - [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
+
+<!-- semantic-edges
+{"source":"Operators in Infinite Dimensions - Walkthrough","relation":"PART_OF","target":"Shankar Chapter 1","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Shankar Chapter 1.","confidence":0.85}
+{"source":"Operators in Infinite Dimensions - Walkthrough","relation":"SOURCE_CONTEXT_FOR","target":"Infinite-Dimensional Spaces","evidence_heading":"Operators in Infinite Dimensions - Walkthrough","evidence_summary":"This source note explicitly links its treatment to Infinite-Dimensional Spaces.","confidence":0.8}
+{"source":"Operators in Infinite Dimensions - Walkthrough","relation":"SOURCE_CONTEXT_FOR","target":"Infinite-Dimensional Vector Spaces","evidence_heading":"Related Concept Notes","evidence_summary":"This source note explicitly links its treatment to Infinite-Dimensional Vector Spaces.","confidence":0.8}
+{"source":"Operators in Infinite Dimensions - Walkthrough","relation":"SOURCE_CONTEXT_FOR","target":"Linear Operators","evidence_heading":"Related Concept Notes","evidence_summary":"This source note explicitly links its treatment to Linear Operators.","confidence":0.8}
+{"source":"Operators in Infinite Dimensions - Walkthrough","relation":"SOURCE_CONTEXT_FOR","target":"Dirac Delta Function","evidence_heading":"Related Concept Notes","evidence_summary":"This source note explicitly links its treatment to Dirac Delta Function.","confidence":0.8}
+-->

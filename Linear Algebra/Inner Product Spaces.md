@@ -77,3 +77,11 @@ Inner products support several recurring ideas:
 - [Gram-Schmidt](Gram-Schmidt.md)
 - [Unitary Operators](Unitary%20Matrices.md)
 - [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
+
+<!-- semantic-edges
+{"source":"Inner Product Spaces","relation":"PART_OF","target":"Linear Algebra","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Linear Algebra area of the vault.","confidence":0.85}
+{"source":"Inner Product Spaces","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Shankar: Inner Product Spaces","evidence_heading":"Related Book Notes","evidence_summary":"The note explicitly connects Inner Product Spaces with Shankar: Inner Product Spaces in its discussion or related-note links.","confidence":0.75}
+{"source":"Inner Product Spaces","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Shankar: Dual Spaces and Dirac Notation","evidence_heading":"Related Book Notes","evidence_summary":"The note explicitly connects Inner Product Spaces with Shankar: Dual Spaces and Dirac Notation in its discussion or related-note links.","confidence":0.75}
+{"source":"Inner Product Spaces","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Nielsen and Chuang: Linear Algebra","evidence_heading":"Related Book Notes","evidence_summary":"The note explicitly connects Inner Product Spaces with Nielsen and Chuang: Linear Algebra in its discussion or related-note links.","confidence":0.75}
+{"source":"Inner Product Spaces","relation":"LINEAR_ALGEBRA_RELATED_TO","target":"Vector Spaces","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Inner Product Spaces with Vector Spaces in its discussion or related-note links.","confidence":0.75}
+-->
