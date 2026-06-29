@@ -59,3 +59,10 @@ This section sets up Coopersmith's energy-centered view. Force is not discarded,
 - [Generalized Coordinates](../../../Mechanics/Generalized%20Coordinates.md)
 - [Constraints](../../../Mechanics/Constraints.md)
 - [Lagrangian Mechanics](../../../Mechanics/Lagrangian%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Degrees of Freedom","relation":"COUNT","target":"Independent Coordinates","evidence_heading":"Degrees Of Freedom","evidence_summary":"The note gives the degree-of-freedom count as the number of coordinates minus the number of independent conditions.","confidence":0.95}
+{"source":"Constraints","relation":"REDUCE","target":"Degrees of Freedom","evidence_heading":"Degrees Of Freedom","evidence_summary":"Independent conditions among coordinates reduce the number of independent coordinates needed to describe the system.","confidence":0.95}
+{"source":"Generalized Work","relation":"GENERALIZES","target":"Ordinary Work","evidence_heading":"Generalized Work","evidence_summary":"Coopersmith moves from ordinary force-displacement work to generalized forces paired with generalized coordinate changes.","confidence":0.95}
+{"source":"Generalized Force","relation":"PAIRS_WITH","target":"Generalized Displacement","evidence_heading":"Generalized Work","evidence_summary":"The generalized force is defined by the requirement that its product with the generalized displacement have units of energy.","confidence":0.95}
+-->

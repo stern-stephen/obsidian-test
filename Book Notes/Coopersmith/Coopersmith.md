@@ -60,3 +60,10 @@ Use this page to track chapter notes, questions, and concept pages created while
 - [Classical Mechanics](../../Mechanics/Classical%20Mechanics.md)
 - [Euler-Lagrange Equations](../../Mechanics/Euler-Lagrange%20Equations.md)
 - [Action Principle](../../Mechanics/Action%20Principle.md)
+
+<!-- semantic-edges
+{"source":"Coopersmith The Lazy Universe","relation":"FOCUSES_ON","target":"Principle of Least Action","evidence_heading":"Overview","evidence_summary":"The hub identifies the book as an introduction to the principle of least action.","confidence":0.95}
+{"source":"Coopersmith Chapter 3","relation":"PREPARES","target":"Virtual Work","evidence_heading":"Chapter Notes","evidence_summary":"Chapter 3 builds the coordinate, degree-of-freedom, configuration-space, and variational language needed by later virtual-work chapters.","confidence":0.9}
+{"source":"Coopersmith Chapter 4","relation":"DEVELOPS","target":"Principle of Virtual Work","evidence_heading":"Chapter Notes","evidence_summary":"The Chapter 4 notes center on virtual displacements, generalized coordinates, constraints, and examples using virtual work.","confidence":0.9}
+{"source":"Coopersmith Chapter 5","relation":"DEVELOPS","target":"D'Alembert's Principle","evidence_heading":"Chapter Notes","evidence_summary":"The Chapter 5 notes introduce D'Alembert's principle, fictitious forces, energy, and review material.","confidence":0.9}
+-->

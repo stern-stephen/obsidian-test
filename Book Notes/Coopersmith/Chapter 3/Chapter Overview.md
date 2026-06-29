@@ -51,3 +51,10 @@ Next: [Coordinates and Time](Coordinates%20and%20Time.md)
 
 - Compare Coopersmith's discussion of invariants with canonical transformations and coordinate-independent formulations.
 - Revisit Section 3.7 when Chapter 6 applies variational calculus to Lagrangian mechanics.
+
+<!-- semantic-edges
+{"source":"Coopersmith Chapter 3","relation":"PREPARES","target":"Variational Mechanics","evidence_heading":"Big Ideas","evidence_summary":"The chapter prepares generalized coordinates, degrees of freedom, configuration space, invariants, and variational calculus for later variational mechanics.","confidence":0.95}
+{"source":"Generalized Coordinates","relation":"DEFINE_AXES_OF","target":"Configuration Space","evidence_heading":"Big Ideas","evidence_summary":"The overview describes configuration space as the abstract space whose coordinates are generalized coordinates.","confidence":0.95}
+{"source":"Calculus of Variations","relation":"PREPARES","target":"Action Principle","evidence_heading":"Big Ideas","evidence_summary":"The chapter presents variational calculus as the move from ordinary stationary-point tests to stationary paths, setting up the action principle.","confidence":0.95}
+{"source":"Degrees of Freedom","relation":"DEPEND_ON","target":"Constraints","evidence_heading":"Logical Progression","evidence_summary":"The overview counts independent coordinates after constraints are accounted for.","confidence":0.9}
+-->
