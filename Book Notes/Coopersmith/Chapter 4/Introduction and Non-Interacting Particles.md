@@ -59,3 +59,8 @@ Coopersmith emphasizes that the virtual displacements are not physical motions d
 - [Virtual Work and D'Alembert's Principle](../../../Mechanics/Virtual%20Work%20and%20DAlemberts%20Principle.md)
 - [Constraints](../../../Mechanics/Constraints.md)
 - [Classical Mechanics](../../../Mechanics/Classical%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Principle of Virtual Work","relation":"REFORMULATES","target":"Static Equilibrium","evidence_heading":"Virtual-Work Statement","evidence_summary":"For non-interacting particles, virtual work replaces separate vector force conditions with one summed scalar condition.","confidence":0.9}
+{"source":"Virtual Displacement","relation":"TESTS","target":"Static Equilibrium","evidence_heading":"Interpretation","evidence_summary":"Virtual displacements are imagined infinitesimal changes in configuration space used as a local stationarity test.","confidence":0.9}
+-->

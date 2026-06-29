@@ -41,3 +41,8 @@ The chapter prepares the transition to Lagrangian mechanics. Once dynamics has b
 - [Virtual Work and D'Alembert's Principle](../../../Mechanics/Virtual%20Work%20and%20DAlemberts%20Principle.md)
 - [Inertial Forces](../../../Mechanics/Inertial%20Forces.md)
 - [Lagrangian Mechanics](../../../Mechanics/Lagrangian%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"D'Alembert's Principle","relation":"TREATS_AS_STATICS_PLUS","target":"Inertial Forces","evidence_heading":"Big Ideas","evidence_summary":"The review summarizes D'Alembert's principle as dynamics treated as statics plus inertial forces.","confidence":0.9}
+{"source":"Dynamical Virtual Work","relation":"FOUNDATION_FOR","target":"Lagrangian Mechanics","evidence_heading":"Why It Matters","evidence_summary":"Expressing dynamics as a virtual-work balance prepares the transition to generalized coordinates and Lagrangian mechanics.","confidence":0.9}
+-->

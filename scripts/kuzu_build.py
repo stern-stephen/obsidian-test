@@ -1,0 +1,129 @@
+from __future__ import annotations
+
+import argparse
+import json
+import re
+import shutil
+from pathlib import Path
+from typing import Any
+
+import kuzu
+
+
+ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_DB = ROOT / "Graph" / "kuzu-db"
+EDGE_BLOCK_RE = re.compile(r"<!--\s*semantic-edges\s*(.*?)\s*-->", re.DOTALL)
+
+
+def validate_edge(edge: dict[str, Any], location: str) -> dict[str, Any]:
+    required = {"source", "relation", "target"}
+    missing = sorted(required - set(edge))
+    if missing:
+        raise SystemExit(f"{location}: missing required fields: {', '.join(missing)}")
+    return edge
+
+
+def read_jsonl_edges(path: Path) -> list[dict[str, Any]]:
+    edges: list[dict[str, Any]] = []
+    for line_no, line in enumerate(path.read_text(encoding="utf-8").splitlines(), start=1):
+        if not line.strip():
+            continue
+        try:
+            edge = json.loads(line)
+        except json.JSONDecodeError as exc:
+            raise SystemExit(f"{path}:{line_no}: invalid JSON: {exc}") from exc
+        edges.append(validate_edge(edge, f"{path}:{line_no}"))
+    return edges
+
+
+def read_markdown_edges(notes_root: Path) -> list[dict[str, Any]]:
+    edges: list[dict[str, Any]] = []
+    for path in sorted(notes_root.rglob("*.md")):
+        relative = path.relative_to(ROOT)
+        if relative.parts and relative.parts[0] == "Graph":
+            continue
+        text = path.read_text(encoding="utf-8")
+        for block_index, match in enumerate(EDGE_BLOCK_RE.finditer(text), start=1):
+            for line_no, line in enumerate(match.group(1).splitlines(), start=1):
+                if not line.strip():
+                    continue
+                location = f"{path}:semantic-edges block {block_index}, line {line_no}"
+                try:
+                    edge = json.loads(line)
+                except json.JSONDecodeError as exc:
+                    raise SystemExit(f"{location}: invalid JSON: {exc}") from exc
+                edge = validate_edge(edge, location)
+                edge.setdefault("evidence_path", relative.as_posix())
+                edges.append(edge)
+    return edges
+
+
+def ensure_concept(conn: kuzu.Connection, name: str) -> None:
+    result = conn.execute("MATCH (c:Concept {name: $name}) RETURN c.name", {"name": name})
+    if not result.has_next():
+        conn.execute("CREATE (:Concept {name: $name})", {"name": name})
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Build the local Kuzu semantic graph from embedded Markdown semantic edges.")
+    parser.add_argument("--notes-root", type=Path, default=ROOT, help="Root to scan for Markdown semantic-edge blocks.")
+    parser.add_argument("--edges", type=Path, help="Optional JSONL edge file to include in addition to Markdown blocks.")
+    parser.add_argument("--db", type=Path, default=DEFAULT_DB)
+    args = parser.parse_args()
+
+    edges = read_markdown_edges(args.notes_root)
+    if args.edges:
+        edges.extend(read_jsonl_edges(args.edges))
+    if args.db.is_dir():
+        shutil.rmtree(args.db)
+    elif args.db.exists():
+        args.db.unlink()
+
+    db = kuzu.Database(str(args.db))
+    conn = kuzu.Connection(db)
+    conn.execute("CREATE NODE TABLE Concept(name STRING, PRIMARY KEY(name))")
+    conn.execute(
+        """
+        CREATE REL TABLE SEMANTIC_EDGE(
+            FROM Concept TO Concept,
+            relation STRING,
+            evidence_path STRING,
+            evidence_heading STRING,
+            evidence_summary STRING,
+            confidence DOUBLE
+        )
+        """
+    )
+
+    for edge in edges:
+        source = str(edge["source"])
+        target = str(edge["target"])
+        ensure_concept(conn, source)
+        ensure_concept(conn, target)
+        conn.execute(
+            """
+            MATCH (source:Concept {name: $source}), (target:Concept {name: $target})
+            CREATE (source)-[:SEMANTIC_EDGE {
+                relation: $relation,
+                evidence_path: $evidence_path,
+                evidence_heading: $evidence_heading,
+                evidence_summary: $evidence_summary,
+                confidence: $confidence
+            }]->(target)
+            """,
+            {
+                "source": source,
+                "target": target,
+                "relation": str(edge["relation"]),
+                "evidence_path": str(edge.get("evidence_path", "")),
+                "evidence_heading": str(edge.get("evidence_heading", "")),
+                "evidence_summary": str(edge.get("evidence_summary", "")),
+                "confidence": float(edge.get("confidence", 0.0)),
+            },
+        )
+
+    print(f"Built {args.db} from {len(edges)} semantic edge(s).")
+
+
+if __name__ == "__main__":
+    main()

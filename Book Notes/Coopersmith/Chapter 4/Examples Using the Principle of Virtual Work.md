@@ -59,3 +59,9 @@ The capacitor example uses the virtual change in stored electrical energy to inf
 - [Virtual Work and D'Alembert's Principle](../../../Mechanics/Virtual%20Work%20and%20DAlemberts%20Principle.md)
 - [Constraints](../../../Mechanics/Constraints.md)
 - [Generalized Coordinates](../../../Mechanics/Generalized%20Coordinates.md)
+
+<!-- semantic-edges
+{"source":"Black Box Example","relation":"EXAMPLE_OF","target":"Principle of Virtual Work","evidence_heading":"Black Box","evidence_summary":"The black box example relates external forces using only the input-output displacement relation, without solving hidden internal mechanisms.","confidence":0.9}
+{"source":"Knob And Slider","relation":"EXAMPLE_OF","target":"Generalized Virtual Work","evidence_heading":"Knob And Slider","evidence_summary":"The knob and slider example pairs torque with angular displacement and force with linear displacement in one virtual-work equation.","confidence":0.9}
+{"source":"Virtual Work","relation":"CONTRASTS_WITH","target":"Finite Energy Path","evidence_heading":"Springs, Bubbles, And Capacitors","evidence_summary":"The spring-loaded weight example distinguishes virtual work near equilibrium from actual finite relaxation to equilibrium.","confidence":0.85}
+-->

@@ -58,3 +58,9 @@ Next: [Introduction and Non-Interacting Particles](Introduction%20and%20Non-Inte
 
 - Compare Coopersmith's scalar-work emphasis with Goldstein's derivation from D'Alembert's principle.
 - Revisit this chapter when reading Chapter 5, where virtual work is extended to dynamics.
+
+<!-- semantic-edges
+{"source":"Coopersmith Chapter 4","relation":"INTRODUCES","target":"Principle of Virtual Work","evidence_heading":"Big Ideas","evidence_summary":"Chapter 4 presents the principle of virtual work as the statics version of the variational viewpoint.","confidence":0.95}
+{"source":"Principle of Virtual Work","relation":"ELIMINATES","target":"Reaction Forces","evidence_heading":"Big Ideas","evidence_summary":"Reaction and constraint forces disappear when virtual displacements are compatible with constraints.","confidence":0.9}
+{"source":"Principle of Virtual Work","relation":"USES","target":"Generalized Coordinates","evidence_heading":"Logical Progression","evidence_summary":"The chapter generalizes from Cartesian particle displacements to generalized coordinates and generalized forces.","confidence":0.9}
+-->

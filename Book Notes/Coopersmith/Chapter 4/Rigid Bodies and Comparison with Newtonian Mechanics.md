@@ -95,3 +95,9 @@ $$
 - [Virtual Work and D'Alembert's Principle](../../../Mechanics/Virtual%20Work%20and%20DAlemberts%20Principle.md)
 - [Constraints](../../../Mechanics/Constraints.md)
 - [Center of Mass](../../../Mechanics/Center%20of%20Mass.md)
+
+<!-- semantic-edges
+{"source":"Principle of Virtual Work","relation":"DERIVES","target":"Zero Resultant Force","evidence_heading":"Rigid Translations","evidence_summary":"A rigid virtual translation makes the virtual-work condition imply that the resultant external force is zero.","confidence":0.9}
+{"source":"Principle of Virtual Work","relation":"DERIVES","target":"Zero Resultant Moment","evidence_heading":"Rigid Rotations","evidence_summary":"A rigid virtual rotation rewrites virtual work in terms of moments and implies that the resultant moment is zero.","confidence":0.9}
+{"source":"Constraint Forces","relation":"DO_ZERO_VIRTUAL_WORK_FOR","target":"Compatible Virtual Displacements","evidence_heading":"Applied and Constraint Forces","evidence_summary":"When virtual displacements are compatible with constraints, constraint forces do no total virtual work.","confidence":0.95}
+-->

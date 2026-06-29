@@ -10,3 +10,7 @@ Thumbs.db
 
 # Graphify local build state
 graphify-out/
+
+# Local semantic graph database
+Graph/kuzu-db
+Graph/kuzu-db/

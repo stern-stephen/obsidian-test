@@ -55,3 +55,8 @@ This section is important because it shows both the strength and the limits of t
 - [Conservation Laws](../../../Mechanics/Conservation%20Laws.md)
 - [Energy Function](../../../Mechanics/Energy%20Function.md)
 - [Virtual Work and D'Alembert's Principle](../../../Mechanics/Virtual%20Work%20and%20DAlemberts%20Principle.md)
+
+<!-- semantic-edges
+{"source":"D'Alembert's Principle","relation":"DERIVES","target":"Energy Conservation","evidence_heading":"Energy Result","evidence_summary":"Under time-independent conservative assumptions, D'Alembert's principle leads to conservation of total energy.","confidence":0.9}
+{"source":"Energy Conservation","relation":"ASSUMES","target":"Time-Independent External Conditions","evidence_heading":"Big Ideas","evidence_summary":"Coopersmith presents energy conservation as following only under special assumptions such as time-independent external conditions.","confidence":0.9}
+-->

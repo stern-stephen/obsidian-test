@@ -80,6 +80,17 @@ The user does not currently have an API key to give Graphify. Use Graphify as a 
 - When a semantic relationship is missing from the graph, add explicit Markdown links, headings, or durable concept-note text so future structural graph updates can discover it.
 - Do not rely on Graphify's LLM-backed semantic extraction unless the user later provides a suitable API key.
 
+## Embedded Semantic Graph
+
+This vault has a Kuzu-based semantic graph prototype. Store authored semantic relationships in hidden `semantic-edges` HTML comment blocks inside the Markdown notes that justify them, not in one large hand-edited registry file.
+
+- Use `Graph/README.md` for the embedded edge format.
+- Use `python scripts\kuzu_build.py` to rebuild the local Kuzu database at `Graph/kuzu-db`.
+- Use `python scripts\kuzu_query.py "Concept Name"` to query a concept's semantic neighborhood.
+- Keep `Graph/kuzu-db` ignored because it is rebuildable from Markdown.
+- Each semantic edge should include `source`, `relation`, `target`, `evidence_heading`, `evidence_summary`, and `confidence`; the build script adds `evidence_path` from the containing Markdown file.
+- Prefer placing edge blocks near the bottom of the relevant source or concept note so the relationship is close to its evidence.
+
 ## Git Workflow
 
 This project is an Obsidian vault stored in Git.

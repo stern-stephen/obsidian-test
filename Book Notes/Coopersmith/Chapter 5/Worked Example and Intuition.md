@@ -53,3 +53,8 @@ $$
 - [Inertial Forces](../../../Mechanics/Inertial%20Forces.md)
 - [Virtual Work and D'Alembert's Principle](../../../Mechanics/Virtual%20Work%20and%20DAlemberts%20Principle.md)
 - [Euler-Lagrange Equations](../../../Mechanics/Euler-Lagrange%20Equations.md)
+
+<!-- semantic-edges
+{"source":"D'Alembert's Principle","relation":"CONTRASTS_WITH","target":"Newton's Second Law","evidence_heading":"Why It Can Look Trivial","evidence_summary":"For one unconstrained particle the principle resembles Newton's second law, but Coopersmith emphasizes that the methods ask different questions.","confidence":0.85}
+{"source":"Inertial Forces","relation":"PART_OF","target":"Dynamical Virtual Work","evidence_heading":"Summed Condition","evidence_summary":"The total virtual work includes applied forces and inertial forces in one summed scalar condition.","confidence":0.9}
+-->

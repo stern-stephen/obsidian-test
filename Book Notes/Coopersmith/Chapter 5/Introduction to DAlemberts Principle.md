@@ -49,3 +49,9 @@ Coopersmith stresses that the principle is not just a formal trick. It changes t
 - [Virtual Work and D'Alembert's Principle](../../../Mechanics/Virtual%20Work%20and%20DAlemberts%20Principle.md)
 - [Inertial Forces](../../../Mechanics/Inertial%20Forces.md)
 - [Constraints](../../../Mechanics/Constraints.md)
+
+<!-- semantic-edges
+{"source":"Inertial Forces","relation":"ENABLES","target":"D'Alembert's Principle","evidence_heading":"Dynamical Virtual Work","evidence_summary":"The reversed mass-acceleration term lets dynamics be rewritten as an equilibrium-like virtual-work statement.","confidence":0.95}
+{"source":"D'Alembert's Principle","relation":"ELIMINATES","target":"Ideal Constraint Forces","evidence_heading":"Dynamical Virtual Work","evidence_summary":"Constraint-force terms are absent because compatible virtual displacements do no work against ideal constraints.","confidence":0.9}
+{"source":"D'Alembert's Principle","relation":"REFORMULATES","target":"Dynamics","evidence_heading":"Interpretation","evidence_summary":"The principle asks for a virtual-work balance among dynamical forces rather than only motion from applied force.","confidence":0.9}
+-->
