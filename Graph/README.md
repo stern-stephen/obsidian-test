@@ -1,10 +1,19 @@
 # Semantic Graph Prototype
 
-This folder holds a small Kuzu-based semantic graph experiment.
+This folder holds a small Kuzu-based graph experiment for the vault.
 
 The durable source is hidden `semantic-edges` blocks embedded in Markdown notes. Each JSON line inside a block is one authored semantic edge with source, relation, target, evidence, and confidence.
 
-The local Kuzu database lives at `Graph/kuzu-db/` and is ignored by Git because it can be rebuilt from the Markdown files.
+The build also parses ordinary Markdown links between notes. The local Kuzu database lives at `Graph/kuzu-db/` and is ignored by Git because it can be rebuilt from the Markdown files.
+
+## Graph Layers
+
+The Kuzu graph contains two layers:
+
+- Automatic structural links: `(:Note)-[:LINKS_TO]->(:Note)` from standard Markdown links.
+- Curated semantic edges: `(:Concept)-[:SEMANTIC_EDGE {relation: "..."}]->(:Concept)` from hidden `semantic-edges` blocks.
+
+Use ordinary Markdown links for navigation and broad relatedness. Use hidden semantic edges only for typed claims worth querying.
 
 ## Embedded Semantic Edge Format
 
@@ -81,9 +90,22 @@ Inspect a concept's semantic neighborhood:
 python scripts\kuzu_query.py "D'Alembert's Principle"
 ```
 
+Inspect links for a note:
+
+```powershell
+python scripts\kuzu_query.py "Book Notes/Coopersmith/Chapter 5/Chapter Overview.md" --note
+```
+
+Inspect both layers:
+
+```powershell
+python scripts\kuzu_query.py "D'Alembert's Principle" --all
+```
+
 ## Workflow
 
 - Markdown notes remain the human-readable source.
+- Standard Markdown links become `LINKS_TO` edges automatically.
 - Hidden `semantic-edges` blocks store curated relationship claims near the notes that justify them.
 - Every edge should point back to note evidence through `evidence_heading` and `evidence_summary`.
 - Rebuild `Graph/kuzu-db/` after editing semantic-edge blocks.

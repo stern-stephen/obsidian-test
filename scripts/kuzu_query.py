@@ -22,6 +22,9 @@ def main() -> None:
     parser.add_argument("concept", nargs="?", help="Concept name to inspect.")
     parser.add_argument("--db", type=Path, default=DEFAULT_DB)
     parser.add_argument("--list", action="store_true", help="List all concepts.")
+    parser.add_argument("--list-notes", action="store_true", help="List all note paths.")
+    parser.add_argument("--note", action="store_true", help="Inspect Markdown links for a note path instead of semantic edges for a concept.")
+    parser.add_argument("--all", action="store_true", help="Inspect both concept semantic edges and note links.")
     args = parser.parse_args()
 
     if not args.db.exists():
@@ -36,8 +39,38 @@ def main() -> None:
             print(name)
         return
 
+    if args.list_notes:
+        result = conn.execute("MATCH (n:Note) RETURN n.path ORDER BY n.path")
+        for (path,) in rows(result):
+            print(path)
+        return
+
     if not args.concept:
-        raise SystemExit("Provide a concept name or pass --list.")
+        raise SystemExit("Provide a concept/note name or pass --list/--list-notes.")
+
+    if args.note or args.all:
+        result = conn.execute(
+            """
+            MATCH (source:Note {path: $path})-[edge:LINKS_TO]->(target:Note)
+            RETURN source.path, edge.label, edge.anchor, target.path, 'outgoing'
+            UNION ALL
+            MATCH (source:Note)-[edge:LINKS_TO]->(target:Note {path: $path})
+            RETURN source.path, edge.label, edge.anchor, target.path, 'incoming'
+            """,
+            {"path": args.concept},
+        )
+        found_links = rows(result)
+        if found_links:
+            print(f"Markdown links for {args.concept!r}:")
+            for source, label, anchor, target, direction in found_links:
+                anchor_text = f"#{anchor}" if anchor else ""
+                arrow = "->" if direction == "outgoing" else "<-"
+                other = target if direction == "outgoing" else source
+                print(f"  {arrow} {other}{anchor_text}  label={label!r}")
+        elif args.note:
+            print(f"No Markdown links found for note {args.concept!r}.")
+        if args.note and not args.all:
+            return
 
     result = conn.execute(
         """
@@ -54,9 +87,12 @@ def main() -> None:
 
     found = rows(result)
     if not found:
-        print(f"No semantic edges found for {args.concept!r}.")
+        if not args.all:
+            print(f"No semantic edges found for {args.concept!r}.")
         return
 
+    if args.all:
+        print(f"Semantic edges for {args.concept!r}:")
     for source, relation, target, evidence_path, evidence_heading, evidence_summary, confidence in found:
         print(f"{source} -[{relation}]-> {target}  confidence={confidence}")
         if evidence_path:

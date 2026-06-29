@@ -82,11 +82,12 @@ The user does not currently have an API key to give Graphify. Use Graphify as a 
 
 ## Embedded Semantic Graph
 
-This vault has a Kuzu-based semantic graph prototype. Store authored semantic relationships in hidden `semantic-edges` HTML comment blocks inside the Markdown notes that justify them, not in one large hand-edited registry file.
+This vault has a Kuzu-based graph prototype. The build script parses ordinary Markdown links into `LINKS_TO` note edges and hidden `semantic-edges` HTML comment blocks into curated typed concept edges.
 
 - Use `Graph/README.md` for the embedded edge format.
 - Use `python scripts\kuzu_build.py` to rebuild the local Kuzu database at `Graph/kuzu-db`.
 - Use `python scripts\kuzu_query.py "Concept Name"` to query a concept's semantic neighborhood.
+- Use `python scripts\kuzu_query.py "path/to/Note.md" --note` to query Markdown links for a note.
 - Keep `Graph/kuzu-db` ignored because it is rebuildable from Markdown.
 - Each semantic edge should include `source`, `relation`, `target`, `evidence_heading`, `evidence_summary`, and `confidence`; the build script adds `evidence_path` from the containing Markdown file.
 - Prefer placing edge blocks near the bottom of the relevant source or concept note so the relationship is close to its evidence.
