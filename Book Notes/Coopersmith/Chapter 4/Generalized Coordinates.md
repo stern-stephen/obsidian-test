@@ -53,7 +53,7 @@ The move to generalized coordinates is the step that makes virtual work a genera
 - [Lagrangian Mechanics](../../../Mechanics/Lagrangian%20Mechanics.md)
 
 <!-- semantic-edges
-{"source":"Generalized Coordinates","relation":"GENERALIZE","target":"Cartesian Coordinates","evidence_heading":"Generalized Virtual Work","evidence_summary":"Coopersmith replaces ordinary particle displacements with generalized motions described by arbitrary system coordinates.","confidence":0.9}
-{"source":"Generalized Force","relation":"PAIRS_WITH","target":"Generalized Coordinate","evidence_heading":"Generalized Virtual Work","evidence_summary":"A generalized force is defined by pairing with a generalized coordinate variation so the product has units of energy.","confidence":0.95}
-{"source":"Degrees of Freedom","relation":"COUNT","target":"Independent Generalized Coordinates","evidence_heading":"Degrees Of Freedom","evidence_summary":"The smallest independent coordinate set gives the system's degrees of freedom.","confidence":0.9}
+{"source":"Generalized Coordinates","relation":"GENERALIZES","target":"Cartesian Coordinates","evidence_heading":"Generalized Virtual Work","evidence_summary":"Coopersmith replaces ordinary particle displacements with generalized motions described by arbitrary system coordinates.","confidence":0.9}
+{"source":"Generalized Force","relation":"REQUIRES","target":"Generalized Coordinate","evidence_heading":"Generalized Virtual Work","evidence_summary":"A generalized force is defined by pairing with a generalized coordinate variation so the product has units of energy.","confidence":0.95}
+{"source":"Degrees of Freedom","relation":"REPRESENTS","target":"Independent Generalized Coordinates","evidence_heading":"Degrees Of Freedom","evidence_summary":"The smallest independent coordinate set gives the system's degrees of freedom.","confidence":0.9}
 -->

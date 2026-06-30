@@ -59,6 +59,5 @@ The chapter ends by motivating the broader variational program: Newtonian force 
 - [Action Principle](../../../Mechanics/Action%20Principle.md)
 
 <!-- semantic-edges
-{"source":"Lanczos Postulate A","relation":"REFRAMES","target":"Principle of Virtual Work","evidence_heading":"Lanczos's Reframing","evidence_summary":"Lanczos states the principle in terms of zero virtual work by reaction forces for displacements compatible with constraints.","confidence":0.95}
-{"source":"Work","relation":"MORE_FUNDAMENTAL_THAN","target":"Force","evidence_heading":"Concluding Interpretation","evidence_summary":"Coopersmith uses the chapter to motivate the variational view that work is primary and force is secondary.","confidence":0.85}
+{"source":"Lanczos Postulate A","relation":"REFORMULATES","target":"Principle of Virtual Work","evidence_heading":"Lanczos's Reframing","evidence_summary":"Lanczos states the principle in terms of zero virtual work by reaction forces for displacements compatible with constraints.","confidence":0.95}
 -->

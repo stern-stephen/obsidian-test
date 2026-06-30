@@ -48,9 +48,9 @@ The theme is a bridge from geometry to mechanics. Variational principles are use
 - [Canonical Transformations](../../../Mechanics/Canonical%20Transformations.md)
 
 <!-- semantic-edges
-{"source":"Configuration Space","relation":"HAS_AXES","target":"Generalized Coordinates","evidence_heading":"Configuration Space","evidence_summary":"For generalized coordinates q1 through qn, the system is represented by one point in configuration space.","confidence":0.95}
+{"source":"Configuration Space","relation":"REQUIRES","target":"Generalized Coordinates","evidence_heading":"Configuration Space","evidence_summary":"For generalized coordinates q1 through qn, the system is represented by one point in configuration space.","confidence":0.95}
 {"source":"Configuration Point","relation":"REPRESENTS","target":"System State","evidence_heading":"Big Ideas","evidence_summary":"A single point in configuration space represents the state of the whole system at one time.","confidence":0.95}
-{"source":"System History","relation":"BECOMES","target":"Curve in Configuration Space","evidence_heading":"Configuration Space","evidence_summary":"As the system changes, its configuration point traces a curve in configuration space.","confidence":0.95}
-{"source":"Invariants","relation":"IDENTIFY","target":"Coordinate-Independent Physical Content","evidence_heading":"Invariants","evidence_summary":"Invariants distinguish physical conclusions from quantities that change with a coordinate description.","confidence":0.95}
-{"source":"Variational Principles","relation":"SUPPORT","target":"Coordinate-Independent Formulations","evidence_heading":"Invariants","evidence_summary":"The note says variational principles are useful partly because they express physics in forms less tied to a particular coordinate representation.","confidence":0.9}
+{"source":"Curve in Configuration Space","relation":"REPRESENTS","target":"System History","evidence_heading":"Configuration Space","evidence_summary":"As the system changes, its configuration point traces a curve in configuration space.","confidence":0.95}
+{"source":"Invariants","relation":"REPRESENTS","target":"Coordinate-Independent Physical Content","evidence_heading":"Invariants","evidence_summary":"Invariants distinguish physical conclusions from quantities that change with a coordinate description.","confidence":0.95}
+{"source":"Variational Principles","relation":"ENABLES","target":"Coordinate-Independent Formulations","evidence_heading":"Invariants","evidence_summary":"The note says variational principles are useful partly because they express physics in forms less tied to a particular coordinate representation.","confidence":0.9}
 -->

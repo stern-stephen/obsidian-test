@@ -57,6 +57,6 @@ The bar may be physically immovable, but the virtual displacement is still a val
 - [Constraints](../../../Mechanics/Constraints.md)
 
 <!-- semantic-edges
-{"source":"Virtual Displacement","relation":"MUST_BE_COMPATIBLE_WITH","target":"Constraints","evidence_heading":"Guidelines For Virtual Displacements","evidence_summary":"Virtual displacement directions must be compatible with constraints so reaction forces do not contribute virtual work.","confidence":0.95}
+{"source":"Virtual Displacement","relation":"REQUIRES","target":"Constraints","evidence_heading":"Guidelines For Virtual Displacements","evidence_summary":"Virtual displacement directions must be compatible with constraints so reaction forces do not contribute virtual work.","confidence":0.95}
 {"source":"Feynman's Pivoting Bar","relation":"EXAMPLE_OF","target":"Principle of Virtual Work","evidence_heading":"Feynman's Pivoting Bar","evidence_summary":"The weighted bar shows how one allowed virtual motion determines linked virtual displacements for all masses.","confidence":0.9}
 -->

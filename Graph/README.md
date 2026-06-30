@@ -45,24 +45,73 @@ Use stable concept names that match durable note titles when possible. Relation 
 
 Avoid semantic edges that only say two notes are near each other, in the same folder, or linked in Markdown. A good semantic edge should answer "how are these ideas related?" in a way that can be defended from the evidence summary.
 
-Suggested relation vocabulary:
+## Relation Vocabulary
 
-- `INTRODUCES`
-- `DOCUMENTS`
-- `EXTENDS`
-- `GENERALIZES`
-- `SPECIALIZES`
+Use a small vocabulary before inventing a new relation type.
+
+Derivation:
+
 - `DERIVES`
 - `DERIVES_FROM`
-- `MOTIVATES`
-- `ENABLES`
-- `USES`
+
+Concept hierarchy:
+
+- `GENERALIZES`
+- `SPECIALIZES`
+- `EXTENDS`
+
+Dependency:
+
+- `REQUIRES`
 - `ASSUMES`
+- `ENABLES`
+- `DETERMINES`
+
+Interpretation:
+
+- `REFORMULATES`
+- `REPRESENTS`
+- `VISUALIZES`
+
+Contrast and removal:
+
 - `CONTRASTS_WITH`
-- `ANALOGOUS_TO`
+- `ELIMINATES`
+
+Pedagogy and source role:
+
+- `INTRODUCES`
+- `MOTIVATES`
 - `EXAMPLE_OF`
-- `REPRESENTS_STATE_OF`
-- `COORDINATIZE`
+
+## Edge Quality Rules
+
+- Do not create semantic edges merely because two notes are linked, near each other, or in the same folder.
+- Every semantic edge should answer: "How are these ideas related?"
+- Every edge needs an `evidence_heading` and an `evidence_summary`.
+- Use stable concept names that match durable note titles when possible.
+- Prefer fewer strong edges over many weak edges.
+- If a relationship feels like `RELATED_TO`, leave it as a Markdown link only.
+
+## Update Workflow
+
+1. Pick one domain, book cluster, or focused concept.
+2. Read the target note completely.
+3. Read directly linked notes that define, motivate, or receive the main ideas.
+4. Add or revise only edges supported by the note text.
+5. Rebuild Kuzu:
+
+```powershell
+python scripts\kuzu_build.py
+```
+
+6. Re-export the viewer:
+
+```powershell
+python scripts\kuzu_export_viewer.py
+```
+
+7. Spot-check focused queries for the edited concepts.
 
 ## Setup
 
@@ -133,3 +182,5 @@ The viewer is dependency-free and reads `Graph/viewer/graph.json`, which is igno
 - Hidden `semantic-edges` blocks store curated relationship claims near the notes that justify them.
 - Every edge should point back to note evidence through `evidence_heading` and `evidence_summary`.
 - Rebuild `Graph/kuzu-db/` after editing semantic-edge blocks.
+
+See [Semantic Edge Audit](semantic-edge-audit.md) for domain progress tracking.

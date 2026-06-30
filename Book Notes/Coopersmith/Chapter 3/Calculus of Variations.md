@@ -52,7 +52,7 @@ Coopersmith introduces this material before virtual work and D'Alembert's princi
 
 <!-- semantic-edges
 {"source":"Calculus of Variations","relation":"EXTENDS","target":"Ordinary Calculus","evidence_heading":"From Functions To Functionals","evidence_summary":"Ordinary calculus varies a number, while variational calculus varies a whole curve and studies the first-order change of an integral.","confidence":0.95}
-{"source":"Functional","relation":"HAS_STATIONARY_CURVE_SATISFYING","target":"Euler-Lagrange Equations","evidence_heading":"From Functions To Functionals","evidence_summary":"The note gives a typical functional and states that the stationary curve satisfies the Euler-Lagrange equation.","confidence":0.95}
-{"source":"Stationarity","relation":"REFINES","target":"Extremum Language","evidence_heading":"Big Ideas","evidence_summary":"The note says extremum language is too narrow for mechanics and that stationarity is the central requirement.","confidence":0.9}
-{"source":"Virtual Variations","relation":"PREPARE_FOR","target":"Action Principle","evidence_heading":"Role In The Book","evidence_summary":"Coopersmith uses controlled virtual variations and vanishing first-order effects to prepare for the action principle.","confidence":0.9}
+{"source":"Calculus of Variations","relation":"DERIVES","target":"Euler-Lagrange Equations","evidence_heading":"From Functions To Functionals","evidence_summary":"The note gives a typical functional and states that the stationary curve satisfies the Euler-Lagrange equation.","confidence":0.95}
+{"source":"Stationarity","relation":"CONTRASTS_WITH","target":"Extremum Language","evidence_heading":"Big Ideas","evidence_summary":"The note says extremum language is too narrow for mechanics and that stationarity is the central requirement.","confidence":0.9}
+{"source":"Virtual Variations","relation":"ENABLES","target":"Action Principle","evidence_heading":"Role In The Book","evidence_summary":"Coopersmith uses controlled virtual variations and vanishing first-order effects to prepare for the action principle.","confidence":0.9}
 -->

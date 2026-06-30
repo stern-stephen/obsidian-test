@@ -45,7 +45,7 @@ The discussion of Newton's bucket contrasts absolute-space interpretations with 
 - [Classical Mechanics](../../../Mechanics/Classical%20Mechanics.md)
 
 <!-- semantic-edges
-{"source":"Fictitious Forces","relation":"ARE","target":"Inertial Forces","evidence_heading":"Accelerated Frames","evidence_summary":"Coopersmith treats centrifugal and Coriolis effects as frame-dependent inertial forces with measurable effects.","confidence":0.9}
+{"source":"Fictitious Forces","relation":"SPECIALIZES","target":"Inertial Forces","evidence_heading":"Accelerated Frames","evidence_summary":"Coopersmith treats centrifugal and Coriolis effects as frame-dependent inertial forces with measurable effects.","confidence":0.9}
 {"source":"D'Alembert's Principle","relation":"MOTIVATES","target":"Equivalence Principle","evidence_heading":"Equivalence Principle Connection","evidence_summary":"Closed-room examples show that local observations may not distinguish gravitational fields from accelerated frames.","confidence":0.85}
-{"source":"Variational Mechanics","relation":"FAVORS","target":"Local Explanations","evidence_heading":"Newton's Bucket And Locality","evidence_summary":"Coopersmith contrasts absolute-space explanations with local variational-mechanics explanations of observed effects.","confidence":0.85}
+{"source":"Variational Mechanics","relation":"MOTIVATES","target":"Local Explanations","evidence_heading":"Newton's Bucket And Locality","evidence_summary":"Coopersmith contrasts absolute-space explanations with local variational-mechanics explanations of observed effects.","confidence":0.85}
 -->

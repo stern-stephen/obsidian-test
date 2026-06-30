@@ -51,7 +51,7 @@ This is why the principle of virtual work can treat a whole constrained body in 
 - [Generalized Coordinates](../../../Mechanics/Generalized%20Coordinates.md)
 
 <!-- semantic-edges
-{"source":"Compatible Virtual Displacements","relation":"ELIMINATE","target":"Internal Constraint Forces","evidence_heading":"Harmony With Constraints","evidence_summary":"Allowed virtual displacements lie along the constraint surface while ideal reaction forces are normal to it, giving zero virtual work.","confidence":0.95}
-{"source":"Constraints","relation":"ENFORCED_BY","target":"Reaction Forces","evidence_heading":"Two Kinds Of Forces","evidence_summary":"Coopersmith describes geometric constraints as physically maintained by microscopic reaction forces.","confidence":0.9}
-{"source":"Principle of Virtual Work","relation":"TREATS_AS_SINGLE_SYSTEM","target":"Constrained Body","evidence_heading":"Mechanics And Geometry","evidence_summary":"Virtual work treats the whole constrained body in one scalar condition instead of tracking internal forces particle by particle.","confidence":0.9}
+{"source":"Compatible Virtual Displacements","relation":"ELIMINATES","target":"Internal Constraint Forces","evidence_heading":"Harmony With Constraints","evidence_summary":"Allowed virtual displacements lie along the constraint surface while ideal reaction forces are normal to it, giving zero virtual work.","confidence":0.95}
+{"source":"Constraints","relation":"REQUIRES","target":"Reaction Forces","evidence_heading":"Two Kinds Of Forces","evidence_summary":"Coopersmith describes geometric constraints as physically maintained by microscopic reaction forces.","confidence":0.9}
+{"source":"Principle of Virtual Work","relation":"REFORMULATES","target":"Constrained Body","evidence_heading":"Mechanics And Geometry","evidence_summary":"Virtual work treats the whole constrained body in one scalar condition instead of tracking internal forces particle by particle.","confidence":0.9}
 -->
