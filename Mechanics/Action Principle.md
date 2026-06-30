@@ -110,3 +110,9 @@ Thus Hamilton's principle does not replace Newtonian dynamics with a different p
 - [Calculus of Variations](../Mathematics/Calculus%20of%20Variations.md)
 - [Goldstein Section 2.1](../Book%20Notes/Goldstein/Chapter%202/Hamilton%27s%20Principle.md)
 - [Coopersmith Chapter 3](../Book%20Notes/Coopersmith/Chapter%203/Chapter%20Overview.md)
+
+<!-- semantic-edges
+{"source":"Action Principle","relation":"DERIVES","target":"Euler-Lagrange Equations","evidence_heading":"From A Global Principle To Local Equations","evidence_summary":"The note derives the Euler-Lagrange equations by varying the action, integrating by parts, using fixed endpoints, and requiring each independent variation coefficient to vanish.","confidence":0.95}
+{"source":"Action Principle","relation":"REQUIRES","target":"Admissible Variations","evidence_heading":"Admissible Variations","evidence_summary":"Hamilton's principle compares the physical path with nearby kinematically allowed histories whose endpoint variations vanish.","confidence":0.9}
+{"source":"Action Principle","relation":"REFORMULATES","target":"Newtonian Dynamics","evidence_heading":"Example: One Particle In A Potential","evidence_summary":"For one particle in a potential, stationary action produces Newton's second law, so the principle packages the same dynamics as a path condition.","confidence":0.9}
+-->

@@ -8,7 +8,7 @@ Use [README](README.md) as the source of truth for graph layers, edge format, re
 
 | Domain | Status | Notes |
 | --- | --- | --- |
-| Mechanics | Not started | First target. Use Mechanics topic notes and related Goldstein, Shankar, and Coopersmith source notes. |
+| Mechanics | Started | Added semantic edges to the Mechanics starting set. Continue with adjacent notes such as symmetries, conservation laws, canonical transformations, cyclic coordinates, and energy function. |
 | Mathematics | Not started | Focus on calculus of variations and Legendre transforms after Mechanics. |
 | Linear Algebra | Not started | Needs careful distinction between definitions, representations, and theorem-like dependencies. |
 | Quantum Mechanics | Not started | Start with state vectors, measurement, spin, and density operators. |

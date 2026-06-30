@@ -140,3 +140,11 @@ In Coopersmith's terminology, the inertial force is the reversed mass-accelerati
 - [Goldstein Section 1.4](../Book%20Notes/Goldstein/Chapter%201/DAlemberts%20Principle%20and%20Lagranges%20Equations.md)
 - [Coopersmith Chapter 4](../Book%20Notes/Coopersmith/Chapter%204/Chapter%20Overview.md)
 - [Coopersmith Chapter 5](../Book%20Notes/Coopersmith/Chapter%205/Chapter%20Overview.md)
+
+<!-- semantic-edges
+{"source":"Virtual Work","relation":"REFORMULATES","target":"Equilibrium","evidence_heading":"Overview","evidence_summary":"The note states that virtual work reformulates equilibrium using infinitesimal allowed changes of configuration.","confidence":0.95}
+{"source":"D'Alembert's Principle","relation":"EXTENDS","target":"Virtual Work","evidence_heading":"Overview","evidence_summary":"The overview says D'Alembert's principle extends the virtual-work idea from equilibrium to dynamics.","confidence":0.95}
+{"source":"Ideal Constraints","relation":"ELIMINATES","target":"Constraint Forces","evidence_heading":"Virtual Displacement","evidence_summary":"For ideal constraints, the constraint forces do no virtual work along allowed virtual displacements, so only applied forces remain in the virtual-work equation.","confidence":0.9}
+{"source":"D'Alembert's Principle","relation":"DERIVES","target":"Euler-Lagrange Equations","evidence_heading":"D'Alembert's Principle","evidence_summary":"After projecting Newton's law onto independent generalized-coordinate variations and assuming conservative applied forces, the note derives the Euler-Lagrange equations.","confidence":0.95}
+{"source":"Inertial Forces","relation":"ENABLES","target":"D'Alembert's Principle","evidence_heading":"Intuition","evidence_summary":"The inertial term lets a dynamical trajectory be treated as an instantaneous virtual-work balance.","confidence":0.9}
+-->

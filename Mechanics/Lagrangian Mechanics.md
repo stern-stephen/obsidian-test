@@ -200,3 +200,9 @@ This shows why generalized coordinates are useful: the pendulum's constraint is 
 - [Hamiltonian Mechanics](Hamiltonian%20Mechanics.md)
 - [Legendre Transforms](../Mathematics/Legendre%20Transforms.md)
 - [The Principle of Least Action and Lagrangian Mechanics](../Book%20Notes/Shankar/Chapter%202/The%20Principle%20of%20Least%20Action%20and%20Lagrangian%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Lagrangian Mechanics","relation":"REQUIRES","target":"Generalized Coordinates","evidence_heading":"Overview","evidence_summary":"The overview defines Lagrangian mechanics as a dynamics formulation using generalized coordinates, velocities, and the action.","confidence":0.9}
+{"source":"Lagrangian Mechanics","relation":"REFORMULATES","target":"Newton's Second Law","evidence_heading":"Particle In A Potential","evidence_summary":"For a one-dimensional conservative force, applying the Euler-Lagrange equation recovers Newton's second law.","confidence":0.9}
+{"source":"Lagrangian Mechanics","relation":"ENABLES","target":"Hamiltonian Mechanics","evidence_heading":"Key Equations","evidence_summary":"The note explains that the Hamiltonian is obtained from the Lagrangian by replacing velocity variables with momentum variables through a Legendre transform.","confidence":0.9}
+-->

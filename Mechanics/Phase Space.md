@@ -28,3 +28,9 @@ Hamiltonian mechanics treats motion as a flow through phase space. Poisson brack
 - [Canonical Momentum](Canonical%20Momentum.md)
 - [Poisson Brackets](Poisson%20Brackets.md)
 - [Canonical Transformations](Canonical%20Transformations.md)
+
+<!-- semantic-edges
+{"source":"Phase Space","relation":"EXTENDS","target":"Configuration Space","evidence_heading":"Intuition","evidence_summary":"The note contrasts configuration space, which records where the system is, with phase space, which also records how it is moving through momenta.","confidence":0.9}
+{"source":"Poisson Brackets","relation":"REQUIRES","target":"Phase Space","evidence_heading":"Why It Matters","evidence_summary":"The note says Poisson brackets are naturally defined in phase space.","confidence":0.9}
+{"source":"Canonical Transformations","relation":"REQUIRES","target":"Phase Space","evidence_heading":"Why It Matters","evidence_summary":"The note says canonical transformations are naturally defined in phase space.","confidence":0.9}
+-->

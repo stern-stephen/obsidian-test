@@ -89,3 +89,10 @@ Together with the constraint equations, these determine the motion and multiplie
 - [Goldstein Section 1.3](../Book%20Notes/Goldstein/Chapter%201/Constraints.md)
 - [Goldstein Section 2.4](../Book%20Notes/Goldstein/Chapter%202/Extending%20Hamilton%27s%20Principle%20to%20Systems%20with%20Constraints.md)
 - [Coopersmith Section 4.8](../Book%20Notes/Coopersmith/Chapter%204/Constraints%20and%20Kinematical%20Conditions.md)
+
+<!-- semantic-edges
+{"source":"Constraints","relation":"DETERMINES","target":"Degrees of Freedom","evidence_heading":"Holonomic Constraints","evidence_summary":"The note gives the degree-of-freedom count n=3N-k for N particles subject to k independent holonomic constraints.","confidence":0.95}
+{"source":"Holonomic Constraints","relation":"ENABLES","target":"Generalized Coordinates","evidence_heading":"Holonomic Constraints","evidence_summary":"Independent generalized coordinates can be chosen so that the holonomic constraints are incorporated into the coordinate map.","confidence":0.9}
+{"source":"Ideal Constraints","relation":"ENABLES","target":"D'Alembert's Principle","evidence_heading":"Ideal Constraints","evidence_summary":"The note says ideal constraints do no net virtual work, which allows constraint forces to be eliminated through D'Alembert's principle.","confidence":0.95}
+{"source":"Lagrange Multipliers","relation":"REPRESENTS","target":"Generalized Constraint Forces","evidence_heading":"Lagrange Multipliers","evidence_summary":"The multiplier terms in the augmented Lagrangian represent generalized constraint forces, with signs depending on the chosen constraint convention.","confidence":0.9}
+-->

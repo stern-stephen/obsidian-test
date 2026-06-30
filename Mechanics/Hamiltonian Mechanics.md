@@ -264,3 +264,10 @@ The Hamiltonian becomes the operator that generates time evolution in quantum me
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Legendre Transforms](../Mathematics/Legendre%20Transforms.md)
 - [The Hamiltonian Formalism](../Book%20Notes/Shankar/Chapter%202/The%20Hamiltonian%20Formalism.md)
+
+<!-- semantic-edges
+{"source":"Hamiltonian Mechanics","relation":"DERIVES_FROM","target":"Lagrangian Mechanics","evidence_heading":"Deriving The Hamiltonian From The Lagrangian","evidence_summary":"The note constructs Hamiltonian mechanics from a Lagrangian by defining conjugate momenta, solving for velocities, and applying a Legendre transform.","confidence":0.95}
+{"source":"Hamiltonian Mechanics","relation":"REQUIRES","target":"Phase Space","evidence_heading":"Overview","evidence_summary":"The overview describes Hamiltonian mechanics as dynamics using generalized coordinates and conjugate momenta in phase space.","confidence":0.95}
+{"source":"Hamiltonian","relation":"DETERMINES","target":"Time Evolution","evidence_heading":"Intuition","evidence_summary":"The note states that the Hamiltonian's broader structural role is to generate time evolution in phase space.","confidence":0.95}
+{"source":"Hamiltonian Mechanics","relation":"REFORMULATES","target":"Lagrangian Mechanics","evidence_heading":"Particle In A Potential","evidence_summary":"The particle example recovers the same equation of motion as the Lagrangian method, but as two first-order equations in phase space.","confidence":0.9}
+-->

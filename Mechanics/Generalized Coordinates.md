@@ -52,3 +52,9 @@ Generalized coordinates are also useful without constraints. Spherical coordinat
 - [Goldstein Section 1.3](../Book%20Notes/Goldstein/Chapter%201/Constraints.md)
 - [Coopersmith Sections 3.1-3.4](../Book%20Notes/Coopersmith/Chapter%203/Chapter%20Overview.md)
 - [Coopersmith Section 4.7](../Book%20Notes/Coopersmith/Chapter%204/Generalized%20Coordinates.md)
+
+<!-- semantic-edges
+{"source":"Generalized Coordinates","relation":"REPRESENTS","target":"Degrees of Freedom","evidence_heading":"Definition","evidence_summary":"The note defines generalized coordinates as the n variables q_1,...,q_n used to describe a system with n degrees of freedom.","confidence":0.95}
+{"source":"Generalized Coordinates","relation":"ELIMINATES","target":"Constraint Forces","evidence_heading":"Intuition","evidence_summary":"For constrained systems, choosing coordinates that describe only the actual degrees of freedom can remove constraint forces from the equations.","confidence":0.85}
+{"source":"Configuration Space","relation":"REPRESENTS","target":"System Configuration","evidence_heading":"Intuition","evidence_summary":"The note says the configuration of an n-degree-of-freedom system is one point in configuration space rather than necessarily a point in ordinary physical space.","confidence":0.9}
+-->

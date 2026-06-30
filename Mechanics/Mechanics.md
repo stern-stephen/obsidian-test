@@ -46,3 +46,7 @@ This page is the hub for classical mechanics concepts that recur across the text
 ## Why It Matters
 
 Classical mechanics gives quantum mechanics much of its notation and intuition: coordinates, momenta, Hamiltonians, symmetries, and conservation laws all survive in transformed form.
+
+<!-- semantic-edges
+{"source":"Classical Mechanics","relation":"MOTIVATES","target":"Quantum Mechanics","evidence_heading":"Why It Matters","evidence_summary":"The note says classical mechanics supplies quantum mechanics with much of its notation and intuition, including coordinates, momenta, Hamiltonians, symmetries, and conservation laws.","confidence":0.85}
+-->

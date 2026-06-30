@@ -143,3 +143,10 @@ which is Newton's second law for a conservative force.
 - [Virtual Work and D'Alembert's Principle](Virtual%20Work%20and%20DAlemberts%20Principle.md)
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Generalized Coordinates](Generalized%20Coordinates.md)
+
+<!-- semantic-edges
+{"source":"Euler-Lagrange Equations","relation":"DERIVES_FROM","target":"D'Alembert's Principle","evidence_heading":"Derivation From D'Alembert's Principle","evidence_summary":"The note shows how D'Alembert's principle removes ideal constraint forces, projects forces onto generalized-coordinate variations, and gives the Euler-Lagrange equations for conservative forces.","confidence":0.95}
+{"source":"Euler-Lagrange Equations","relation":"DERIVES_FROM","target":"Action Principle","evidence_heading":"Derivation From Stationary Action","evidence_summary":"The note derives the Euler-Lagrange equations from stationary action by integrating by parts and applying the fundamental lemma of the calculus of variations.","confidence":0.95}
+{"source":"Euler-Lagrange Equations","relation":"REPRESENTS","target":"Stationary Action","evidence_heading":"Intuition","evidence_summary":"The note describes the Euler-Lagrange equation as the local condition that replaces the global variational statement delta S equals zero.","confidence":0.9}
+{"source":"Euler-Lagrange Equations","relation":"REFORMULATES","target":"Newton's Second Law","evidence_heading":"Example","evidence_summary":"For L = m dot x squared over two minus V(x), the Euler-Lagrange equation gives Newton's second law for a conservative force.","confidence":0.9}
+-->

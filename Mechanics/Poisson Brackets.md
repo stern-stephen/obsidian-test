@@ -657,3 +657,10 @@ This is a structural correspondence, not a rule that turns every classical expre
 - [Canonical Transformations](Canonical%20Transformations.md)
 - [Symmetries](Symmetries.md)
 - [Commutators](../Linear%20Algebra/Commutators.md)
+
+<!-- semantic-edges
+{"source":"Poisson Brackets","relation":"REFORMULATES","target":"Hamiltonian Mechanics","evidence_heading":"Overview","evidence_summary":"The note says Poisson brackets package Hamiltonian mechanics into one operation covering Hamilton's equations, conservation tests, symmetry generators, and canonical-coordinate checks.","confidence":0.95}
+{"source":"Poisson Brackets","relation":"ENABLES","target":"Conservation Tests","evidence_heading":"To Check Whether A Quantity Is Conserved","evidence_summary":"The note gives a procedure for checking conservation by computing the Poisson bracket of a candidate conserved quantity with the Hamiltonian and including explicit time dependence if present.","confidence":0.95}
+{"source":"Poisson Brackets","relation":"ENABLES","target":"Canonical Transformations","evidence_heading":"To Test Canonical Coordinates","evidence_summary":"The note explains that a change of variables is canonical when the new variables preserve the fundamental Poisson bracket structure.","confidence":0.95}
+{"source":"Poisson Brackets","relation":"MOTIVATES","target":"Quantum Commutators","evidence_heading":"Quantum Bridge","evidence_summary":"The note describes Poisson brackets as the classical ancestor of quantum commutators and emphasizes their shared role in generators, time evolution, symmetries, and compatibility.","confidence":0.9}
+-->
