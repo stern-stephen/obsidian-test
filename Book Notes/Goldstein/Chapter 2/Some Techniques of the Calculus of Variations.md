@@ -105,11 +105,3 @@ $$
 
 - [Calculus of Variations](../../../Mathematics/Calculus%20of%20Variations.md)
 - [Euler-Lagrange Equations](../../../Mechanics/Euler-Lagrange%20Equations.md)
-
-<!-- semantic-edges
-{"source":"Some Techniques of the Calculus of Variations","relation":"PART_OF","target":"Goldstein Chapter 2","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Goldstein Chapter 2.","confidence":0.85}
-{"source":"Some Techniques of the Calculus of Variations","relation":"SOURCE_CONTEXT_FOR","target":"Hamilton's Principle","evidence_heading":"Some Techniques of the Calculus of Variations","evidence_summary":"This source note explicitly links its treatment to Hamilton's Principle.","confidence":0.8}
-{"source":"Some Techniques of the Calculus of Variations","relation":"SOURCE_CONTEXT_FOR","target":"Derivation of Lagrange's Equations from Hamilton's Principle","evidence_heading":"Some Techniques of the Calculus of Variations","evidence_summary":"This source note explicitly links its treatment to Derivation of Lagrange's Equations from Hamilton's Principle.","confidence":0.8}
-{"source":"Some Techniques of the Calculus of Variations","relation":"SOURCE_CONTEXT_FOR","target":"Calculus of Variations","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Calculus of Variations.","confidence":0.8}
-{"source":"Some Techniques of the Calculus of Variations","relation":"SOURCE_CONTEXT_FOR","target":"Euler-Lagrange Equations","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Euler-Lagrange Equations.","confidence":0.8}
--->

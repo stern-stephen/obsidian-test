@@ -71,11 +71,3 @@ $$
 ## Notes To Process Later
 
 - Create durable concept notes for Bell inequalities and superdense coding.
-
-<!-- semantic-edges
-{"source":"Quantum Mechanics","relation":"PART_OF","target":"Nielsen Chuang Chapter 2","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Nielsen Chuang Chapter 2.","confidence":0.85}
-{"source":"Quantum Mechanics","relation":"SOURCE_CONTEXT_FOR","target":"Nielsen And Chuang","evidence_heading":"Quantum Mechanics","evidence_summary":"This source note explicitly links its treatment to Nielsen And Chuang.","confidence":0.8}
-{"source":"Quantum Mechanics","relation":"SOURCE_CONTEXT_FOR","target":"Linear Algebra","evidence_heading":"Big Ideas","evidence_summary":"This source note explicitly links its treatment to Linear Algebra.","confidence":0.8}
-{"source":"Quantum Mechanics","relation":"SOURCE_CONTEXT_FOR","target":"Postulates Of Quantum Mechanics","evidence_heading":"Section Notes","evidence_summary":"This source note explicitly links its treatment to Postulates Of Quantum Mechanics.","confidence":0.8}
-{"source":"Quantum Mechanics","relation":"SOURCE_CONTEXT_FOR","target":"Superdense Coding","evidence_heading":"Section Notes","evidence_summary":"This source note explicitly links its treatment to Superdense Coding.","confidence":0.8}
--->

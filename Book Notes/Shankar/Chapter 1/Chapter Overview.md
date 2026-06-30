@@ -51,11 +51,3 @@ Next: [Linear Vector Spaces Basics](Linear%20Vector%20Spaces%20Basics.md)
 
 - Add notes for earlier Chapter 1 sections after reading them carefully.
 - Record printed page ranges for each section from the PDF.
-
-<!-- semantic-edges
-{"source":"Chapter Overview","relation":"PART_OF","target":"Shankar Chapter 1","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Shankar Chapter 1.","confidence":0.85}
-{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"Linear Vector Spaces Basics","evidence_heading":"Chapter Overview","evidence_summary":"This source note explicitly links its treatment to Linear Vector Spaces Basics.","confidence":0.8}
-{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"Inner Product Spaces","evidence_heading":"Section Notes","evidence_summary":"This source note explicitly links its treatment to Inner Product Spaces.","confidence":0.8}
-{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"Dual Spaces and Dirac Notation","evidence_heading":"Section Notes","evidence_summary":"This source note explicitly links its treatment to Dual Spaces and Dirac Notation.","confidence":0.8}
-{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"Subspaces","evidence_heading":"Section Notes","evidence_summary":"This source note explicitly links its treatment to Subspaces.","confidence":0.8}
--->

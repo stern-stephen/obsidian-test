@@ -32,11 +32,3 @@ This setup matters because quantum mechanics will not merely add new forces to c
 
 - [Quantum Mechanics](../../../Quantum%20Mechanics/Quantum%20Mechanics.md)
 - [Wave-Particle Duality](../../../Quantum%20Mechanics/Wave-Particle%20Duality.md)
-
-<!-- semantic-edges
-{"source":"Particles and Waves in Classical Physics","relation":"PART_OF","target":"Shankar Chapter 3","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Shankar Chapter 3.","confidence":0.85}
-{"source":"Particles and Waves in Classical Physics","relation":"SOURCE_CONTEXT_FOR","target":"Chapter Overview","evidence_heading":"Particles and Waves in Classical Physics","evidence_summary":"This source note explicitly links its treatment to Chapter Overview.","confidence":0.8}
-{"source":"Particles and Waves in Classical Physics","relation":"SOURCE_CONTEXT_FOR","target":"An Experiment with Waves and Particles","evidence_heading":"Particles and Waves in Classical Physics","evidence_summary":"This source note explicitly links its treatment to An Experiment with Waves and Particles.","confidence":0.8}
-{"source":"Particles and Waves in Classical Physics","relation":"SOURCE_CONTEXT_FOR","target":"Quantum Mechanics","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Quantum Mechanics.","confidence":0.8}
-{"source":"Particles and Waves in Classical Physics","relation":"SOURCE_CONTEXT_FOR","target":"Wave-Particle Duality","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Wave-Particle Duality.","confidence":0.8}
--->

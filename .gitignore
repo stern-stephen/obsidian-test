@@ -8,6 +8,10 @@
 .DS_Store
 Thumbs.db
 
+# Python local caches
+__pycache__/
+*.pyc
+
 # Graphify local build state
 graphify-out/
 

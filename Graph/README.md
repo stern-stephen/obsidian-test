@@ -13,7 +13,7 @@ The Kuzu graph contains two layers:
 - Automatic structural links: `(:Note)-[:LINKS_TO]->(:Note)` from standard Markdown links.
 - Curated semantic edges: `(:Concept)-[:SEMANTIC_EDGE {relation: "..."}]->(:Concept)` from hidden `semantic-edges` blocks.
 
-Use ordinary Markdown links for navigation and broad relatedness. Use hidden semantic edges only for typed claims worth querying.
+Use ordinary Markdown links for navigation and broad relatedness. Use hidden semantic edges only for typed claims worth querying. Do not mirror ordinary links into `SEMANTIC_EDGE` with broad labels such as `RELATED_TO`, `PART_OF`, `SOURCE_CONTEXT_FOR`, or folder-specific variants like `MECHANICS_RELATED_TO`; those belong in the `LINKS_TO` layer unless the note supports a stronger relationship.
 
 ## Embedded Semantic Edge Format
 
@@ -42,6 +42,8 @@ Optional but strongly recommended fields:
 The build script adds `evidence_path` automatically from the Markdown file that contains the block.
 
 Use stable concept names that match durable note titles when possible. Relation names should be specific enough to query but not so specialized that every edge invents a new type.
+
+Avoid semantic edges that only say two notes are near each other, in the same folder, or linked in Markdown. A good semantic edge should answer "how are these ideas related?" in a way that can be defended from the evidence summary.
 
 Suggested relation vocabulary:
 

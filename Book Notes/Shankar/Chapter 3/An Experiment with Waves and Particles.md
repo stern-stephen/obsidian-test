@@ -41,11 +41,3 @@ This experiment gives a diagnostic: if a system gives localized detections but a
 
 - [Wave-Particle Duality](../../../Quantum%20Mechanics/Wave-Particle%20Duality.md)
 - [Quantum Measurement](../../../Quantum%20Mechanics/Quantum%20Measurement.md)
-
-<!-- semantic-edges
-{"source":"An Experiment with Waves and Particles","relation":"PART_OF","target":"Shankar Chapter 3","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Shankar Chapter 3.","confidence":0.85}
-{"source":"An Experiment with Waves and Particles","relation":"SOURCE_CONTEXT_FOR","target":"Particles and Waves in Classical Physics","evidence_heading":"An Experiment with Waves and Particles","evidence_summary":"This source note explicitly links its treatment to Particles and Waves in Classical Physics.","confidence":0.8}
-{"source":"An Experiment with Waves and Particles","relation":"SOURCE_CONTEXT_FOR","target":"The Double-Slit Experiment with Light","evidence_heading":"An Experiment with Waves and Particles","evidence_summary":"This source note explicitly links its treatment to The Double-Slit Experiment with Light.","confidence":0.8}
-{"source":"An Experiment with Waves and Particles","relation":"SOURCE_CONTEXT_FOR","target":"Wave-Particle Duality","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Wave-Particle Duality.","confidence":0.8}
-{"source":"An Experiment with Waves and Particles","relation":"SOURCE_CONTEXT_FOR","target":"Quantum Measurement","evidence_heading":"Links To Concept Notes","evidence_summary":"This source note explicitly links its treatment to Quantum Measurement.","confidence":0.8}
--->

@@ -45,11 +45,3 @@ Next: [Particles and Waves in Classical Physics](Particles%20and%20Waves%20in%20
 
 - Add diagrams or image references for the two-slit setup if they become useful for memory.
 - Revisit this chapter after Chapter 5, where Shankar returns to the double-slit experiment with the one-dimensional formalism in place.
-
-<!-- semantic-edges
-{"source":"Chapter Overview","relation":"PART_OF","target":"Shankar Chapter 3","evidence_heading":"Book metadata","evidence_summary":"This note is a source-specific section note in Shankar Chapter 3.","confidence":0.85}
-{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"Symmetries and Their Consequences","evidence_heading":"Chapter Overview","evidence_summary":"This source note explicitly links its treatment to Symmetries and Their Consequences.","confidence":0.8}
-{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"Particles and Waves in Classical Physics","evidence_heading":"Chapter Overview","evidence_summary":"This source note explicitly links its treatment to Particles and Waves in Classical Physics.","confidence":0.8}
-{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"An Experiment with Waves and Particles","evidence_heading":"Section Notes","evidence_summary":"This source note explicitly links its treatment to An Experiment with Waves and Particles.","confidence":0.8}
-{"source":"Chapter Overview","relation":"SOURCE_CONTEXT_FOR","target":"The Double-Slit Experiment with Light","evidence_heading":"Section Notes","evidence_summary":"This source note explicitly links its treatment to The Double-Slit Experiment with Light.","confidence":0.8}
--->
