@@ -108,3 +108,10 @@ $$
 - [Poisson Brackets](Poisson%20Brackets.md)
 - [Canonical Transformations](Canonical%20Transformations.md)
 - [Commutators](../Linear%20Algebra/Commutators.md)
+
+<!-- semantic-edges
+{"source":"Continuous Symmetries","relation":"DETERMINES","target":"Conserved Quantities","evidence_heading":"Overview","evidence_summary":"The note states the classical Noether-style idea that continuous symmetries lead to conserved quantities.","confidence":0.95}
+{"source":"Symmetries","relation":"REQUIRES","target":"Invariant Dynamics","evidence_heading":"Definition","evidence_summary":"A transformation counts as a symmetry when it leaves the equations of motion or Hamiltonian structure unchanged.","confidence":0.9}
+{"source":"Symmetry Generators","relation":"REPRESENTS","target":"Conserved Quantities","evidence_heading":"Symmetry And Conservation","evidence_summary":"The note says the same quantity can generate a Hamiltonian symmetry and, when it has no explicit time dependence, be conserved.","confidence":0.9}
+{"source":"Poisson Brackets","relation":"ENABLES","target":"Symmetry-Conservation Connection","evidence_heading":"Symmetry And Conservation","evidence_summary":"The Hamiltonian form uses the bracket condition with the generator and Hamiltonian to show that a generator of a symmetry is conserved.","confidence":0.9}
+-->

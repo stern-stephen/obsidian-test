@@ -56,3 +56,10 @@ $$
 - [Hamiltonian Mechanics](Hamiltonian%20Mechanics.md)
 - [Cyclic Coordinates](Cyclic%20Coordinates.md)
 - [Commutators](../Linear%20Algebra/Commutators.md)
+
+<!-- semantic-edges
+{"source":"Symmetries","relation":"DETERMINES","target":"Conservation Laws","evidence_heading":"Symmetry Connection","evidence_summary":"The note lists time-translation, spatial-translation, and rotational symmetries as sources of energy, momentum, and angular momentum conservation.","confidence":0.95}
+{"source":"Conserved Quantities","relation":"REPRESENTS","target":"Symmetry Generators","evidence_heading":"Symmetry Connection","evidence_summary":"The note states that the conserved quantity is the generator of the symmetry.","confidence":0.9}
+{"source":"Poisson Brackets","relation":"ENABLES","target":"Conservation Laws","evidence_heading":"Hamiltonian Form","evidence_summary":"For a quantity with no explicit time dependence, the note gives the Poisson-bracket condition with the Hamiltonian as the conservation test.","confidence":0.9}
+{"source":"Quantum Commutators","relation":"REFORMULATES","target":"Classical Conservation Tests","evidence_heading":"Quantum Bridge","evidence_summary":"The quantum bridge replaces the classical Poisson-bracket conservation condition with commutation with the Hamiltonian for observables with no explicit time dependence.","confidence":0.85}
+-->

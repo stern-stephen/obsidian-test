@@ -63,3 +63,10 @@ When $h=E$ and $L$ is time independent, $2\mathcal F$ is the rate at which mecha
 - [Conservation Laws](Conservation%20Laws.md)
 - [Rayleigh Dissipation Function](Rayleigh%20Dissipation%20Function.md)
 - [Goldstein Section 2.7](../Book%20Notes/Goldstein/Chapter%202/Energy%20Function%20and%20the%20Conservation%20of%20Energy.md)
+
+<!-- semantic-edges
+{"source":"Time-Independent Lagrangian","relation":"DETERMINES","target":"Energy Function Conservation","evidence_heading":"Definition","evidence_summary":"The note derives dh/dt = -partial L/partial t, so the energy function is constant when the Lagrangian has no explicit time dependence.","confidence":0.95}
+{"source":"Energy Function","relation":"CONTRASTS_WITH","target":"Total Mechanical Energy","evidence_heading":"Overview","evidence_summary":"The note says the Lagrangian energy function often equals total mechanical energy, but those are logically separate facts.","confidence":0.9}
+{"source":"Energy Function","relation":"REPRESENTS","target":"Legendre Transform","evidence_heading":"Relation To The Hamiltonian","evidence_summary":"The note says the energy function has the same algebraic form as the Legendre transform, while differing from the Hamiltonian by its variables.","confidence":0.9}
+{"source":"Rayleigh Dissipation Function","relation":"DETERMINES","target":"Mechanical Energy Loss","evidence_heading":"Dissipation","evidence_summary":"With quadratic Rayleigh dissipation and time-independent L, the note identifies 2F as the rate at which mechanical energy is lost when h equals E.","confidence":0.85}
+-->
