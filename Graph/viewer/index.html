@@ -1,0 +1,731 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kuzu Graph Viewer</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f8fa;
+      --panel: #ffffff;
+      --ink: #1f2933;
+      --muted: #64748b;
+      --line: #d8dee8;
+      --semantic: #0f766e;
+      --links: #6d5dfc;
+      --note: #2563eb;
+      --concept: #c2410c;
+      --selected: #111827;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      height: 100vh;
+      overflow: hidden;
+      background: var(--bg);
+      color: var(--ink);
+      font: 14px/1.4 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .app {
+      display: grid;
+      grid-template-columns: minmax(260px, 320px) 1fr minmax(280px, 360px);
+      height: 100vh;
+      min-width: 0;
+    }
+
+    aside {
+      background: var(--panel);
+      border-right: 1px solid var(--line);
+      min-width: 0;
+      overflow: auto;
+      padding: 14px;
+    }
+
+    .details {
+      border-left: 1px solid var(--line);
+      border-right: 0;
+    }
+
+    main {
+      position: relative;
+      min-width: 0;
+      overflow: hidden;
+      background: #fbfcfe;
+    }
+
+    h1, h2 {
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      margin-top: 18px;
+      margin-bottom: 8px;
+      font-size: 12px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .subtle {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 4px;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 650;
+    }
+
+    input, select, button {
+      font: inherit;
+    }
+
+    input[type="search"], select {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 8px 9px;
+      background: #fff;
+      color: var(--ink);
+    }
+
+    .checks {
+      display: grid;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .check {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--ink);
+      font-size: 13px;
+    }
+
+    .toolbar {
+      display: flex;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    button {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--ink);
+      cursor: pointer;
+      padding: 8px 10px;
+    }
+
+    button:hover {
+      border-color: #aab4c3;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .stat {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 8px;
+      background: #fbfcfe;
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 18px;
+    }
+
+    .stat span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .list {
+      display: grid;
+      gap: 6px;
+      margin-top: 8px;
+    }
+
+    .item {
+      width: 100%;
+      text-align: left;
+      border: 1px solid var(--line);
+      background: #fff;
+      padding: 8px;
+    }
+
+    .item.active {
+      border-color: var(--selected);
+    }
+
+    .item-name {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-weight: 650;
+    }
+
+    .item-meta {
+      color: var(--muted);
+      display: block;
+      font-size: 12px;
+      margin-top: 2px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+      cursor: grab;
+    }
+
+    svg.dragging {
+      cursor: grabbing;
+    }
+
+    .edge {
+      stroke: #9aa7b8;
+      stroke-opacity: .48;
+    }
+
+    .edge.semantic {
+      stroke: var(--semantic);
+      stroke-opacity: .62;
+    }
+
+    .edge.links {
+      stroke: var(--links);
+      stroke-opacity: .32;
+    }
+
+    .node circle {
+      stroke: #fff;
+      stroke-width: 1.5;
+    }
+
+    .node.concept circle {
+      fill: var(--concept);
+    }
+
+    .node.note circle {
+      fill: var(--note);
+    }
+
+    .node text {
+      fill: #1f2933;
+      font-size: 11px;
+      pointer-events: none;
+      paint-order: stroke;
+      stroke: #fff;
+      stroke-width: 3px;
+      stroke-linejoin: round;
+    }
+
+    .node.dimmed, .edge.dimmed {
+      opacity: .12;
+    }
+
+    .node.selected circle {
+      stroke: var(--selected);
+      stroke-width: 3;
+    }
+
+    .empty {
+      color: var(--muted);
+      padding: 20px;
+    }
+
+    .detail-title {
+      font-size: 18px;
+      font-weight: 750;
+      word-break: break-word;
+    }
+
+    .pill {
+      display: inline-block;
+      border-radius: 999px;
+      background: #eef2f7;
+      color: #334155;
+      font-size: 12px;
+      margin: 8px 6px 0 0;
+      padding: 3px 8px;
+    }
+
+    .edge-card {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 9px;
+      margin-top: 8px;
+      background: #fff;
+    }
+
+    .edge-card strong {
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    .edge-card p {
+      color: var(--muted);
+      margin: 6px 0 0;
+      font-size: 12px;
+    }
+
+    @media (max-width: 920px) {
+      .app {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+      }
+
+      aside {
+        max-height: 32vh;
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .details {
+        border-left: 0;
+        border-top: 1px solid var(--line);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside>
+      <h1>Kuzu Graph Viewer</h1>
+      <div class="subtle" id="loaded">Loading graph.json</div>
+
+      <label for="search">Search</label>
+      <input id="search" type="search" placeholder="Concept, note, relation, evidence">
+
+      <label for="relation">Relation</label>
+      <select id="relation">
+        <option value="">All relations</option>
+      </select>
+
+      <label for="depth">Neighborhood</label>
+      <select id="depth">
+        <option value="1">Selected node + 1 hop</option>
+        <option value="2">Selected node + 2 hops</option>
+        <option value="0">All matching nodes</option>
+      </select>
+
+      <div class="checks">
+        <label class="check"><input id="semantic" type="checkbox" checked> Semantic edges</label>
+        <label class="check"><input id="links" type="checkbox"> Markdown links</label>
+        <label class="check"><input id="labels" type="checkbox" checked> Labels</label>
+      </div>
+
+      <div class="toolbar">
+        <button id="reset" type="button">Reset</button>
+        <button id="fit" type="button">Fit</button>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><strong id="node-count">0</strong><span>visible nodes</span></div>
+        <div class="stat"><strong id="edge-count">0</strong><span>visible edges</span></div>
+      </div>
+
+      <h2>Matches</h2>
+      <div class="list" id="matches"></div>
+    </aside>
+
+    <main>
+      <svg id="graph" role="img" aria-label="Interactive graph visualization"></svg>
+    </main>
+
+    <aside class="details">
+      <div id="details" class="empty">Select a node to inspect its semantic and Markdown relationships.</div>
+    </aside>
+  </div>
+
+  <script>
+    const state = {
+      graph: null,
+      selected: null,
+      visibleNodes: [],
+      visibleEdges: [],
+      positions: new Map(),
+      width: 0,
+      height: 0,
+      scale: 1,
+      tx: 0,
+      ty: 0,
+      draggingNode: null,
+      panning: false,
+      lastPointer: null,
+    };
+
+    const svg = document.getElementById("graph");
+    const searchInput = document.getElementById("search");
+    const relationSelect = document.getElementById("relation");
+    const semanticInput = document.getElementById("semantic");
+    const linksInput = document.getElementById("links");
+    const labelsInput = document.getElementById("labels");
+    const depthSelect = document.getElementById("depth");
+    const matchesEl = document.getElementById("matches");
+    const detailsEl = document.getElementById("details");
+
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, char => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      }[char]));
+    }
+
+    function nodeMatches(node, term) {
+      if (!term) return true;
+      const haystack = `${node.label} ${node.kind} ${node.path || ""}`.toLowerCase();
+      return haystack.includes(term);
+    }
+
+    function edgeMatches(edge, term) {
+      if (!term) return true;
+      const haystack = `${edge.relation} ${edge.label} ${edge.evidence_path || ""} ${edge.evidence_summary || ""}`.toLowerCase();
+      return haystack.includes(term);
+    }
+
+    function filteredEdges() {
+      const relation = relationSelect.value;
+      const showSemantic = semanticInput.checked;
+      const showLinks = linksInput.checked;
+      const term = searchInput.value.trim().toLowerCase();
+      return state.graph.edges.filter(edge => {
+        if (edge.layer === "semantic" && !showSemantic) return false;
+        if (edge.layer === "links" && !showLinks) return false;
+        if (relation && edge.relation !== relation) return false;
+        return edgeMatches(edge, term);
+      });
+    }
+
+    function computeVisible() {
+      const term = searchInput.value.trim().toLowerCase();
+      const edges = filteredEdges();
+      const byId = new Map(state.graph.nodes.map(node => [node.id, node]));
+      const adjacency = new Map();
+      for (const edge of edges) {
+        if (!adjacency.has(edge.source)) adjacency.set(edge.source, new Set());
+        if (!adjacency.has(edge.target)) adjacency.set(edge.target, new Set());
+        adjacency.get(edge.source).add(edge.target);
+        adjacency.get(edge.target).add(edge.source);
+      }
+
+      let nodeIds = new Set();
+      if (state.selected && Number(depthSelect.value) > 0) {
+        nodeIds.add(state.selected);
+        let frontier = new Set([state.selected]);
+        for (let hop = 0; hop < Number(depthSelect.value); hop += 1) {
+          const next = new Set();
+          for (const id of frontier) {
+            for (const neighbor of adjacency.get(id) || []) {
+              if (!nodeIds.has(neighbor)) {
+                nodeIds.add(neighbor);
+                next.add(neighbor);
+              }
+            }
+          }
+          frontier = next;
+        }
+      } else {
+        for (const edge of edges) {
+          if (!term || edgeMatches(edge, term)) {
+            nodeIds.add(edge.source);
+            nodeIds.add(edge.target);
+          }
+        }
+        if (term) {
+          for (const node of state.graph.nodes) {
+            if (nodeMatches(node, term)) nodeIds.add(node.id);
+          }
+        }
+      }
+
+      state.visibleNodes = [...nodeIds].map(id => byId.get(id)).filter(Boolean).slice(0, 420);
+      const kept = new Set(state.visibleNodes.map(node => node.id));
+      state.visibleEdges = edges.filter(edge => kept.has(edge.source) && kept.has(edge.target)).slice(0, 1200);
+    }
+
+    function seedPositions() {
+      const radius = Math.max(90, Math.min(state.width, state.height) * 0.34);
+      state.visibleNodes.forEach((node, index) => {
+        if (state.positions.has(node.id)) return;
+        const angle = (index / Math.max(1, state.visibleNodes.length)) * Math.PI * 2;
+        state.positions.set(node.id, {
+          x: state.width / 2 + Math.cos(angle) * radius,
+          y: state.height / 2 + Math.sin(angle) * radius,
+          vx: 0,
+          vy: 0,
+        });
+      });
+    }
+
+    function simulate(iterations = 70) {
+      const nodes = state.visibleNodes;
+      const edges = state.visibleEdges;
+      const nodeSet = new Set(nodes.map(node => node.id));
+      for (const id of [...state.positions.keys()]) {
+        if (!nodeSet.has(id)) state.positions.delete(id);
+      }
+      seedPositions();
+      const positions = state.positions;
+      const centerX = state.width / 2;
+      const centerY = state.height / 2;
+
+      for (let step = 0; step < iterations; step += 1) {
+        for (let i = 0; i < nodes.length; i += 1) {
+          const a = positions.get(nodes[i].id);
+          for (let j = i + 1; j < nodes.length; j += 1) {
+            const b = positions.get(nodes[j].id);
+            let dx = a.x - b.x;
+            let dy = a.y - b.y;
+            let dist2 = dx * dx + dy * dy || 1;
+            const force = Math.min(80, 1800 / dist2);
+            const dist = Math.sqrt(dist2);
+            dx /= dist;
+            dy /= dist;
+            a.vx += dx * force;
+            a.vy += dy * force;
+            b.vx -= dx * force;
+            b.vy -= dy * force;
+          }
+        }
+
+        for (const edge of edges) {
+          const a = positions.get(edge.source);
+          const b = positions.get(edge.target);
+          if (!a || !b) continue;
+          const dx = b.x - a.x;
+          const dy = b.y - a.y;
+          const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+          const target = edge.layer === "semantic" ? 115 : 75;
+          const force = (dist - target) * 0.018;
+          const fx = (dx / dist) * force;
+          const fy = (dy / dist) * force;
+          a.vx += fx;
+          a.vy += fy;
+          b.vx -= fx;
+          b.vy -= fy;
+        }
+
+        for (const node of nodes) {
+          const p = positions.get(node.id);
+          p.vx += (centerX - p.x) * 0.004;
+          p.vy += (centerY - p.y) * 0.004;
+          p.vx *= 0.78;
+          p.vy *= 0.78;
+          p.x += p.vx;
+          p.y += p.vy;
+        }
+      }
+    }
+
+    function render() {
+      state.width = svg.clientWidth || 800;
+      state.height = svg.clientHeight || 600;
+      computeVisible();
+      simulate();
+      document.getElementById("node-count").textContent = state.visibleNodes.length;
+      document.getElementById("edge-count").textContent = state.visibleEdges.length;
+
+      const selectedEdges = new Set();
+      if (state.selected) {
+        for (const edge of state.visibleEdges) {
+          if (edge.source === state.selected || edge.target === state.selected) selectedEdges.add(edge.id);
+        }
+      }
+
+      const labels = labelsInput.checked;
+      const edgeMarkup = state.visibleEdges.map(edge => {
+        const source = state.positions.get(edge.source);
+        const target = state.positions.get(edge.target);
+        const dimmed = state.selected && !selectedEdges.has(edge.id);
+        return `<line class="edge ${edge.layer}${dimmed ? " dimmed" : ""}" x1="${source.x}" y1="${source.y}" x2="${target.x}" y2="${target.y}"><title>${escapeHtml(edge.relation)}</title></line>`;
+      }).join("");
+
+      const nodeMarkup = state.visibleNodes.map(node => {
+        const pos = state.positions.get(node.id);
+        const connected = !state.selected || node.id === state.selected || state.visibleEdges.some(edge => selectedEdges.has(edge.id) && (edge.source === node.id || edge.target === node.id));
+        const selected = node.id === state.selected;
+        const radius = node.kind === "concept" ? 6 : 4.5;
+        const text = labels ? `<text x="${radius + 5}" y="4">${escapeHtml(node.label)}</text>` : "";
+        return `<g class="node ${node.kind}${selected ? " selected" : ""}${connected ? "" : " dimmed"}" data-id="${escapeHtml(node.id)}" transform="translate(${pos.x},${pos.y})"><circle r="${radius}"></circle>${text}<title>${escapeHtml(node.label)}</title></g>`;
+      }).join("");
+
+      svg.innerHTML = `<g transform="translate(${state.tx},${state.ty}) scale(${state.scale})">${edgeMarkup}${nodeMarkup}</g>`;
+      svg.querySelectorAll(".node").forEach(el => {
+        el.addEventListener("pointerdown", event => {
+          event.stopPropagation();
+          state.draggingNode = el.dataset.id;
+          state.selected = el.dataset.id;
+          updateDetails();
+          renderLists();
+          svg.setPointerCapture(event.pointerId);
+        });
+      });
+      renderLists();
+      updateDetails();
+    }
+
+    function renderLists() {
+      const term = searchInput.value.trim().toLowerCase();
+      const nodes = state.visibleNodes
+        .filter(node => nodeMatches(node, term) || node.id === state.selected)
+        .sort((a, b) => a.label.localeCompare(b.label))
+        .slice(0, 40);
+      matchesEl.innerHTML = nodes.map(node => `
+        <button class="item ${node.id === state.selected ? "active" : ""}" data-id="${escapeHtml(node.id)}" type="button">
+          <span class="item-name">${escapeHtml(node.label)}</span>
+          <span class="item-meta">${escapeHtml(node.kind)}${node.path ? " · " + escapeHtml(node.path) : ""}</span>
+        </button>
+      `).join("") || `<div class="subtle">No visible matches.</div>`;
+      matchesEl.querySelectorAll(".item").forEach(button => {
+        button.addEventListener("click", () => {
+          state.selected = button.dataset.id;
+          render();
+        });
+      });
+    }
+
+    function updateDetails() {
+      if (!state.selected) {
+        detailsEl.className = "empty";
+        detailsEl.textContent = "Select a node to inspect its semantic and Markdown relationships.";
+        return;
+      }
+      const node = state.graph.nodes.find(item => item.id === state.selected);
+      const edges = state.graph.edges
+        .filter(edge => edge.source === state.selected || edge.target === state.selected)
+        .sort((a, b) => a.layer.localeCompare(b.layer) || a.relation.localeCompare(b.relation))
+        .slice(0, 80);
+      detailsEl.className = "";
+      detailsEl.innerHTML = `
+        <div class="detail-title">${escapeHtml(node.label)}</div>
+        <span class="pill">${escapeHtml(node.kind)}</span>
+        ${node.path ? `<span class="pill">${escapeHtml(node.path)}</span>` : ""}
+        <h2>Relationships</h2>
+        ${edges.map(edge => {
+          const otherId = edge.source === node.id ? edge.target : edge.source;
+          const other = state.graph.nodes.find(item => item.id === otherId);
+          const direction = edge.source === node.id ? "→" : "←";
+          const evidence = edge.evidence_path ? `${edge.evidence_path}${edge.evidence_heading ? "#" + edge.evidence_heading : ""}` : "";
+          return `
+            <div class="edge-card">
+              <strong>${escapeHtml(direction)} ${escapeHtml(edge.relation)} ${escapeHtml(other?.label || otherId)}</strong>
+              <span class="pill">${escapeHtml(edge.layer)}</span>
+              <span class="pill">confidence ${Number(edge.confidence ?? 0).toFixed(2)}</span>
+              ${evidence ? `<p>${escapeHtml(evidence)}</p>` : ""}
+              ${edge.evidence_summary ? `<p>${escapeHtml(edge.evidence_summary)}</p>` : ""}
+            </div>
+          `;
+        }).join("") || `<div class="subtle">No relationships in the current graph.</div>`}
+      `;
+    }
+
+    function fit() {
+      state.scale = 1;
+      state.tx = 0;
+      state.ty = 0;
+      render();
+    }
+
+    function reset() {
+      searchInput.value = "";
+      relationSelect.value = "";
+      semanticInput.checked = true;
+      linksInput.checked = false;
+      labelsInput.checked = true;
+      depthSelect.value = "1";
+      state.selected = null;
+      state.positions.clear();
+      fit();
+    }
+
+    svg.addEventListener("pointerdown", event => {
+      state.panning = true;
+      state.lastPointer = { x: event.clientX, y: event.clientY };
+      svg.classList.add("dragging");
+    });
+
+    svg.addEventListener("pointermove", event => {
+      if (state.draggingNode) {
+        const pos = state.positions.get(state.draggingNode);
+        pos.x = (event.offsetX - state.tx) / state.scale;
+        pos.y = (event.offsetY - state.ty) / state.scale;
+        pos.vx = 0;
+        pos.vy = 0;
+        render();
+        return;
+      }
+      if (!state.panning || !state.lastPointer) return;
+      state.tx += event.clientX - state.lastPointer.x;
+      state.ty += event.clientY - state.lastPointer.y;
+      state.lastPointer = { x: event.clientX, y: event.clientY };
+      render();
+    });
+
+    svg.addEventListener("pointerup", () => {
+      state.draggingNode = null;
+      state.panning = false;
+      state.lastPointer = null;
+      svg.classList.remove("dragging");
+    });
+
+    svg.addEventListener("wheel", event => {
+      event.preventDefault();
+      const factor = event.deltaY < 0 ? 1.12 : 0.9;
+      state.scale = Math.max(0.25, Math.min(3, state.scale * factor));
+      render();
+    }, { passive: false });
+
+    for (const el of [searchInput, relationSelect, semanticInput, linksInput, labelsInput, depthSelect]) {
+      el.addEventListener("input", render);
+    }
+    document.getElementById("reset").addEventListener("click", reset);
+    document.getElementById("fit").addEventListener("click", fit);
+    window.addEventListener("resize", render);
+
+    fetch("graph.json")
+      .then(response => {
+        if (!response.ok) throw new Error(`Could not load graph.json (${response.status})`);
+        return response.json();
+      })
+      .then(graph => {
+        state.graph = graph;
+        document.getElementById("loaded").textContent =
+          `${graph.metadata.node_count} nodes · ${graph.metadata.semantic_edge_count} semantic · ${graph.metadata.markdown_link_count} links`;
+        for (const relation of graph.metadata.relations) {
+          const option = document.createElement("option");
+          option.value = relation;
+          option.textContent = relation;
+          relationSelect.appendChild(option);
+        }
+        render();
+      })
+      .catch(error => {
+        detailsEl.className = "empty";
+        detailsEl.textContent = `${error.message}. Run: python scripts\\kuzu_export_viewer.py`;
+      });
+  </script>
+</body>
+</html>

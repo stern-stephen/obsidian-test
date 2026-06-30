@@ -102,6 +102,28 @@ Inspect both layers:
 python scripts\kuzu_query.py "D'Alembert's Principle" --all
 ```
 
+## Viewer
+
+Export the graph to the static viewer:
+
+```powershell
+python scripts\kuzu_export_viewer.py
+```
+
+Serve the vault root so the browser can load `graph.json`:
+
+```powershell
+python -m http.server 8765
+```
+
+Then open:
+
+```text
+http://localhost:8765/Graph/viewer/
+```
+
+The viewer is dependency-free and reads `Graph/viewer/graph.json`, which is ignored because it can be regenerated from Kuzu.
+
 ## Workflow
 
 - Markdown notes remain the human-readable source.

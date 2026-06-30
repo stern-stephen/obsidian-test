@@ -44,6 +44,14 @@ $$
 
 The Bloch sphere turns an abstract two-dimensional complex vector into a three-dimensional geometric picture. Single-qubit unitary operations can be viewed as rotations of the sphere, while measurements along different axes are connected to the eigenvectors of the Pauli matrices.
 
+## Book Note Context
+
+[Nielsen and Chuang's postulates section](../Book%20Notes/Nielsen%20Chuang/Chapter%202/Postulates%20of%20Quantum%20Mechanics.md) gives the direct qubit starting point: a state is a unit vector $|\psi\rangle=\alpha|0\rangle+\beta|1\rangle$, normalization requires $|\alpha|^2+|\beta|^2=1$, global phase does not change the physical state, and relative phase can matter. Those facts are exactly what make the two-angle Bloch-sphere parametrization possible.
+
+[Townsend's Stern-Gerlach chapter](../Book%20Notes/Townsend/Chapter%201/Stern-Gerlach%20Experiments.md) gives the spin-$1/2$ physical model behind the same geometry. A state can be expanded as $|\psi\rangle=c_+|+z\rangle+c_-|-z\rangle$, and changing from $z$-basis to $x$-basis shows why different measurement axes correspond to different directions on the sphere.
+
+[Shankar's postulates](../Book%20Notes/Shankar/Chapter%204/The%20Postulates.md) supply the broader Hilbert-space viewpoint: a quantum state is a vector, observables are Hermitian operators, measurement outcomes are eigenvalues, and probabilities come from projections onto eigenvectors. For a two-dimensional system, the Bloch sphere is a compact visualization of that general postulate structure.
+
 ## Related Concepts
 
 - [Quantum Computing](Quantum%20Computing.md)
@@ -54,9 +62,10 @@ The Bloch sphere turns an abstract two-dimensional complex vector into a three-d
 - [Unitary Matrices](../Linear%20Algebra/Unitary%20Matrices.md)
 
 <!-- semantic-edges
-{"source":"Bloch Sphere","relation":"PART_OF","target":"Quantum Computing","evidence_heading":"Overview","evidence_summary":"This concept note belongs to the Quantum Computing area of the vault.","confidence":0.85}
-{"source":"Bloch Sphere","relation":"QUANTUM_COMPUTING_RELATED_TO","target":"Quantum Computing","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Bloch Sphere with Quantum Computing in its discussion or related-note links.","confidence":0.75}
-{"source":"Bloch Sphere","relation":"QUANTUM_COMPUTING_RELATED_TO","target":"Quantum Mechanics","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Bloch Sphere with Quantum Mechanics in its discussion or related-note links.","confidence":0.75}
-{"source":"Bloch Sphere","relation":"QUANTUM_COMPUTING_RELATED_TO","target":"Vectors","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Bloch Sphere with Vectors in its discussion or related-note links.","confidence":0.75}
-{"source":"Bloch Sphere","relation":"QUANTUM_COMPUTING_RELATED_TO","target":"Bra-Ket Notation","evidence_heading":"Related Concepts","evidence_summary":"The note explicitly connects Bloch Sphere with Bra-Ket Notation in its discussion or related-note links.","confidence":0.75}
+{"source":"Bloch Sphere","relation":"VISUALIZES","target":"Pure Single-Qubit States","evidence_heading":"Overview","evidence_summary":"The note writes a normalized qubit state and then removes global phase to represent every pure single-qubit state by two angles on the unit sphere.","confidence":0.95}
+{"source":"Global Phase Equivalence","relation":"ENABLES","target":"Bloch Sphere Parametrization","evidence_heading":"Overview","evidence_summary":"Because states differing only by global phase are physically equivalent, the qubit state can be parametrized by theta and phi instead of two arbitrary complex amplitudes.","confidence":0.95}
+{"source":"Relative Phase","relation":"DETERMINES","target":"Bloch Sphere Azimuth","evidence_heading":"Overview","evidence_summary":"The phase factor e^{i phi} in the qubit state determines the azimuthal angle phi on the Bloch sphere.","confidence":0.9}
+{"source":"Townsend Stern-Gerlach Treatment","relation":"PHYSICAL_MODEL_FOR","target":"Bloch Sphere","evidence_heading":"Book Note Context","evidence_summary":"Townsend's spin-1/2 Stern-Gerlach notes provide the measurement-axis picture behind the sphere: z and x basis states correspond to different spin directions.","confidence":0.9}
+{"source":"Nielsen Chuang Postulates","relation":"ALGEBRAIC_BASIS_FOR","target":"Bloch Sphere","evidence_heading":"Book Note Context","evidence_summary":"Nielsen and Chuang give the qubit state, normalization, global phase equivalence, and relative phase facts that make the Bloch sphere parametrization possible.","confidence":0.95}
+{"source":"Shankar Postulates","relation":"HILBERT_SPACE_CONTEXT_FOR","target":"Bloch Sphere","evidence_heading":"Book Note Context","evidence_summary":"Shankar's postulates frame states as Hilbert-space vectors, observables as Hermitian operators, and measurement probabilities as projections onto eigenvectors.","confidence":0.85}
 -->
