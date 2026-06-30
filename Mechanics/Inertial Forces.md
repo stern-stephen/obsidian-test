@@ -38,3 +38,9 @@ In non-inertial reference frames, inertial forces such as centrifugal and Coriol
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Euler-Lagrange Equations](Euler-Lagrange%20Equations.md)
 - [Coopersmith Chapter 5](../Book%20Notes/Coopersmith/Chapter%205/Chapter%20Overview.md)
+
+<!-- semantic-edges
+{"source":"D'Alembert's Principle","relation":"REFORMULATES","target":"Dynamics","evidence_heading":"Definition","evidence_summary":"D'Alembert's principle combines applied and inertial forces in a virtual-work condition for displacements compatible with the constraints.","confidence":0.9}
+{"source":"Inertial Forces","relation":"CONTRASTS_WITH","target":"External Interactions","evidence_heading":"Intuition","evidence_summary":"The note emphasizes that an inertial force is not an extra external interaction but a bookkeeping move that turns acceleration into a force-like term.","confidence":0.9}
+{"source":"Non-Inertial Reference Frames","relation":"INTRODUCES","target":"Inertial Forces","evidence_heading":"Intuition","evidence_summary":"The note says centrifugal and Coriolis forces in non-inertial frames can have measurable effects.","confidence":0.85}
+-->

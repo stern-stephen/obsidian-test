@@ -37,3 +37,8 @@ These identities make the cross terms vanish when total kinetic energy or angula
 - [Two-Body Problem](Two-Body%20Problem.md)
 - [Conservation Laws](Conservation%20Laws.md)
 - [Goldstein Section 1.2](../Book%20Notes/Goldstein/Chapter%201/Mechanics%20of%20a%20System%20of%20Particles.md)
+
+<!-- semantic-edges
+{"source":"Center of Mass","relation":"REPRESENTS","target":"Mass-Weighted Position","evidence_heading":"Definition","evidence_summary":"The note defines the center-of-mass position as the mass-weighted average of particle positions divided by total mass.","confidence":0.95}
+{"source":"Center of Mass","relation":"ENABLES","target":"Internal Motion Separation","evidence_heading":"Mass-Weighted Relative Positions","evidence_summary":"The zero mass-weighted relative-position and relative-velocity identities make cross terms vanish when separating kinetic energy or angular momentum into center-of-mass and internal pieces.","confidence":0.9}
+-->

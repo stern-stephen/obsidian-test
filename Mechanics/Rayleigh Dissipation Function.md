@@ -67,3 +67,10 @@ Rayleigh's construction directly handles viscous forces linear in velocity. Dry 
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Euler-Lagrange Equations](Euler-Lagrange%20Equations.md)
 - [Goldstein Section 1.5](../Book%20Notes/Goldstein/Chapter%201/Velocity-Dependent%20Potentials%20and%20the%20Dissipation%20Function.md)
+
+<!-- semantic-edges
+{"source":"Rayleigh Dissipation Function","relation":"REPRESENTS","target":"Linear Friction Forces","evidence_heading":"Overview","evidence_summary":"The note says Rayleigh's dissipation function represents friction forces that are linear in generalized velocities.","confidence":0.95}
+{"source":"Rayleigh Dissipation Function","relation":"EXTENDS","target":"Lagrangian Mechanics","evidence_heading":"Lagrange Equations With Dissipation","evidence_summary":"The note modifies the Lagrange equations by adding a velocity derivative of the dissipation function.","confidence":0.9}
+{"source":"Rayleigh Dissipation Function","relation":"DETERMINES","target":"Mechanical Energy Dissipation","evidence_heading":"Lagrange Equations With Dissipation","evidence_summary":"With the convention in the note, twice the Rayleigh dissipation function is the rate of mechanical energy dissipation.","confidence":0.95}
+{"source":"Rayleigh Dissipation Function","relation":"ASSUMES","target":"Velocity-Linear Friction","evidence_heading":"Limitations","evidence_summary":"The note says Rayleigh's construction directly handles viscous forces linear in velocity, while dry friction and more general nonlinear dissipation require other treatments.","confidence":0.9}
+-->

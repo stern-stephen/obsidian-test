@@ -8,7 +8,7 @@ Use [README](README.md) as the source of truth for graph layers, edge format, re
 
 | Domain | Status | Notes |
 | --- | --- | --- |
-| Mechanics | In progress | Added semantic edges to the starting set plus symmetries, conservation laws, canonical transformations, cyclic coordinates, and energy function. Continue with canonical momentum, inertial forces, conservative forces, Rayleigh dissipation, center of mass, and two-body problem. |
+| Mechanics | In progress | Added semantic edges through canonical momentum, inertial forces, conservative forces, Rayleigh dissipation, center of mass, and two-body problem. Continue with electromagnetic Lagrangian, classical mechanics, configuration space, and any remaining sparse Mechanics notes. |
 | Mathematics | Not started | Focus on calculus of variations and Legendre transforms after Mechanics. |
 | Linear Algebra | Not started | Needs careful distinction between definitions, representations, and theorem-like dependencies. |
 | Quantum Mechanics | Not started | Start with state vectors, measurement, spin, and density operators. |

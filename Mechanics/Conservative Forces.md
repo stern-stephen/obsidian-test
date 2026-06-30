@@ -130,3 +130,11 @@ If $V(\mathbf{r},t)$ depends explicitly on time, the force can still be derived 
 - [Classical Mechanics](Classical%20Mechanics.md)
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Goldstein Section 1.1](../Book%20Notes/Goldstein/Chapter%201/Mechanics%20of%20a%20Particle.md)
+
+<!-- semantic-edges
+{"source":"Conservative Forces","relation":"DETERMINES","target":"Potential Energy","evidence_heading":"Overview","evidence_summary":"The note says path-independent work allows the force to be represented by the change of a scalar potential energy.","confidence":0.95}
+{"source":"Path-Independent Work","relation":"DETERMINES","target":"Potential Energy","evidence_heading":"From Path Independence To A Potential","evidence_summary":"The note defines potential energy by a path integral from a reference point and explains that the definition needs path independence to be single-valued.","confidence":0.95}
+{"source":"Potential Energy","relation":"DETERMINES","target":"Conservative Forces","evidence_heading":"Converse","evidence_summary":"If the force is minus the gradient of a potential, the work between two points depends only on endpoint potential values, so the force is conservative.","confidence":0.95}
+{"source":"Curl Test","relation":"REQUIRES","target":"Simply Connected Domain","evidence_heading":"Curl Test And Domain Assumptions","evidence_summary":"The note says zero curl is sufficient for a smooth force to be conservative when the region is simply connected.","confidence":0.9}
+{"source":"Conservative Forces","relation":"DETERMINES","target":"Energy Conservation","evidence_heading":"Energy Conservation","evidence_summary":"For a time-independent potential and force F=-grad V, the note derives d(T+V)/dt=0.","confidence":0.95}
+-->
