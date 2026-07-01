@@ -122,3 +122,10 @@ If $V(\mathbf{r},t)$ depends explicitly on time, a force may still be obtained f
 - [Classical Mechanics](../../../Mechanics/Classical%20Mechanics.md)
 - [Conservative Forces](../../../Mechanics/Conservative%20Forces.md)
 - [Conservation Laws](../../../Mechanics/Conservation%20Laws.md)
+
+<!-- semantic-edges
+{"source":"Goldstein Section 1.1","relation":"INTRODUCES","target":"Particle Conservation Theorems","evidence_heading":"Big Ideas","evidence_summary":"Reviews momentum, angular momentum, and energy conservation for a single particle under distinct physical conditions.","confidence":0.9}
+{"source":"Momentum Form of Newton's Second Law","relation":"GENERALIZES","target":"Acceleration Form of Newton's Second Law","evidence_heading":"Notes","evidence_summary":"Emphasizes force as the time derivative of momentum, with F = ma only following for constant mass.","confidence":0.89}
+{"source":"Zero Torque","relation":"DETERMINES","target":"Angular Momentum Conservation","evidence_heading":"Angular Momentum","evidence_summary":"Shows that zero torque about a chosen origin implies conservation of angular momentum about that origin.","confidence":0.88}
+{"source":"Time-Dependent Potential","relation":"CONTRASTS_WITH","target":"Energy Conservation","evidence_heading":"Work And Energy","evidence_summary":"Notes that a force may be derived from minus the gradient of a time-dependent potential while T plus V need not be conserved.","confidence":0.88}
+-->

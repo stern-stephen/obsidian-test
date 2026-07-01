@@ -118,3 +118,11 @@ For a rigid body, all pair distances are fixed. The internal forces therefore do
 - [Conservation Laws](../../../Mechanics/Conservation%20Laws.md)
 - [Center of Mass](../../../Mechanics/Center%20of%20Mass.md)
 - [Two-Body Problem](../../../Mechanics/Two-Body%20Problem.md)
+
+<!-- semantic-edges
+{"source":"Goldstein Section 1.2","relation":"INTRODUCES","target":"Many-Particle Conservation Theorems","evidence_heading":"Big Ideas","evidence_summary":"Extends particle conservation laws to systems of particles while tracking assumptions about external and internal forces.","confidence":0.9}
+{"source":"Weak Action-Reaction Law","relation":"ENABLES","target":"Center-of-Mass Momentum Theorem","evidence_heading":"Weak And Strong Action-Reaction Laws","evidence_summary":"Equal and opposite internal forces are enough for internal forces to cancel from the center-of-mass equation.","confidence":0.89}
+{"source":"Strong Action-Reaction Law","relation":"ENABLES","target":"Angular Momentum Conservation","evidence_heading":"Weak And Strong Action-Reaction Laws","evidence_summary":"Internal forces must also be central for internal torques to cancel in the angular momentum theorem.","confidence":0.88}
+{"source":"Center-of-Mass Decomposition","relation":"REFORMULATES","target":"Many-Particle Kinetic Energy","evidence_heading":"Separation About The Center Of Mass","evidence_summary":"Separates total kinetic energy into bulk center-of-mass motion and internal motion about the center of mass.","confidence":0.89}
+{"source":"Conservative Pair Forces","relation":"DETERMINES","target":"Many-Particle Potential Energy","evidence_heading":"Potential Energy","evidence_summary":"Builds total potential energy from external potentials and pair potentials with a factor that removes double counting.","confidence":0.87}
+-->

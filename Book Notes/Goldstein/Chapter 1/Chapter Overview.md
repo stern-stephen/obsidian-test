@@ -59,3 +59,11 @@ Next: [Mechanics of a Particle](Mechanics%20of%20a%20Particle.md)
 
 - Add selected derivation and exercise answers as the chapter is worked through.
 - Compare Goldstein's derivation of Lagrange's equations with the action-based derivation in Chapter 2.
+
+<!-- semantic-edges
+{"source":"Goldstein Chapter 1","relation":"INTRODUCES","target":"Newtonian Particle Mechanics","evidence_heading":"Big Ideas","evidence_summary":"Begins with Newtonian particle mechanics and conservation laws before building toward the Lagrangian formulation.","confidence":0.91}
+{"source":"Goldstein Chapter 1","relation":"INTRODUCES","target":"Constraints","evidence_heading":"Big Ideas","evidence_summary":"Classifies constraints as reducing independent degrees of freedom while introducing unknown constraint forces.","confidence":0.9}
+{"source":"Goldstein Chapter 1","relation":"MOTIVATES","target":"Generalized Coordinates","evidence_heading":"Big Ideas","evidence_summary":"Uses generalized coordinates to incorporate holonomic constraints directly into the configuration description.","confidence":0.9}
+{"source":"Goldstein Chapter 1","relation":"MOTIVATES","target":"Virtual Work and D'Alembert's Principle","evidence_heading":"Big Ideas","evidence_summary":"Presents D'Alembert's principle as the route for eliminating ideal constraint forces through virtual displacements.","confidence":0.91}
+{"source":"Goldstein Chapter 1","relation":"INTRODUCES","target":"Rayleigh Dissipation Function","evidence_heading":"Big Ideas","evidence_summary":"Extends the Lagrangian method to linearly dissipative forces through Rayleigh's dissipation function.","confidence":0.88}
+-->

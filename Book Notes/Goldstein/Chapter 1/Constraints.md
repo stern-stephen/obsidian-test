@@ -97,3 +97,11 @@ Generalized coordinates solve the first problem for holonomic systems. D'Alember
 - [Constraints](../../../Mechanics/Constraints.md)
 - [Generalized Coordinates](../../../Mechanics/Generalized%20Coordinates.md)
 - [Virtual Work and D'Alembert's Principle](../../../Mechanics/Virtual%20Work%20and%20DAlemberts%20Principle.md)
+
+<!-- semantic-edges
+{"source":"Goldstein Section 1.3","relation":"INTRODUCES","target":"Constraint Classification","evidence_heading":"Big Ideas","evidence_summary":"Classifies constraints by integrability and time dependence: holonomic, nonholonomic, scleronomous, and rheonomous.","confidence":0.91}
+{"source":"Goldstein Section 1.3","relation":"MOTIVATES","target":"Generalized Coordinates","evidence_heading":"Degrees Of Freedom","evidence_summary":"Independent generalized coordinates can incorporate holonomic constraints implicitly into the coordinate transformation.","confidence":0.89}
+{"source":"Nonholonomic Constraints","relation":"CONTRASTS_WITH","target":"Holonomic Constraints","evidence_heading":"Classification","evidence_summary":"Nonholonomic constraints include inequalities and nonintegrable differential relations rather than coordinate-only equations.","confidence":0.89}
+{"source":"Constraints","relation":"DETERMINES","target":"Degrees of Freedom Count","evidence_heading":"Degrees Of Freedom","evidence_summary":"For N particles with k independent holonomic constraints, Goldstein counts n = 3N - k degrees of freedom.","confidence":0.9}
+{"source":"Ideal Constraint Force Problem","relation":"MOTIVATES","target":"D'Alembert's Principle","evidence_heading":"The Two Difficulties Created By Constraints","evidence_summary":"D'Alembert's principle is introduced as the method for eliminating unknown ideal constraint forces from the motion equations.","confidence":0.9}
+-->

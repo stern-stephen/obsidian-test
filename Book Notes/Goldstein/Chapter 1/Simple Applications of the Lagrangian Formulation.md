@@ -148,3 +148,11 @@ The outward exponential behavior reflects energy supplied by the external agent 
 - [Constraints](../../../Mechanics/Constraints.md)
 - [Lagrangian Mechanics](../../../Mechanics/Lagrangian%20Mechanics.md)
 - [Euler-Lagrange Equations](../../../Mechanics/Euler-Lagrange%20Equations.md)
+
+<!-- semantic-edges
+{"source":"Goldstein Section 1.6","relation":"EXAMPLE_OF","target":"Lagrangian Mechanics","evidence_heading":"Big Ideas","evidence_summary":"Applies the Lagrangian method to examples where scalar T and V replace vector force bookkeeping.","confidence":0.9}
+{"source":"Scleronomous Coordinate Transformations","relation":"DETERMINES","target":"Quadratic Kinetic Energy Form","evidence_heading":"General Form Of Kinetic Energy","evidence_summary":"For time-independent transformations, kinetic energy becomes homogeneous and quadratic in generalized velocities.","confidence":0.88}
+{"source":"Plane Polar Coordinates","relation":"EXAMPLE_OF","target":"Curvilinear Lagrange Equations","evidence_heading":"Particle In Plane Polar Coordinates","evidence_summary":"Centripetal and angular-momentum terms emerge automatically from derivatives of the kinetic energy.","confidence":0.88}
+{"source":"Atwood's Machine","relation":"EXAMPLE_OF","target":"Constraint Force Elimination","evidence_heading":"Atwood's Machine","evidence_summary":"The rope tension never appears in the one-coordinate Lagrange equation, illustrating both the strength and limitation of eliminating constraints.","confidence":0.89}
+{"source":"Rheonomous Constraint","relation":"ENABLES","target":"Energy Exchange with Constraints","evidence_heading":"Bead On A Rotating Wire","evidence_summary":"The rotating wire example shows energy supplied by an external agent that maintains a time-dependent constraint.","confidence":0.87}
+-->

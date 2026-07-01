@@ -135,3 +135,12 @@ $$
 - [Generalized Coordinates](../../../Mechanics/Generalized%20Coordinates.md)
 - [Lagrangian Mechanics](../../../Mechanics/Lagrangian%20Mechanics.md)
 - [Euler-Lagrange Equations](../../../Mechanics/Euler-Lagrange%20Equations.md)
+
+<!-- semantic-edges
+{"source":"Goldstein Section 1.4","relation":"INTRODUCES","target":"D'Alembert's Principle","evidence_heading":"Big Ideas","evidence_summary":"Converts dynamics into a virtual-work statement by adding inertial terms and removing ideal constraint forces.","confidence":0.92}
+{"source":"Virtual Displacements","relation":"ASSUMES","target":"Fixed Time","evidence_heading":"Big Ideas","evidence_summary":"Defines virtual displacement as an allowed infinitesimal configuration change at fixed time.","confidence":0.89}
+{"source":"Goldstein Section 1.4","relation":"MOTIVATES","target":"Ideal Constraint Force Elimination","evidence_heading":"Virtual Work","evidence_summary":"Ideal constraint forces do no net virtual work and disappear from the virtual-work equations.","confidence":0.9}
+{"source":"Generalized Forces","relation":"REPRESENTS","target":"Applied Force Virtual Work","evidence_heading":"Generalized Forces","evidence_summary":"Generalized forces project applied forces onto generalized-coordinate variations so Q_j delta q_j has units of work.","confidence":0.88}
+{"source":"D'Alembert's Principle","relation":"DERIVES","target":"Lagrange's Equations","evidence_heading":"Lagrange's Equations","evidence_summary":"Independent generalized-coordinate variations turn D'Alembert's principle into Lagrange's equations.","confidence":0.91}
+{"source":"Total Time Derivative of Lagrangian","relation":"ELIMINATES","target":"Equation-of-Motion Change","evidence_heading":"Lagrange's Equations","evidence_summary":"Adding a total time derivative to the Lagrangian leaves the equations of motion unchanged.","confidence":0.87}
+-->
