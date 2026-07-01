@@ -56,3 +56,12 @@ The chapter closes by making its intended bridge explicit: phase-space functions
 - [Poisson Brackets](../../../Mechanics/Poisson%20Brackets.md)
 - [Hamiltonian Mechanics](../../../Mechanics/Hamiltonian%20Mechanics.md)
 - [Commutators](../../../Linear%20Algebra/Commutators.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 2.8","relation":"INTRODUCES","target":"Classical Symmetries","evidence_heading":"Big Ideas","evidence_summary":"Introduces symmetries as invariances that connect continuous transformations with conserved quantities.","confidence":0.92}
+{"source":"Generator Language","relation":"ENABLES","target":"Conservation Laws","evidence_heading":"Notes","evidence_summary":"When a phase-space generator produces a transformation that leaves the Hamiltonian invariant, that generator is conserved.","confidence":0.9}
+{"source":"Translations","relation":"EXAMPLE_OF","target":"Momentum Conservation","evidence_heading":"Core Correspondences","evidence_summary":"Lists spatial translation symmetry as the source of momentum conservation.","confidence":0.87}
+{"source":"Rotations","relation":"EXAMPLE_OF","target":"Angular Momentum Conservation","evidence_heading":"Core Correspondences","evidence_summary":"Lists rotational symmetry as the source of angular momentum conservation.","confidence":0.87}
+{"source":"Time Translations","relation":"EXAMPLE_OF","target":"Energy Conservation","evidence_heading":"Core Correspondences","evidence_summary":"Lists time-translation symmetry as the source of energy conservation.","confidence":0.87}
+{"source":"Shankar Section 2.8","relation":"MOTIVATES","target":"Quantum Commutators","evidence_heading":"Quantum Bridge","evidence_summary":"Closes the chapter by mapping phase-space functions to operators and Poisson brackets to commutators.","confidence":0.9}
+-->

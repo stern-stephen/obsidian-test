@@ -64,3 +64,9 @@ $$
 - [Electromagnetic Lagrangian](../../../Mechanics/Electromagnetic%20Lagrangian.md)
 - [Canonical Momentum](../../../Mechanics/Canonical%20Momentum.md)
 - [Hamiltonian Mechanics](../../../Mechanics/Hamiltonian%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 2.6","relation":"EXAMPLE_OF","target":"Hamiltonian Electromagnetic Coupling","evidence_heading":"Big Ideas","evidence_summary":"Uses electromagnetic coupling to show why canonical and mechanical momentum must remain distinct in Hamiltonian mechanics.","confidence":0.9}
+{"source":"Shankar Section 2.6","relation":"MOTIVATES","target":"Canonical-Mechanical Momentum Distinction","evidence_heading":"Common Confusions","evidence_summary":"The canonical momentum is the phase-space coordinate, while mechanical momentum is directly tied to velocity.","confidence":0.9}
+{"source":"Classical Minimal Coupling","relation":"MOTIVATES","target":"Quantum Minimal Coupling","evidence_heading":"Quantum Bridge","evidence_summary":"Shows the classical substitution that becomes the quantum replacement of the momentum operator by an electromagnetically coupled operator.","confidence":0.89}
+-->

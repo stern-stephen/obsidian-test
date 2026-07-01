@@ -50,3 +50,10 @@ The potentials are not just computational conveniences in the quantum theory. Th
 - [Canonical Momentum](../../../Mechanics/Canonical%20Momentum.md)
 - [Hamiltonian Mechanics](../../../Mechanics/Hamiltonian%20Mechanics.md)
 - [Classical Mechanics](../../../Mechanics/Classical%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 2.2","relation":"EXAMPLE_OF","target":"Electromagnetic Lagrangian","evidence_heading":"Big Ideas","evidence_summary":"Uses a charged particle in electromagnetic fields as the source example showing how potentials enter a Lagrangian.","confidence":0.91}
+{"source":"Electromagnetic Vector Potential","relation":"DETERMINES","target":"Canonical Momentum Shift","evidence_heading":"Notes","evidence_summary":"Shows that the vector potential shifts canonical momentum relative to mechanical momentum.","confidence":0.88}
+{"source":"Shankar Section 2.2","relation":"INTRODUCES","target":"Canonical-Mechanical Momentum Distinction","evidence_heading":"Big Ideas","evidence_summary":"Emphasizes that canonical momentum differs from mechanical momentum when a vector potential is present.","confidence":0.9}
+{"source":"Electromagnetic Potentials","relation":"MOTIVATES","target":"Minimal Coupling","evidence_heading":"Why This Matters","evidence_summary":"Notes that potentials become structurally important in quantum theory through wavefunction phase and minimal coupling.","confidence":0.86}
+-->

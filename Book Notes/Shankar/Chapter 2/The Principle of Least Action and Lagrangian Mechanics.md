@@ -49,3 +49,10 @@ Shankar defines momentum through the Lagrangian rather than assuming it must be 
 - [Euler-Lagrange Equations](../../../Mechanics/Euler-Lagrange%20Equations.md)
 - [Generalized Coordinates](../../../Mechanics/Generalized%20Coordinates.md)
 - [Conservation Laws](../../../Mechanics/Conservation%20Laws.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 2.1","relation":"INTRODUCES","target":"Lagrangian Mechanics","evidence_heading":"Big Ideas","evidence_summary":"Introduces Lagrangian mechanics as a reformulation of dynamics through stationary paths rather than instantaneous force laws.","confidence":0.92}
+{"source":"Shankar Section 2.1","relation":"MOTIVATES","target":"Action Principle","evidence_heading":"Notes","evidence_summary":"Begins with action because the path-based formulation most directly resembles later quantum mechanics.","confidence":0.9}
+{"source":"Shankar Section 2.1","relation":"INTRODUCES","target":"Euler-Lagrange Equations","evidence_heading":"Big Ideas","evidence_summary":"Presents the Euler-Lagrange equations as the local differential equations obtained from stationary action.","confidence":0.9}
+{"source":"Generalized Momentum","relation":"MOTIVATES","target":"Canonical Momentum","evidence_heading":"Generalized Momentum","evidence_summary":"Defines momentum through the Lagrangian, preparing examples where canonical momentum differs from mechanical momentum.","confidence":0.88}
+-->

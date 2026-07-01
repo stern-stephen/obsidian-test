@@ -40,3 +40,10 @@ The coordinate definitions and reduced-mass formula are maintained in [Two-Body 
 - [Two-Body Problem](../../../Mechanics/Two-Body%20Problem.md)
 - [Classical Mechanics](../../../Mechanics/Classical%20Mechanics.md)
 - [Hamiltonian Mechanics](../../../Mechanics/Hamiltonian%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 2.3","relation":"INTRODUCES","target":"Two-Body Problem","evidence_heading":"Big Ideas","evidence_summary":"Introduces the central-interaction two-body reduction as a reusable classical change of variables.","confidence":0.91}
+{"source":"Center-of-Mass Coordinates","relation":"ENABLES","target":"Two-Body Reduction","evidence_heading":"Notes","evidence_summary":"Separates overall center-of-mass motion from relative motion when the interaction depends only on separation.","confidence":0.88}
+{"source":"Reduced Mass","relation":"REPRESENTS","target":"Relative Motion","evidence_heading":"Big Ideas","evidence_summary":"The relative coordinate behaves like an effective one-body problem with the reduced mass.","confidence":0.88}
+{"source":"Two-Body Reduction","relation":"MOTIVATES","target":"Hydrogen-Like Systems","evidence_heading":"Big Ideas","evidence_summary":"The same center-of-mass and relative-coordinate separation reappears in quantum systems such as hydrogen.","confidence":0.87}
+-->

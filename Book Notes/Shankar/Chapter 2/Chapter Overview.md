@@ -50,3 +50,11 @@ Next: [The Principle of Least Action and Lagrangian Mechanics](The%20Principle%2
 
 - Add printed page ranges for each section from the PDF.
 - Revisit the symmetry discussion after Chapter 11, where Shankar returns to symmetries in quantum mechanics.
+
+<!-- semantic-edges
+{"source":"Shankar Chapter 2","relation":"INTRODUCES","target":"Classical Mechanics","evidence_heading":"Big Ideas","evidence_summary":"Frames Chapter 2 as the classical mechanics review that quantum mechanics will later modify.","confidence":0.92}
+{"source":"Shankar Chapter 2","relation":"INTRODUCES","target":"Action Principle","evidence_heading":"Big Ideas","evidence_summary":"Emphasizes action and Lagrangians as path-based classical structures that prepare the quantum formalism.","confidence":0.9}
+{"source":"Shankar Chapter 2","relation":"INTRODUCES","target":"Hamiltonian Mechanics","evidence_heading":"Big Ideas","evidence_summary":"Introduces phase space, canonical momenta, and Hamiltonian evolution as the classical language reused in quantum mechanics.","confidence":0.91}
+{"source":"Shankar Chapter 2","relation":"MOTIVATES","target":"Poisson Brackets","evidence_heading":"Big Ideas","evidence_summary":"Presents Poisson brackets as the classical algebraic structure that foreshadows quantum commutators.","confidence":0.9}
+{"source":"Shankar Chapter 2","relation":"MOTIVATES","target":"Quantum Symmetries","evidence_heading":"Big Ideas","evidence_summary":"Uses classical symmetry-generated conservation laws to foreshadow operator and commutator language in quantum mechanics.","confidence":0.88}
+-->

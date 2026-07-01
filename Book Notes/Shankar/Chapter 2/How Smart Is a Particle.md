@@ -43,3 +43,9 @@ The quantum-mechanical echo is deeper. In the path-integral formulation, amplitu
 - [Action Principle](../../../Mechanics/Action%20Principle.md)
 - [Lagrangian Mechanics](../../../Mechanics/Lagrangian%20Mechanics.md)
 - [Classical Mechanics](../../../Mechanics/Classical%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 2.4","relation":"REFORMULATES","target":"Action Principle","evidence_heading":"Big Ideas","evidence_summary":"Clarifies that stationary action is a mathematical reformulation of local dynamics, not a claim that particles compare possible paths.","confidence":0.91}
+{"source":"Stationary Action","relation":"CONTRASTS_WITH","target":"Teleological Interpretation","evidence_heading":"Common Confusions","evidence_summary":"Separates the variational statement over trial paths from the mistaken idea that a particle consciously chooses its route.","confidence":0.88}
+{"source":"Stationary Action","relation":"MOTIVATES","target":"Path Integrals","evidence_heading":"Notes","evidence_summary":"Connects the classical whole-path formulation to the quantum path-integral idea where paths contribute amplitudes.","confidence":0.88}
+-->

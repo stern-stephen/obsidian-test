@@ -47,3 +47,10 @@ A classical state becomes a point in [Phase Space](../../../Mechanics/Phase%20Sp
 - [Phase Space](../../../Mechanics/Phase%20Space.md)
 - [Canonical Momentum](../../../Mechanics/Canonical%20Momentum.md)
 - [Lagrangian Mechanics](../../../Mechanics/Lagrangian%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 2.5","relation":"INTRODUCES","target":"Hamiltonian Mechanics","evidence_heading":"Big Ideas","evidence_summary":"Introduces Hamiltonian mechanics by trading generalized velocities for canonical momenta and using first-order equations.","confidence":0.92}
+{"source":"Shankar Section 2.5","relation":"INTRODUCES","target":"Phase Space","evidence_heading":"Phase Space","evidence_summary":"Presents a classical state as a point in phase space with each coordinate paired to a canonical momentum.","confidence":0.91}
+{"source":"Legendre Transform","relation":"ENABLES","target":"Hamiltonian Formalism","evidence_heading":"Notes","evidence_summary":"Uses the Legendre transform as the route from the Lagrangian variables to Hamiltonian variables.","confidence":0.88}
+{"source":"Hamiltonian","relation":"MOTIVATES","target":"Schrodinger Time Evolution","evidence_heading":"Notes","evidence_summary":"Emphasizes the Hamiltonian as generator of time evolution, foreshadowing the Hamiltonian operator in the Schrodinger equation.","confidence":0.88}
+-->
