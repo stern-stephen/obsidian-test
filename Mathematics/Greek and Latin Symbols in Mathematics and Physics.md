@@ -130,3 +130,10 @@ When a symbol is unfamiliar, use this order:
 - [Linear Algebra](../Linear%20Algebra/Linear%20Algebra.md)
 - [Mechanics](../Mechanics/Mechanics.md)
 - [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Symbol Meaning","relation":"REQUIRES","target":"Context","evidence_heading":"Overview","evidence_summary":"The note says a symbol has no universal meaning by itself and depends on surrounding definition, subject, units, capitalization, typography, and decoration.","confidence":0.95}
+{"source":"Typeface And Decoration Conventions","relation":"DETERMINES","target":"Mathematical Object Type","evidence_heading":"Typeface And Decoration Conventions","evidence_summary":"The note explains that typography such as italic, bold, hats, bars, dots, calligraphic letters, and blackboard bold helps identify the kind of mathematical object.","confidence":0.9}
+{"source":"Multi-Letter Operators","relation":"CONTRASTS_WITH","target":"Products of Variables","evidence_heading":"Common Multi-Letter Symbols And Operators","evidence_summary":"The note says names such as sin, log, det, and tr are written upright because they are operators or functions rather than products of variables.","confidence":0.9}
+{"source":"Symbol Conventions","relation":"ENABLES","target":"Reading Mathematical Notation","evidence_heading":"Reading A Symbol Reliably","evidence_summary":"The note gives a procedure for reading unfamiliar symbols by finding definitions, checking typography, inspecting units, identifying the subject, and checking nearby equations.","confidence":0.9}
+-->

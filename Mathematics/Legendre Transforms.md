@@ -194,3 +194,11 @@ So the Legendre transform is the bridge from velocity language to momentum langu
 - [Lagrangian Mechanics](../Mechanics/Lagrangian%20Mechanics.md)
 - [Canonical Momentum](../Mechanics/Canonical%20Momentum.md)
 - [Phase Space](../Mechanics/Phase%20Space.md)
+
+<!-- semantic-edges
+{"source":"Legendre Transform","relation":"REFORMULATES","target":"Function","evidence_heading":"Basic One-Variable Idea","evidence_summary":"The note defines a Legendre transform as rewriting a function using the slope of the original function as the new variable.","confidence":0.9}
+{"source":"Legendre Transform","relation":"REQUIRES","target":"Invertible Slope Relation","evidence_heading":"Basic One-Variable Idea","evidence_summary":"The procedure requires solving the slope equation for the original variable as a function of the new slope variable.","confidence":0.9}
+{"source":"Legendre Transform","relation":"ENABLES","target":"Hamiltonian Mechanics","evidence_heading":"Mechanics Version","evidence_summary":"The note states that the Legendre transform turns the Lagrangian into the Hamiltonian by replacing velocities with conjugate momenta.","confidence":0.95}
+{"source":"Canonical Momentum","relation":"REPRESENTS","target":"Velocity Slope Variable","evidence_heading":"Mechanics Version","evidence_summary":"In the mechanics version, the new slope variable is the conjugate momentum defined by differentiating the Lagrangian with respect to velocity.","confidence":0.9}
+{"source":"Legendre Transform","relation":"CONTRASTS_WITH","target":"Direct Substitution","evidence_heading":"Common Confusions","evidence_summary":"The note warns that a Legendre transform is not just substituting momentum for velocity; one must define the momentum and solve for velocity first.","confidence":0.9}
+-->

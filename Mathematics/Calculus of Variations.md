@@ -70,3 +70,10 @@ Ordinary calculus varies a number and sets a derivative to zero. Variational cal
 - [Euler-Lagrange Equations](../Mechanics/Euler-Lagrange%20Equations.md)
 - [Goldstein Section 2.2](../Book%20Notes/Goldstein/Chapter%202/Some%20Techniques%20of%20the%20Calculus%20of%20Variations.md)
 - [Coopersmith Section 3.7](../Book%20Notes/Coopersmith/Chapter%203/Calculus%20of%20Variations.md)
+
+<!-- semantic-edges
+{"source":"Calculus of Variations","relation":"EXTENDS","target":"Ordinary Calculus","evidence_heading":"Intuition","evidence_summary":"The note contrasts ordinary calculus, which varies a number, with variational calculus, which varies a whole function and sets the first-order change of a functional to zero.","confidence":0.95}
+{"source":"Calculus of Variations","relation":"DETERMINES","target":"Euler-Lagrange Equations","evidence_heading":"Euler-Lagrange Equation","evidence_summary":"After integration by parts and the fundamental lemma, the note obtains the Euler-Lagrange equation as the condition for a stationary functional.","confidence":0.95}
+{"source":"Admissible Variations","relation":"ENABLES","target":"Euler-Lagrange Equation","evidence_heading":"Euler-Lagrange Equation","evidence_summary":"The note uses arbitrary admissible interior variations with fixed endpoints so the fundamental lemma can turn the global stationary condition into a differential equation.","confidence":0.9}
+{"source":"Calculus of Variations","relation":"ENABLES","target":"Action Principle","evidence_heading":"Overview","evidence_summary":"The note identifies deriving equations of motion from stationary action as the central mechanics application of calculus of variations.","confidence":0.95}
+-->

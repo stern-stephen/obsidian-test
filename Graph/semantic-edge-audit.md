@@ -9,7 +9,7 @@ Use [README](README.md) as the source of truth for graph layers, edge format, re
 | Domain | Status | Notes |
 | --- | --- | --- |
 | Mechanics | Complete | Every durable Mechanics note has a semantic-edge block. Completed a quality pass for duplicate edges, weak relation labels, and top-level hub coverage. Future work should add edges only when Mechanics notes gain new durable conceptual relationships. |
-| Mathematics | Not started | Focus on calculus of variations and Legendre transforms after Mechanics. |
+| Mathematics | Complete | Every durable Mathematics note has a semantic-edge block. Added coverage for the Mathematics hub, calculus of variations, Legendre transforms, and Greek/Latin symbol conventions, with concept names aligned to existing Mechanics graph concepts. |
 | Linear Algebra | Not started | Needs careful distinction between definitions, representations, and theorem-like dependencies. |
 | Quantum Mechanics | Not started | Start with state vectors, measurement, spin, and density operators. |
 | Quantum Computing | Not started | Start with Bloch sphere, qubits, gates, and entanglement-linked protocols. |
