@@ -43,7 +43,7 @@ She also emphasizes a tension: ordinary experience treats time as flowing from p
 - [Classical Mechanics](../../../Mechanics/Classical%20Mechanics.md)
 
 <!-- semantic-edges
-{"source":"Generalized Coordinates","relation":"GENERALIZES","target":"Cartesian Coordinates","evidence_heading":"Coordinates","evidence_summary":"Coopersmith contrasts Newton's ordinary three-dimensional coordinates with Lagrange's system-dependent generalized coordinates.","confidence":0.95}
+{"source":"Coopersmith Section 3 Coordinates","relation":"MOTIVATES","target":"Generalized Coordinates","evidence_heading":"Coordinates","evidence_summary":"Coopersmith contrasts Newton's ordinary three-dimensional coordinates with Lagrange's system-dependent generalized coordinates.","confidence":0.95}
 {"source":"Generalized Coordinates","relation":"REPRESENTS","target":"System-Dependent Quantities","evidence_heading":"Coordinates","evidence_summary":"Generalized coordinates may describe angles, voltages, surface areas, Fourier coefficients, or other continuous quantities characterizing the system.","confidence":0.9}
 {"source":"Time","relation":"DETERMINES","target":"Dynamics","evidence_heading":"Time","evidence_summary":"The note describes time as the usual independent variable in dynamics, while noting that this role is a modeling choice.","confidence":0.9}
 {"source":"Microscopic Reversibility","relation":"CONTRASTS_WITH","target":"Experienced Arrow of Time","evidence_heading":"Time","evidence_summary":"Coopersmith contrasts ordinary experience of time's direction with reversible idealized Newtonian and Lagrangian equations when dissipation is ignored.","confidence":0.85}

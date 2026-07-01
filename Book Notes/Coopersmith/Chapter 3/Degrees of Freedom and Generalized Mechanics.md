@@ -62,7 +62,7 @@ This section sets up Coopersmith's energy-centered view. Force is not discarded,
 
 <!-- semantic-edges
 {"source":"Degrees of Freedom","relation":"REPRESENTS","target":"Independent Coordinates","evidence_heading":"Degrees Of Freedom","evidence_summary":"The note gives the degree-of-freedom count as the number of coordinates minus the number of independent conditions.","confidence":0.95}
-{"source":"Constraints","relation":"DETERMINES","target":"Degrees of Freedom","evidence_heading":"Degrees Of Freedom","evidence_summary":"Independent conditions among coordinates reduce the number of independent coordinates needed to describe the system.","confidence":0.95}
+{"source":"Coopersmith Section 3 Degrees of Freedom","relation":"INTRODUCES","target":"Degrees of Freedom","evidence_heading":"Degrees Of Freedom","evidence_summary":"Independent conditions among coordinates reduce the number of independent coordinates needed to describe the system.","confidence":0.95}
 {"source":"Generalized Work","relation":"GENERALIZES","target":"Ordinary Work","evidence_heading":"Generalized Work","evidence_summary":"Coopersmith moves from ordinary force-displacement work to generalized forces paired with generalized coordinate changes.","confidence":0.95}
 {"source":"Generalized Force","relation":"REQUIRES","target":"Generalized Displacement","evidence_heading":"Generalized Work","evidence_summary":"The generalized force is defined by the requirement that its product with the generalized displacement have units of energy.","confidence":0.95}
 -->

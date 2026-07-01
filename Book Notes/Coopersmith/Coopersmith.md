@@ -60,3 +60,10 @@ Use this page to track chapter notes, questions, and concept pages created while
 - [Classical Mechanics](../../Mechanics/Classical%20Mechanics.md)
 - [Euler-Lagrange Equations](../../Mechanics/Euler-Lagrange%20Equations.md)
 - [Action Principle](../../Mechanics/Action%20Principle.md)
+
+<!-- semantic-edges
+{"source":"Coopersmith","relation":"MOTIVATES","target":"Principle of Least Action","evidence_heading":"Overview","evidence_summary":"The reading hub identifies The Lazy Universe as an introduction to the principle of least action.","confidence":0.9}
+{"source":"Coopersmith","relation":"INTRODUCES","target":"Virtual Work and D'Alembert's Principle","evidence_heading":"Reading Questions","evidence_summary":"The hub foregrounds why virtual work eliminates reaction forces and how D'Alembert's inertial force converts dynamics into virtual-work balance.","confidence":0.9}
+{"source":"Coopersmith","relation":"INTRODUCES","target":"Generalized Coordinates","evidence_heading":"Reading Questions","evidence_summary":"The hub asks what makes a generalized coordinate useful for constrained systems.","confidence":0.86}
+{"source":"Coopersmith","relation":"INTRODUCES","target":"Configuration Space","evidence_heading":"Concepts To Extract","evidence_summary":"The hub lists configuration space as a concept to extract from the Coopersmith chapters.","confidence":0.86}
+-->

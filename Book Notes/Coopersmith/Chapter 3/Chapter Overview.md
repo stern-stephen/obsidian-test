@@ -53,7 +53,7 @@ Next: [Coordinates and Time](Coordinates%20and%20Time.md)
 - Revisit Section 3.7 when Chapter 6 applies variational calculus to Lagrangian mechanics.
 
 <!-- semantic-edges
-{"source":"Configuration Space","relation":"REQUIRES","target":"Generalized Coordinates","evidence_heading":"Big Ideas","evidence_summary":"The overview describes configuration space as the abstract space whose coordinates are generalized coordinates.","confidence":0.95}
-{"source":"Calculus of Variations","relation":"ENABLES","target":"Action Principle","evidence_heading":"Big Ideas","evidence_summary":"The chapter presents variational calculus as the move from ordinary stationary-point tests to stationary paths, setting up the action principle.","confidence":0.95}
-{"source":"Constraints","relation":"DETERMINES","target":"Degrees of Freedom","evidence_heading":"Logical Progression","evidence_summary":"The overview counts independent coordinates after constraints are accounted for.","confidence":0.9}
+{"source":"Coopersmith Chapter 3","relation":"INTRODUCES","target":"Configuration Space","evidence_heading":"Big Ideas","evidence_summary":"The overview describes configuration space as the abstract space whose coordinates are generalized coordinates.","confidence":0.95}
+{"source":"Coopersmith Chapter 3","relation":"MOTIVATES","target":"Calculus of Variations","evidence_heading":"Big Ideas","evidence_summary":"The chapter presents variational calculus as the move from ordinary stationary-point tests to stationary paths, setting up the action principle.","confidence":0.95}
+{"source":"Coopersmith Chapter 3","relation":"INTRODUCES","target":"Degrees of Freedom","evidence_heading":"Logical Progression","evidence_summary":"The overview counts independent coordinates after constraints are accounted for.","confidence":0.9}
 -->

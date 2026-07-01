@@ -57,3 +57,12 @@ Use this page to track chapter notes, questions, and concept pages created while
 - [Euler-Lagrange Equations](../../Mechanics/Euler-Lagrange%20Equations.md)
 - [Conservation Laws](../../Mechanics/Conservation%20Laws.md)
 - [Electromagnetic Lagrangian](../../Mechanics/Electromagnetic%20Lagrangian.md)
+
+<!-- semantic-edges
+{"source":"Goldstein","relation":"INTRODUCES","target":"Classical Mechanics","evidence_heading":"Overview","evidence_summary":"The hub tracks Classical Mechanics as a source for mechanics concepts and chapter notes.","confidence":0.88}
+{"source":"Goldstein","relation":"INTRODUCES","target":"Constraints","evidence_heading":"Reading Questions","evidence_summary":"The hub asks how generalized coordinates absorb holonomic constraints and what information is lost when constraint forces are eliminated.","confidence":0.9}
+{"source":"Goldstein","relation":"INTRODUCES","target":"Virtual Work and D'Alembert's Principle","evidence_heading":"Concepts To Extract","evidence_summary":"The hub lists virtual work and D'Alembert's principle as concepts to extract from the reading.","confidence":0.9}
+{"source":"Goldstein","relation":"INTRODUCES","target":"Rayleigh Dissipation Function","evidence_heading":"Concepts To Extract","evidence_summary":"The hub identifies Rayleigh's dissipation function as a concept to extract from Goldstein's treatment of dissipative forces.","confidence":0.88}
+{"source":"Goldstein","relation":"INTRODUCES","target":"Calculus of Variations","evidence_heading":"Concepts To Extract","evidence_summary":"The hub lists calculus of variations as a concept to extract from Goldstein's variational formulation chapter.","confidence":0.88}
+{"source":"Goldstein","relation":"INTRODUCES","target":"Energy Function","evidence_heading":"Concepts To Extract","evidence_summary":"The hub identifies the energy function as a concept to extract from the chapter on conservation of energy.","confidence":0.88}
+-->

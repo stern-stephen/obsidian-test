@@ -86,3 +86,11 @@ Use this page to track chapter notes, questions, and concept pages created while
 - [Postulates of Quantum Mechanics](../../Quantum%20Mechanics/Postulates%20of%20Quantum%20Mechanics.md)
 - [Quantum Measurement](../../Quantum%20Mechanics/Quantum%20Measurement.md)
 - [Schrodinger Equation](../../Quantum%20Mechanics/Schrodinger%20Equation.md)
+
+<!-- semantic-edges
+{"source":"Shankar","relation":"INTRODUCES","target":"Linear Algebra for Quantum Mechanics","evidence_heading":"Reading Questions","evidence_summary":"The hub foregrounds Shankar's careful development of abstract vector spaces before wave mechanics.","confidence":0.9}
+{"source":"Shankar","relation":"MOTIVATES","target":"Infinite-Dimensional Vector Spaces","evidence_heading":"Reading Questions","evidence_summary":"The hub asks how finite-dimensional ideas survive for functions and infinite-dimensional spaces.","confidence":0.88}
+{"source":"Shankar","relation":"MOTIVATES","target":"Classical-to-Quantum Correspondence","evidence_heading":"Reading Questions","evidence_summary":"The hub asks how phase space, Poisson brackets, and Hamiltonians become quantum structures.","confidence":0.88}
+{"source":"Shankar","relation":"INTRODUCES","target":"Wavefunction Interpretation","evidence_heading":"Reading Questions","evidence_summary":"The hub frames the wavefunction as a question about physical waves, probability amplitudes, and coordinate representations of kets.","confidence":0.88}
+{"source":"Shankar","relation":"INTRODUCES","target":"Quantum Measurement","evidence_heading":"Reading Questions","evidence_summary":"The hub asks what changes during measurement and what is only an update to prediction.","confidence":0.86}
+-->

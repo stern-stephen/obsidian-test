@@ -161,3 +161,13 @@ The problems are likely useful for practicing:
 - [Quantum Mechanics](../../../Quantum%20Mechanics/Quantum%20Mechanics.md)
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
+
+<!-- semantic-edges
+{"source":"Townsend Chapter 1","relation":"INTRODUCES","target":"Stern-Gerlach Experiments","evidence_heading":"Overview","evidence_summary":"Introduces quantum mechanics operationally through idealized Stern-Gerlach measurement devices.","confidence":0.92}
+{"source":"Sequential Stern-Gerlach Experiments","relation":"MOTIVATES","target":"Quantum State Vector","evidence_heading":"1.2 Four Experiments","evidence_summary":"Sequential analyzers show that future measurement predictions depend on the prepared state, not hidden stored spin values.","confidence":0.9}
+{"source":"Stern-Gerlach Measurement","relation":"ENABLES","target":"State Preparation","evidence_heading":"1.4 Analysis of Experiment 3","evidence_summary":"Measurement in the x direction prepares the outgoing beam in an S_x eigenstate, changing later S_z probabilities.","confidence":0.9}
+{"source":"Spin-1/2 Systems","relation":"EXAMPLE_OF","target":"Two-State Quantum Systems","evidence_heading":"1.1 The Original Stern-Gerlach Experiment","evidence_summary":"For spin one-half measured along z, the Stern-Gerlach apparatus yields exactly two possible spin outcomes.","confidence":0.89}
+{"source":"Townsend Chapter 1","relation":"INTRODUCES","target":"Probability Amplitudes","evidence_heading":"1.3 The Quantum State Vector","evidence_summary":"The squared magnitudes of state-vector coefficients give the probabilities for spin measurement outcomes.","confidence":0.9}
+{"source":"Townsend Chapter 1","relation":"INTRODUCES","target":"Relative Phase","evidence_heading":"1.5 Experiment 5","evidence_summary":"States with the same probabilities for one measurement can differ physically because relative phase affects later measurements.","confidence":0.9}
+{"source":"Incompatible Spin Measurements","relation":"CONTRASTS_WITH","target":"Classical Filtering","evidence_heading":"1.2 Four Experiments","evidence_summary":"Sequential S_z and S_x analyzers cannot be explained as classical filters revealing simultaneously pre-existing spin components.","confidence":0.89}
+-->

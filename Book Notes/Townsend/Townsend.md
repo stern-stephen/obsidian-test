@@ -37,3 +37,10 @@ Use this page to track chapter notes, questions, and concept pages created while
 - [Bra-Ket Notation](../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Hermitian Matrices and Operators](../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
 - [Eigenvalues](../../Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md)
+
+<!-- semantic-edges
+{"source":"Townsend","relation":"MOTIVATES","target":"Quantum Mechanics","evidence_heading":"Reading Questions","evidence_summary":"The hub frames Townsend's approach as beginning with sequential Stern-Gerlach experiments before wave mechanics.","confidence":0.88}
+{"source":"Townsend","relation":"INTRODUCES","target":"Stern-Gerlach Experiments","evidence_heading":"Concepts To Extract","evidence_summary":"The hub identifies Stern-Gerlach experiments as the central concept to extract from Chapter 1.","confidence":0.9}
+{"source":"Townsend","relation":"INTRODUCES","target":"Spin-1/2 Systems","evidence_heading":"Concepts To Extract","evidence_summary":"The hub lists spin one-half systems as a core concept extracted from the Townsend reading.","confidence":0.88}
+{"source":"Townsend","relation":"MOTIVATES","target":"Incompatible Measurements","evidence_heading":"Reading Questions","evidence_summary":"The hub asks what changes when an apparatus measures S_z versus S_x, foregrounding compatible and incompatible measurements.","confidence":0.86}
+-->
