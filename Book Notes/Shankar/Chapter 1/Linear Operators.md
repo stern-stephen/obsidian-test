@@ -45,3 +45,10 @@ See [Linear Operators](../../../Linear%20Algebra/Linear%20Operators.md) for the 
 - [Commutators](../../../Linear%20Algebra/Commutators.md)
 - [Functions of Operators](Functions%20of%20Operators.md)
 - [Matrix Elements of Linear Operators](Matrix%20Elements%20of%20Linear%20Operators.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 1.5","relation":"INTRODUCES","target":"Linear Operators","evidence_heading":"Big Ideas","evidence_summary":"Introduces operators as abstract linear maps that preserve linear combinations and later become quantum observables or time-evolution maps.","confidence":0.93}
+{"source":"Shankar Section 1.5","relation":"MOTIVATES","target":"Matrix Representations of Operators","evidence_heading":"Big Ideas","evidence_summary":"Distinguishes the abstract operator from the matrix that represents it after a basis is chosen.","confidence":0.9}
+{"source":"Operator Composition","relation":"MOTIVATES","target":"Commutators","evidence_heading":"Big Ideas","evidence_summary":"The noncommutativity of operator composition prepares the later use of commutators.","confidence":0.86}
+{"source":"Linear Operators","relation":"MOTIVATES","target":"Quantum Observables","evidence_heading":"Big Ideas","evidence_summary":"Connects special classes of linear operators to observables and time evolution in quantum mechanics.","confidence":0.86}
+-->

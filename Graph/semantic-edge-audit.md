@@ -13,6 +13,7 @@ Use [README](README.md) as the source of truth for graph layers, edge format, re
 | Linear Algebra | Complete | Every durable Linear Algebra note has a semantic-edge block. Completed coverage for foundational vector-space notes, operator/eigenstructure notes, inner-product and quantum-interface notes, subspaces, elimination, decompositions, rotations, infinite-dimensional spaces, and Dirac delta, with duplicate triples and relation vocabulary checked. |
 | Quantum Mechanics | Complete | Every durable Quantum Mechanics note has a semantic-edge block. Completed coverage for the hub, postulates, state vectors, measurement, density operators, composite systems, entanglement, spin, Stern-Gerlach experiments, Schrodinger evolution, and wave-particle duality, with duplicate triples and relation vocabulary checked. Subagents were used for parallel edge proposal review. |
 | Quantum Computing | Complete | Every durable Quantum Computing note has a semantic-edge block. Completed coverage for the hub, Bloch sphere, qubits, quantum gates, tensor-product multi-qubit systems, and entanglement-linked protocols. |
+| Book Notes | In progress | Book notes need source-specific semantic edges when they introduce, motivate, derive, or exemplify durable concepts. Started coverage with Shankar Chapter 1, keeping edges sparse and avoiding ordinary link mirroring. Continue with Shankar Chapters 2-4, Nielsen Chuang, Goldstein, Townsend, and a Coopersmith quality pass. |
 
 ## Mechanics Starting Set
 

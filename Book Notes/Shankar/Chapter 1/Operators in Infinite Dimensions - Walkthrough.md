@@ -661,3 +661,13 @@ That is the heart of operators in infinite dimensions.
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Adjoints](../../../Linear%20Algebra/Adjoints.md)
 - [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
+
+<!-- semantic-edges
+{"source":"Operators in Infinite Dimensions Walkthrough","relation":"REFORMULATES","target":"Operator Kernels","evidence_heading":"Why This Section Feels Hard","evidence_summary":"Rephrases an infinite-dimensional operator as a matrix whose row and column labels have become continuous.","confidence":0.93}
+{"source":"Operator Kernels","relation":"GENERALIZES","target":"Matrix Multiplication","evidence_heading":"Step 3: The Operator Kernel Is The Infinite Matrix","evidence_summary":"Explains kernel action as matrix multiplication with the discrete sum replaced by an integral over input positions.","confidence":0.92}
+{"source":"Dirac Delta Function","relation":"REPRESENTS","target":"Identity Operator","evidence_heading":"Step 4: The Identity Operator","evidence_summary":"Uses the delta kernel as the continuous identity matrix that samples the matching position component.","confidence":0.91}
+{"source":"Multiplication Operators","relation":"SPECIALIZES","target":"Operator Kernels","evidence_heading":"Step 5: Multiplication Operators Are Like Diagonal Matrices","evidence_summary":"Identifies multiplication kernels as the diagonal-operator case in the continuous position basis.","confidence":0.89}
+{"source":"Derivative Operators","relation":"MOTIVATES","target":"Momentum Operator","evidence_heading":"Step 9: Momentum As A Derivative Operator","evidence_summary":"Shows momentum in the position representation as a constant multiple of the derivative operator.","confidence":0.89}
+{"source":"Adjoints","relation":"DETERMINES","target":"Hermitian Kernels","evidence_heading":"Step 10: Hermitian Operators In Kernel Language","evidence_summary":"Translates Hermiticity into the kernel condition obtained by swapping input and output labels and complex conjugating.","confidence":0.88}
+{"source":"Domain Restrictions","relation":"ASSUMES","target":"Infinite-Dimensional Operators","evidence_heading":"Step 12: Domain Issues Are The Hidden New Difficulty","evidence_summary":"Warns that infinite-dimensional operators require domain information beyond a formal expression.","confidence":0.88}
+-->

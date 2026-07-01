@@ -104,3 +104,9 @@ $$
 - [Projection Operators](../../../Linear%20Algebra/Projection%20Matrices.md)
 - [Four Fundamental Subspaces](../../../Linear%20Algebra/Four%20Fundamental%20Subspaces.md)
 - [Gram-Schmidt](../../../Linear%20Algebra/Gram-Schmidt.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 1.4","relation":"INTRODUCES","target":"Subspaces","evidence_heading":"Big Ideas","evidence_summary":"Defines subspaces as smaller vector spaces inside a larger one, governed by closure under addition and scalar multiplication.","confidence":0.93}
+{"source":"Inner Products","relation":"ENABLES","target":"Orthogonal Complements","evidence_heading":"Notes","evidence_summary":"Uses orthogonality to decompose a full space into a subspace and its orthogonal complement.","confidence":0.9}
+{"source":"Projection Operators","relation":"REPRESENTS","target":"Subspace Components","evidence_heading":"Big Ideas","evidence_summary":"Frames projection operators as the operator language for extracting the part of a vector that lies in a subspace.","confidence":0.9}
+-->

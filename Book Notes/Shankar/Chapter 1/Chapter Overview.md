@@ -47,6 +47,13 @@ Next: [Linear Vector Spaces Basics](Linear%20Vector%20Spaces%20Basics.md)
 - [Infinite-Dimensional Vector Spaces](../../../Linear%20Algebra/Infinite-Dimensional%20Vector%20Spaces.md)
 - [Dirac Delta Function](../../../Linear%20Algebra/Dirac%20Delta%20Function.md)
 
+<!-- semantic-edges
+{"source":"Shankar Chapter 1","relation":"INTRODUCES","target":"Vector Spaces","evidence_heading":"Big Ideas","evidence_summary":"Frames Chapter 1 as the vector-space language needed before quantum mechanics, emphasizing abstract vectors beyond arrows and coordinate lists.","confidence":0.92}
+{"source":"Shankar Chapter 1","relation":"INTRODUCES","target":"Linear Operators","evidence_heading":"Big Ideas","evidence_summary":"Presents operators as abstract transformations whose matrix forms depend on a chosen basis.","confidence":0.9}
+{"source":"Shankar Chapter 1","relation":"INTRODUCES","target":"Eigenvalues and Eigenvectors","evidence_heading":"Big Ideas","evidence_summary":"Highlights eigenvectors as the basis in which an operator acts simply and prepares the later quantum-mechanical use of observables.","confidence":0.9}
+{"source":"Shankar Chapter 1","relation":"MOTIVATES","target":"Infinite-Dimensional Vector Spaces","evidence_heading":"Big Ideas","evidence_summary":"Uses finite-dimensional linear algebra as the preparation for functions, wavefunctions, and continuous bases.","confidence":0.92}
+-->
+
 ## Notes To Process Later
 
 - Add notes for earlier Chapter 1 sections after reading them carefully.

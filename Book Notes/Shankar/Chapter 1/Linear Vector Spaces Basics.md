@@ -157,3 +157,9 @@ So the second set is linearly independent.
 - [Change of Basis](../../../Linear%20Algebra/Change%20of%20Basis.md)
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Infinite-Dimensional Spaces](Infinite-Dimensional%20Spaces.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 1.1","relation":"INTRODUCES","target":"Vector Spaces","evidence_heading":"Big Ideas","evidence_summary":"Introduces vector spaces through shared algebraic rules satisfied by arrows, columns, polynomials, and functions.","confidence":0.93}
+{"source":"Vector Spaces","relation":"GENERALIZES","target":"Coordinate Vectors","evidence_heading":"Notes","evidence_summary":"Separates the abstract vector from any particular coordinate list, so components become basis-dependent descriptions rather than the vector itself.","confidence":0.88}
+{"source":"Basis","relation":"DETERMINES","target":"Coordinate Representation","evidence_heading":"Big Ideas","evidence_summary":"Explains basis expansion as the way an abstract vector acquires components in a chosen basis.","confidence":0.9}
+-->

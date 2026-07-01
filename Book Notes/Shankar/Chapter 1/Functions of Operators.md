@@ -176,3 +176,10 @@ $$
 - [Projection Operators](../../../Linear%20Algebra/Projection%20Matrices.md)
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Infinite-Dimensional Spaces](Infinite-Dimensional%20Spaces.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 1.9","relation":"INTRODUCES","target":"Functions of Operators","evidence_heading":"Big Ideas","evidence_summary":"Explains how operator functions are defined by power series or by acting on eigenvectors.","confidence":0.94}
+{"source":"Diagonalization","relation":"ENABLES","target":"Functions of Operators","evidence_heading":"Big Ideas","evidence_summary":"In an eigenbasis, an operator function reduces to applying the scalar function to each eigenvalue.","confidence":0.91}
+{"source":"Functions of Operators","relation":"MOTIVATES","target":"Schrodinger Time Evolution","evidence_heading":"Why This Helps","evidence_summary":"Prepares exponentials such as time-evolution operators by decomposing states into energy eigenvectors.","confidence":0.88}
+{"source":"Hermitian Operators","relation":"ENABLES","target":"Unitary Operators","evidence_heading":"Exercise Answers","evidence_summary":"Exercises show that exponentiating a Hermitian operator with an imaginary factor produces a unitary operator.","confidence":0.86}
+-->

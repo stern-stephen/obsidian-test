@@ -228,3 +228,11 @@ $$
 - [Projection Operators](../../../Linear%20Algebra/Projection%20Matrices.md)
 - [Functions of Operators](Functions%20of%20Operators.md)
 - [Operators in Infinite Dimensions - Walkthrough](Operators%20in%20Infinite%20Dimensions%20-%20Walkthrough.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 1.10","relation":"INTRODUCES","target":"Infinite-Dimensional Vector Spaces","evidence_heading":"Big Ideas","evidence_summary":"Generalizes finite-dimensional vector-space ideas to function spaces and continuous bases.","confidence":0.94}
+{"source":"Wavefunctions","relation":"REPRESENTS","target":"Quantum State Vector","evidence_heading":"Notes","evidence_summary":"Treats a wavefunction as the coordinate representation of an abstract ket in the position basis.","confidence":0.92}
+{"source":"Shankar Section 1.10","relation":"MOTIVATES","target":"Dirac Delta Function","evidence_heading":"Kronecker Delta To Dirac Delta","evidence_summary":"Uses the finite-to-continuous basis transition to motivate the Dirac delta in orthonormality and completeness formulas.","confidence":0.91}
+{"source":"Shankar Section 1.10","relation":"INTRODUCES","target":"Operator Kernels","evidence_heading":"Operators In Infinite Dimensions","evidence_summary":"Uses identity, multiplication, derivative, and momentum operators to introduce kernels as continuous-basis operator representations.","confidence":0.91}
+{"source":"Kernel Action","relation":"GENERALIZES","target":"Matrix Multiplication","evidence_heading":"Study Questions","evidence_summary":"Shows that integral kernel action generalizes ordinary matrix multiplication when basis labels become continuous.","confidence":0.9}
+-->

@@ -196,3 +196,10 @@ Equality requires $|V\rangle=a|W\rangle$ with $a$ real and positive, so that the
 - [Gram-Schmidt](../../../Linear%20Algebra/Gram-Schmidt.md)
 - [Projection Operators](../../../Linear%20Algebra/Projection%20Matrices.md)
 - [Inner Product Spaces](Inner%20Product%20Spaces.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 1.3","relation":"INTRODUCES","target":"Bra-Ket Notation","evidence_heading":"Big Ideas","evidence_summary":"Introduces kets, bras, bra-ket scalars, ket-bra operators, and the compact notation used for projections and basis expansions.","confidence":0.94}
+{"source":"Bras","relation":"REPRESENTS","target":"Dual Vectors","evidence_heading":"Notes","evidence_summary":"Identifies a bra as the dual vector corresponding to a ket, acting as a linear functional on kets.","confidence":0.91}
+{"source":"Outer Products","relation":"REPRESENTS","target":"Linear Operators","evidence_heading":"Common Confusions","evidence_summary":"Emphasizes that a ket-bra outer product is an operator, not a scalar inner product.","confidence":0.88}
+{"source":"Orthonormal Bases","relation":"ENABLES","target":"Completeness Relations","evidence_heading":"Notes","evidence_summary":"Uses orthonormal bases to introduce completeness and basis expansion before the continuous-basis formulas of Section 1.10.","confidence":0.88}
+-->

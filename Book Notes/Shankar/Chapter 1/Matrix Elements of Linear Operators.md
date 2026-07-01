@@ -279,3 +279,10 @@ Neither matrix is Hermitian, because neither equals its own conjugate transpose.
 - [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
 - [Unitary Matrices](../../../Linear%20Algebra/Unitary%20Matrices.md)
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 1.6","relation":"INTRODUCES","target":"Matrix Elements","evidence_heading":"Big Ideas","evidence_summary":"Defines matrix elements as the components of an abstract operator in a chosen basis using bra-ket notation.","confidence":0.94}
+{"source":"Matrix Elements","relation":"REPRESENTS","target":"Linear Operators","evidence_heading":"Big Ideas","evidence_summary":"Shows how abstract operator equations become concrete matrix calculations once basis elements are inserted.","confidence":0.9}
+{"source":"Adjoints","relation":"DETERMINES","target":"Matrix Adjoint","evidence_heading":"Big Ideas","evidence_summary":"Uses bra-ket matrix elements to derive adjoint, Hermitian, and unitary matrix rules.","confidence":0.88}
+{"source":"Unitary Operators","relation":"DETERMINES","target":"Unit-Modulus Determinants","evidence_heading":"Exercise Answers","evidence_summary":"Exercises show that determinants of unitary operators have modulus one by applying unitary matrix identities.","confidence":0.84}
+-->

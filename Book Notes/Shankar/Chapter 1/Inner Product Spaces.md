@@ -45,3 +45,9 @@ The canonical definitions, norm formulas, and orthonormal-basis relations live i
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Gram-Schmidt](../../../Linear%20Algebra/Gram-Schmidt.md)
 - [Quantum State Vector](../../../Quantum%20Mechanics/Quantum%20State%20Vector.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 1.2","relation":"INTRODUCES","target":"Inner Product Spaces","evidence_heading":"Big Ideas","evidence_summary":"Adds geometric structure to vector spaces through length, angle, orthogonality, and normalization.","confidence":0.93}
+{"source":"Inner Products","relation":"ENABLES","target":"Probability Amplitudes","evidence_heading":"Big Ideas","evidence_summary":"Connects the inner product to quantum-mechanical amplitudes and probabilities rather than treating it only as geometry.","confidence":0.86}
+{"source":"Inner Product Spaces","relation":"ENABLES","target":"Bra-Ket Notation","evidence_heading":"Notes","evidence_summary":"The complex inner-product convention prepares the bra-ket language used in the next section.","confidence":0.86}
+-->
