@@ -186,3 +186,10 @@ They are central examples because they connect several ideas at once:
 - [Unitary Operators](Unitary%20Matrices.md)
 - [Bra-Ket Notation](Bra-Ket%20Notation.md)
 - [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Pauli Matrices","relation":"EXAMPLE_OF","target":"Hermitian Operators","evidence_heading":"Hermitian And Unitary","evidence_summary":"The note states that each Pauli matrix is Hermitian.","confidence":0.95}
+{"source":"Pauli Matrices","relation":"EXAMPLE_OF","target":"Unitary Operators","evidence_heading":"Hermitian And Unitary","evidence_summary":"The note states that each Pauli matrix is unitary.","confidence":0.95}
+{"source":"Pauli Matrices","relation":"DETERMINES","target":"Eigenvalues","evidence_heading":"Hermitian And Unitary","evidence_summary":"The note says being both Hermitian and unitary forces Pauli eigenvalues to be plus or minus one.","confidence":0.9}
+{"source":"Pauli Matrices","relation":"REPRESENTS","target":"Spin Measurements","evidence_heading":"Quantum Meaning","evidence_summary":"The note says Pauli matrices describe basic two-state quantum measurements such as spin along the x, y, and z axes.","confidence":0.9}
+-->

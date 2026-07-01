@@ -31,3 +31,10 @@ Linear algebra studies vectors, vector spaces, linear operators, matrices, and t
 ## Why It Matters
 
 Linear algebra gives a language for describing geometry, data, transformations, and quantum systems. Many advanced ideas in physics, machine learning, computer graphics, and numerical computing are built on linear algebra.
+
+<!-- semantic-edges
+{"source":"Linear Algebra","relation":"INTRODUCES","target":"Vector Spaces","evidence_heading":"Core Topics","evidence_summary":"The hub lists vector spaces as a core linear algebra topic.","confidence":0.85}
+{"source":"Linear Algebra","relation":"INTRODUCES","target":"Linear Operators","evidence_heading":"Core Topics","evidence_summary":"The hub lists linear operators as a core linear algebra topic.","confidence":0.85}
+{"source":"Linear Algebra","relation":"INTRODUCES","target":"Matrices","evidence_heading":"Core Topics","evidence_summary":"The hub lists matrices as a core linear algebra topic.","confidence":0.85}
+{"source":"Linear Algebra","relation":"MOTIVATES","target":"Quantum Mechanics","evidence_heading":"Why It Matters","evidence_summary":"The hub says linear algebra gives a language for quantum systems and supports advanced ideas in physics.","confidence":0.85}
+-->

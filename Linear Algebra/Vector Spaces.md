@@ -194,3 +194,10 @@ See [Tensor Products](Tensor%20Products.md).
 - [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
 - [Unitary Operators](Unitary%20Matrices.md)
 - [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
+
+<!-- semantic-edges
+{"source":"Vector Spaces","relation":"REQUIRES","target":"Vector Addition","evidence_heading":"Overview","evidence_summary":"The note defines a vector space as objects with rules for adding vectors and multiplying them by scalars.","confidence":0.9}
+{"source":"Vector Spaces","relation":"REQUIRES","target":"Scalar Multiplication","evidence_heading":"Overview","evidence_summary":"The note defines scalar multiplication as part of the structure of a vector space.","confidence":0.9}
+{"source":"Vector Spaces","relation":"ENABLES","target":"Linear Combinations","evidence_heading":"Basic Structure","evidence_summary":"Closure under addition and scalar multiplication lets vector spaces support linear combinations.","confidence":0.9}
+{"source":"Basis","relation":"DETERMINES","target":"Dimension","evidence_heading":"Basis And Dimension","evidence_summary":"The note says a basis is a linearly independent spanning set and that a vector space with a basis of n vectors has dimension n.","confidence":0.9}
+-->

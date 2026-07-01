@@ -108,3 +108,10 @@ What remains is the genuinely new direction. After normalizing it, that new dire
 - [Unitary Operators](Unitary%20Matrices.md)
 - [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
 - [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
+
+<!-- semantic-edges
+{"source":"Gram-Schmidt","relation":"DETERMINES","target":"Orthonormal Bases","evidence_heading":"Overview","evidence_summary":"The note says Gram-Schmidt turns a linearly independent list into an orthonormal list spanning the same subspace.","confidence":0.95}
+{"source":"Gram-Schmidt","relation":"REQUIRES","target":"Inner Product Spaces","evidence_heading":"Overview","evidence_summary":"The note describes Gram-Schmidt as building a clean coordinate system inside an inner product space.","confidence":0.9}
+{"source":"Projections","relation":"ENABLES","target":"Gram-Schmidt","evidence_heading":"Projection","evidence_summary":"The note identifies projection as the key step for removing the part of one vector pointing in another direction.","confidence":0.9}
+{"source":"Gram-Schmidt","relation":"ENABLES","target":"Unitary Operators","evidence_heading":"Why It Matters","evidence_summary":"The note says Gram-Schmidt helps understand unitary operators, whose matrix representations have orthonormal columns.","confidence":0.85}
+-->

@@ -166,3 +166,13 @@ feel less like a trick: it is the limit of a well-behaved Gaussian-regulated Fou
 - [Bra-Ket Notation](Bra-Ket%20Notation.md)
 - [Projection Operators](Projection%20Matrices.md)
 - [Shankar 1.10](../Book%20Notes/Shankar/Chapter%201/Infinite-Dimensional%20Spaces.md#kronecker-delta-to-dirac-delta)
+
+<!-- semantic-edges
+{"source":"Dirac Delta Function","relation":"REPRESENTS","target":"Point Evaluation","evidence_heading":"Overview","evidence_summary":"The note defines the Dirac delta by its integral action of extracting a function value at a point.","confidence":0.95}
+{"source":"Dirac Delta Function","relation":"GENERALIZES","target":"Kronecker Delta","evidence_heading":"Continuous Version Of The Kronecker Delta","evidence_summary":"The note presents delta(x - x') as the continuous-basis analogue of the discrete Kronecker delta delta_ij.","confidence":0.9}
+{"source":"Continuous Bases","relation":"REQUIRES","target":"Dirac Delta Function","evidence_heading":"Continuous Version Of The Kronecker Delta","evidence_summary":"The note says continuous position basis kets use the delta distribution rather than ordinary 0 and 1 values for orthogonality.","confidence":0.9}
+{"source":"Dirac Delta Function","relation":"ENABLES","target":"Identity Operator","evidence_heading":"Identity Operator","evidence_summary":"The note writes the continuous identity operator as an integral over position kets and bras, which acts on a state using psi(x).","confidence":0.9}
+{"source":"Delta Function Derivative","relation":"DETERMINES","target":"Derivative Sampling","evidence_heading":"Derivative Of The Delta Function","evidence_summary":"The note derives that integrating delta prime against a test function gives the negative derivative at the center.","confidence":0.9}
+{"source":"Gaussian Approximation","relation":"MOTIVATES","target":"Dirac Delta Function","evidence_heading":"Gaussian Approximation","evidence_summary":"The note explains the delta as the distributional limit of normalized Gaussians that get narrower and taller while keeping area one.","confidence":0.85}
+{"source":"Fourier Representation","relation":"MOTIVATES","target":"Dirac Delta Function","evidence_heading":"Fourier Representation","evidence_summary":"The note presents the Fourier integral for the delta as a distributional identity used under integrals against suitable functions.","confidence":0.85}
+-->

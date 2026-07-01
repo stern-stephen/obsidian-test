@@ -162,3 +162,13 @@ SVD also complements [Unitary Operators](Unitary%20Matrices.md) because it facto
 - [Unitary Operators](Unitary%20Matrices.md)
 - [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
 - [Gram-Schmidt](Gram-Schmidt.md)
+
+<!-- semantic-edges
+{"source":"Singular Value Decomposition","relation":"REFORMULATES","target":"Matrices","evidence_heading":"Overview","evidence_summary":"The note defines SVD as rewriting a matrix representation of an operator as U Sigma V dagger.","confidence":0.9}
+{"source":"Singular Value Decomposition","relation":"REQUIRES","target":"Unitary Operators","evidence_heading":"Definition","evidence_summary":"The note defines SVD using unitary matrices U and V around the diagonal singular-value matrix Sigma.","confidence":0.9}
+{"source":"Singular Values","relation":"DERIVES_FROM","target":"Eigenvalues","evidence_heading":"Connection To Eigenvalues","evidence_summary":"The note says singular values are square roots of eigenvalues of A dagger A.","confidence":0.9}
+{"source":"Singular Value Decomposition","relation":"DETERMINES","target":"Rank","evidence_heading":"Rank And Compression","evidence_summary":"The note says the number of nonzero singular values equals the rank of A.","confidence":0.9}
+{"source":"Singular Value Decomposition","relation":"ENABLES","target":"Low-Rank Approximation","evidence_heading":"Rank And Compression","evidence_summary":"The note says keeping the largest singular values gives a low-rank approximation useful in compression and noise reduction.","confidence":0.9}
+{"source":"Singular Value Decomposition","relation":"CONTRASTS_WITH","target":"Diagonalization","evidence_heading":"Difference From Diagonalization","evidence_summary":"The note contrasts SVD with diagonalization: SVD works for rectangular matrices, always exists, and uses nonnegative singular values with orthonormal directions.","confidence":0.9}
+{"source":"Singular Value Decomposition","relation":"MOTIVATES","target":"Schmidt Decomposition","evidence_heading":"Quantum Mechanics Connection","evidence_summary":"The note says the Schmidt decomposition is closely related to SVD for bipartite quantum states.","confidence":0.85}
+-->

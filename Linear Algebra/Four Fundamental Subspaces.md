@@ -173,3 +173,12 @@ Left singular vectors with nonzero singular values span the column space. Left s
 - [Projection Operators](Projection%20Matrices.md)
 - [Singular Value Decomposition](Singular%20Value%20Decomposition.md)
 - [Adjoints](Adjoints.md)
+
+<!-- semantic-edges
+{"source":"Four Fundamental Subspaces","relation":"DETERMINES","target":"Matrix Action","evidence_heading":"Overview","evidence_summary":"The note says the four fundamental subspaces explain what a matrix does to vectors, which directions it can produce, and which directions it collapses.","confidence":0.9}
+{"source":"Column Space","relation":"REPRESENTS","target":"Possible Outputs","evidence_heading":"Column Space","evidence_summary":"The note defines the column space as the set of all possible outputs Ax.","confidence":0.95}
+{"source":"Null Space","relation":"REPRESENTS","target":"Collapsed Input Directions","evidence_heading":"Null Space","evidence_summary":"The note says the null space describes input directions that the matrix collapses to zero.","confidence":0.95}
+{"source":"Rank","relation":"DETERMINES","target":"Subspace Dimensions","evidence_heading":"Dimensions","evidence_summary":"The note gives dimensions of the column space, row space, null space, and left null space in terms of matrix rank.","confidence":0.9}
+{"source":"Four Fundamental Subspaces","relation":"REQUIRES","target":"Orthogonality","evidence_heading":"Orthogonality","evidence_summary":"The note says the row space and null space, and the column space and left null space, come in orthogonal pairs.","confidence":0.9}
+{"source":"Singular Value Decomposition","relation":"REFORMULATES","target":"Four Fundamental Subspaces","evidence_heading":"Connection To SVD","evidence_summary":"The note says SVD gives an orthonormal view of the four subspaces through singular vectors with zero and nonzero singular values.","confidence":0.9}
+-->

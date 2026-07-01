@@ -81,3 +81,11 @@ This is the algebraic language for applying gates or observables to parts of a c
 - [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)
 - [Composite Quantum Systems](../Quantum%20Mechanics/Composite%20Quantum%20Systems.md)
 - [Entanglement](../Quantum%20Mechanics/Entanglement.md)
+
+<!-- semantic-edges
+{"source":"Tensor Products","relation":"DETERMINES","target":"Larger Vector Spaces","evidence_heading":"Overview","evidence_summary":"The note says tensor products combine vector spaces into a larger vector space.","confidence":0.95}
+{"source":"Tensor Products","relation":"DETERMINES","target":"Composite Quantum Systems","evidence_heading":"Overview","evidence_summary":"The note identifies tensor products as the linear algebra behind composite quantum systems and multi-qubit states.","confidence":0.95}
+{"source":"Tensor Product Bases","relation":"DETERMINES","target":"Tensor Product Spaces","evidence_heading":"Basis Construction","evidence_summary":"The note constructs a basis for V tensor W from basis vectors of V and W and says dimensions multiply.","confidence":0.9}
+{"source":"Entangled States","relation":"CONTRASTS_WITH","target":"Product States","evidence_heading":"Product States And Entangled States","evidence_summary":"The note says product states factor into subsystem states, while entangled states cannot be factored this way.","confidence":0.9}
+{"source":"Tensor Product Operators","relation":"REPRESENTS","target":"Subsystem Operations","evidence_heading":"Operators On Tensor Products","evidence_summary":"The note says A tensor B applies operators to the corresponding factors of a tensor-product state.","confidence":0.9}
+-->

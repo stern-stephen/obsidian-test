@@ -51,3 +51,9 @@ That algebraic fact encodes a physical limitation: the corresponding observables
 - [Matrices](Matrices.md)
 - [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
 - [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Commutators","relation":"DETERMINES","target":"Operator Noncommutativity","evidence_heading":"Overview","evidence_summary":"The note defines the commutator as AB - BA and says it measures the failure of two operators to commute.","confidence":0.95}
+{"source":"Anti-Commutators","relation":"CONTRASTS_WITH","target":"Commutators","evidence_heading":"Anti-Commutators","evidence_summary":"The note defines anti-commutators as AB + BA, in contrast with the commutator AB - BA.","confidence":0.85}
+{"source":"Noncommuting Observables","relation":"MOTIVATES","target":"Uncertainty Relations","evidence_heading":"Why It Matters","evidence_summary":"The note says non-commuting observables in quantum mechanics are tied to measurement incompatibility and uncertainty relations.","confidence":0.85}
+-->

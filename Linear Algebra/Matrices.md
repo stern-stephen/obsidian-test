@@ -82,3 +82,10 @@ $$
 - [Four Fundamental Subspaces](Four%20Fundamental%20Subspaces.md)
 - [Adjoints](Adjoints.md)
 - [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
+
+<!-- semantic-edges
+{"source":"Matrices","relation":"REPRESENTS","target":"Linear Operators","evidence_heading":"Overview","evidence_summary":"The note says matrices are often used to represent linear operators after bases have been chosen.","confidence":0.95}
+{"source":"Basis","relation":"DETERMINES","target":"Matrix Representation","evidence_heading":"Operators And Matrix Representations","evidence_summary":"The note states that changing the basis changes the matrix representation of the same operator.","confidence":0.9}
+{"source":"Matrix Multiplication","relation":"REPRESENTS","target":"Operator Composition","evidence_heading":"Matrix Multiplication From Operators","evidence_summary":"The note explains matrix multiplication as the coordinate record of composing linear operators.","confidence":0.95}
+{"source":"Operator Composition","relation":"CONTRASTS_WITH","target":"Commutativity","evidence_heading":"Matrix Multiplication From Operators","evidence_summary":"The note says operator composition is usually not commutative, so matrix multiplication is usually not commutative.","confidence":0.85}
+-->

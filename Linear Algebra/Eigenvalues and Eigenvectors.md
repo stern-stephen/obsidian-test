@@ -111,3 +111,12 @@ Their eigenvectors and diagonalizations are collected in [Pauli Matrices](Pauli%
 - [Unitary Operators](Unitary%20Matrices.md)
 - [Pauli Matrices](Pauli%20Matrices.md)
 - [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Eigenvectors","relation":"SPECIALIZES","target":"Vectors","evidence_heading":"Overview","evidence_summary":"The note defines an eigenvector as a nonzero vector whose direction is preserved by a linear operator.","confidence":0.9}
+{"source":"Eigenvalues","relation":"DETERMINES","target":"Eigenvector Scaling","evidence_heading":"Meaning","evidence_summary":"The note says the eigenvalue tells how the eigenvector is stretched, shrunk, flipped, phase-shifted, or rotated.","confidence":0.9}
+{"source":"Eigenspaces","relation":"DETERMINES","target":"Eigenvectors","evidence_heading":"Finding Eigenvectors","evidence_summary":"The note says the nonzero solutions of (A - lambda I)v = 0 form the eigenspace for lambda.","confidence":0.9}
+{"source":"Characteristic Equation","relation":"DETERMINES","target":"Eigenvalues","evidence_heading":"Finding Eigenvalues","evidence_summary":"The note says eigenvalues of a finite-dimensional matrix are found from det(A - lambda I) = 0.","confidence":0.9}
+{"source":"Diagonalization","relation":"REQUIRES","target":"Eigenbasis","evidence_heading":"Diagonalization","evidence_summary":"The note says an operator is diagonalizable when it has enough linearly independent eigenvectors to form a basis.","confidence":0.95}
+{"source":"Diagonalization","relation":"REFORMULATES","target":"Linear Operators","evidence_heading":"Diagonalization","evidence_summary":"The note says diagonalization finds a basis where the operator has a diagonal matrix representation and acts by simple scaling.","confidence":0.9}
+-->

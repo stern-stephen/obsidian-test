@@ -219,3 +219,11 @@ In a matrix representation, this symmetry appears by mirroring entries with comp
 - [Unitary Operators](Unitary%20Matrices.md)
 - [Pauli Matrices](Pauli%20Matrices.md)
 - [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Hermitian Operators","relation":"REQUIRES","target":"Adjoints","evidence_heading":"Overview","evidence_summary":"The note defines a Hermitian operator as an operator equal to its own adjoint.","confidence":0.95}
+{"source":"Hermitian Operators","relation":"DETERMINES","target":"Real Eigenvalues","evidence_heading":"Key Properties","evidence_summary":"The note lists real eigenvalues as a key property of Hermitian operators and later derives it.","confidence":0.95}
+{"source":"Hermitian Operators","relation":"DETERMINES","target":"Orthogonal Eigenvectors","evidence_heading":"Key Properties","evidence_summary":"The note lists orthogonality of eigenvectors with distinct eigenvalues as a key property of Hermitian operators and later derives it.","confidence":0.95}
+{"source":"Spectral Theorem","relation":"DETERMINES","target":"Hermitian Operators","evidence_heading":"Eigenvalues And Eigenvectors","evidence_summary":"The note states that a Hermitian operator can be written in an orthonormal eigenvector basis as U Lambda U dagger.","confidence":0.9}
+{"source":"Hermitian Operators","relation":"REPRESENTS","target":"Quantum Observables","evidence_heading":"Connection To Quantum Mechanics","evidence_summary":"The note says Hermitian operators represent measurable physical quantities because measurements must produce real values.","confidence":0.9}
+-->

@@ -148,3 +148,11 @@ $$
 - [Vector Spaces](Vector%20Spaces.md)
 - [Vectors](Vectors.md)
 - [Four Fundamental Subspaces](Four%20Fundamental%20Subspaces.md)
+
+<!-- semantic-edges
+{"source":"Gaussian Elimination","relation":"DETERMINES","target":"Linear System Solutions","evidence_heading":"Overview","evidence_summary":"The note defines Gaussian elimination as simplifying a matrix by row operations to solve systems of linear equations.","confidence":0.9}
+{"source":"Elementary Row Operations","relation":"ENABLES","target":"Gaussian Elimination","evidence_heading":"Elementary Row Operations","evidence_summary":"The note lists row swaps, nonzero row scaling, and adding row multiples as the operations used by Gaussian elimination.","confidence":0.9}
+{"source":"Row Echelon Form","relation":"ENABLES","target":"Back Substitution","evidence_heading":"Row Echelon Form","evidence_summary":"The note says systems in row echelon form can be solved by back substitution.","confidence":0.9}
+{"source":"Pivots","relation":"DETERMINES","target":"Rank","evidence_heading":"Rank","evidence_summary":"The note says the number of pivots is the rank of the matrix.","confidence":0.9}
+{"source":"Gaussian Elimination","relation":"ENABLES","target":"Four Fundamental Subspaces","evidence_heading":"Common Confusions","evidence_summary":"The note says pivot columns in the original matrix form a basis for the column space and free variables describe null-space directions.","confidence":0.85}
+-->

@@ -98,3 +98,10 @@ It measures whether the order of applying operators matters. See [Commutators](C
 - [Adjoints](Adjoints.md)
 - [Commutators](Commutators.md)
 - [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
+
+<!-- semantic-edges
+{"source":"Linear Operators","relation":"REQUIRES","target":"Vector Spaces","evidence_heading":"Overview","evidence_summary":"The note defines a linear operator as a function that sends vectors to vectors while preserving vector-space structure.","confidence":0.95}
+{"source":"Linear Operators","relation":"DETERMINES","target":"Linear Combinations","evidence_heading":"Overview","evidence_summary":"The note says a linear operator respects linear combinations by distributing over sums and scalar multiples.","confidence":0.9}
+{"source":"Operator Composition","relation":"MOTIVATES","target":"Noncommutativity","evidence_heading":"Composition","evidence_summary":"The note says linear operator composition is usually not commutative, which explains why matrix multiplication usually is not commutative.","confidence":0.85}
+{"source":"Commutators","relation":"DETERMINES","target":"Operator Order Dependence","evidence_heading":"Commutators","evidence_summary":"The note says the commutator measures whether the order of applying operators matters.","confidence":0.9}
+-->

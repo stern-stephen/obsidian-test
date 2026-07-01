@@ -110,3 +110,11 @@ So unitary operators are the complex analogue of real orthogonal transformations
 - [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
 - [Unitary Operators](Unitary%20Matrices.md)
 - [Adjoints](Adjoints.md)
+
+<!-- semantic-edges
+{"source":"Rotation Operators","relation":"EXAMPLE_OF","target":"Linear Operators","evidence_heading":"Overview","evidence_summary":"The note defines a rotation operator as representing a rotation of space around the origin.","confidence":0.9}
+{"source":"Rotation Operators","relation":"DETERMINES","target":"Norm Preservation","evidence_heading":"Overview","evidence_summary":"The note says rotation operators preserve lengths and angles.","confidence":0.9}
+{"source":"Rotation Matrices","relation":"EXAMPLE_OF","target":"Orthogonal Matrices","evidence_heading":"Overview","evidence_summary":"The note says rotation operators in an orthonormal basis for a real vector space are represented by orthogonal matrices with determinant one.","confidence":0.9}
+{"source":"Rotation Operators","relation":"DETERMINES","target":"Unit-Circle Eigenvalues","evidence_heading":"Eigenvalues","evidence_summary":"The note says two-dimensional rotation eigenvalues are e to the plus or minus i theta and have absolute value one.","confidence":0.85}
+{"source":"Unitary Operators","relation":"GENERALIZES","target":"Rotation Operators","evidence_heading":"Connection To Unitary Operators","evidence_summary":"The note says unitary operators are the complex analogue of real orthogonal transformations, including rotations and reflections.","confidence":0.85}
+-->

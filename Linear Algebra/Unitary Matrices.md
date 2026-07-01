@@ -194,3 +194,11 @@ It can change a vector's direction and phase, but it cannot change the vector's 
 - [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
 - [Pauli Matrices](Pauli%20Matrices.md)
 - [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Unitary Operators","relation":"REQUIRES","target":"Adjoints","evidence_heading":"Overview","evidence_summary":"The note defines a unitary operator by the adjoint identities U dagger U = U U dagger = I.","confidence":0.95}
+{"source":"Unitary Operators","relation":"DETERMINES","target":"Inner Product Preservation","evidence_heading":"Preserving Lengths And Inner Products","evidence_summary":"The note derives that unitary operators preserve inner products for any vectors x and y.","confidence":0.95}
+{"source":"Unitary Operators","relation":"DETERMINES","target":"Norm Preservation","evidence_heading":"Preserving Lengths And Inner Products","evidence_summary":"The note shows that applying a unitary operator does not change a vector's length.","confidence":0.95}
+{"source":"Unitary Operators","relation":"DETERMINES","target":"Unit-Circle Eigenvalues","evidence_heading":"Eigenvalues","evidence_summary":"The note derives that eigenvalues of unitary operators have absolute value 1.","confidence":0.95}
+{"source":"Unitary Operators","relation":"REPRESENTS","target":"Quantum Time Evolution","evidence_heading":"Connection To Quantum Mechanics","evidence_summary":"The note says unitary operators describe quantum state time evolution because they preserve normalization.","confidence":0.9}
+-->

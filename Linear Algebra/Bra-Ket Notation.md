@@ -130,3 +130,10 @@ When $A$ is a [Hermitian operator](Hermitian%20Matrices%20and%20Operators.md), t
 - [Unitary Operators](Unitary%20Matrices.md)
 - [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
 - [Quantum Mechanics](../Quantum%20Mechanics/Quantum%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Bra-Ket Notation","relation":"REPRESENTS","target":"Vectors","evidence_heading":"Kets","evidence_summary":"The note says a ket is usually thought of as a column vector and can represent a quantum state.","confidence":0.9}
+{"source":"Bra-Ket Notation","relation":"REPRESENTS","target":"Dual Vectors","evidence_heading":"Bras","evidence_summary":"The note says a bra is the adjoint of a ket, corresponding to a conjugate-transposed row vector.","confidence":0.9}
+{"source":"Bra-Ket Notation","relation":"REPRESENTS","target":"Inner Products","evidence_heading":"Inner Products","evidence_summary":"The note says the expression bra phi ket psi means the inner product of the two kets.","confidence":0.9}
+{"source":"Hermitian Operators","relation":"DETERMINES","target":"Real Expectation Values","evidence_heading":"Operators","evidence_summary":"The note says expectation values written as bra psi A ket psi are real when A is Hermitian.","confidence":0.9}
+-->

@@ -77,3 +77,11 @@ Inner products support several recurring ideas:
 - [Gram-Schmidt](Gram-Schmidt.md)
 - [Unitary Operators](Unitary%20Matrices.md)
 - [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
+
+<!-- semantic-edges
+{"source":"Inner Product Spaces","relation":"EXTENDS","target":"Vector Spaces","evidence_heading":"Overview","evidence_summary":"The note defines an inner product space as a vector space equipped with an inner product for length, orthogonality, projections, and angles.","confidence":0.95}
+{"source":"Inner Products","relation":"DETERMINES","target":"Norms","evidence_heading":"Definition","evidence_summary":"The note defines the norm of a vector as the square root of its inner product with itself.","confidence":0.9}
+{"source":"Inner Products","relation":"DETERMINES","target":"Orthogonality","evidence_heading":"Definition","evidence_summary":"The note says two vectors are orthogonal when their inner product is zero.","confidence":0.9}
+{"source":"Orthonormal Bases","relation":"ENABLES","target":"Coordinate Extraction","evidence_heading":"Orthonormal Bases","evidence_summary":"The note says vector components in an orthonormal basis can be extracted with inner products.","confidence":0.9}
+{"source":"Inner Product Spaces","relation":"ENABLES","target":"Adjoints","evidence_heading":"Why It Matters","evidence_summary":"The note lists adjoints, Hermitian operators, and unitary operators as recurring ideas supported by inner products.","confidence":0.9}
+-->

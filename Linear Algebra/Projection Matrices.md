@@ -119,3 +119,11 @@ The vector $Px$ lies in the target subspace. For an orthogonal projection, $x - 
 - [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
 - [Gram-Schmidt](Gram-Schmidt.md)
 - [Four Fundamental Subspaces](Four%20Fundamental%20Subspaces.md)
+
+<!-- semantic-edges
+{"source":"Projection Operators","relation":"DETERMINES","target":"Subspace Components","evidence_heading":"Overview","evidence_summary":"The note defines a projection operator as sending vectors onto a subspace.","confidence":0.9}
+{"source":"Projection Operators","relation":"REQUIRES","target":"Idempotence","evidence_heading":"Overview","evidence_summary":"The note says applying a projection twice has the same effect as applying it once, expressed by P squared equals P.","confidence":0.9}
+{"source":"Orthogonal Projections","relation":"SPECIALIZES","target":"Projection Operators","evidence_heading":"Orthogonal Projections","evidence_summary":"The note defines an orthogonal projection as a projection that drops a vector onto a subspace at a right angle.","confidence":0.9}
+{"source":"Orthogonal Projections","relation":"REQUIRES","target":"Hermitian Operators","evidence_heading":"Orthogonal Projections","evidence_summary":"The note says an orthogonal projection is both idempotent and Hermitian.","confidence":0.9}
+{"source":"Projection Operators","relation":"DETERMINES","target":"Eigenvalues","evidence_heading":"Eigenvalues","evidence_summary":"The note derives that projection operators have eigenvalues 0 or 1.","confidence":0.9}
+-->

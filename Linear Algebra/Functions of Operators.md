@@ -79,3 +79,11 @@ This form says: project onto each eigendirection, multiply that component by $f(
 - [Unitary Matrices](Unitary%20Matrices.md)
 - [Projection Operators](Projection%20Matrices.md)
 - [Shankar 1.9](../Book%20Notes/Shankar/Chapter%201/Functions%20of%20Operators.md)
+
+<!-- semantic-edges
+{"source":"Functions of Operators","relation":"REFORMULATES","target":"Linear Operators","evidence_heading":"Overview","evidence_summary":"The note defines a function of an operator as a new operator built from an old one.","confidence":0.9}
+{"source":"Operator Exponentials","relation":"EXAMPLE_OF","target":"Functions of Operators","evidence_heading":"Overview","evidence_summary":"The note cites operator exponentials such as e to the minus iHt over hbar as important functions of operators.","confidence":0.85}
+{"source":"Power Series","relation":"ENABLES","target":"Functions of Operators","evidence_heading":"Power Series","evidence_summary":"The note defines functions such as the operator exponential by applying the scalar power series to an operator.","confidence":0.9}
+{"source":"Eigenvalues","relation":"ENABLES","target":"Functions of Operators","evidence_heading":"Eigenvalue Shortcut","evidence_summary":"The note says if a vector is an eigenvector of A, then f(A) keeps the same eigenvector and applies f to the eigenvalue.","confidence":0.9}
+{"source":"Spectral Form","relation":"DETERMINES","target":"Functions of Operators","evidence_heading":"Spectral Form","evidence_summary":"The note gives f(A) as the sum over projectors onto eigendirections weighted by f of the eigenvalues when A has an orthonormal eigenbasis.","confidence":0.9}
+-->

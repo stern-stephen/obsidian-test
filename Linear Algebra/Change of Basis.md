@@ -173,3 +173,11 @@ The object stays fixed, but the coordinate labels change. A matrix representatio
 - [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
 - [Unitary Operators](Unitary%20Matrices.md)
 - [Singular Value Decomposition](Singular%20Value%20Decomposition.md)
+
+<!-- semantic-edges
+{"source":"Change of Basis","relation":"REFORMULATES","target":"Coordinate Representation","evidence_heading":"Overview","evidence_summary":"The note says a change of basis rewrites the same vector or linear operator using a different coordinate system.","confidence":0.95}
+{"source":"Coordinate Vectors","relation":"CONTRASTS_WITH","target":"Vectors","evidence_heading":"Common Confusions","evidence_summary":"The note warns that a vector and its coordinate vector in a basis are not the same object.","confidence":0.9}
+{"source":"Change of Basis Matrix","relation":"DETERMINES","target":"Coordinate Conversion","evidence_heading":"Changing Between Two Bases","evidence_summary":"The note gives P_C inverse P_B as the matrix converting coordinates from basis B to basis C.","confidence":0.9}
+{"source":"Similar Matrices","relation":"REPRESENTS","target":"Same Linear Operator","evidence_heading":"Linear Transformations In A New Basis","evidence_summary":"The note says similar matrices represent the same linear operator in different bases.","confidence":0.95}
+{"source":"Diagonalization","relation":"EXAMPLE_OF","target":"Change of Basis","evidence_heading":"Connection To Diagonalization","evidence_summary":"The note identifies diagonalization as a special case of change of basis to an eigenvector basis.","confidence":0.95}
+-->

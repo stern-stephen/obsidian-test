@@ -143,3 +143,11 @@ The derivative here is with respect to the output variable $x$. This is why the 
 - [Bra-Ket Notation](Bra-Ket%20Notation.md)
 - [Dirac Delta Function](Dirac%20Delta%20Function.md)
 - [Shankar 1.10](../Book%20Notes/Shankar/Chapter%201/Infinite-Dimensional%20Spaces.md)
+
+<!-- semantic-edges
+{"source":"Infinite-Dimensional Vector Spaces","relation":"GENERALIZES","target":"Vector Spaces","evidence_heading":"Overview","evidence_summary":"The note defines infinite-dimensional vector spaces as vector spaces whose vectors require infinitely many basis coefficients.","confidence":0.95}
+{"source":"Wavefunctions","relation":"EXAMPLE_OF","target":"Vectors","evidence_heading":"From Columns To Functions","evidence_summary":"The note says a function can play the role of a vector, with psi(x) representing the abstract state in the position basis.","confidence":0.9}
+{"source":"Continuous Bases","relation":"REFORMULATES","target":"Coordinate Representations","evidence_heading":"From Columns To Functions","evidence_summary":"The note rewrites a state as an integral over position basis kets with psi(x) as the continuous-basis representation.","confidence":0.9}
+{"source":"Operator Kernels","relation":"GENERALIZES","target":"Matrix Elements","evidence_heading":"Operator Kernels","evidence_summary":"The note says continuous-basis matrix elements become kernels A(x,x'), replacing sums by integrals.","confidence":0.95}
+{"source":"Dirac Delta Function","relation":"REPRESENTS","target":"Identity Kernel","evidence_heading":"Operator Kernels","evidence_summary":"The note says the identity operator has kernel delta(x - x') because integrating it against psi returns psi.","confidence":0.9}
+-->

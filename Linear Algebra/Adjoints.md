@@ -90,3 +90,11 @@ This is the same idea as turning a column vector into a conjugate-transposed row
 - [Hermitian Operators](Hermitian%20Matrices%20and%20Operators.md)
 - [Unitary Operators](Unitary%20Matrices.md)
 - [Eigenvalues and Eigenvectors](Eigenvalues%20and%20Eigenvectors.md)
+
+<!-- semantic-edges
+{"source":"Adjoints","relation":"REQUIRES","target":"Inner Product Spaces","evidence_heading":"Inner Product Definition","evidence_summary":"The note defines the adjoint by the condition that moves an operator from one side of an inner product to the other.","confidence":0.95}
+{"source":"Matrix Adjoint","relation":"REPRESENTS","target":"Adjoints","evidence_heading":"Matrix Adjoint","evidence_summary":"The note says the adjoint matrix is formed by transposing and complex conjugating each entry.","confidence":0.9}
+{"source":"Adjoints","relation":"ENABLES","target":"Hermitian Operators","evidence_heading":"Why Adjoints Matter","evidence_summary":"The note says an operator is Hermitian when it equals its adjoint.","confidence":0.9}
+{"source":"Adjoints","relation":"ENABLES","target":"Unitary Operators","evidence_heading":"Why Adjoints Matter","evidence_summary":"The note says an operator is unitary when its adjoint times the operator gives the identity.","confidence":0.9}
+{"source":"Adjoints","relation":"REFORMULATES","target":"Bra-Ket Notation","evidence_heading":"Bra-Ket Connection","evidence_summary":"The note says taking the adjoint turns a ket into a bra and a bra into a ket.","confidence":0.9}
+-->
