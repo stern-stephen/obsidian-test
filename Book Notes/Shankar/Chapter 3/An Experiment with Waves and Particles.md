@@ -41,3 +41,10 @@ This experiment gives a diagnostic: if a system gives localized detections but a
 
 - [Wave-Particle Duality](../../../Quantum%20Mechanics/Wave-Particle%20Duality.md)
 - [Quantum Measurement](../../../Quantum%20Mechanics/Quantum%20Measurement.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 3.2","relation":"INTRODUCES","target":"Double-Slit Experiment","evidence_heading":"Notes","evidence_summary":"Uses the two-slit setup as a diagnostic separating particle-like and wave-like predictions.","confidence":0.92}
+{"source":"Amplitude Superposition","relation":"DETERMINES","target":"Interference Pattern","evidence_heading":"Key Equation","evidence_summary":"Shows that wave intensities come from squaring the sum of amplitudes, producing an interference term.","confidence":0.9}
+{"source":"Additive Intensities","relation":"CONTRASTS_WITH","target":"Amplitude Superposition","evidence_heading":"Notes","evidence_summary":"Classical particles add one-slit intensities, while waves add amplitudes before computing intensity.","confidence":0.89}
+{"source":"Two-Slit Diagnostic","relation":"MOTIVATES","target":"Wave-Particle Duality","evidence_heading":"Why It Matters","evidence_summary":"Localized detections together with an interference pattern show that neither simple classical category is adequate.","confidence":0.9}
+-->

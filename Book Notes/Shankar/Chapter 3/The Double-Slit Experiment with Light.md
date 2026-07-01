@@ -30,3 +30,10 @@ The wave-like object is not a directly observed smeared-out photon. It is a prob
 - [Wave-Particle Duality](../../../Quantum%20Mechanics/Wave-Particle%20Duality.md)
 - [Quantum State Vector](../../../Quantum%20Mechanics/Quantum%20State%20Vector.md)
 - [Quantum Measurement](../../../Quantum%20Mechanics/Quantum%20Measurement.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 3.3","relation":"EXAMPLE_OF","target":"Wave-Particle Duality","evidence_heading":"Notes","evidence_summary":"Uses low-intensity light to show localized photon detections accumulating into a wave interference pattern.","confidence":0.92}
+{"source":"Single-Photon Detections","relation":"MOTIVATES","target":"Quantum Measurement","evidence_heading":"Notes","evidence_summary":"Each detection is localized even though the long-run distribution follows the interference pattern.","confidence":0.88}
+{"source":"Probability Amplitude","relation":"DETERMINES","target":"Detection Probability Distribution","evidence_heading":"Main Lesson","evidence_summary":"Identifies the wave-like object as a probability amplitude whose squared magnitude predicts many localized detections.","confidence":0.91}
+{"source":"Photon Double-Slit Experiment","relation":"CONTRASTS_WITH","target":"Definite Classical Trajectories","evidence_heading":"Notes","evidence_summary":"The result is not well described by saying each photon went through exactly one slit in an ordinary classical sense.","confidence":0.88}
+-->

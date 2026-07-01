@@ -38,3 +38,10 @@ The next chapter turns this motivation into postulates: what counts as a state, 
 - [Wave-Particle Duality](../../../Quantum%20Mechanics/Wave-Particle%20Duality.md)
 - [Quantum State Vector](../../../Quantum%20Mechanics/Quantum%20State%20Vector.md)
 - [Postulates of Quantum Mechanics](../../../Quantum%20Mechanics/Postulates%20of%20Quantum%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 3.5","relation":"REFORMULATES","target":"Wave-Particle Duality","evidence_heading":"Notes","evidence_summary":"Summarizes microscopic entities as combining localized detection with wavefunction-like probability amplitudes.","confidence":0.91}
+{"source":"Wavefunction","relation":"REPRESENTS","target":"Probability Amplitude","evidence_heading":"Notes","evidence_summary":"Treats the wavefunction as the amplitude whose modulus squared gives a position probability density.","confidence":0.9}
+{"source":"Quantum State Ket","relation":"REPRESENTS","target":"Quantum State Vector","evidence_heading":"Notes","evidence_summary":"Connects the wavefunction picture to the Chapter 1 vector-space representation as a ket.","confidence":0.88}
+{"source":"Shankar Chapter 3","relation":"MOTIVATES","target":"Postulates of Quantum Mechanics","evidence_heading":"Notes","evidence_summary":"Sets up the next chapter's postulates about states, observables, measurement, and evolution.","confidence":0.89}
+-->

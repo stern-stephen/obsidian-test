@@ -45,3 +45,10 @@ Next: [Particles and Waves in Classical Physics](Particles%20and%20Waves%20in%20
 
 - Add diagrams or image references for the two-slit setup if they become useful for memory.
 - Revisit this chapter after Chapter 5, where Shankar returns to the double-slit experiment with the one-dimensional formalism in place.
+
+<!-- semantic-edges
+{"source":"Shankar Chapter 3","relation":"MOTIVATES","target":"Quantum Mechanics","evidence_heading":"Big Ideas","evidence_summary":"Frames Chapter 3 as the physical motivation for quantum mechanics through experiments that violate classical particle-wave categories.","confidence":0.92}
+{"source":"Shankar Chapter 3","relation":"INTRODUCES","target":"Wave-Particle Duality","evidence_heading":"Big Ideas","evidence_summary":"Uses light and matter experiments to show localized detections governed by interference probabilities.","confidence":0.92}
+{"source":"Double-Slit Experiment","relation":"MOTIVATES","target":"Quantum State Vector","evidence_heading":"Big Ideas","evidence_summary":"Prepares the state as a wavefunction or ket whose squared amplitude predicts detection probabilities.","confidence":0.88}
+{"source":"Localized Detection","relation":"CONTRASTS_WITH","target":"Classical Wave Picture","evidence_heading":"Big Ideas","evidence_summary":"The chapter emphasizes that detections are localized even when the accumulated distribution shows interference.","confidence":0.87}
+-->

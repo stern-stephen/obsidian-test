@@ -37,3 +37,9 @@ The important point is not that an electron is secretly just a classical wave. I
 
 - [Wave-Particle Duality](../../../Quantum%20Mechanics/Wave-Particle%20Duality.md)
 - [Quantum State Vector](../../../Quantum%20Mechanics/Quantum%20State%20Vector.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 3.4","relation":"INTRODUCES","target":"Matter Waves","evidence_heading":"Notes","evidence_summary":"Extends the double-slit logic from light to electrons and other matter systems.","confidence":0.91}
+{"source":"Shankar Section 3.4","relation":"INTRODUCES","target":"De Broglie Relation","evidence_heading":"Notes","evidence_summary":"Introduces the momentum-wavelength link through p = h/lambda and p = hbar k.","confidence":0.9}
+{"source":"Matter Waves","relation":"MOTIVATES","target":"Quantum State Vector","evidence_heading":"Notes","evidence_summary":"Motivates a state description capable of producing both wave interference and particle-like detections.","confidence":0.88}
+-->
