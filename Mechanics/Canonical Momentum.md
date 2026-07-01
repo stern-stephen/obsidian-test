@@ -44,5 +44,4 @@ $$
 {"source":"Canonical Momentum","relation":"REQUIRES","target":"Lagrangian Mechanics","evidence_heading":"Definition","evidence_summary":"Canonical momentum is defined by differentiating the Lagrangian with respect to the generalized velocity.","confidence":0.95}
 {"source":"Canonical Momentum","relation":"REQUIRES","target":"Phase Space","evidence_heading":"Intuition","evidence_summary":"The note describes canonical momentum as the phase-space partner of a coordinate.","confidence":0.9}
 {"source":"Canonical Momentum","relation":"CONTRASTS_WITH","target":"Mechanical Momentum","evidence_heading":"Intuition","evidence_summary":"The note says canonical momentum equals mechanical momentum in simple Cartesian systems but can differ in generalized coordinates or electromagnetic fields.","confidence":0.9}
-{"source":"Electromagnetic Lagrangian","relation":"DETERMINES","target":"Canonical Momentum","evidence_heading":"Electromagnetic Example","evidence_summary":"For a charged particle, the note gives canonical momentum as mechanical momentum plus the charge times the vector potential.","confidence":0.9}
 -->

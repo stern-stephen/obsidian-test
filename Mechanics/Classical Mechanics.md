@@ -45,3 +45,10 @@ Quantum mechanics keeps many classical labels, especially $q$, $p$, and $H$, but
 - [Hamiltonian Mechanics](Hamiltonian%20Mechanics.md)
 - [Conservation Laws](Conservation%20Laws.md)
 - [Shankar Chapter 2 Overview](../Book%20Notes/Shankar/Chapter%202/Chapter%20Overview.md)
+
+<!-- semantic-edges
+{"source":"Newtonian Mechanics","relation":"SPECIALIZES","target":"Classical Mechanics","evidence_heading":"Main Formulations","evidence_summary":"The note lists Newtonian mechanics as a classical formulation emphasizing forces and acceleration.","confidence":0.9}
+{"source":"Lagrangian Mechanics","relation":"SPECIALIZES","target":"Classical Mechanics","evidence_heading":"Main Formulations","evidence_summary":"The note lists Lagrangian mechanics as a classical formulation emphasizing the action of paths in configuration space.","confidence":0.9}
+{"source":"Hamiltonian Mechanics","relation":"SPECIALIZES","target":"Classical Mechanics","evidence_heading":"Main Formulations","evidence_summary":"The note lists Hamiltonian mechanics as a classical formulation emphasizing phase-space evolution using coordinates and conjugate momenta.","confidence":0.9}
+{"source":"Quantum Mechanics","relation":"CONTRASTS_WITH","target":"Classical Mechanics","evidence_heading":"Quantum Bridge","evidence_summary":"The note contrasts quantum mechanics with classical mechanics by saying quantum theory keeps labels such as q, p, and H but changes states into Hilbert-space vectors and observables into operators.","confidence":0.85}
+-->

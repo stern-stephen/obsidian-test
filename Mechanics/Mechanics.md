@@ -48,5 +48,6 @@ This page is the hub for classical mechanics concepts that recur across the text
 Classical mechanics gives quantum mechanics much of its notation and intuition: coordinates, momenta, Hamiltonians, symmetries, and conservation laws all survive in transformed form.
 
 <!-- semantic-edges
+{"source":"Classical Mechanics","relation":"SPECIALIZES","target":"Mechanics","evidence_heading":"Core Ideas","evidence_summary":"The hub identifies classical mechanics as a core mechanics concept and frames the page as a hub for classical mechanics concepts that recur across textbook reading projects.","confidence":0.85}
 {"source":"Classical Mechanics","relation":"MOTIVATES","target":"Quantum Mechanics","evidence_heading":"Why It Matters","evidence_summary":"The note says classical mechanics supplies quantum mechanics with much of its notation and intuition, including coordinates, momenta, Hamiltonians, symmetries, and conservation laws.","confidence":0.85}
 -->

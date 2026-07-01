@@ -8,7 +8,7 @@ Use [README](README.md) as the source of truth for graph layers, edge format, re
 
 | Domain | Status | Notes |
 | --- | --- | --- |
-| Mechanics | In progress | Added semantic edges through canonical momentum, inertial forces, conservative forces, Rayleigh dissipation, center of mass, and two-body problem. Continue with electromagnetic Lagrangian, classical mechanics, configuration space, and any remaining sparse Mechanics notes. |
+| Mechanics | Complete | Every durable Mechanics note has a semantic-edge block. Completed a quality pass for duplicate edges, weak relation labels, and top-level hub coverage. Future work should add edges only when Mechanics notes gain new durable conceptual relationships. |
 | Mathematics | Not started | Focus on calculus of variations and Legendre transforms after Mechanics. |
 | Linear Algebra | Not started | Needs careful distinction between definitions, representations, and theorem-like dependencies. |
 | Quantum Mechanics | Not started | Start with state vectors, measurement, spin, and density operators. |

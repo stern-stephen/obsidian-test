@@ -67,5 +67,5 @@ When $h=E$ and $L$ is time independent, $2\mathcal F$ is the rate at which mecha
 <!-- semantic-edges
 {"source":"Time-Independent Lagrangian","relation":"DETERMINES","target":"Energy Function Conservation","evidence_heading":"Definition","evidence_summary":"The note derives dh/dt = -partial L/partial t, so the energy function is constant when the Lagrangian has no explicit time dependence.","confidence":0.95}
 {"source":"Energy Function","relation":"CONTRASTS_WITH","target":"Total Mechanical Energy","evidence_heading":"Overview","evidence_summary":"The note says the Lagrangian energy function often equals total mechanical energy, but those are logically separate facts.","confidence":0.9}
-{"source":"Energy Function","relation":"REPRESENTS","target":"Legendre Transform","evidence_heading":"Relation To The Hamiltonian","evidence_summary":"The note says the energy function has the same algebraic form as the Legendre transform, while differing from the Hamiltonian by its variables.","confidence":0.9}
+{"source":"Energy Function","relation":"CONTRASTS_WITH","target":"Hamiltonian","evidence_heading":"Relation To The Hamiltonian","evidence_summary":"The note contrasts the energy function h(q,dot q,t), written with velocities, with the Hamiltonian H(q,p,t), written in phase-space variables after solving for velocities.","confidence":0.9}
 -->
