@@ -256,3 +256,12 @@ The rest of the chapter develops these tools through superdense coding, density 
 - [Unitary Matrices](../../../Linear%20Algebra/Unitary%20Matrices.md)
 - [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
 - [Eigenvalues](../../../Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md)
+
+<!-- semantic-edges
+{"source":"Nielsen and Chuang Section 2.2","relation":"INTRODUCES","target":"Quantum Information Postulates","evidence_heading":"Overview","evidence_summary":"States the postulates in a form suited to quantum information: states, unitary evolution, measurements, phase, and composite systems.","confidence":0.92}
+{"source":"Unitary Evolution","relation":"ENABLES","target":"Closed-System Quantum Dynamics","evidence_heading":"2.2.2 Evolution","evidence_summary":"Closed-system evolution is described by a unitary operator that preserves normalization and total probability.","confidence":0.89}
+{"source":"Measurement Operators","relation":"DETERMINES","target":"Post-Measurement State","evidence_heading":"2.2.3 Quantum Measurement","evidence_summary":"Measurement operators determine both the probability of an outcome and the normalized state after that outcome is observed.","confidence":0.9}
+{"source":"POVM Elements","relation":"REPRESENTS","target":"Measurement Outcome Probabilities","evidence_heading":"2.2.6 POVM Measurements","evidence_summary":"POVM elements focus on outcome probabilities without carrying the full post-measurement state information.","confidence":0.88}
+{"source":"Global Phase","relation":"CONTRASTS_WITH","target":"Relative Phase","evidence_heading":"2.2.7 Phase","evidence_summary":"Global phase does not change the physical state, while relative phase can change physical predictions.","confidence":0.9}
+{"source":"Composite Systems Postulate","relation":"ENABLES","target":"Entanglement","evidence_heading":"2.2.8 Composite Systems","evidence_summary":"Tensor-product state spaces for composite systems allow states that cannot be factored into subsystem states.","confidence":0.89}
+-->

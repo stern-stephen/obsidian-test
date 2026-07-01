@@ -335,3 +335,11 @@ Related notes:
 - [Unitary Matrices](../../../Linear%20Algebra/Unitary%20Matrices.md)
 - [Quantum Mechanics](../../../Quantum%20Mechanics/Quantum%20Mechanics.md)
 - [Quantum Computing](../../../Quantum%20Computing/Quantum%20Computing.md)
+
+<!-- semantic-edges
+{"source":"Nielsen and Chuang Section 2.1","relation":"INTRODUCES","target":"Linear Algebra for Quantum Information","evidence_heading":"Overview","evidence_summary":"Reviews complex vector spaces, operators, measurements, tensor products, and decompositions as the mathematical toolkit for quantum information.","confidence":0.91}
+{"source":"Complex Vector Spaces","relation":"ENABLES","target":"Quantum States","evidence_heading":"Overview","evidence_summary":"The note says quantum mechanics is built on complex vector spaces and that quantum states are vectors.","confidence":0.88}
+{"source":"Nielsen and Chuang Section 2.1","relation":"INTRODUCES","target":"Composite-System Tensor Products","evidence_heading":"2.1.7 Tensor Products","evidence_summary":"Presents tensor products as the doorway into multi-qubit states and entanglement.","confidence":0.89}
+{"source":"Operator Exponentials","relation":"ENABLES","target":"Quantum Time Evolution","evidence_heading":"2.1.8 Operator Functions","evidence_summary":"Notes that operator exponentials appear naturally in quantum time evolution.","confidence":0.86}
+{"source":"Commutators","relation":"DETERMINES","target":"Observable Compatibility","evidence_heading":"2.1.9 Commutators And Anti-Commutators","evidence_summary":"Frames commutators as measuring whether operators commute, which is tied to compatibility of observables.","confidence":0.87}
+-->

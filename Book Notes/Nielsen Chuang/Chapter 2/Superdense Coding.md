@@ -68,3 +68,11 @@ This protocol highlights a recurring theme in the book: entanglement is a resour
 - [Postulates Of Quantum Mechanics](Postulates%20of%20Quantum%20Mechanics.md)
 - [Unitary Matrices](../../../Linear%20Algebra/Unitary%20Matrices.md)
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
+
+<!-- semantic-edges
+{"source":"Nielsen and Chuang Section 2.3","relation":"INTRODUCES","target":"Superdense Coding","evidence_heading":"Overview","evidence_summary":"Uses superdense coding to show that shared entanglement can transmit two classical bits by sending one qubit.","confidence":0.92}
+{"source":"Shared Entanglement","relation":"ENABLES","target":"Superdense Coding","evidence_heading":"Overview","evidence_summary":"The protocol requires Alice and Bob to share an entangled pair before communication begins.","confidence":0.9}
+{"source":"Local Unitary Encoding","relation":"DETERMINES","target":"Bell State Message Encoding","evidence_heading":"Encoding","evidence_summary":"Alice's local operations transform the shared state into one of four orthogonal Bell states corresponding to two-bit messages.","confidence":0.9}
+{"source":"Bell Basis Measurement","relation":"ENABLES","target":"Superdense Coding Decoding","evidence_heading":"Decoding","evidence_summary":"Bob can distinguish the four orthogonal final states with a suitable two-qubit measurement.","confidence":0.88}
+{"source":"Entanglement","relation":"REPRESENTS","target":"Quantum Information Resource","evidence_heading":"Why It Matters","evidence_summary":"The note explicitly presents entanglement as the resource that gives the protocol its extra power.","confidence":0.89}
+-->

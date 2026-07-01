@@ -68,3 +68,11 @@ This section also connects the conceptual foundations of quantum mechanics to qu
 - [Quantum Mechanics](../../../Quantum%20Mechanics/Quantum%20Mechanics.md)
 - [Quantum Computing](../../../Quantum%20Computing/Quantum%20Computing.md)
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
+
+<!-- semantic-edges
+{"source":"Nielsen and Chuang Section 2.6","relation":"INTRODUCES","target":"EPR Argument","evidence_heading":"Overview","evidence_summary":"Discusses the EPR argument as a challenge built from entangled correlations and classical locality-realism assumptions.","confidence":0.9}
+{"source":"Bell Inequality","relation":"CONTRASTS_WITH","target":"Quantum Entanglement Correlations","evidence_heading":"Bell Inequality","evidence_summary":"Bell inequalities bound correlations from local pre-existing properties, while quantum entangled states can violate the bound.","confidence":0.9}
+{"source":"Bell Inequality Violation","relation":"ELIMINATES","target":"Local Hidden Variables","evidence_heading":"Meaning Of The Violation","evidence_summary":"A violation shows that quantum correlations cannot be explained by local hidden variables of the classical kind.","confidence":0.91}
+{"source":"Bell Inequality Violation","relation":"CONTRASTS_WITH","target":"Faster-Than-Light Communication","evidence_heading":"Meaning Of The Violation","evidence_summary":"The note states that Bell inequality violation does not imply faster-than-light communication.","confidence":0.88}
+{"source":"Bell Inequalities","relation":"MOTIVATES","target":"Entanglement as Resource","evidence_heading":"Why It Matters","evidence_summary":"The section connects entanglement's foundational consequences to quantum information protocols and algorithms.","confidence":0.87}
+-->

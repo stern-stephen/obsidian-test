@@ -87,3 +87,11 @@ They help explain:
 - [Vector Spaces](../../../Linear%20Algebra/Vector%20Spaces.md)
 - [Tensor Products](../../../Linear%20Algebra/Tensor%20Products.md)
 - [Eigenvalues](../../../Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md)
+
+<!-- semantic-edges
+{"source":"Nielsen and Chuang Section 2.5","relation":"INTRODUCES","target":"Schmidt Decomposition","evidence_heading":"Overview","evidence_summary":"Introduces the Schmidt decomposition as a canonical representation of pure bipartite quantum states.","confidence":0.92}
+{"source":"Schmidt Coefficients","relation":"DETERMINES","target":"Schmidt Number","evidence_heading":"Schmidt Decomposition","evidence_summary":"The number of nonzero Schmidt coefficients is defined as the Schmidt number.","confidence":0.89}
+{"source":"Schmidt Number","relation":"DETERMINES","target":"Pure-State Entanglement","evidence_heading":"Entanglement","evidence_summary":"A bipartite pure state is a product state when the Schmidt number is one and entangled when it is greater than one.","confidence":0.91}
+{"source":"Equal Schmidt Coefficients","relation":"REPRESENTS","target":"Maximally Entangled Two-Qubit State","evidence_heading":"Entanglement","evidence_summary":"For a maximally entangled two-qubit state, the two Schmidt coefficients are equal to one over square root two.","confidence":0.88}
+{"source":"Purification","relation":"REPRESENTS","target":"Mixed State as Larger Pure State","evidence_heading":"Purification","evidence_summary":"Purification represents a mixed state as the reduced state of a larger pure state on an auxiliary reference system.","confidence":0.91}
+-->

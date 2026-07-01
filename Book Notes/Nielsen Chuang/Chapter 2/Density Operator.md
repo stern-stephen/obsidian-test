@@ -123,3 +123,12 @@ They become essential for later topics such as noise, decoherence, quantum chann
 - [Postulates Of Quantum Mechanics](Postulates%20of%20Quantum%20Mechanics.md)
 - [Bra-Ket Notation](../../../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
+
+<!-- semantic-edges
+{"source":"Nielsen and Chuang Section 2.4","relation":"INTRODUCES","target":"Density Operators","evidence_heading":"Overview","evidence_summary":"Introduces density operators for uncertain pure-state preparations and for subsystems of entangled composite systems.","confidence":0.92}
+{"source":"Quantum Ensembles","relation":"DETERMINES","target":"Density Operator","evidence_heading":"2.4.1 Ensembles Of Quantum States","evidence_summary":"An ensemble of states with probabilities gives the density operator as a weighted sum of projectors.","confidence":0.9}
+{"source":"Density Operator Positivity","relation":"ENABLES","target":"Nonnegative Measurement Probabilities","evidence_heading":"2.4.2 General Properties","evidence_summary":"The positivity condition ensures that the density operator produces nonnegative measurement probabilities.","confidence":0.88}
+{"source":"Partial Trace","relation":"DETERMINES","target":"Reduced Density Operator","evidence_heading":"2.4.3 The Reduced Density Operator","evidence_summary":"Tracing over subsystem B gives the state of subsystem A from a joint density operator.","confidence":0.91}
+{"source":"Entangled Pure States","relation":"MOTIVATES","target":"Mixed Reduced States","evidence_heading":"2.4.3 The Reduced Density Operator","evidence_summary":"A subsystem of an entangled pure state can be described by a mixed reduced density operator.","confidence":0.9}
+{"source":"Density Operators","relation":"ENABLES","target":"Open Quantum Systems","evidence_heading":"Why It Matters","evidence_summary":"The note says density operators handle open systems interacting with environments and later support noise, channels, and error correction.","confidence":0.87}
+-->

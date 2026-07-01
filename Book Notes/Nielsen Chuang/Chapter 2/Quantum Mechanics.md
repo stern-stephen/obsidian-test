@@ -71,3 +71,10 @@ $$
 ## Notes To Process Later
 
 - Create durable concept notes for Bell inequalities and superdense coding.
+
+<!-- semantic-edges
+{"source":"Nielsen and Chuang Chapter 2","relation":"INTRODUCES","target":"Quantum Information Postulates","evidence_heading":"Big Ideas","evidence_summary":"Organizes the quantum mechanics chapter around state spaces, unitary evolution, measurement, phase, and composite systems for quantum information.","confidence":0.9}
+{"source":"Nielsen and Chuang Chapter 2","relation":"INTRODUCES","target":"Density Operators","evidence_heading":"Big Ideas","evidence_summary":"Includes density operators as a central tool after the postulates and superdense coding.","confidence":0.88}
+{"source":"Nielsen and Chuang Chapter 2","relation":"INTRODUCES","target":"Schmidt Decomposition","evidence_heading":"Big Ideas","evidence_summary":"Treats Schmidt decomposition and purification as postulate applications for composite systems.","confidence":0.88}
+{"source":"Nielsen and Chuang Chapter 2","relation":"INTRODUCES","target":"Bell Inequalities","evidence_heading":"Big Ideas","evidence_summary":"Ends the chapter sequence with EPR and Bell inequalities as foundational quantum-information examples.","confidence":0.88}
+-->

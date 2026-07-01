@@ -43,3 +43,9 @@ Use this page to track chapter notes, questions, and concept pages created while
 - [Unitary Matrices](../../Linear%20Algebra/Unitary%20Matrices.md)
 - [Hermitian Matrices and Operators](../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
 - [Eigenvalues](../../Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md)
+
+<!-- semantic-edges
+{"source":"Nielsen and Chuang","relation":"MOTIVATES","target":"Quantum Computing","evidence_heading":"Overview","evidence_summary":"The reading hub frames the book as a source for quantum computation and quantum information concepts.","confidence":0.9}
+{"source":"Nielsen and Chuang","relation":"REQUIRES","target":"Quantum Mechanics","evidence_heading":"Core Concept Areas","evidence_summary":"The hub lists quantum mechanics as a core concept area for the reading project.","confidence":0.86}
+{"source":"Nielsen and Chuang","relation":"REQUIRES","target":"Linear Algebra","evidence_heading":"Core Concept Areas","evidence_summary":"The hub lists linear algebra as a core concept area for the reading project.","confidence":0.86}
+-->
