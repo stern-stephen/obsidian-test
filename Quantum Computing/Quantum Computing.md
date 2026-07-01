@@ -40,3 +40,13 @@ For the Nielsen and Chuang reading project, this page is the hub for quantum com
 - [Unitary Matrices](../Linear%20Algebra/Unitary%20Matrices.md)
 - [Hermitian Matrices and Operators](../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
 - [Eigenvalues](../Linear%20Algebra/Eigenvalues%20and%20Eigenvectors.md)
+
+<!-- semantic-edges
+{"source":"Quantum Computing","relation":"REQUIRES","target":"Quantum Mechanics","evidence_heading":"Overview","evidence_summary":"The hub says quantum computing studies computation using quantum states, quantum gates, measurement, and entanglement, building on quantum mechanics.","confidence":0.9}
+{"source":"Quantum Computing","relation":"REQUIRES","target":"Linear Algebra","evidence_heading":"Overview","evidence_summary":"The hub says the quantum computing concepts in the Nielsen and Chuang reading project build on linear algebra.","confidence":0.9}
+{"source":"Qubits","relation":"SPECIALIZES","target":"Quantum Two-State Systems","evidence_heading":"Core Ideas","evidence_summary":"The hub identifies qubits as quantum two-state systems.","confidence":0.85}
+{"source":"Bloch Sphere","relation":"VISUALIZES","target":"Single-Qubit States","evidence_heading":"Core Ideas","evidence_summary":"The hub says a single qubit can be pictured as a point on the Bloch sphere.","confidence":0.9}
+{"source":"Unitary Operators","relation":"REPRESENTS","target":"Quantum Gates","evidence_heading":"Core Ideas","evidence_summary":"The hub says quantum gates are usually represented by unitary matrices.","confidence":0.9}
+{"source":"Tensor Products","relation":"DETERMINES","target":"Multi-Qubit Systems","evidence_heading":"Core Ideas","evidence_summary":"The hub says multi-qubit systems use tensor products.","confidence":0.9}
+{"source":"Entanglement","relation":"ENABLES","target":"Superdense Coding","evidence_heading":"Core Ideas","evidence_summary":"The hub says entanglement is a resource for protocols such as superdense coding.","confidence":0.85}
+-->

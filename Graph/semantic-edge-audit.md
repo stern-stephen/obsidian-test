@@ -12,7 +12,7 @@ Use [README](README.md) as the source of truth for graph layers, edge format, re
 | Mathematics | Complete | Every durable Mathematics note has a semantic-edge block. Added coverage for the Mathematics hub, calculus of variations, Legendre transforms, and Greek/Latin symbol conventions, with concept names aligned to existing Mechanics graph concepts. |
 | Linear Algebra | Complete | Every durable Linear Algebra note has a semantic-edge block. Completed coverage for foundational vector-space notes, operator/eigenstructure notes, inner-product and quantum-interface notes, subspaces, elimination, decompositions, rotations, infinite-dimensional spaces, and Dirac delta, with duplicate triples and relation vocabulary checked. |
 | Quantum Mechanics | Complete | Every durable Quantum Mechanics note has a semantic-edge block. Completed coverage for the hub, postulates, state vectors, measurement, density operators, composite systems, entanglement, spin, Stern-Gerlach experiments, Schrodinger evolution, and wave-particle duality, with duplicate triples and relation vocabulary checked. Subagents were used for parallel edge proposal review. |
-| Quantum Computing | Not started | Start with Bloch sphere, qubits, gates, and entanglement-linked protocols. |
+| Quantum Computing | Complete | Every durable Quantum Computing note has a semantic-edge block. Completed coverage for the hub, Bloch sphere, qubits, quantum gates, tensor-product multi-qubit systems, and entanglement-linked protocols. |
 
 ## Mechanics Starting Set
 
