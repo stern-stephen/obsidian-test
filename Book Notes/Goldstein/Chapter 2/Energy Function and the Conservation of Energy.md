@@ -90,3 +90,12 @@ The energy function has the same value as the Hamiltonian after the Legendre tra
 - [Conservation Laws](../../../Mechanics/Conservation%20Laws.md)
 - [Rayleigh Dissipation Function](../../../Mechanics/Rayleigh%20Dissipation%20Function.md)
 - [Hamiltonian Mechanics](../../../Mechanics/Hamiltonian%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Goldstein Section 2.7","relation":"INTRODUCES","target":"Energy Function","evidence_heading":"Derivation","evidence_summary":"Defines h as the velocity-momentum contraction minus the Lagrangian and derives its time derivative from Lagrange's equations.","confidence":0.92}
+{"source":"Goldstein Section 2.7","relation":"DERIVES","target":"Energy Function Conservation Condition","evidence_heading":"Derivation","evidence_summary":"If the Lagrangian has no explicit time dependence, the energy function is conserved.","confidence":0.9}
+{"source":"Velocity Homogeneity","relation":"DETERMINES","target":"Energy Function Equals Total Energy","evidence_heading":"When It Equals Total Energy","evidence_summary":"The energy function equals total energy under the appropriate velocity homogeneity and usual time-independent coordinate and potential assumptions.","confidence":0.89}
+{"source":"Energy Function Conservation","relation":"CONTRASTS_WITH","target":"Total Energy Equality","evidence_heading":"Two Separate Questions","evidence_summary":"Goldstein separates whether h is conserved from whether h equals the physical total energy T plus V.","confidence":0.91}
+{"source":"Rayleigh Dissipation Function","relation":"DETERMINES","target":"Mechanical Energy Loss Rate","evidence_heading":"Dissipation","evidence_summary":"With quadratic Rayleigh dissipation and no explicit time dependence, total energy decreases at twice the dissipation function.","confidence":0.88}
+{"source":"Energy Function","relation":"REFORMULATES","target":"Hamiltonian","evidence_heading":"Hamiltonian Connection","evidence_summary":"The energy function has the same value as the Hamiltonian after the Legendre transform, though it is expressed in q and qdot rather than q and p.","confidence":0.88}
+-->

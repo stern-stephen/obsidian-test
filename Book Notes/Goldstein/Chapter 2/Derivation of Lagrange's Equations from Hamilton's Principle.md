@@ -68,3 +68,10 @@ The global condition $\delta I=0$ and the local Lagrange equations contain the s
 
 - [Euler-Lagrange Equations](../../../Mechanics/Euler-Lagrange%20Equations.md)
 - [Action Principle](../../../Mechanics/Action%20Principle.md)
+
+<!-- semantic-edges
+{"source":"Goldstein Section 2.3","relation":"DERIVES","target":"Lagrange's Equations","evidence_heading":"Application To The Action","evidence_summary":"Applies the many-variable Euler-Lagrange calculation to the action by replacing x with t, y_i with q_i, and f with L.","confidence":0.92}
+{"source":"Independent Generalized Coordinates","relation":"ASSUMES","target":"Euler-Lagrange Equations","evidence_heading":"Assumptions","evidence_summary":"The derivation assumes generalized coordinates are independent after holonomic constraints have been absorbed.","confidence":0.89}
+{"source":"Fundamental Lemma of Calculus of Variations","relation":"REFORMULATES","target":"Hamilton's Principle","evidence_heading":"Main Point","evidence_summary":"The fundamental lemma converts a stationary integral condition for every variation into differential equations at every time.","confidence":0.9}
+{"source":"Hamilton's Principle","relation":"REFORMULATES","target":"Lagrange's Equations","evidence_heading":"Main Point","evidence_summary":"Under the stated assumptions, the global variational condition and the local Lagrange equations contain the same dynamics.","confidence":0.9}
+-->

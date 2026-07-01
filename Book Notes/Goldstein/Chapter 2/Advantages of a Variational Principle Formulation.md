@@ -78,3 +78,10 @@ The same variational architecture applies to particle mechanics, fields, electro
 - [Lagrangian Mechanics](../../../Mechanics/Lagrangian%20Mechanics.md)
 - [Action Principle](../../../Mechanics/Action%20Principle.md)
 - [Rayleigh Dissipation Function](../../../Mechanics/Rayleigh%20Dissipation%20Function.md)
+
+<!-- semantic-edges
+{"source":"Goldstein Section 2.5","relation":"MOTIVATES","target":"Variational Principle Formulation","evidence_heading":"Coordinate Independence","evidence_summary":"Highlights coordinate independence as a central advantage of packaging mechanics into a scalar action statement.","confidence":0.9}
+{"source":"Goldstein Section 2.5","relation":"INTRODUCES","target":"Total-Derivative Lagrangian Freedom","evidence_heading":"Freedom To Add A Total Derivative","evidence_summary":"Fixed endpoint variations make the endpoint-only action difference vanish, so adding a total derivative leaves the equations unchanged.","confidence":0.88}
+{"source":"Electrical-Mechanical Analogies","relation":"EXAMPLE_OF","target":"Variational Principle Formulation","evidence_heading":"Electrical-Mechanical Analogies","evidence_summary":"Goldstein models RL and LC circuits with Lagrangian and dissipation structures analogous to mechanical systems.","confidence":0.87}
+{"source":"Lagrangian Form Analogy","relation":"ENABLES","target":"Cross-Domain Solution Transfer","evidence_heading":"Broader Use","evidence_summary":"When two systems share a Lagrangian form, solution techniques and structural insights can be transferred between them.","confidence":0.87}
+-->

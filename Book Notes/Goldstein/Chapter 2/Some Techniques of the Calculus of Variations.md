@@ -105,3 +105,11 @@ $$
 
 - [Calculus of Variations](../../../Mathematics/Calculus%20of%20Variations.md)
 - [Euler-Lagrange Equations](../../../Mechanics/Euler-Lagrange%20Equations.md)
+
+<!-- semantic-edges
+{"source":"Goldstein Section 2.2","relation":"INTRODUCES","target":"Calculus of Variations","evidence_heading":"Variational Problem","evidence_summary":"Introduces functionals and fixed-endpoint variations as the machinery for stationary path problems.","confidence":0.91}
+{"source":"Fixed-Endpoint Variations","relation":"ELIMINATES","target":"Boundary Terms","evidence_heading":"Euler-Lagrange Equation","evidence_summary":"The endpoint term from integration by parts vanishes because the variations are fixed to zero at the endpoints.","confidence":0.89}
+{"source":"Fundamental Lemma of Calculus of Variations","relation":"DERIVES","target":"Euler-Lagrange Equation","evidence_heading":"Euler-Lagrange Equation","evidence_summary":"Arbitrary interior variations force the Euler-Lagrange expression to vanish pointwise.","confidence":0.9}
+{"source":"Minimum Surface of Revolution","relation":"EXAMPLE_OF","target":"Stationary Path Not Minimum","evidence_heading":"Minimum Surface Of Revolution","evidence_summary":"Goldstein uses the surface-of-revolution example to show that a smooth stationary solution need not be the absolute minimum.","confidence":0.87}
+{"source":"Brachistochrone Problem","relation":"EXAMPLE_OF","target":"Calculus of Variations","evidence_heading":"Brachistochrone","evidence_summary":"The brachistochrone appears as a classic variational problem whose minimizing curve is a cycloid.","confidence":0.87}
+-->

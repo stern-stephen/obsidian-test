@@ -80,3 +80,11 @@ The extension still assumes that constraint forces do no virtual work in the all
 - [Constraints](../../../Mechanics/Constraints.md)
 - [Generalized Coordinates](../../../Mechanics/Generalized%20Coordinates.md)
 - [Virtual Work and D'Alembert's Principle](../../../Mechanics/Virtual%20Work%20and%20DAlemberts%20Principle.md)
+
+<!-- semantic-edges
+{"source":"Goldstein Section 2.4","relation":"INTRODUCES","target":"Lagrange Multipliers for Constraints","evidence_heading":"Why Multipliers Are Needed","evidence_summary":"Uses multipliers so dependent coordinates can be varied independently while constraints are enforced as extra equations.","confidence":0.91}
+{"source":"Lagrange Multipliers","relation":"ENABLES","target":"Constraint Force Recovery","evidence_heading":"Why Keep Redundant Coordinates","evidence_summary":"Retaining constraints explicitly lets multiplier equations supply constraint forces that reduced-coordinate equations hide.","confidence":0.9}
+{"source":"Augmented Action","relation":"ASSUMES","target":"Holonomic Constraints","evidence_heading":"Why Multipliers Are Needed","evidence_summary":"For holonomic constraints, Goldstein varies the action augmented by multiplier times constraint functions.","confidence":0.88}
+{"source":"Semiholonomic Velocity Constraints","relation":"SPECIALIZES","target":"Nonholonomic Constraints","evidence_heading":"Velocity Constraints","evidence_summary":"Goldstein's multiplier prescription applies to a restricted semiholonomic class of velocity constraints rather than arbitrary nonholonomic mechanics.","confidence":0.88}
+{"source":"Workless Constraint Requirement","relation":"ASSUMES","target":"Multiplier Constraint Forces","evidence_heading":"Workless Constraint Requirement","evidence_summary":"The extension still assumes constraint forces do no virtual work in the allowed variations.","confidence":0.88}
+-->

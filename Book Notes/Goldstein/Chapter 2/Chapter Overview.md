@@ -64,3 +64,11 @@ Next: [Hamilton's Principle](Hamilton%27s%20Principle.md)
 - Exactly which nonholonomic constraints admit a multiplier-based variational treatment?
 - When does a conserved canonical momentum differ physically from mechanical momentum?
 - How does the energy function change under time-dependent coordinates?
+
+<!-- semantic-edges
+{"source":"Goldstein Chapter 2","relation":"INTRODUCES","target":"Hamilton's Principle","evidence_heading":"Big Ideas","evidence_summary":"Presents Hamilton's principle as a fixed-endpoint stationary-action statement about complete trajectories in configuration space.","confidence":0.92}
+{"source":"Goldstein Chapter 2","relation":"INTRODUCES","target":"Calculus of Variations","evidence_heading":"Big Ideas","evidence_summary":"Develops the variational machinery needed to distinguish stationary paths and derive local equations from an action.","confidence":0.9}
+{"source":"Goldstein Chapter 2","relation":"INTRODUCES","target":"Lagrange Multipliers for Constraints","evidence_heading":"Big Ideas","evidence_summary":"Uses multipliers to keep constraints explicit and recover generalized constraint forces.","confidence":0.9}
+{"source":"Goldstein Chapter 2","relation":"MOTIVATES","target":"Symmetry Conservation Laws","evidence_heading":"Big Ideas","evidence_summary":"Reads cyclic coordinates and continuous invariances as sources of conserved conjugate momenta.","confidence":0.9}
+{"source":"Goldstein Chapter 2","relation":"INTRODUCES","target":"Energy Function","evidence_heading":"Big Ideas","evidence_summary":"Derives the conserved energy function and distinguishes its conservation from equality with total energy.","confidence":0.91}
+-->

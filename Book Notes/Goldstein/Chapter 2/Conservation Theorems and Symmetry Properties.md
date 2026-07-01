@@ -93,3 +93,12 @@ Goldstein presents these as the symmetry content of cyclic coordinates and point
 - [Canonical Momentum](../../../Mechanics/Canonical%20Momentum.md)
 - [Symmetries](../../../Mechanics/Symmetries.md)
 - [Conservation Laws](../../../Mechanics/Conservation%20Laws.md)
+
+<!-- semantic-edges
+{"source":"Goldstein Section 2.6","relation":"INTRODUCES","target":"First Integrals","evidence_heading":"First Integrals","evidence_summary":"Presents first integrals as conserved quantities that reveal motion without a complete solution.","confidence":0.88}
+{"source":"Cyclic Coordinates","relation":"DETERMINES","target":"Conserved Canonical Momentum","evidence_heading":"Cyclic Coordinates","evidence_summary":"If an independent coordinate is absent from the Lagrangian, its conjugate momentum is conserved.","confidence":0.9}
+{"source":"Velocity-Dependent Potentials","relation":"CONTRASTS_WITH","target":"Mechanical Momentum Conservation","evidence_heading":"Generalized Momentum","evidence_summary":"With velocity-dependent potentials, a conserved Cartesian canonical momentum can differ from mechanical momentum.","confidence":0.88}
+{"source":"Translation Invariance","relation":"DETERMINES","target":"Linear Momentum Conservation","evidence_heading":"Translation Symmetry","evidence_summary":"Translation invariance makes the associated coordinate cyclic and conserves the corresponding linear momentum component.","confidence":0.9}
+{"source":"Rotation Invariance","relation":"DETERMINES","target":"Angular Momentum Conservation","evidence_heading":"Rotation Symmetry","evidence_summary":"Rotational invariance makes the associated coordinate cyclic and conserves the corresponding angular-momentum component.","confidence":0.9}
+{"source":"Cyclic Coordinate Symmetry Reading","relation":"MOTIVATES","target":"Noether Theorem","evidence_heading":"Symmetry Reading Rule","evidence_summary":"Goldstein presents cyclic-coordinate conservation as the symmetry content that points toward Noether's theorem.","confidence":0.88}
+-->

@@ -62,3 +62,12 @@ For holonomic systems, Hamilton's principle is equivalent to Lagrange's equation
 - [Action Principle](../../../Mechanics/Action%20Principle.md)
 - [Lagrangian Mechanics](../../../Mechanics/Lagrangian%20Mechanics.md)
 - [Generalized Coordinates](../../../Mechanics/Generalized%20Coordinates.md)
+
+<!-- semantic-edges
+{"source":"Goldstein Section 2.1","relation":"INTRODUCES","target":"Hamilton's Principle","evidence_heading":"Action And Stationarity","evidence_summary":"States Hamilton's principle as stationarity of the action under fixed-endpoint path variations.","confidence":0.92}
+{"source":"Hamilton's Principle","relation":"CONTRASTS_WITH","target":"D'Alembert's Principle","evidence_heading":"Differential And Integral Principles","evidence_summary":"Contrasts an instantaneous virtual-displacement principle with an integral principle comparing complete motions.","confidence":0.9}
+{"source":"Configuration Space Curve","relation":"REPRESENTS","target":"System History","evidence_heading":"Differential And Integral Principles","evidence_summary":"A system history is represented by a curve in configuration space rather than the spatial path of one particle.","confidence":0.88}
+{"source":"Fixed-Endpoint Variations","relation":"ASSUMES","target":"Hamilton's Principle","evidence_heading":"Action And Stationarity","evidence_summary":"Comparison paths share endpoint configurations and endpoint times while varying freely in the interior.","confidence":0.89}
+{"source":"Stationary Action","relation":"CONTRASTS_WITH","target":"Minimum Action","evidence_heading":"Meaning Of Stationary","evidence_summary":"Goldstein stresses that vanishing first variation may indicate a minimum, maximum, or other stationary path.","confidence":0.89}
+{"source":"Action Scalar","relation":"ENABLES","target":"Coordinate-Invariant Lagrange Equations","evidence_heading":"Scope And Significance","evidence_summary":"Because the action is a scalar independent of generalized coordinates, the Lagrangian form is preserved under coordinate changes.","confidence":0.88}
+-->
