@@ -26,11 +26,26 @@ The inertial force is not an extra external interaction. It is a bookkeeping mov
 
 In non-inertial reference frames, inertial forces such as centrifugal and Coriolis forces can have measurable effects. Calling them "fictitious" can be misleading if it suggests that their effects are not physically detectable.
 
+## Felt Forces And Constraint Forces
+
+The phrase "what you feel" can mean two different things. A body directly feels contact stresses from neighboring matter, such as a chair back, floor, seat belt, or wall. Those are ordinary constraint or reaction forces.
+
+D'Alembert's principle uses a different bookkeeping question. It combines the applied force and the inertial force in the virtual-work balance:
+
+$$
+\sum_i\left(\mathbf{F}_i^{appl}+\mathbf{I}_i\right)\cdot\delta\mathbf{r}_i=0
+$$
+
+after ideal constraint forces have dropped out because their virtual work vanishes for allowed virtual displacements. The constraint force may still be physically present and may be exactly what produces the pressure sensation on the body. Its absence from the final D'Alembert equation means it has been eliminated from the allowed-motion calculation, not that it is unfelt or nonexistent.
+
+For example, in an accelerating or rotating cabin, the chair pushing on a person is a real contact force. Locally, however, the same pressure pattern may be interpreted as coming from an applied field plus an inertial force, or from a different split between frame acceleration and external influence. The measurable effect is the combined dynamical balance together with the contact forces that enforce the constraint.
+
 ## Common Confusions
 
 - Inertial forces are frame-dependent, but that does not make their observed effects unreal.
 - D'Alembert's inertial force is the negative of $m\mathbf{a}$, not the net applied force.
 - The virtual-work condition is a summed scalar condition, not simply a separate Newtonian vector equation for each particle.
+- Eliminating ideal constraint forces from D'Alembert's principle does not mean the body cannot feel the chair, wall, or floor. Those contact forces can be the immediate source of bodily pressure.
 
 ## Related Concepts
 

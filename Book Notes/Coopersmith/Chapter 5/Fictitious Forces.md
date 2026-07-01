@@ -34,6 +34,8 @@ Examples include centrifugal and Coriolis effects in rotating frames. Coopersmit
 
 Coopersmith uses closed-room and rocket-style examples to emphasize that local observations may not distinguish an applied gravitational field from an accelerated frame. The system responds to the combined dynamical balance, not to a labeled separation into "real" and "fictitious" parts.
 
+On printed page 98, when Coopersmith says that an observer inside the room feels only the combined $\mathbf{F}^{appl}+\mathbf{I}$, this should not be read as denying ordinary contact forces. The chair, floor, wall, or straps can still push on the observer. Those are constraint or reaction forces, and they may be the immediate bodily sensation. The point is that local observations inside the closed system do not by themselves determine how to split the dynamical situation into externally applied influence versus acceleration of the frame.
+
 ## Newton's Bucket And Locality
 
 The discussion of Newton's bucket contrasts absolute-space interpretations with more relational or local interpretations. Coopersmith favors the variational-mechanics attitude: explain observed effects through the local system and its interactions, not through an appeal to an absolute background extending to infinity.
