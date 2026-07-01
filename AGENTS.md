@@ -91,6 +91,9 @@ This vault has a Kuzu-based graph prototype. The build script parses ordinary Ma
 - Keep `Graph/kuzu-db` ignored because it is rebuildable from Markdown.
 - Each semantic edge should include `source`, `relation`, `target`, `evidence_heading`, `evidence_summary`, and `confidence`; the build script adds `evidence_path` from the containing Markdown file.
 - Prefer placing edge blocks near the bottom of the relevant source or concept note so the relationship is close to its evidence.
+- Before finishing any note edit, check whether the edit added, removed, renamed, or materially clarified a durable conceptual relationship. If so, update the relevant `semantic-edges` block in the same pass.
+- After updating semantic edges, run `python scripts\kuzu_build.py`, run `python scripts\kuzu_export_viewer.py`, and spot-check the affected concept with `python scripts\kuzu_query.py "Concept Name"` unless the user explicitly asks for a prose-only or no-validation change.
+- In the final response for note edits, state whether semantic edges were updated or explicitly say that no semantic-edge change was needed.
 
 ## Git Workflow
 
