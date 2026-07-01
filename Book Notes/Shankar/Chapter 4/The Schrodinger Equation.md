@@ -58,3 +58,11 @@ The overall phase does not change measurement probabilities for that single ener
 - [Quantum State Vector](../../../Quantum%20Mechanics/Quantum%20State%20Vector.md)
 - [Hamiltonian Mechanics](../../../Mechanics/Hamiltonian%20Mechanics.md)
 - [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 4.3","relation":"INTRODUCES","target":"Schrodinger Equation","evidence_heading":"Notes","evidence_summary":"Introduces Postulate IV as the time development law for the quantum state vector.","confidence":0.92}
+{"source":"Hamiltonian Operator","relation":"DETERMINES","target":"Quantum Time Evolution","evidence_heading":"Notes","evidence_summary":"The Hamiltonian acts as the generator in the abstract Schrodinger equation.","confidence":0.91}
+{"source":"Position Basis","relation":"REPRESENTS","target":"Schrodinger Wave Equation","evidence_heading":"Notes","evidence_summary":"Converts the abstract state-vector equation into the familiar one-dimensional position-basis wave equation.","confidence":0.9}
+{"source":"Hermitian Hamiltonian","relation":"ENABLES","target":"Normalization Preservation","evidence_heading":"Notes","evidence_summary":"Notes that Hermiticity of the Hamiltonian preserves normalization during time evolution.","confidence":0.89}
+{"source":"Energy Eigenstates","relation":"DETERMINES","target":"Stationary State Phase Evolution","evidence_heading":"Stationary States","evidence_summary":"For a time-independent Hamiltonian, energy eigenstates evolve by phase factors while relative phases affect superpositions.","confidence":0.89}
+-->

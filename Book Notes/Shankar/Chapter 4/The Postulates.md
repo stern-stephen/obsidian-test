@@ -48,3 +48,11 @@ $$
 - [Quantum Measurement](../../../Quantum%20Mechanics/Quantum%20Measurement.md)
 - [Schrodinger Equation](../../../Quantum%20Mechanics/Schrodinger%20Equation.md)
 - [Hermitian Matrices and Operators](../../../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 4.1","relation":"INTRODUCES","target":"One-Dimensional Quantum Postulates","evidence_heading":"Notes","evidence_summary":"States the postulates for one particle in one spatial dimension and compares them to Hamiltonian mechanics.","confidence":0.92}
+{"source":"Quantum State Vector","relation":"CONTRASTS_WITH","target":"Classical Phase-Space Point","evidence_heading":"Notes","evidence_summary":"Compares the quantum state vector in Hilbert space with the classical state as a phase-space point.","confidence":0.9}
+{"source":"Shankar Section 4.1","relation":"INTRODUCES","target":"Hermitian-Operator Observables","evidence_heading":"Notes","evidence_summary":"States that quantum observables are represented by Hermitian operators built from X and P.","confidence":0.9}
+{"source":"Measurement Eigenvalue Postulate","relation":"DETERMINES","target":"Measurement Outcomes","evidence_heading":"Notes","evidence_summary":"Measurement of an observable yields one of its eigenvalues with probabilities determined by projection onto eigenvectors.","confidence":0.91}
+{"source":"Shankar Section 4.1","relation":"INTRODUCES","target":"Schrodinger Time-Evolution Postulate","evidence_heading":"Notes","evidence_summary":"Gives the abstract time-evolution postulate for the state vector under the Hamiltonian.","confidence":0.9}
+-->

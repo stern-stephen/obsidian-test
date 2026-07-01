@@ -45,3 +45,10 @@ Next: [The Postulates](The%20Postulates.md)
 
 - Add more worked examples from the fictitious finite-dimensional Hilbert spaces after doing the exercises.
 - Revisit operator ordering once later chapters give more examples beyond $X$ and $P$.
+
+<!-- semantic-edges
+{"source":"Shankar Chapter 4","relation":"INTRODUCES","target":"Postulates of Quantum Mechanics","evidence_heading":"Big Ideas","evidence_summary":"States the postulates of nonrelativistic quantum mechanics for one particle in one dimension.","confidence":0.93}
+{"source":"Shankar Chapter 4","relation":"CONTRASTS_WITH","target":"Classical Phase Space","evidence_heading":"Big Ideas","evidence_summary":"Contrasts the quantum state as a Hilbert-space vector with the classical state as a point in phase space.","confidence":0.9}
+{"source":"Shankar Chapter 4","relation":"INTRODUCES","target":"Quantum Measurement","evidence_heading":"Big Ideas","evidence_summary":"Frames measurement outcomes as eigenvalues with probabilistic state change.","confidence":0.91}
+{"source":"Shankar Chapter 4","relation":"INTRODUCES","target":"Schrodinger Equation","evidence_heading":"Big Ideas","evidence_summary":"Presents time evolution as governed by the Schrodinger equation with a Hamiltonian operator.","confidence":0.91}
+-->

@@ -42,3 +42,12 @@ Shankar then connects compatible observables with shared eigenvectors and commut
 - [Postulates of Quantum Mechanics](../../../Quantum%20Mechanics/Postulates%20of%20Quantum%20Mechanics.md)
 - [Commutators](../../../Linear%20Algebra/Commutators.md)
 - [Projection Matrices](../../../Linear%20Algebra/Projection%20Matrices.md)
+
+<!-- semantic-edges
+{"source":"Shankar Section 4.2","relation":"REFORMULATES","target":"Quantum State Vector","evidence_heading":"Notes","evidence_summary":"Shows that the wavefunction is one representation of a state vector rather than a separate kind of state.","confidence":0.91}
+{"source":"Measurement","relation":"ENABLES","target":"State Preparation","evidence_heading":"Measurement And Collapse","evidence_summary":"Stresses that a measurement leaves the system in the corresponding eigenstate or eigenspace, so immediate repetition gives the same result.","confidence":0.9}
+{"source":"Measurement Collapse","relation":"CONTRASTS_WITH","target":"Schrodinger Evolution","evidence_heading":"Measurement And Collapse","evidence_summary":"Contrasts outcome-dependent collapse with smooth deterministic Schrodinger evolution.","confidence":0.89}
+{"source":"Position Localization","relation":"DETERMINES","target":"Momentum Spread","evidence_heading":"Measurement And Collapse","evidence_summary":"Explains that sharp localization of position produces a broad momentum spread, summarized for approximate states by the uncertainty relation.","confidence":0.88}
+{"source":"Commuting Operators","relation":"ENABLES","target":"Compatible Observables","evidence_heading":"Measurement And Collapse","evidence_summary":"Connects compatible observables with shared eigenvectors and commuting operators.","confidence":0.9}
+{"source":"Expectation Values","relation":"REPRESENTS","target":"Ensemble Averages","evidence_heading":"Measurement And Collapse","evidence_summary":"Clarifies that expectation values are ensemble averages over identically prepared systems, not pre-existing hidden values for individuals.","confidence":0.88}
+-->
