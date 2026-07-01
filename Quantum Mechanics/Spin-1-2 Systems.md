@@ -60,3 +60,11 @@ This is why Townsend begins quantum mechanics with [Stern-Gerlach experiments](S
 - [Bra-Ket Notation](../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Bloch Sphere](../Quantum%20Computing/Bloch%20Sphere.md)
 - [Townsend Chapter 1](../Book%20Notes/Townsend/Chapter%201/Stern-Gerlach%20Experiments.md)
+
+<!-- semantic-edges
+{"source":"Spin-1/2 Systems","relation":"SPECIALIZES","target":"Quantum State Vector","evidence_heading":"Basis States","evidence_summary":"The note writes a spin-1/2 state as a two-component superposition in the spin basis.","confidence":0.9}
+{"source":"Spin-1/2 Systems","relation":"INTRODUCES","target":"Basis States","evidence_heading":"Basis States","evidence_summary":"The note identifies |+z> and |-z> as a basis for the two-dimensional spin state space and notes other measurement-direction bases.","confidence":0.85}
+{"source":"Quantum Superposition","relation":"REPRESENTS","target":"Spin-1/2 States","evidence_heading":"Basis States","evidence_summary":"The note writes a general spin state as a linear combination of spin-up and spin-down basis states.","confidence":0.85}
+{"source":"Spin-1/2 Systems","relation":"INTRODUCES","target":"Incompatible Observables","evidence_heading":"Intuition","evidence_summary":"The note lists incompatible measurements as an essential quantum feature already present in spin-1/2 systems.","confidence":0.85}
+{"source":"Stern-Gerlach Experiments","relation":"MOTIVATES","target":"Spin-1/2 Systems","evidence_heading":"Intuition","evidence_summary":"The note says Townsend begins quantum mechanics with Stern-Gerlach experiments because spin-1/2 exposes essential quantum features.","confidence":0.85}
+-->

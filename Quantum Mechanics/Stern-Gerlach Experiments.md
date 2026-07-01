@@ -44,3 +44,11 @@ A measurement along one axis can change what will happen in a later measurement 
 - [Bra-Ket Notation](../Linear%20Algebra/Bra-Ket%20Notation.md)
 - [Hermitian Matrices and Operators](../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
 - [Townsend Chapter 1](../Book%20Notes/Townsend/Chapter%201/Stern-Gerlach%20Experiments.md)
+
+<!-- semantic-edges
+{"source":"Stern-Gerlach Experiments","relation":"EXAMPLE_OF","target":"Quantum Measurement","evidence_heading":"Overview","evidence_summary":"The note describes Stern-Gerlach experiments as separating particles into discrete channels according to an angular-momentum component.","confidence":0.9}
+{"source":"Stern-Gerlach Experiments","relation":"ENABLES","target":"State Preparation","evidence_heading":"Intuition","evidence_summary":"The note says selecting the |+z> output channel prepares outgoing particles in the |+z> state.","confidence":0.95}
+{"source":"Stern-Gerlach Experiments","relation":"EXAMPLE_OF","target":"Spin-1/2 Measurement","evidence_heading":"Overview","evidence_summary":"The note describes spin-1/2 Stern-Gerlach analyzers as having two output channels corresponding to |+z> and |-z>.","confidence":0.85}
+{"source":"Sequential Stern-Gerlach Experiments","relation":"INTRODUCES","target":"Incompatible Observables","evidence_heading":"Sequential Measurements","evidence_summary":"The note says measurements along different axes show that a definite result for one spin component does not imply a definite result for another.","confidence":0.9}
+{"source":"Quantum Measurement","relation":"DETERMINES","target":"Subsequent Measurement Outcomes","evidence_heading":"Sequential Measurements","evidence_summary":"The note says measurement along one axis can change what will happen in a later measurement along another axis.","confidence":0.85}
+-->

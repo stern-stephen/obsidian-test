@@ -53,3 +53,11 @@ $$
 - [Quantum State Vector](Quantum%20State%20Vector.md)
 - [Hamiltonian Mechanics](../Mechanics/Hamiltonian%20Mechanics.md)
 - [Hermitian Matrices and Operators](../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
+
+<!-- semantic-edges
+{"source":"Schrodinger Equation","relation":"DETERMINES","target":"Quantum Time Evolution","evidence_heading":"Overview","evidence_summary":"The note defines the Schrodinger equation as the quantum time-evolution law for a state vector.","confidence":0.95}
+{"source":"Schrodinger Equation","relation":"REQUIRES","target":"Hamiltonian Operator","evidence_heading":"Overview","evidence_summary":"The abstract ket form of the Schrodinger equation uses the Hamiltonian operator H to generate time evolution.","confidence":0.9}
+{"source":"Position-Basis Schrodinger Equation","relation":"SPECIALIZES","target":"Schrodinger Equation","evidence_heading":"Position-Basis Form","evidence_summary":"The note gives the one-dimensional position-space wavefunction form for a Hamiltonian with kinetic and potential energy terms.","confidence":0.9}
+{"source":"Hermitian Hamiltonian","relation":"ENABLES","target":"Probability Conservation","evidence_heading":"Intuition","evidence_summary":"The note says the Hamiltonian being Hermitian makes evolution preserve total probability.","confidence":0.9}
+{"source":"Energy Eigenstates","relation":"ENABLES","target":"Stationary Time Evolution","evidence_heading":"Intuition","evidence_summary":"The note says that for time-independent H, energy eigenstates acquire only a phase factor over time.","confidence":0.9}
+-->

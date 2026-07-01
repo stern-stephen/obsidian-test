@@ -130,3 +130,13 @@ POVMs are useful when the probabilities matter more than the post-measurement st
 - [Projection Operators](../Linear%20Algebra/Projection%20Matrices.md)
 - [Hermitian Operators](../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
 - [Density Operators](Density%20Operators.md)
+
+<!-- semantic-edges
+{"source":"Quantum Measurement","relation":"CONTRASTS_WITH","target":"Unitary Evolution","evidence_heading":"Overview","evidence_summary":"The note contrasts measurement, which is probabilistic and can change the state, with closed-system evolution.","confidence":0.9}
+{"source":"Measurement Operators","relation":"GENERALIZES","target":"Projective Measurements","evidence_heading":"Measurement Operators","evidence_summary":"General measurements use operators M_m with a completeness relation, while projective measurements use projection operators as a special case.","confidence":0.9}
+{"source":"Projective Measurements","relation":"REQUIRES","target":"Projection Operators","evidence_heading":"Projective Measurements","evidence_summary":"The note defines projective measurements using projection operators P_m that are orthogonal and sum to the identity.","confidence":0.95}
+{"source":"Hermitian Operators","relation":"DETERMINES","target":"Projective Measurement Outcomes","evidence_heading":"Projective Measurements","evidence_summary":"The note says projective measurements are tied to Hermitian operators whose eigenvalues are possible outcomes.","confidence":0.9}
+{"source":"State Collapse","relation":"DETERMINES","target":"Post-Measurement State","evidence_heading":"Collapse Of The State Vector","evidence_summary":"The note says observing an outcome replaces the state used for later predictions by the corresponding eigenstate or projected eigenspace.","confidence":0.95}
+{"source":"POVM","relation":"REFORMULATES","target":"Measurement Probabilities","evidence_heading":"POVMs","evidence_summary":"The note says a POVM keeps the positive elements E_m and expresses outcome probabilities without specifying the post-measurement state.","confidence":0.9}
+{"source":"Uncertainty Principle","relation":"CONTRASTS_WITH","target":"Simultaneous Sharp Measurement","evidence_heading":"Disturbance And Resolution","evidence_summary":"The note explains that reducing disturbance does not allow simultaneous sharp position and momentum because resolution obeys the uncertainty tradeoff.","confidence":0.85}
+-->

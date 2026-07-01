@@ -61,3 +61,12 @@ This is one reason density operators are not just a convenience for classical ig
 - [Density Operators](Density%20Operators.md)
 - [Quantum Mechanics](Quantum%20Mechanics.md)
 - [Quantum Computing](../Quantum%20Computing/Quantum%20Computing.md)
+
+<!-- semantic-edges
+{"source":"Entanglement","relation":"REQUIRES","target":"Composite Quantum Systems","evidence_heading":"Overview","evidence_summary":"The note defines entanglement as a feature of composite quantum systems whose states cannot factor into subsystem states.","confidence":0.95}
+{"source":"Entanglement","relation":"CONTRASTS_WITH","target":"Product States","evidence_heading":"Overview","evidence_summary":"The note says an entangled state cannot be written as a product of states for the individual subsystems.","confidence":0.95}
+{"source":"Bell State","relation":"EXAMPLE_OF","target":"Entanglement","evidence_heading":"Example","evidence_summary":"The note uses the state (|00> + |11>)/sqrt(2) as an example whose parts do not have independent pure states.","confidence":0.95}
+{"source":"Schmidt Decomposition","relation":"DETERMINES","target":"Entanglement","evidence_heading":"Schmidt Decomposition","evidence_summary":"The note says Schmidt number one gives a product state, while Schmidt number greater than one gives an entangled state.","confidence":0.95}
+{"source":"Entanglement","relation":"ENABLES","target":"Reduced Density Operators","evidence_heading":"Reduced States","evidence_summary":"The note says an entangled subsystem is described by a reduced density operator even when the full joint state is pure.","confidence":0.9}
+{"source":"Maximally Entangled Two-Qubit States","relation":"SPECIALIZES","target":"Entanglement","evidence_heading":"Schmidt Decomposition","evidence_summary":"The note identifies maximally entangled two-qubit states by equal Schmidt coefficients.","confidence":0.85}
+-->

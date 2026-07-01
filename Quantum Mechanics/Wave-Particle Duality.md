@@ -47,3 +47,11 @@ $$
 - [Quantum State Vector](Quantum%20State%20Vector.md)
 - [Quantum Measurement](Quantum%20Measurement.md)
 - [Postulates of Quantum Mechanics](Postulates%20of%20Quantum%20Mechanics.md)
+
+<!-- semantic-edges
+{"source":"Wave-Particle Duality","relation":"MOTIVATES","target":"Probability Amplitudes","evidence_heading":"Overview","evidence_summary":"The note frames wave-particle duality as localized detections together with probability amplitudes that can interfere.","confidence":0.9}
+{"source":"Double-Slit Experiment","relation":"EXAMPLE_OF","target":"Quantum Interference","evidence_heading":"Double-Slit Lesson","evidence_summary":"The note says amplitudes from both slits add before probabilities are computed, producing interference terms.","confidence":0.95}
+{"source":"Probability Amplitudes","relation":"DETERMINES","target":"Probability Distributions","evidence_heading":"Double-Slit Lesson","evidence_summary":"The note says probabilities come from squared magnitudes of summed amplitudes.","confidence":0.9}
+{"source":"Matter Waves","relation":"EXTENDS","target":"Wave-Particle Duality","evidence_heading":"Matter Waves","evidence_summary":"The note says matter can show interference and connects momentum with wavelength through de Broglie's relation.","confidence":0.85}
+{"source":"De Broglie Relation","relation":"DETERMINES","target":"Matter Wavelength","evidence_heading":"Matter Waves","evidence_summary":"The note gives p = h/lambda and p = hbar k as relations between momentum and wavelength.","confidence":0.9}
+-->

@@ -51,3 +51,10 @@ This is why composite quantum systems are not just a bookkeeping device. The ten
 - [Entanglement](Entanglement.md)
 - [Density Operators](Density%20Operators.md)
 - [Quantum Computing](../Quantum%20Computing/Quantum%20Computing.md)
+
+<!-- semantic-edges
+{"source":"Composite Quantum Systems","relation":"REQUIRES","target":"Tensor Products","evidence_heading":"Overview","evidence_summary":"The note says the state space of a composite quantum system is the tensor product of the state spaces of its parts.","confidence":0.95}
+{"source":"Product States","relation":"EXAMPLE_OF","target":"Composite Quantum States","evidence_heading":"Overview","evidence_summary":"The note gives a product state as the state where system A is in one state and system B is in another.","confidence":0.9}
+{"source":"Two-Qubit Systems","relation":"EXAMPLE_OF","target":"Composite Quantum Systems","evidence_heading":"Two Qubits","evidence_summary":"The note describes two qubits as a four-dimensional tensor-product state space with computational basis states.","confidence":0.95}
+{"source":"Composite Quantum Systems","relation":"ENABLES","target":"Entanglement","evidence_heading":"Entanglement","evidence_summary":"The note says composite systems allow entangled states that cannot be written as products of subsystem states.","confidence":0.95}
+-->

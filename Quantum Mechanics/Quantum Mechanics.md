@@ -62,3 +62,11 @@ This page is the hub for quantum mechanics concepts that recur across the textbo
 - [Hermitian Matrices and Operators](../Linear%20Algebra/Hermitian%20Matrices%20and%20Operators.md)
 - [Mechanics](../Mechanics/Mechanics.md)
 - [Quantum Computing](../Quantum%20Computing/Quantum%20Computing.md)
+
+<!-- semantic-edges
+{"source":"Quantum Mechanics","relation":"REQUIRES","target":"Complex Vector Spaces","evidence_heading":"Overview","evidence_summary":"The hub describes quantum mechanics as using states, measurements, and transformations on complex vector spaces.","confidence":0.9}
+{"source":"Quantum State Vector","relation":"REPRESENTS","target":"Quantum States","evidence_heading":"Core Ideas","evidence_summary":"The hub says quantum states are represented using bra-ket notation and live in complex vector spaces.","confidence":0.9}
+{"source":"Unitary Operators","relation":"REPRESENTS","target":"Reversible Quantum Evolution","evidence_heading":"Core Ideas","evidence_summary":"The hub says reversible evolution is represented by unitary operators.","confidence":0.9}
+{"source":"Hermitian Operators","relation":"REPRESENTS","target":"Measurable Quantities","evidence_heading":"Core Ideas","evidence_summary":"The hub says measurable quantities are represented by Hermitian operators.","confidence":0.9}
+{"source":"Tensor Products","relation":"ENABLES","target":"Entanglement","evidence_heading":"Core Ideas","evidence_summary":"The hub says composite systems use tensor products, which make entanglement possible.","confidence":0.9}
+-->

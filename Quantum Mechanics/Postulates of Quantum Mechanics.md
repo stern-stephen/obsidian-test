@@ -88,3 +88,11 @@ Tensor products make entangled states possible.
 - [Inner Product Spaces](../Linear%20Algebra/Inner%20Product%20Spaces.md)
 - [Unitary Operators](../Linear%20Algebra/Unitary%20Matrices.md)
 - [Density Operators](Density%20Operators.md)
+
+<!-- semantic-edges
+{"source":"Postulates of Quantum Mechanics","relation":"REFORMULATES","target":"Linear Algebra","evidence_heading":"Overview","evidence_summary":"The note describes the postulates as the bridge between linear algebra and physical interpretation.","confidence":0.9}
+{"source":"Quantum State Vector","relation":"REQUIRES","target":"Complex Inner Product Spaces","evidence_heading":"State Spaces","evidence_summary":"The note says an isolated quantum system is associated with a complex vector space with an inner product and a pure state is a normalized unit vector.","confidence":0.95}
+{"source":"Unitary Operators","relation":"DETERMINES","target":"Closed-System Evolution","evidence_heading":"Evolution","evidence_summary":"The note states that closed-system evolution is represented by a unitary operator preserving inner products and total probability.","confidence":0.95}
+{"source":"Quantum Measurement","relation":"DETERMINES","target":"Probabilistic Outcomes","evidence_heading":"Measurement","evidence_summary":"The note says measurement is probabilistic and gives the measurement-operator probability formula for outcome m.","confidence":0.9}
+{"source":"Tensor Products","relation":"DETERMINES","target":"Composite Quantum Systems","evidence_heading":"Composite Systems","evidence_summary":"The note says the state space of a composite system is the tensor product of subsystem state spaces.","confidence":0.95}
+-->
