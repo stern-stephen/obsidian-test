@@ -84,7 +84,8 @@ The user does not currently have an API key to give Graphify. Use Graphify as a 
 
 This vault has a Kuzu-based graph prototype. The build script parses ordinary Markdown links into `LINKS_TO` note edges and hidden `semantic-edges` HTML comment blocks into curated typed concept edges.
 
-- Use `Graph/README.md` for the embedded edge format.
+- Use `Conventions/Semantic Edges.md` for the authored embedded edge format, evidence fields, relation vocabulary, and quality rules.
+- Use `Graph/README.md` for Kuzu build, query, and viewer workflow.
 - Use `python scripts\kuzu_build.py` to rebuild the local Kuzu database at `Graph/kuzu-db`.
 - Use `python scripts\kuzu_query.py "Concept Name"` to query a concept's semantic neighborhood.
 - Use `python scripts\kuzu_query.py "path/to/Note.md" --note` to query Markdown links for a note.
