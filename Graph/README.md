@@ -41,6 +41,16 @@ Optional but strongly recommended fields:
 
 The build script adds `evidence_path` automatically from the Markdown file that contains the block.
 
+### Evidence Fields
+
+Treat `evidence_heading` and `evidence_summary` as the citation for the edge.
+
+- `evidence_heading` should usually match a real heading in the same note, or the nearest useful section heading when the evidence is in a table, list, overview, exercise answer, or short note section.
+- Use headings such as `Overview`, `Big Ideas`, `D'Alembert's Principle`, `Exercise Answers`, or `2.2.3 Quantum Measurement` when they help a reader find the supporting text quickly.
+- Avoid vague locator labels such as `Evidence`, `Misc`, `Important`, `See above`, or labels that do not exist anywhere near the supporting text.
+- `evidence_summary` should explain why the source, relation, and target are connected. It should not merely restate the triple in sentence form.
+- Keep the summary short, original, and specific enough that the edge can be audited later without rereading the whole note.
+
 Use stable concept names that match durable note titles when possible. Relation names should be specific enough to query but not so specialized that every edge invents a new type.
 
 Avoid semantic edges that only say two notes are near each other, in the same folder, or linked in Markdown. A good semantic edge should answer "how are these ideas related?" in a way that can be defended from the evidence summary.
