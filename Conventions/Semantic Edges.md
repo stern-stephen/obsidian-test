@@ -1,14 +1,6 @@
 # Semantic Edges
 
-Semantic edges are authored, typed concept relationships embedded in Markdown notes. They are source data for the graph build, not the graph database itself.
-
-The Kuzu graph, viewer export, and query scripts are derived from this authored layer:
-
-```text
-Markdown notes + semantic-edge blocks
-        -> Kuzu graph database
-        -> viewer graph.json
-```
+Semantic edges are authored, typed concept relationships embedded in Markdown notes.
 
 ## Embedded Semantic Edge Format
 
@@ -35,8 +27,6 @@ Optional but strongly recommended fields:
 - `evidence_heading`: heading inside that note.
 - `evidence_summary`: short original-language reason for the relationship.
 - `confidence`: number from `0.0` to `1.0`.
-
-The graph build script adds `evidence_path` automatically from the Markdown file that contains the block.
 
 ## Evidence Fields
 
@@ -99,22 +89,11 @@ Pedagogy and source role:
 
 Use ordinary Markdown links for navigation and broad relatedness. Use semantic edges only for typed claims worth querying.
 
-## Update Workflow
+## Authoring Workflow
 
 1. Pick one domain, book cluster, or focused concept.
 2. Read the target note completely.
 3. Read directly linked notes that define, motivate, or receive the main ideas.
 4. Add or revise only edges supported by the note text.
-5. Rebuild Kuzu:
-
-```powershell
-python scripts\kuzu_build.py
-```
-
-6. Re-export the viewer:
-
-```powershell
-python scripts\kuzu_export_viewer.py
-```
-
-7. Spot-check focused queries for the edited concepts.
+5. Put the edge block near the bottom of the note, close enough to the relevant prose that the evidence fields remain easy to audit.
+6. If the note edit added, removed, renamed, or materially clarified a durable conceptual relationship, update the semantic-edge block in the same pass.

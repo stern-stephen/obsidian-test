@@ -21,6 +21,22 @@ The Kuzu graph contains two layers:
 
 Markdown links remain the human-readable navigation layer. Semantic edges remain the authored typed-claim layer. Kuzu is the compiled query layer.
 
+## How Markdown Becomes Kuzu
+
+`scripts\kuzu_build.py` compiles the Markdown source into `Graph/kuzu-db`.
+
+The conversion rules are:
+
+- Each Markdown file becomes a `Note` node.
+- Standard Markdown links become `LINKS_TO` note edges.
+- Each JSON line inside a hidden `semantic-edges` block becomes a typed concept relationship.
+- `source` and `target` become `Concept` nodes when needed.
+- `relation` becomes the `relation` property on the `SEMANTIC_EDGE`.
+- `evidence_heading`, `evidence_summary`, and `confidence` are copied onto the semantic edge.
+- `evidence_path` is added automatically from the Markdown file containing the edge block.
+
+The authored Markdown remains the durable source. `Graph/kuzu-db` and `Graph/viewer/graph.json` are rebuildable derived artifacts.
+
 ## Build
 
 Rebuild the local Kuzu database from Markdown:
