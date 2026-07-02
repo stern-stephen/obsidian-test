@@ -724,7 +724,7 @@
       })
       .catch(error => {
         detailsEl.className = "empty";
-        detailsEl.textContent = `${error.message}. Run: python scripts\\kuzu_export_viewer.py`;
+        detailsEl.textContent = `${error.message}. Run: python scripts\\kuzu_export.py --format viewer-json`;
       });
   </script>
 </body>

@@ -8,6 +8,7 @@ The durable source is ordinary Markdown plus authored hidden `semantic-edges` bl
 Markdown notes + semantic-edge blocks
         -> Graph/kuzu-db
         -> Graph/viewer/graph.json
+        -> Graph/exports/graph.graphml
 ```
 
 The local Kuzu database lives at `Graph/kuzu-db/` and is ignored by Git because it can be rebuilt from the Markdown files.
@@ -35,7 +36,7 @@ The conversion rules are:
 - `evidence_heading`, `evidence_summary`, and `confidence` are copied onto the semantic edge.
 - `evidence_path` is added automatically from the Markdown file containing the edge block.
 
-The authored Markdown remains the durable source. `Graph/kuzu-db` and `Graph/viewer/graph.json` are rebuildable derived artifacts.
+The authored Markdown remains the durable source. `Graph/kuzu-db`, `Graph/viewer/graph.json`, and `Graph/exports/graph.graphml` are rebuildable derived artifacts.
 
 ## Build
 
@@ -79,10 +80,16 @@ python scripts\kuzu_query.py "D'Alembert's Principle" --all
 
 ## Viewer
 
-Export the graph to the static viewer:
+Export the graph to the static viewer JSON format:
 
 ```powershell
-python scripts\kuzu_export_viewer.py
+python scripts\kuzu_export.py --format viewer-json
+```
+
+Export the graph to GraphML for external graph tools:
+
+```powershell
+python scripts\kuzu_export.py --format graphml
 ```
 
 Serve the vault root so the browser can load `graph.json`:
@@ -97,7 +104,7 @@ Then open:
 http://localhost:8765/Graph/viewer/
 ```
 
-The viewer is dependency-free and reads `Graph/viewer/graph.json`, which is ignored because it can be regenerated from Kuzu.
+The viewer is dependency-free and reads `Graph/viewer/graph.json`, which is ignored because it can be regenerated from Kuzu. The GraphML export is written to `Graph/exports/graph.graphml` by default and is also rebuildable from Kuzu.
 
 ## Setup
 
@@ -113,6 +120,7 @@ python -m pip install --user kuzu
 - Follow [Semantic Edges](../Conventions/Semantic%20Edges.md) for the edge format, evidence fields, relation vocabulary, and quality rules.
 - Rebuild `Graph/kuzu-db/` after editing semantic-edge blocks.
 - Re-export `Graph/viewer/graph.json` after rebuilding.
+- Export `Graph/exports/graph.graphml` when external graph tooling is useful.
 - Spot-check affected concepts with `scripts\kuzu_query.py`.
 
 See [Semantic Edge Audit](semantic-edge-audit.md) for domain progress tracking and quality-pass notes.
