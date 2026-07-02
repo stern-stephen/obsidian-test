@@ -17,5 +17,5 @@ This page is the hub for mathematical tools that recur across physics, quantum m
 <!-- semantic-edges
 {"source":"Calculus of Variations","relation":"EXAMPLE_OF","target":"Mathematical Tools","evidence_heading":"Core Ideas","evidence_summary":"The hub lists calculus of variations as a core mathematical tool recurring across physics, quantum mechanics, and computation notes.","confidence":0.85}
 {"source":"Legendre Transform","relation":"EXAMPLE_OF","target":"Mathematical Tools","evidence_heading":"Core Ideas","evidence_summary":"The hub lists Legendre transforms as a core mathematical tool recurring across physics, quantum mechanics, and computation notes.","confidence":0.85}
-{"source":"Symbol Conventions","relation":"EXAMPLE_OF","target":"Mathematical Tools","evidence_heading":"Core Ideas","evidence_summary":"The hub includes the Greek and Latin symbols note as a mathematical reference tool for reading physics and mathematics notation.","confidence":0.8}
+{"source":"Mathematics Hub","relation":"INTRODUCES","target":"Symbol Conventions","evidence_heading":"Core Ideas","evidence_summary":"The hub includes the Greek and Latin symbols note as a reference tool for reading physics and mathematics notation.","confidence":0.86}
 -->

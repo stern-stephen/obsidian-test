@@ -31,3 +31,7 @@ Begin with these durable notes:
 - [Poisson Brackets](../Mechanics/Poisson%20Brackets.md)
 
 Use linked Goldstein, Shankar, and Coopersmith notes as source-specific evidence rather than duplicating their prose into topic notes.
+
+## Quality Passes
+
+- 2026-07-02: Ran a graph-signal quality pass across Markdown semantic-edge blocks. Checked JSON validity, relation vocabulary, missing evidence fields, exact duplicate triples, low-confidence edges, concept-name variants, high-degree concept neighborhoods, and substantive book notes without edge blocks. Cleaned one durable duplicate (`Tensor Products`/`Composite Systems Postulate`), clarified generalized-coordinate constraint-force wording, normalized Coopersmith virtual-work source edges, and revalidated the graph and viewer.

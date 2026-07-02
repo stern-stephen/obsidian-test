@@ -57,6 +57,6 @@ Next: [Introduction to D'Alembert's Principle](Introduction%20to%20DAlemberts%20
 
 <!-- semantic-edges
 {"source":"Coopersmith Chapter 5","relation":"INTRODUCES","target":"D'Alembert's Principle","evidence_heading":"Big Ideas","evidence_summary":"Chapter 5 extends virtual work to dynamics through D'Alembert's principle.","confidence":0.95}
-{"source":"D'Alembert's Principle","relation":"EXTENDS","target":"Principle of Virtual Work","evidence_heading":"Logical Progression","evidence_summary":"The chapter extends virtual work from statics to dynamics by introducing inertial forces.","confidence":0.95}
+{"source":"Coopersmith Chapter 5","relation":"EXTENDS","target":"Virtual Work","evidence_heading":"Logical Progression","evidence_summary":"The chapter extends virtual work from statics to dynamics by introducing inertial forces.","confidence":0.95}
 {"source":"Coopersmith Chapter 5","relation":"INTRODUCES","target":"Inertial Forces","evidence_heading":"Big Ideas","evidence_summary":"The chapter introduces reversed mass-acceleration as inertial force.","confidence":0.95}
 -->

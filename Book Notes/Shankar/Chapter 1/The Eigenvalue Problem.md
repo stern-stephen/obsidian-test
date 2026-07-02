@@ -739,5 +739,5 @@ $$
 {"source":"Shankar Section 1.8","relation":"INTRODUCES","target":"Eigenvalues and Eigenvectors","evidence_heading":"Big Ideas","evidence_summary":"Introduces the eigenvalue problem as the search for directions on which an operator acts by scalar multiplication.","confidence":0.94}
 {"source":"Shankar Section 1.8","relation":"INTRODUCES","target":"Hermitian Operator Spectral Properties","evidence_heading":"Big Ideas","evidence_summary":"Presents real eigenvalues and orthogonal eigenspaces as the quantum-relevant spectral properties of Hermitian operators.","confidence":0.91}
 {"source":"Commuting Hermitian Operators","relation":"ENABLES","target":"Simultaneous Diagonalization","evidence_heading":"Notes","evidence_summary":"Connects shared eigenvectors of commuting Hermitian operators to compatible measurement outcomes.","confidence":0.9}
-{"source":"Normal Modes","relation":"EXAMPLE_OF","target":"Eigenvectors","evidence_heading":"Exercise Answers","evidence_summary":"Exercise applications use normal modes and principal axes as physical examples of eigenvectors.","confidence":0.84}
+{"source":"Normal Modes","relation":"EXAMPLE_OF","target":"Eigenvectors","evidence_heading":"Exercise Answers","evidence_summary":"Exercise applications use normal modes and principal axes as physical examples of eigenvectors.","confidence":0.86}
 -->

@@ -55,5 +55,5 @@ Generalized coordinates are also useful without constraints. Spherical coordinat
 
 <!-- semantic-edges
 {"source":"Generalized Coordinates","relation":"REPRESENTS","target":"Degrees of Freedom","evidence_heading":"Definition","evidence_summary":"The note defines generalized coordinates as the n variables q_1,...,q_n used to describe a system with n degrees of freedom.","confidence":0.95}
-{"source":"Generalized Coordinates","relation":"ELIMINATES","target":"Constraint Forces","evidence_heading":"Intuition","evidence_summary":"For constrained systems, choosing coordinates that describe only the actual degrees of freedom can remove constraint forces from the equations.","confidence":0.85}
+{"source":"Generalized Coordinates","relation":"ENABLES","target":"Constraint Force Elimination","evidence_heading":"Intuition","evidence_summary":"For constrained systems, choosing coordinates that describe only the actual degrees of freedom can remove ideal constraint-force terms from the reduced equations.","confidence":0.9}
 -->
