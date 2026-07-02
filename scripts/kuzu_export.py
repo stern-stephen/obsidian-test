@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from pathlib import Path
@@ -42,6 +43,24 @@ def default_output(export_format: str) -> Path:
     if export_format == "graphml":
         return DEFAULT_GRAPHML_OUTPUT
     raise ValueError(f"Unsupported export format: {export_format}")
+
+
+def output_extension(export_format: str) -> str:
+    if export_format == "viewer-json":
+        return ".json"
+    if export_format == "graphml":
+        return ".graphml"
+    raise ValueError(f"Unsupported export format: {export_format}")
+
+
+def slugify(value: str) -> str:
+    slug = re.sub(r"[^A-Za-z0-9]+", "-", value).strip("-").lower()
+    return slug or "focused-graph"
+
+
+def default_focused_output(export_format: str, concept: str, depth: int) -> Path:
+    filename = f"{slugify(concept)}-depth-{depth}{output_extension(export_format)}"
+    return ROOT / "Graph" / "exports" / filename
 
 
 def read_kuzu_graph(db_path: Path) -> ExportGraph:
@@ -110,6 +129,65 @@ def read_kuzu_graph(db_path: Path) -> ExportGraph:
         "relations": sorted({edge["relation"] for edge in edges}),
     }
     return ExportGraph(metadata=metadata, nodes=list(nodes.values()), edges=edges)
+
+
+def edge_layers(layer: str) -> set[str]:
+    if layer == "all":
+        return {"semantic", "links"}
+    return {layer}
+
+
+def summarize_graph(nodes: list[dict[str, Any]], edges: list[dict[str, Any]], extra: dict[str, Any] | None = None) -> dict[str, Any]:
+    metadata = {
+        "node_count": len(nodes),
+        "edge_count": len(edges),
+        "semantic_edge_count": sum(1 for edge in edges if edge["layer"] == "semantic"),
+        "markdown_link_count": sum(1 for edge in edges if edge["layer"] == "links"),
+        "relations": sorted({edge["relation"] for edge in edges}),
+    }
+    if extra:
+        metadata.update(extra)
+    return metadata
+
+
+def filter_neighborhood(graph: ExportGraph, concept: str, depth: int, layer: str) -> ExportGraph:
+    if depth < 0:
+        raise SystemExit("--depth must be zero or greater.")
+
+    start_id = f"concept:{concept}"
+    nodes_by_id = {node["id"]: node for node in graph.nodes}
+    if start_id not in nodes_by_id:
+        raise SystemExit(f"Concept not found: {concept!r}. Run scripts/kuzu_query.py --list to inspect available concepts.")
+
+    layers = edge_layers(layer)
+    candidate_edges = [edge for edge in graph.edges if edge["layer"] in layers]
+    adjacency: dict[str, set[str]] = {}
+    for edge in candidate_edges:
+        adjacency.setdefault(edge["source"], set()).add(edge["target"])
+        adjacency.setdefault(edge["target"], set()).add(edge["source"])
+
+    visited = {start_id}
+    frontier = {start_id}
+    for _ in range(depth):
+        next_frontier: set[str] = set()
+        for node_id in frontier:
+            next_frontier.update(adjacency.get(node_id, set()) - visited)
+        visited.update(next_frontier)
+        frontier = next_frontier
+
+    filtered_edges = [edge for edge in candidate_edges if edge["source"] in visited and edge["target"] in visited]
+    filtered_nodes = [node for node in graph.nodes if node["id"] in visited]
+    metadata = summarize_graph(
+        filtered_nodes,
+        filtered_edges,
+        {
+            "filtered": True,
+            "center_concept": concept,
+            "depth": depth,
+            "layer_filter": layer,
+        },
+    )
+    return ExportGraph(metadata=metadata, nodes=filtered_nodes, edges=filtered_edges)
 
 
 def write_viewer_json(graph: ExportGraph, output: Path) -> None:
@@ -193,10 +271,18 @@ def main() -> None:
     parser.add_argument("--db", type=Path, default=DEFAULT_DB)
     parser.add_argument("--format", choices=["viewer-json", "graphml"], default="viewer-json")
     parser.add_argument("--output", type=Path, help="Output path. Defaults depend on --format.")
+    parser.add_argument("--concept", help="Export only a focused neighborhood around this concept.")
+    parser.add_argument("--depth", type=int, default=1, help="Neighborhood depth when --concept is set.")
+    parser.add_argument("--layer", choices=["semantic", "links", "all"], default="semantic", help="Edge layer to traverse when --concept is set.")
     args = parser.parse_args()
 
-    output = args.output or default_output(args.format)
     graph = read_kuzu_graph(args.db)
+    if args.concept:
+        graph = filter_neighborhood(graph, args.concept, args.depth, args.layer)
+        output = args.output or default_focused_output(args.format, args.concept, args.depth)
+    else:
+        output = args.output or default_output(args.format)
+
     if args.format == "viewer-json":
         write_viewer_json(graph, output)
     elif args.format == "graphml":

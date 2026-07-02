@@ -92,6 +92,14 @@ Export the graph to GraphML for external graph tools:
 python scripts\kuzu_export.py --format graphml
 ```
 
+Export a focused concept neighborhood for a smaller mind-map style graph:
+
+```powershell
+python scripts\kuzu_export.py --format graphml --concept "D'Alembert's Principle" --depth 2
+```
+
+Focused exports default to `Graph/exports/<concept>-depth-<n>.graphml` for GraphML and `Graph/exports/<concept>-depth-<n>.json` for viewer JSON, so they do not overwrite the full viewer export. Use `--layer semantic`, `--layer links`, or `--layer all` to choose which edge layer the neighborhood traversal follows.
+
 Serve the vault root so the browser can load `graph.json`:
 
 ```powershell

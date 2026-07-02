@@ -19,4 +19,5 @@ graphify-out/
 Graph/kuzu-db
 Graph/kuzu-db/
 Graph/viewer/graph.json
-Graph/exports/graph.graphml
+Graph/exports/*.graphml
+Graph/exports/*.json
