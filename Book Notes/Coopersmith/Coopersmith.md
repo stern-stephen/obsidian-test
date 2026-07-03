@@ -32,6 +32,14 @@ Use this page to track chapter notes, questions, and concept pages created while
   - [Fictitious Forces](Chapter%205/Fictitious%20Forces.md)
   - [D'Alembert's Principle and Energy](Chapter%205/DAlemberts%20Principle%20and%20Energy.md)
   - [Review](Chapter%205/Review.md)
+- Chapter 6
+  - [Chapter 6 Overview](Chapter%206/Chapter%20Overview.md)
+  - [Introduction and Hamilton's Principle](Chapter%206/Introduction%20and%20Hamiltons%20Principle.md)
+  - [Lagrange's Equations of Motion](Chapter%206/Lagranges%20Equations%20of%20Motion.md)
+  - [Physical Meaning and Assumptions](Chapter%206/Physical%20Meaning%20and%20Assumptions.md)
+  - [The Forms of T V and L](Chapter%206/The%20Forms%20of%20T%20V%20and%20L.md)
+  - [Noether Energy and External Conditions](Chapter%206/Noether%20Energy%20and%20External%20Conditions.md)
+  - [Symmetries and Conclusions](Chapter%206/Symmetries%20and%20Conclusions.md)
 
 ## Core Concept Areas
 
@@ -54,6 +62,8 @@ Use this page to track chapter notes, questions, and concept pages created while
 - [Configuration Space](../../Mechanics/Configuration%20Space.md)
 - [Inertial Forces](../../Mechanics/Inertial%20Forces.md)
 - [Lagrangian Mechanics](../../Mechanics/Lagrangian%20Mechanics.md)
+- [Action Principle](../../Mechanics/Action%20Principle.md)
+- [Energy Function](../../Mechanics/Energy%20Function.md)
 
 ## Related Notes
 
@@ -66,4 +76,5 @@ Use this page to track chapter notes, questions, and concept pages created while
 {"source":"Coopersmith","relation":"INTRODUCES","target":"Virtual Work and D'Alembert's Principle","evidence_heading":"Reading Questions","evidence_summary":"The hub foregrounds why virtual work eliminates reaction forces and how D'Alembert's inertial force converts dynamics into virtual-work balance.","confidence":0.9}
 {"source":"Coopersmith","relation":"INTRODUCES","target":"Generalized Coordinates","evidence_heading":"Reading Questions","evidence_summary":"The hub asks what makes a generalized coordinate useful for constrained systems.","confidence":0.86}
 {"source":"Coopersmith","relation":"INTRODUCES","target":"Configuration Space","evidence_heading":"Concepts To Extract","evidence_summary":"The hub lists configuration space as a concept to extract from the Coopersmith chapters.","confidence":0.86}
+{"source":"Coopersmith","relation":"INTRODUCES","target":"Lagrangian Mechanics","evidence_heading":"Chapter Notes","evidence_summary":"The hub links Chapter 6 notes covering Hamilton's principle, Lagrange's equations, and the form of the Lagrangian.","confidence":0.9}
 -->
