@@ -15,6 +15,7 @@ This page is the hub for classical mechanics concepts that recur across the text
 - [Constraints](Constraints.md)
 - [Virtual Work and D'Alembert's Principle](Virtual%20Work%20and%20DAlemberts%20Principle.md)
 - [Inertial Forces](Inertial%20Forces.md)
+- [Equivalence Principle](Equivalence%20Principle.md)
 - [Hamiltonian Mechanics](Hamiltonian%20Mechanics.md)
 - [Phase Space](Phase%20Space.md)
 - [Canonical Momentum](Canonical%20Momentum.md)

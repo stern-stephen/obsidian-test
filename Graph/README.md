@@ -114,6 +114,8 @@ http://localhost:8765/Graph/viewer/
 
 The viewer is dependency-free and reads `Graph/viewer/graph.json`, which is ignored because it can be regenerated from Kuzu. The GraphML export is written to `Graph/exports/graph.graphml` by default and is also rebuildable from Kuzu.
 
+The viewer supports focused exploration without talking directly to Kuzu: choose a center concept or note, set depth, switch between radial mind-map and force layouts, filter relation/layer visibility, inspect evidence in the details panel, open associated Markdown documentation in the optional documentation panel, follow vault Markdown links inside that panel, render MathJax, and export the currently visible subgraph as SVG or GraphML.
+
 ## Setup
 
 Install Kuzu for the active Python interpreter:

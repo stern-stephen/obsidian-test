@@ -34,17 +34,17 @@
 
     .app {
       display: grid;
-      grid-template-columns: minmax(260px, 320px) 1fr minmax(280px, 360px);
+      grid-template-columns: minmax(280px, 340px) 1fr minmax(300px, 380px);
       height: 100vh;
       min-width: 0;
     }
 
     aside {
-      background: var(--panel);
-      border-right: 1px solid var(--line);
       min-width: 0;
       overflow: auto;
       padding: 14px;
+      background: var(--panel);
+      border-right: 1px solid var(--line);
     }
 
     .details {
@@ -92,13 +92,24 @@
       font: inherit;
     }
 
-    input[type="search"], select {
+    input[type="search"], input[type="text"], select {
       width: 100%;
       border: 1px solid var(--line);
       border-radius: 6px;
       padding: 8px 9px;
       background: #fff;
       color: var(--ink);
+    }
+
+    input[type="range"] {
+      width: 100%;
+    }
+
+    .range-row {
+      display: grid;
+      grid-template-columns: 1fr 2.5em;
+      gap: 10px;
+      align-items: center;
     }
 
     .checks {
@@ -117,6 +128,7 @@
 
     .toolbar {
       display: flex;
+      flex-wrap: wrap;
       gap: 8px;
       margin-top: 12px;
     }
@@ -132,6 +144,12 @@
 
     button:hover {
       border-color: #aab4c3;
+    }
+
+    .primary {
+      border-color: #94a3b8;
+      background: #f8fafc;
+      font-weight: 650;
     }
 
     .stats {
@@ -292,6 +310,87 @@
       font-size: 12px;
     }
 
+    .doc-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 8px;
+    }
+
+    .doc-button {
+      padding: 5px 7px;
+      font-size: 12px;
+    }
+
+    .doc-panel {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fbfcfe;
+      margin-top: 8px;
+      overflow: hidden;
+    }
+
+    .doc-header {
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 12px;
+      padding: 8px 10px;
+      word-break: break-word;
+    }
+
+    .doc-content {
+      max-height: 52vh;
+      overflow: auto;
+      padding: 10px;
+    }
+
+    .doc-content h1,
+    .doc-content h2,
+    .doc-content h3 {
+      margin: 14px 0 7px;
+      letter-spacing: 0;
+      text-transform: none;
+      color: var(--ink);
+    }
+
+    .doc-content h1 {
+      font-size: 18px;
+    }
+
+    .doc-content h2 {
+      font-size: 15px;
+    }
+
+    .doc-content h3 {
+      font-size: 14px;
+    }
+
+    .doc-content p {
+      margin: 8px 0;
+    }
+
+    .doc-content a {
+      color: #0f5f9c;
+      text-decoration: none;
+    }
+
+    .doc-content a:hover {
+      text-decoration: underline;
+    }
+
+    .doc-content pre {
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #f1f5f9;
+      padding: 8px;
+    }
+
+    .doc-content code {
+      font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+      font-size: 12px;
+    }
+
     @media (max-width: 920px) {
       .app {
         grid-template-columns: 1fr;
@@ -299,7 +398,7 @@
       }
 
       aside {
-        max-height: 32vh;
+        max-height: 34vh;
         border-right: 0;
         border-bottom: 1px solid var(--line);
       }
@@ -310,6 +409,19 @@
       }
     }
   </style>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [["$", "$"]],
+        displayMath: [["$$", "$$"]],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ["script", "noscript", "style", "textarea", "pre", "code"]
+      }
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 </head>
 <body>
   <div class="app">
@@ -320,27 +432,39 @@
       <label for="search">Search</label>
       <input id="search" type="search" placeholder="Concept, note, relation, evidence">
 
+      <label for="center">Center</label>
+      <input id="center" type="text" list="node-options" placeholder="Choose a concept or note">
+      <datalist id="node-options"></datalist>
+
       <label for="relation">Relation</label>
       <select id="relation">
         <option value="">All relations</option>
       </select>
 
-      <label for="depth">Neighborhood</label>
-      <select id="depth">
-        <option value="1">Selected node + 1 hop</option>
-        <option value="2">Selected node + 2 hops</option>
-        <option value="0">All matching nodes</option>
+      <label for="layout">Layout</label>
+      <select id="layout">
+        <option value="radial">Radial mind map</option>
+        <option value="force">Force graph</option>
       </select>
+
+      <label for="depth">Depth</label>
+      <div class="range-row">
+        <input id="depth" type="range" min="0" max="4" step="1" value="2">
+        <strong id="depth-value">2</strong>
+      </div>
 
       <div class="checks">
         <label class="check"><input id="semantic" type="checkbox" checked> Semantic edges</label>
         <label class="check"><input id="links" type="checkbox"> Markdown links</label>
         <label class="check"><input id="labels" type="checkbox" checked> Labels</label>
+        <label class="check"><input id="docs" type="checkbox" checked> Documentation panel</label>
       </div>
 
       <div class="toolbar">
         <button id="reset" type="button">Reset</button>
         <button id="fit" type="button">Fit</button>
+        <button id="export-svg" type="button" class="primary">SVG</button>
+        <button id="export-graphml" type="button" class="primary">GraphML</button>
       </div>
 
       <div class="stats">
@@ -364,6 +488,7 @@
   <script>
     const state = {
       graph: null,
+      center: null,
       selected: null,
       visibleNodes: [],
       visibleEdges: [],
@@ -376,15 +501,24 @@
       draggingNode: null,
       panning: false,
       lastPointer: null,
+      docPath: null,
+      docText: "",
+      docLoading: false,
+      docError: "",
     };
 
     const svg = document.getElementById("graph");
     const searchInput = document.getElementById("search");
+    const centerInput = document.getElementById("center");
+    const nodeOptions = document.getElementById("node-options");
     const relationSelect = document.getElementById("relation");
     const semanticInput = document.getElementById("semantic");
     const linksInput = document.getElementById("links");
     const labelsInput = document.getElementById("labels");
-    const depthSelect = document.getElementById("depth");
+    const docsInput = document.getElementById("docs");
+    const layoutInput = document.getElementById("layout");
+    const depthInput = document.getElementById("depth");
+    const depthValue = document.getElementById("depth-value");
     const matchesEl = document.getElementById("matches");
     const detailsEl = document.getElementById("details");
 
@@ -392,6 +526,10 @@
       return String(value ?? "").replace(/[&<>"']/g, char => ({
         "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
       }[char]));
+    }
+
+    function displayName(node) {
+      return `${node.label} (${node.kind})`;
     }
 
     function nodeMatches(node, term) {
@@ -404,6 +542,179 @@
       if (!term) return true;
       const haystack = `${edge.relation} ${edge.label} ${edge.evidence_path || ""} ${edge.evidence_summary || ""}`.toLowerCase();
       return haystack.includes(term);
+    }
+
+    function nodeByDisplayName(value) {
+      return state.graph.nodes.find(node => displayName(node) === value || node.label === value || node.id === value);
+    }
+
+    function vaultUrl(path) {
+      const encoded = path.split("/").map(part => encodeURIComponent(part)).join("/");
+      return new URL(`../../${encoded}`, window.location.href).href;
+    }
+
+    function normalizePath(parts) {
+      const normalized = [];
+      for (const part of parts) {
+        if (!part || part === ".") continue;
+        if (part === "..") {
+          normalized.pop();
+        } else {
+          normalized.push(part);
+        }
+      }
+      return normalized.join("/");
+    }
+
+    function resolveMarkdownPath(basePath, target) {
+      const cleanTarget = target.replace(/\\/g, "/");
+      const [pathPart, anchor = ""] = cleanTarget.split("#");
+      if (!pathPart) return { path: basePath, anchor };
+      const decodedPath = decodeURIComponent(pathPart);
+      if (/^[A-Za-z]+:\/\//.test(decodedPath)) return { external: decodedPath };
+      const baseDir = basePath ? basePath.split("/").slice(0, -1) : [];
+      const targetParts = decodedPath.startsWith("/")
+        ? decodedPath.slice(1).split("/")
+        : [...baseDir, ...decodedPath.split("/")];
+      return { path: normalizePath(targetParts), anchor };
+    }
+
+    function renderInlineMarkdown(value, basePath) {
+      const text = String(value ?? "");
+      let output = "";
+      let lastIndex = 0;
+      const linkPattern = /(!?)\[([^\]]+)\]\(([^)]+)\)/g;
+      for (const match of text.matchAll(linkPattern)) {
+        output += escapeHtml(text.slice(lastIndex, match.index));
+        const isImage = match[1] === "!";
+        const label = match[2];
+        const target = match[3].trim();
+        const resolved = resolveMarkdownPath(basePath, target);
+        if (isImage) {
+          output += escapeHtml(label);
+        } else if (resolved.external) {
+          output += `<a href="${escapeHtml(resolved.external)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>`;
+        } else {
+          const href = `${vaultUrl(resolved.path)}${resolved.anchor ? "#" + encodeURIComponent(resolved.anchor) : ""}`;
+          output += `<a href="${escapeHtml(href)}" data-doc-path="${escapeHtml(resolved.path)}">${escapeHtml(label)}</a>`;
+        }
+        lastIndex = match.index + match[0].length;
+      }
+      output += escapeHtml(text.slice(lastIndex));
+      return output;
+    }
+
+    function evidencePaths(edges) {
+      return [...new Set(edges.map(edge => edge.evidence_path).filter(Boolean))].sort();
+    }
+
+    function markdownToHtml(markdown, basePath) {
+      const lines = markdown.split(/\r?\n/);
+      const html = [];
+      let inCode = false;
+      let paragraph = [];
+
+      function flushParagraph() {
+        if (!paragraph.length) return;
+        html.push(`<p>${renderInlineMarkdown(paragraph.join(" "), basePath)}</p>`);
+        paragraph = [];
+      }
+
+      for (const line of lines) {
+        if (line.startsWith("```")) {
+          flushParagraph();
+          if (inCode) {
+            html.push("</code></pre>");
+            inCode = false;
+          } else {
+            html.push("<pre><code>");
+            inCode = true;
+          }
+          continue;
+        }
+        if (inCode) {
+          html.push(`${escapeHtml(line)}\n`);
+          continue;
+        }
+        if (!line.trim()) {
+          flushParagraph();
+          continue;
+        }
+        const heading = line.match(/^(#{1,3})\s+(.*)$/);
+        if (heading) {
+          flushParagraph();
+          html.push(`<h${heading[1].length}>${renderInlineMarkdown(heading[2], basePath)}</h${heading[1].length}>`);
+          continue;
+        }
+        if (/^\s*[-*]\s+/.test(line)) {
+          flushParagraph();
+          html.push(`<p>${renderInlineMarkdown(line, basePath)}</p>`);
+          continue;
+        }
+        paragraph.push(line.trim());
+      }
+      flushParagraph();
+      if (inCode) html.push("</code></pre>");
+      return html.join("");
+    }
+
+    function typesetDocumentation(attempt = 0) {
+      if (window.MathJax?.typesetPromise) {
+        window.MathJax.typesetPromise([detailsEl]).catch(error => {
+          console.warn("MathJax typeset failed", error);
+        });
+      } else if (attempt < 20) {
+        window.setTimeout(() => typesetDocumentation(attempt + 1), 250);
+      }
+    }
+
+    function renderDocumentation() {
+      if (!docsInput.checked) return "";
+      if (!state.docPath) {
+        return `<h2>Documentation</h2><div class="subtle">No note or evidence document is associated with this node.</div>`;
+      }
+      const body = state.docLoading
+        ? `<div class="empty">Loading documentation...</div>`
+        : state.docError
+          ? `<div class="empty">${escapeHtml(state.docError)}</div>`
+          : `<div class="doc-content">${markdownToHtml(state.docText, state.docPath)}</div>`;
+      return `
+        <h2>Documentation</h2>
+        <div class="doc-panel">
+          <div class="doc-header">${escapeHtml(state.docPath)}</div>
+          ${body}
+        </div>
+      `;
+    }
+
+    function loadDocumentation(path) {
+      if (!path || state.docPath === path && (state.docLoading || state.docText || state.docError)) return;
+      state.docPath = path;
+      state.docText = "";
+      state.docError = "";
+      state.docLoading = true;
+      fetch(vaultUrl(path))
+        .then(response => {
+          if (!response.ok) throw new Error(`Could not load ${path} (${response.status})`);
+          return response.text();
+        })
+        .then(text => {
+          if (state.docPath !== path) return;
+          state.docText = text;
+          state.docLoading = false;
+          updateDetails();
+        })
+        .catch(error => {
+          if (state.docPath !== path) return;
+          state.docError = error.message;
+          state.docLoading = false;
+          updateDetails();
+        });
+    }
+
+    function chooseDocumentationPath(node, edges) {
+      if (node.path) return node.path;
+      return evidencePaths(edges)[0] || "";
     }
 
     function filteredEdges() {
@@ -432,10 +743,13 @@
       }
 
       let nodeIds = new Set();
-      if (state.selected && Number(depthSelect.value) > 0) {
-        nodeIds.add(state.selected);
-        let frontier = new Set([state.selected]);
-        for (let hop = 0; hop < Number(depthSelect.value); hop += 1) {
+      const centerId = state.center || state.selected;
+      const depth = Number(depthInput.value);
+
+      if (centerId && depth > 0) {
+        nodeIds.add(centerId);
+        let frontier = new Set([centerId]);
+        for (let hop = 0; hop < depth; hop += 1) {
           const next = new Set();
           for (const id of frontier) {
             for (const neighbor of adjacency.get(id) || []) {
@@ -447,12 +761,18 @@
           }
           frontier = next;
         }
+        if (term) {
+          for (const id of [...nodeIds]) {
+            const node = byId.get(id);
+            if (!nodeMatches(node, term) && !edges.some(edge => (edge.source === id || edge.target === id) && edgeMatches(edge, term))) {
+              nodeIds.delete(id);
+            }
+          }
+        }
       } else {
         for (const edge of edges) {
-          if (!term || edgeMatches(edge, term)) {
-            nodeIds.add(edge.source);
-            nodeIds.add(edge.target);
-          }
+          nodeIds.add(edge.source);
+          nodeIds.add(edge.target);
         }
         if (term) {
           for (const node of state.graph.nodes) {
@@ -464,6 +784,73 @@
       state.visibleNodes = [...nodeIds].map(id => byId.get(id)).filter(Boolean).slice(0, 420);
       const kept = new Set(state.visibleNodes.map(node => node.id));
       state.visibleEdges = edges.filter(edge => kept.has(edge.source) && kept.has(edge.target)).slice(0, 1200);
+    }
+
+    function visibleAdjacency() {
+      const adjacency = new Map();
+      for (const node of state.visibleNodes) adjacency.set(node.id, new Set());
+      for (const edge of state.visibleEdges) {
+        adjacency.get(edge.source)?.add(edge.target);
+        adjacency.get(edge.target)?.add(edge.source);
+      }
+      return adjacency;
+    }
+
+    function radialLayout() {
+      const nodes = state.visibleNodes;
+      if (!nodes.length) return;
+      const centerId = state.center || state.selected || nodes[0].id;
+      const adjacency = visibleAdjacency();
+      const levels = new Map([[centerId, 0]]);
+      let frontier = [centerId];
+
+      while (frontier.length) {
+        const next = [];
+        for (const id of frontier) {
+          for (const neighbor of adjacency.get(id) || []) {
+            if (!levels.has(neighbor)) {
+              levels.set(neighbor, levels.get(id) + 1);
+              next.push(neighbor);
+            }
+          }
+        }
+        frontier = next;
+      }
+
+      for (const node of nodes) {
+        if (!levels.has(node.id)) levels.set(node.id, 1);
+      }
+
+      const grouped = new Map();
+      for (const node of nodes) {
+        const level = levels.get(node.id);
+        if (!grouped.has(level)) grouped.set(level, []);
+        grouped.get(level).push(node);
+      }
+
+      const centerX = state.width / 2;
+      const centerY = state.height / 2;
+      const maxRing = Math.max(120, Math.min(state.width, state.height) / 2 - 60);
+      const maxLevel = Math.max(...grouped.keys(), 1);
+      const ringGap = maxRing / maxLevel;
+
+      for (const [level, ringNodes] of grouped) {
+        ringNodes.sort((a, b) => a.label.localeCompare(b.label));
+        if (level === 0) {
+          state.positions.set(ringNodes[0].id, { x: centerX, y: centerY, vx: 0, vy: 0 });
+          continue;
+        }
+        const radius = Math.max(90, ringGap * level);
+        ringNodes.forEach((node, index) => {
+          const angle = -Math.PI / 2 + (index / Math.max(1, ringNodes.length)) * Math.PI * 2;
+          state.positions.set(node.id, {
+            x: centerX + Math.cos(angle) * radius,
+            y: centerY + Math.sin(angle) * radius,
+            vx: 0,
+            vy: 0,
+          });
+        });
+      }
     }
 
     function seedPositions() {
@@ -544,7 +931,12 @@
       state.width = svg.clientWidth || 800;
       state.height = svg.clientHeight || 600;
       computeVisible();
-      simulate();
+      if (layoutInput.value === "radial") {
+        radialLayout();
+      } else {
+        simulate();
+      }
+
       document.getElementById("node-count").textContent = state.visibleNodes.length;
       document.getElementById("edge-count").textContent = state.visibleEdges.length;
 
@@ -578,6 +970,11 @@
           event.stopPropagation();
           state.draggingNode = el.dataset.id;
           state.selected = el.dataset.id;
+          if (!state.center) {
+            state.center = el.dataset.id;
+            const centerNode = state.graph.nodes.find(node => node.id === state.center);
+            centerInput.value = centerNode ? displayName(centerNode) : "";
+          }
           updateDetails();
           renderLists();
           svg.setPointerCapture(event.pointerId);
@@ -596,12 +993,16 @@
       matchesEl.innerHTML = nodes.map(node => `
         <button class="item ${node.id === state.selected ? "active" : ""}" data-id="${escapeHtml(node.id)}" type="button">
           <span class="item-name">${escapeHtml(node.label)}</span>
-          <span class="item-meta">${escapeHtml(node.kind)}${node.path ? " · " + escapeHtml(node.path) : ""}</span>
+          <span class="item-meta">${escapeHtml(node.kind)}${node.path ? " - " + escapeHtml(node.path) : ""}</span>
         </button>
       `).join("") || `<div class="subtle">No visible matches.</div>`;
       matchesEl.querySelectorAll(".item").forEach(button => {
         button.addEventListener("click", () => {
           state.selected = button.dataset.id;
+          state.center = button.dataset.id;
+          const centerNode = state.graph.nodes.find(node => node.id === state.center);
+          centerInput.value = centerNode ? displayName(centerNode) : "";
+          state.positions.clear();
           render();
         });
       });
@@ -617,17 +1018,36 @@
       const edges = state.graph.edges
         .filter(edge => edge.source === state.selected || edge.target === state.selected)
         .sort((a, b) => a.layer.localeCompare(b.layer) || a.relation.localeCompare(b.relation))
-        .slice(0, 80);
+        .slice(0, 100);
+      if (docsInput.checked) {
+        const nextDocPath = chooseDocumentationPath(node, edges);
+        if (nextDocPath) {
+          loadDocumentation(nextDocPath);
+        } else {
+          state.docPath = null;
+          state.docText = "";
+          state.docError = "";
+          state.docLoading = false;
+        }
+      }
+      const paths = evidencePaths(edges);
       detailsEl.className = "";
       detailsEl.innerHTML = `
         <div class="detail-title">${escapeHtml(node.label)}</div>
         <span class="pill">${escapeHtml(node.kind)}</span>
         ${node.path ? `<span class="pill">${escapeHtml(node.path)}</span>` : ""}
+        ${paths.length ? `
+          <h2>Evidence Documents</h2>
+          <div class="doc-actions">
+            ${paths.slice(0, 16).map(path => `<button class="doc-button" type="button" data-doc-path="${escapeHtml(path)}">${escapeHtml(path.split("/").pop())}</button>`).join("")}
+          </div>
+        ` : ""}
+        ${renderDocumentation()}
         <h2>Relationships</h2>
         ${edges.map(edge => {
           const otherId = edge.source === node.id ? edge.target : edge.source;
           const other = state.graph.nodes.find(item => item.id === otherId);
-          const direction = edge.source === node.id ? "→" : "←";
+          const direction = edge.source === node.id ? "->" : "<-";
           const evidence = edge.evidence_path ? `${edge.evidence_path}${edge.evidence_heading ? "#" + edge.evidence_heading : ""}` : "";
           return `
             <div class="edge-card">
@@ -640,6 +1060,13 @@
           `;
         }).join("") || `<div class="subtle">No relationships in the current graph.</div>`}
       `;
+      detailsEl.querySelectorAll("[data-doc-path]").forEach(button => {
+        button.addEventListener("click", event => {
+          event.preventDefault();
+          loadDocumentation(button.dataset.docPath);
+        });
+      });
+      typesetDocumentation();
     }
 
     function fit() {
@@ -651,14 +1078,79 @@
 
     function reset() {
       searchInput.value = "";
+      centerInput.value = "";
       relationSelect.value = "";
       semanticInput.checked = true;
       linksInput.checked = false;
       labelsInput.checked = true;
-      depthSelect.value = "1";
+      docsInput.checked = true;
+      layoutInput.value = "radial";
+      depthInput.value = "2";
+      depthValue.textContent = depthInput.value;
+      state.center = null;
       state.selected = null;
       state.positions.clear();
       fit();
+    }
+
+    function currentGraph() {
+      return {
+        metadata: {
+          ...state.graph.metadata,
+          node_count: state.visibleNodes.length,
+          edge_count: state.visibleEdges.length,
+          semantic_edge_count: state.visibleEdges.filter(edge => edge.layer === "semantic").length,
+          markdown_link_count: state.visibleEdges.filter(edge => edge.layer === "links").length,
+          relations: [...new Set(state.visibleEdges.map(edge => edge.relation))].sort(),
+          exported_from_viewer: true,
+        },
+        nodes: state.visibleNodes,
+        edges: state.visibleEdges,
+      };
+    }
+
+    function download(filename, content, type) {
+      const blob = new Blob([content], { type });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = filename;
+      link.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function exportSvg() {
+      const clone = svg.cloneNode(true);
+      clone.setAttribute("xmlns", "http://www.w3.org/2000/svg");
+      clone.setAttribute("viewBox", `0 0 ${state.width} ${state.height}`);
+      download("visible-graph.svg", `<?xml version="1.0" encoding="UTF-8"?>\n${clone.outerHTML}`, "image/svg+xml");
+    }
+
+    function exportGraphml() {
+      const graph = currentGraph();
+      const nodeIds = new Map(graph.nodes.map((node, index) => [node.id, `n${index}`]));
+      const nodeKeys = ["id", "label", "kind", "path"];
+      const edgeKeys = ["id", "layer", "relation", "label", "confidence", "evidence_path", "evidence_heading", "evidence_summary", "anchor"];
+      const keyXml = [
+        ...nodeKeys.map((key, index) => `<key id="n${index}" for="node" attr.name="${key}" attr.type="string"/>`),
+        ...edgeKeys.map((key, index) => `<key id="e${index}" for="edge" attr.name="${key}" attr.type="string"/>`),
+      ].join("\n  ");
+      const nodeXml = graph.nodes.map(node => {
+        const data = nodeKeys
+          .filter(key => node[key] != null)
+          .map((key, index) => `<data key="n${index}">${escapeHtml(node[key])}</data>`)
+          .join("");
+        return `<node id="${nodeIds.get(node.id)}">${data}</node>`;
+      }).join("\n    ");
+      const edgeXml = graph.edges.map((edge, index) => {
+        const data = edgeKeys
+          .filter(key => edge[key] != null)
+          .map((key, keyIndex) => `<data key="e${keyIndex}">${escapeHtml(edge[key])}</data>`)
+          .join("");
+        return `<edge id="edge${index}" source="${nodeIds.get(edge.source)}" target="${nodeIds.get(edge.target)}">${data}</edge>`;
+      }).join("\n    ");
+      const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<graphml xmlns="http://graphml.graphdrawing.org/xmlns">\n  ${keyXml}\n  <graph id="visible" edgedefault="directed">\n    ${nodeXml}\n    ${edgeXml}\n  </graph>\n</graphml>\n`;
+      download("visible-graph.graphml", xml, "application/graphml+xml");
     }
 
     svg.addEventListener("pointerdown", event => {
@@ -698,11 +1190,42 @@
       render();
     }, { passive: false });
 
-    for (const el of [searchInput, relationSelect, semanticInput, linksInput, labelsInput, depthSelect]) {
+    centerInput.addEventListener("change", () => {
+      const node = nodeByDisplayName(centerInput.value.trim());
+      state.center = node?.id || null;
+      state.selected = state.center;
+      state.positions.clear();
+      render();
+    });
+
+    depthInput.addEventListener("input", () => {
+      depthValue.textContent = depthInput.value;
+      state.positions.clear();
+      render();
+    });
+
+    layoutInput.addEventListener("input", () => {
+      state.positions.clear();
+      render();
+    });
+
+    docsInput.addEventListener("input", () => {
+      if (!docsInput.checked) {
+        state.docPath = null;
+        state.docText = "";
+        state.docError = "";
+        state.docLoading = false;
+      }
+      updateDetails();
+    });
+
+    for (const el of [searchInput, relationSelect, semanticInput, linksInput, labelsInput]) {
       el.addEventListener("input", render);
     }
     document.getElementById("reset").addEventListener("click", reset);
     document.getElementById("fit").addEventListener("click", fit);
+    document.getElementById("export-svg").addEventListener("click", exportSvg);
+    document.getElementById("export-graphml").addEventListener("click", exportGraphml);
     window.addEventListener("resize", render);
 
     fetch("graph.json")
@@ -713,12 +1236,24 @@
       .then(graph => {
         state.graph = graph;
         document.getElementById("loaded").textContent =
-          `${graph.metadata.node_count} nodes · ${graph.metadata.semantic_edge_count} semantic · ${graph.metadata.markdown_link_count} links`;
+          `${graph.metadata.node_count} nodes - ${graph.metadata.semantic_edge_count} semantic - ${graph.metadata.markdown_link_count} links`;
         for (const relation of graph.metadata.relations) {
           const option = document.createElement("option");
           option.value = relation;
           option.textContent = relation;
           relationSelect.appendChild(option);
+        }
+        nodeOptions.innerHTML = graph.nodes
+          .slice()
+          .sort((a, b) => a.label.localeCompare(b.label))
+          .map(node => `<option value="${escapeHtml(displayName(node))}"></option>`)
+          .join("");
+        const metadataCenter = graph.metadata.center_concept ? `concept:${graph.metadata.center_concept}` : null;
+        if (metadataCenter && graph.nodes.some(node => node.id === metadataCenter)) {
+          state.center = metadataCenter;
+          state.selected = metadataCenter;
+          const centerNode = graph.nodes.find(node => node.id === metadataCenter);
+          centerInput.value = displayName(centerNode);
         }
         render();
       })

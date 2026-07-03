@@ -26,6 +26,8 @@ The inertial force is not an extra external interaction. It is a bookkeeping mov
 
 In non-inertial reference frames, inertial forces such as centrifugal and Coriolis forces can have measurable effects. Calling them "fictitious" can be misleading if it suggests that their effects are not physically detectable.
 
+The [Equivalence Principle](Equivalence%20Principle.md) sharpens this point. A local observer may not be able to distinguish a uniform gravitational field from an accelerated frame by experiments confined to a sufficiently small room. That does not mean all accelerated or rotating motion is experimentally invisible. Rotation, nonuniform acceleration, and gravitational tidal effects can produce measurable relative motions or stresses.
+
 ## Felt Forces And Constraint Forces
 
 The phrase "what you feel" can mean two different things. A body directly feels contact stresses from neighboring matter, such as a chair back, floor, seat belt, or wall. Those are ordinary constraint or reaction forces.
@@ -46,10 +48,12 @@ For example, in an accelerating or rotating cabin, the chair pushing on a person
 - D'Alembert's inertial force is the negative of $m\mathbf{a}$, not the net applied force.
 - The virtual-work condition is a summed scalar condition, not simply a separate Newtonian vector equation for each particle.
 - Eliminating ideal constraint forces from D'Alembert's principle does not mean the body cannot feel the chair, wall, or floor. Those contact forces can be the immediate source of bodily pressure.
+- The equivalence principle is a local statement, not a claim that rotation, nonuniform acceleration, or tidal gravity can never be detected.
 
 ## Related Concepts
 
 - [Virtual Work and D'Alembert's Principle](Virtual%20Work%20and%20DAlemberts%20Principle.md)
+- [Equivalence Principle](Equivalence%20Principle.md)
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Euler-Lagrange Equations](Euler-Lagrange%20Equations.md)
 - [Coopersmith Chapter 5](../Book%20Notes/Coopersmith/Chapter%205/Chapter%20Overview.md)
