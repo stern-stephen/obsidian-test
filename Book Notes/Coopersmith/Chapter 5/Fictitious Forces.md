@@ -6,6 +6,13 @@ Book hub: [Coopersmith](../Coopersmith.md)
 
 Book section: 5.4, printed pages 96-102.
 
+Source locations:
+
+- [Printed page 96 / PDF page 109](../../../References/Coopersmith2017TheLazyUniverse.pdf#page=109)
+- [Printed page 97 / PDF page 110](../../../References/Coopersmith2017TheLazyUniverse.pdf#page=110)
+- [Printed page 99 / PDF page 112](../../../References/Coopersmith2017TheLazyUniverse.pdf#page=112)
+- [Printed page 100 / PDF page 113](../../../References/Coopersmith2017TheLazyUniverse.pdf#page=113)
+
 Previous: [Worked Example and Intuition](Worked%20Example%20and%20Intuition.md)
 
 Next: [D'Alembert's Principle and Energy](DAlemberts%20Principle%20and%20Energy.md)
