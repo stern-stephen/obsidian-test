@@ -1,5 +1,18 @@
 # Project Instructions
 
+## Chat Response Math Formatting
+
+In chat responses to the user, prefer plain-text or code-block equations instead of LaTeX when explaining physics or math, because the ChatGPT window may not render LaTeX reliably.
+
+Example chat format:
+
+```text
+F_applied + F_constraint - m a = 0
+I = -m a
+```
+
+This chat-only preference must not change how Markdown notes are written. In vault notes, continue to use the Obsidian MathJax conventions below.
+
 ## Obsidian Math Formatting
 
 Use Obsidian-friendly MathJax syntax in Markdown notes.
