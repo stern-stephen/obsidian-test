@@ -52,6 +52,18 @@ So the careful distinction is: the centrifugal force may be absent from a reduce
 
 The discussion of Newton's bucket contrasts absolute-space interpretations with more relational or local interpretations. Coopersmith favors the variational-mechanics attitude: explain observed effects through the local system and its interactions, not through an appeal to an absolute background extending to infinity.
 
+Newton's argument is: the water surface curves when the bucket and water are rotating, so rotation must be measured against something absolute, namely absolute space.
+
+Mach's objection is subtler. He says Newton has not really compared a rotating bucket with an exactly inverse situation. The bucket is surrounded by the distant stars, so the "inverse" of the spinning bucket would be a stationary bucket with the distant stars rotating around it. Mach's proposal is that the difference between flat and curved water might come from the relation between the bucket-water system and the rest of the mass in the universe.
+
+Coopersmith does not accept Mach's cosmic explanation. Her point is narrower and more local: variational mechanics should explain the curved water surface through local motions and local interactions among the water molecules and bucket, not by invoking either absolute space or the entire distant universe as a causal actor.
+
+So the three positions are:
+
+- Newton: the curved water reveals rotation relative to absolute space.
+- Mach: the curved water may depend on rotation relative to the distant mass of the universe.
+- Coopersmith's variational-mechanics reading: explain the observed curvature through local dynamics inside the system being modeled.
+
 ## Links To Concept Notes
 
 - [Inertial Forces](../../../Mechanics/Inertial%20Forces.md)
@@ -68,4 +80,6 @@ The discussion of Newton's bucket contrasts absolute-space interpretations with 
 {"source":"Rotating Reference Frames","relation":"INTRODUCES","target":"Centrifugal Inertial Force","evidence_heading":"Rigid Bodies And Centrifugal Forces","evidence_summary":"A local object in a frame rotating with Pluto can be described with an effective gravity that includes the centrifugal inertial term.","confidence":0.88}
 {"source":"Constraint Forces","relation":"REPRESENTS","target":"Bodily Pressure Sensations","evidence_heading":"Equivalence Principle Connection","evidence_summary":"The note clarifies that chairs, floors, walls, and straps can be the immediate contact forces responsible for what the observer bodily feels.","confidence":0.85}
 {"source":"Variational Mechanics","relation":"MOTIVATES","target":"Local Explanations","evidence_heading":"Newton's Bucket And Locality","evidence_summary":"Coopersmith contrasts absolute-space explanations with local variational-mechanics explanations of observed effects.","confidence":0.85}
+{"source":"Mach's Bucket Argument","relation":"CONTRASTS_WITH","target":"Newton's Absolute Space Argument","evidence_heading":"Newton's Bucket And Locality","evidence_summary":"Mach objects that Newton has not compared the spinning bucket with the true inverse case involving the distant stars rotating relative to the bucket.","confidence":0.86}
+{"source":"Coopersmith's Local Explanation","relation":"CONTRASTS_WITH","target":"Mach's Cosmic Explanation","evidence_heading":"Newton's Bucket And Locality","evidence_summary":"Coopersmith rejects Mach's appeal to the distant universe and instead explains the water curvature through local motions and interactions in the modeled system.","confidence":0.88}
 -->
