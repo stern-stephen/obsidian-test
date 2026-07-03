@@ -36,6 +36,26 @@ $$
 
 The inertial term gives the differential of kinetic energy, so the principle leads to:
 
+More explicitly, in this special case the virtual displacement can be replaced by the actual infinitesimal displacement:
+
+$$
+d\mathbf{r}_i=\dot{\mathbf{r}}_i dt
+$$
+
+Then the acceleration part satisfies:
+
+$$
+\sum_i m_i\ddot{\mathbf{r}}_i\cdot d\mathbf{r}_i=\sum_i m_i\ddot{\mathbf{r}}_i\cdot\dot{\mathbf{r}}_i dt=dT
+$$
+
+But D'Alembert's inertial force is the reversed acceleration term, $-m_i\ddot{\mathbf{r}}_i$, so its contribution is $-dT$. The conservative applied-force contribution is $-dV$. Thus D'Alembert's principle gives:
+
+$$
+-dV-dT=0
+$$
+
+or equivalently:
+
 $$
 d(T+V)=0
 $$
