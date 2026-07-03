@@ -40,6 +40,14 @@ On printed page 99, the claim that no experiment can distinguish reference frame
 
 This is the local-versus-global qualification behind the [Equivalence Principle](../../../Mechanics/Equivalence%20Principle.md). Uniform gravity and uniform acceleration can be locally equivalent in a small closed room, but nonuniform fields or extended experiments can reveal differences.
 
+## Rigid Bodies And Centrifugal Forces
+
+On printed page 100, Coopersmith's Pluto-Charon discussion should not be read as saying that a person standing on Pluto cannot experience or measure centrifugal effects. The rigid-body qualification concerns the modeled system and its allowed motions. If Pluto and Charon are treated as rigid bodies in a co-rotating configuration, their mutual separation and internal shape are constrained, so the rigid-body calculation does not treat each material point as a freely separating test particle.
+
+A person, pendulum, spring scale, ocean, or loose rock on Pluto is not part of an ideal rigid Pluto-Charon body in that same sense. In a frame rotating with Pluto, such a local object can be described as feeling an effective gravity made from gravitational attraction plus the centrifugal inertial term. The surface normal force, weight reading, plumb-line direction, and any tendency for loose material to move are precisely where that frame-dependent term can show up.
+
+So the careful distinction is: the centrifugal force may be absent from a reduced rigid-body virtual-work description, but it is not absent from every local description of matter riding on or near the rotating body.
+
 ## Newton's Bucket And Locality
 
 The discussion of Newton's bucket contrasts absolute-space interpretations with more relational or local interpretations. Coopersmith favors the variational-mechanics attitude: explain observed effects through the local system and its interactions, not through an appeal to an absolute background extending to infinity.
@@ -56,6 +64,8 @@ The discussion of Newton's bucket contrasts absolute-space interpretations with 
 {"source":"D'Alembert's Principle","relation":"MOTIVATES","target":"Equivalence Principle","evidence_heading":"Equivalence Principle Connection","evidence_summary":"Closed-room examples show that local observations may not distinguish gravitational fields from accelerated frames.","confidence":0.85}
 {"source":"Closed-Room Observations","relation":"MOTIVATES","target":"Equivalence Principle","evidence_heading":"Equivalence Principle Connection","evidence_summary":"Coopersmith's closed-room examples show that an observer may feel the same local effects while being unable to distinguish applied influence from frame acceleration.","confidence":0.85}
 {"source":"Equivalence Principle","relation":"ASSUMES","target":"Local Experiments","evidence_heading":"Equivalence Principle Connection","evidence_summary":"The page 99 discussion is qualified as a local statement: extended experiments can detect rotation, nonuniform acceleration, or tidal gravitational effects.","confidence":0.88}
+{"source":"Rigid-Body Description","relation":"CONTRASTS_WITH","target":"Local Test Body Description","evidence_heading":"Rigid Bodies And Centrifugal Forces","evidence_summary":"The note distinguishes Coopersmith's rigid Pluto-Charon modeling from the local experience of a person, pendulum, spring scale, ocean, or loose rock on Pluto.","confidence":0.86}
+{"source":"Rotating Reference Frames","relation":"INTRODUCES","target":"Centrifugal Inertial Force","evidence_heading":"Rigid Bodies And Centrifugal Forces","evidence_summary":"A local object in a frame rotating with Pluto can be described with an effective gravity that includes the centrifugal inertial term.","confidence":0.88}
 {"source":"Constraint Forces","relation":"REPRESENTS","target":"Bodily Pressure Sensations","evidence_heading":"Equivalence Principle Connection","evidence_summary":"The note clarifies that chairs, floors, walls, and straps can be the immediate contact forces responsible for what the observer bodily feels.","confidence":0.85}
 {"source":"Variational Mechanics","relation":"MOTIVATES","target":"Local Explanations","evidence_heading":"Newton's Bucket And Locality","evidence_summary":"Coopersmith contrasts absolute-space explanations with local variational-mechanics explanations of observed effects.","confidence":0.85}
 -->
