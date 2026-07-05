@@ -40,19 +40,89 @@ $$
 \int_{t_a}^{t_b}\sum_i(\mathbf{F}_i^{appl}-m_i\mathbf{a}_i)\cdot\delta\mathbf{r}_i dt=0
 $$
 
+Split the applied and inertial parts:
+
+$$
+\int_{t_a}^{t_b}\sum_i\mathbf{F}_i^{appl}\cdot\delta\mathbf{r}_i dt-\int_{t_a}^{t_b}\sum_i m_i\mathbf{a}_i\cdot\delta\mathbf{r}_i dt=0
+$$
+
 For conservative applied forces:
 
 $$
 \sum_i\mathbf{F}_i^{appl}\cdot\delta\mathbf{r}_i=-\delta V
 $$
 
-For the inertial term, integration by parts turns the acceleration term into a kinetic-energy variation plus a boundary term. Fixed endpoint variations make the boundary term vanish, leaving:
+So the applied-force term becomes:
+
+$$
+-\int_{t_a}^{t_b}\delta V dt
+$$
+
+For the inertial term, write $\mathbf{a}_i=d\mathbf{v}_i/dt$. With constant masses:
+
+$$
+\int_{t_a}^{t_b}\sum_i m_i\mathbf{a}_i\cdot\delta\mathbf{r}_i dt=\int_{t_a}^{t_b}\sum_i\frac{d}{dt}(m_i\mathbf{v}_i)\cdot\delta\mathbf{r}_i dt
+$$
+
+Integrate by parts:
+
+$$
+\int_{t_a}^{t_b}\sum_i\frac{d}{dt}(m_i\mathbf{v}_i)\cdot\delta\mathbf{r}_i dt=\left[\sum_i m_i\mathbf{v}_i\cdot\delta\mathbf{r}_i\right]_{t_a}^{t_b}-\int_{t_a}^{t_b}\sum_i m_i\mathbf{v}_i\cdot\frac{d}{dt}(\delta\mathbf{r}_i)dt
+$$
+
+The velocity variation satisfies:
+
+$$
+\delta\mathbf{v}_i=\frac{d}{dt}(\delta\mathbf{r}_i)
+$$
+
+Therefore:
+
+$$
+\sum_i m_i\mathbf{v}_i\cdot\delta\mathbf{v}_i=\delta T
+$$
+
+So:
+
+$$
+\int_{t_a}^{t_b}\sum_i m_i\mathbf{a}_i\cdot\delta\mathbf{r}_i dt=\left[\sum_i m_i\mathbf{v}_i\cdot\delta\mathbf{r}_i\right]_{t_a}^{t_b}-\int_{t_a}^{t_b}\delta T dt
+$$
+
+Hamilton's fixed endpoint condition is:
+
+$$
+\delta\mathbf{r}_i(t_a)=\delta\mathbf{r}_i(t_b)=0
+$$
+
+This kills the boundary term:
+
+$$
+\left[\sum_i m_i\mathbf{v}_i\cdot\delta\mathbf{r}_i\right]_{t_a}^{t_b}=0
+$$
+
+Substituting back into the time-integrated D'Alembert equation gives:
+
+$$
+-\int_{t_a}^{t_b}\delta V dt+\int_{t_a}^{t_b}\delta T dt=0
+$$
+
+Combine the terms:
+
+$$
+\int_{t_a}^{t_b}\delta(T-V)dt=0
+$$
+
+Because the endpoint times are fixed, the variation can be moved outside the integral:
 
 $$
 \delta\int_{t_a}^{t_b}(T-V)dt=0
 $$
 
-With $L=T-V$, this becomes Hamilton's principle.
+With $L=T-V$, this becomes Hamilton's principle:
+
+$$
+\delta\int_{t_a}^{t_b}L dt=0
+$$
 
 ## Deriving Equations Of Motion
 
