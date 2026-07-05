@@ -21,6 +21,7 @@ This page is the hub for classical mechanics concepts that recur across the text
 - [Canonical Momentum](Canonical%20Momentum.md)
 - [Poisson Brackets](Poisson%20Brackets.md)
 - [Canonical Transformations](Canonical%20Transformations.md)
+- [Hamilton-Jacobi Equation](Hamilton-Jacobi%20Equation.md)
 - [Cyclic Coordinates](Cyclic%20Coordinates.md)
 - [Symmetries](Symmetries.md)
 - [Conservative Forces](Conservative%20Forces.md)
@@ -43,6 +44,7 @@ This page is the hub for classical mechanics concepts that recur across the text
 - [Coopersmith Chapter 3 Overview](../Book%20Notes/Coopersmith/Chapter%203/Chapter%20Overview.md)
 - [Coopersmith Chapter 4 Overview](../Book%20Notes/Coopersmith/Chapter%204/Chapter%20Overview.md)
 - [Coopersmith Chapter 5 Overview](../Book%20Notes/Coopersmith/Chapter%205/Chapter%20Overview.md)
+- [Coopersmith Chapter 7 Overview](../Book%20Notes/Coopersmith/Chapter%207/Chapter%20Overview.md)
 
 ## Why It Matters
 

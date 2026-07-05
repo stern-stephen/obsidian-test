@@ -262,7 +262,9 @@ The Hamiltonian becomes the operator that generates time evolution in quantum me
 - [Canonical Momentum](Canonical%20Momentum.md)
 - [Poisson Brackets](Poisson%20Brackets.md)
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
+- [Hamilton-Jacobi Equation](Hamilton-Jacobi%20Equation.md)
 - [Legendre Transforms](../Mathematics/Legendre%20Transforms.md)
+- [Coopersmith Chapter 7](../Book%20Notes/Coopersmith/Chapter%207/Chapter%20Overview.md)
 - [The Hamiltonian Formalism](../Book%20Notes/Shankar/Chapter%202/The%20Hamiltonian%20Formalism.md)
 
 <!-- semantic-edges

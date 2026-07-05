@@ -40,6 +40,14 @@ Use this page to track chapter notes, questions, and concept pages created while
   - [The Forms of T V and L](Chapter%206/The%20Forms%20of%20T%20V%20and%20L.md)
   - [Noether Energy and External Conditions](Chapter%206/Noether%20Energy%20and%20External%20Conditions.md)
   - [Symmetries and Conclusions](Chapter%206/Symmetries%20and%20Conclusions.md)
+- Chapter 7
+  - [Chapter 7 Overview](Chapter%207/Chapter%20Overview.md)
+  - [Hamiltonian Coordinates and Optical Analogy](Chapter%207/Hamiltonian%20Coordinates%20and%20Optical%20Analogy.md)
+  - [Canonical Equations](Chapter%207/Canonical%20Equations.md)
+  - [Phase Fluid](Chapter%207/Phase%20Fluid.md)
+  - [Conservation Theorems](Chapter%207/Conservation%20Theorems.md)
+  - [Hamilton-Jacobi Equation](Chapter%207/Hamilton-Jacobi%20Equation.md)
+  - [Royal Road to Quantum Mechanics](Chapter%207/Royal%20Road%20to%20Quantum%20Mechanics.md)
 
 ## Core Concept Areas
 
@@ -62,8 +70,11 @@ Use this page to track chapter notes, questions, and concept pages created while
 - [Configuration Space](../../Mechanics/Configuration%20Space.md)
 - [Inertial Forces](../../Mechanics/Inertial%20Forces.md)
 - [Lagrangian Mechanics](../../Mechanics/Lagrangian%20Mechanics.md)
+- [Hamiltonian Mechanics](../../Mechanics/Hamiltonian%20Mechanics.md)
+- [Phase Space](../../Mechanics/Phase%20Space.md)
 - [Action Principle](../../Mechanics/Action%20Principle.md)
 - [Energy Function](../../Mechanics/Energy%20Function.md)
+- [Hamilton-Jacobi Equation](../../Mechanics/Hamilton-Jacobi%20Equation.md)
 
 ## Related Notes
 
@@ -77,4 +88,5 @@ Use this page to track chapter notes, questions, and concept pages created while
 {"source":"Coopersmith","relation":"INTRODUCES","target":"Generalized Coordinates","evidence_heading":"Reading Questions","evidence_summary":"The hub asks what makes a generalized coordinate useful for constrained systems.","confidence":0.86}
 {"source":"Coopersmith","relation":"INTRODUCES","target":"Configuration Space","evidence_heading":"Concepts To Extract","evidence_summary":"The hub lists configuration space as a concept to extract from the Coopersmith chapters.","confidence":0.86}
 {"source":"Coopersmith","relation":"INTRODUCES","target":"Lagrangian Mechanics","evidence_heading":"Chapter Notes","evidence_summary":"The hub links Chapter 6 notes covering Hamilton's principle, Lagrange's equations, and the form of the Lagrangian.","confidence":0.9}
+{"source":"Coopersmith","relation":"INTRODUCES","target":"Hamiltonian Mechanics","evidence_heading":"Chapter Notes","evidence_summary":"The hub links Chapter 7 notes on Hamiltonian coordinates, canonical equations, phase space, and Hamilton-Jacobi theory.","confidence":0.9}
 -->
