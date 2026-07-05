@@ -46,6 +46,50 @@ $$
 
 After defining $p_i$, solve for $\dot{q}_i$ in terms of $q_i,p_i,t$ before treating $H$ as a phase-space function.
 
+## Non-Uniqueness Of The Lagrangian
+
+The Lagrangian is not unique. Two common changes leave the classical Euler-Lagrange equations unchanged.
+
+First, multiply the whole Lagrangian by a nonzero constant $c$:
+
+$$
+L'=cL
+$$
+
+Then:
+
+$$
+\frac{d}{dt}\frac{\partial L'}{\partial\dot q_i}-\frac{\partial L'}{\partial q_i}=c\left(\frac{d}{dt}\frac{\partial L}{\partial\dot q_i}-\frac{\partial L}{\partial q_i}\right)
+$$
+
+Since $c\neq0$, setting this expression equal to zero gives the same equations of motion.
+
+Second, add a total time derivative:
+
+$$
+L'=L+\frac{dF(q,t)}{dt}
+$$
+
+The action changes by an endpoint term:
+
+$$
+S'=\int_{t_a}^{t_b}L'dt=S+F(q(t_b),t_b)-F(q(t_a),t_a)
+$$
+
+For Hamilton's principle with fixed endpoint times and fixed endpoint configurations, the added endpoint term is fixed during the variation. Therefore:
+
+$$
+\delta S'=\delta S
+$$
+
+So $L$ and $L'$ select the same classical paths.
+
+The physical point is that the Lagrangian itself is not directly observable. It is a generator of equations of motion, and many formulas can generate the same motion. This is why mechanics treats Lagrangians up to an equivalence class rather than as unique physical objects. A total derivative can still change derived bookkeeping quantities such as canonical momentum or the displayed Hamiltonian, but it does not change the underlying classical trajectory.
+
+In electromagnetism this same freedom appears as gauge freedom: changing the scalar and vector potentials by a gauge transformation changes the charged-particle Lagrangian by a total derivative, while the electric and magnetic fields stay unchanged. See [Electromagnetic Lagrangian](Electromagnetic%20Lagrangian.md#gauge-freedom).
+
+The constant-multiple freedom is mainly a classical statement. It preserves the Euler-Lagrange equations, but it changes the numerical scale of the action. In quantum mechanics, where phases depend on $S/\hbar$, that scale can matter unless the rest of the theory is rescaled consistently.
+
 ## Intuition
 
 The Lagrangian approach is especially useful when constraints make Cartesian force equations awkward. Good coordinates can make the problem simpler before solving any differential equations.
@@ -201,9 +245,12 @@ This shows why generalized coordinates are useful: the pendulum's constraint is 
 - [Hamiltonian Mechanics](Hamiltonian%20Mechanics.md)
 - [Legendre Transforms](../Mathematics/Legendre%20Transforms.md)
 - [The Principle of Least Action and Lagrangian Mechanics](../Book%20Notes/Shankar/Chapter%202/The%20Principle%20of%20Least%20Action%20and%20Lagrangian%20Mechanics.md)
+- [Coopersmith Section 6.5-6.6](../Book%20Notes/Coopersmith/Chapter%206/The%20Forms%20of%20T%20V%20and%20L.md)
 
 <!-- semantic-edges
 {"source":"Lagrangian Mechanics","relation":"REQUIRES","target":"Generalized Coordinates","evidence_heading":"Overview","evidence_summary":"The overview defines Lagrangian mechanics as a dynamics formulation using generalized coordinates, velocities, and the action.","confidence":0.9}
 {"source":"Lagrangian Mechanics","relation":"REFORMULATES","target":"Newton's Second Law","evidence_heading":"Particle In A Potential","evidence_summary":"For a one-dimensional conservative force, applying the Euler-Lagrange equation recovers Newton's second law.","confidence":0.9}
 {"source":"Lagrangian Mechanics","relation":"ENABLES","target":"Hamiltonian Mechanics","evidence_heading":"Key Equations","evidence_summary":"The note explains that the Hamiltonian is obtained from the Lagrangian by replacing velocity variables with momentum variables through a Legendre transform.","confidence":0.9}
+{"source":"Constant Multiple of Lagrangian","relation":"PRESERVES","target":"Euler-Lagrange Equations","evidence_heading":"Non-Uniqueness Of The Lagrangian","evidence_summary":"Multiplying the Lagrangian by a nonzero constant multiplies the Euler-Lagrange expression by the same constant, so the zero equation is unchanged.","confidence":0.94}
+{"source":"Total Time Derivative of Lagrangian","relation":"PRESERVES","target":"Classical Equations of Motion","evidence_heading":"Non-Uniqueness Of The Lagrangian","evidence_summary":"Adding dF/dt changes the action only by fixed endpoint terms, so fixed-endpoint variations and the selected classical paths are unchanged.","confidence":0.94}
 -->

@@ -124,6 +124,38 @@ $$
 \delta\int_{t_a}^{t_b}L dt=0
 $$
 
+## Scope Of The Conservative-Force Derivation
+
+The derivation above proves a sufficient route to Hamilton's principle:
+
+$$
+\text{conservative applied forces} \Rightarrow L=T-V \Rightarrow \delta\int Ldt=0
+$$
+
+It does not prove that conservative forces are the only possible forces compatible with Hamilton's principle.
+
+The broader test is whether the force law can be produced by some Lagrangian through the Euler-Lagrange equations. Some forces that are not conservative in the simple position-only potential sense are still Lagrangian. A charged particle in an electromagnetic field is the standard example: the Lagrangian contains velocity-dependent terms, so it is not just $T-V(q)$, but Hamilton's principle still applies.
+
+Arbitrary dissipative forces are different. A friction force such as linear drag usually cannot be obtained from an ordinary fixed-endpoint action for just the damped object. It can be handled by extensions such as a Rayleigh dissipation function, by generalized nonconservative forces, or by enlarging the modeled system to include the environment that receives the dissipated energy.
+
+So the conservative-force derivation should be read as:
+
+- conservative forces make the derivation simple;
+- a force can still be allowed if it comes from some suitable Lagrangian;
+- not every nonconservative force comes from such a Lagrangian.
+
+## Minimum, Maximum, And Saddle
+
+Hamilton's principle requires stationarity:
+
+$$
+\delta S=0
+$$
+
+This first-variation condition does not by itself classify the action value. Coopersmith emphasizes in Section 6.6 that ordinary mechanical action may be a true minimum or a saddle point, but not a true maximum in the same sense. The intuition is that comparison paths can usually be made less economical in action by adding detours or rapid variations, so there is no largest nearby action value selected by the physical path.
+
+A saddle means some allowed variations raise the action while others lower it. Thus "least action" is useful language in many ordinary cases, especially for short enough intervals, but "stationary action" is the safer general statement.
+
 ## Deriving Equations Of Motion
 
 Varying the action and integrating the velocity-variation term by parts gives:
@@ -153,7 +185,10 @@ So Hamilton's principle implies the Euler-Lagrange equations.
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Euler-Lagrange Equations](Euler-Lagrange%20Equations.md)
 - [Virtual Work and D'Alembert's Principle](Virtual%20Work%20and%20DAlemberts%20Principle.md)
+- [Electromagnetic Lagrangian](Electromagnetic%20Lagrangian.md)
+- [Rayleigh Dissipation Function](Rayleigh%20Dissipation%20Function.md)
 - [Coopersmith Section 6.1-6.2](../Book%20Notes/Coopersmith/Chapter%206/Introduction%20and%20Hamiltons%20Principle.md)
+- [Coopersmith Section 6.5-6.6](../Book%20Notes/Coopersmith/Chapter%206/The%20Forms%20of%20T%20V%20and%20L.md)
 - [Goldstein Section 2.1](../Book%20Notes/Goldstein/Chapter%202/Hamilton%27s%20Principle.md)
 
 <!-- semantic-edges
@@ -161,4 +196,7 @@ So Hamilton's principle implies the Euler-Lagrange equations.
 {"source":"Hamilton's Principle","relation":"DERIVES_FROM","target":"D'Alembert's Principle","evidence_heading":"Derivation From D'Alembert's Principle","evidence_summary":"The note derives Hamilton's principle by integrating D'Alembert's virtual-work balance through time and using fixed endpoint variations to remove the boundary term.","confidence":0.95}
 {"source":"Hamilton's Principle","relation":"DERIVES","target":"Euler-Lagrange Equations","evidence_heading":"Deriving Equations Of Motion","evidence_summary":"The note derives the Euler-Lagrange equations by varying the action, integrating by parts, and using fixed endpoint variations.","confidence":0.95}
 {"source":"Hamilton's Principle","relation":"REQUIRES","target":"Fixed Endpoint Variations","evidence_heading":"Definition","evidence_summary":"The standard form compares nearby paths whose endpoint times and endpoint configurations are fixed.","confidence":0.9}
+{"source":"Conservative Forces","relation":"ENABLES","target":"Hamilton's Principle","evidence_heading":"Scope Of The Conservative-Force Derivation","evidence_summary":"The note says conservative applied forces provide a sufficient route to the simple L = T - V form of Hamilton's principle.","confidence":0.9}
+{"source":"Electromagnetic Lagrangian","relation":"EXAMPLE_OF","target":"Nonconservative Lagrangian Force","evidence_heading":"Scope Of The Conservative-Force Derivation","evidence_summary":"The note identifies a charged particle in an electromagnetic field as a standard case where velocity-dependent Lagrangian terms allow Hamilton's principle beyond a simple position-only potential.","confidence":0.86}
+{"source":"Hamilton's Principle","relation":"CONTRASTS_WITH","target":"True Maximum Action","evidence_heading":"Minimum, Maximum, And Saddle","evidence_summary":"The note explains Coopersmith's point that Hamilton's principle gives stationary action and may give minima or saddle points, but ordinary mechanical action is not selected as a true maximum.","confidence":0.84}
 -->
