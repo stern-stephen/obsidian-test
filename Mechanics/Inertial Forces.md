@@ -44,6 +44,39 @@ For example, in an accelerating or rotating cabin, the chair pushing on a person
 
 Rigid-body language can hide this distinction. If an extended object is modeled as an ideal rigid body, its allowed virtual motions exclude internal deformation or separation of its material points. Inertial-force terms may then be absorbed into constraint or reduced-coordinate bookkeeping. A local test body riding on that rigid object is a different system: a person, spring scale, pendulum, or loose rock in the rotating frame can still be described using centrifugal and Coriolis inertial forces.
 
+## Imperfect Differential Issue
+
+Coopersmith calls the inertial contribution "imperfect" in the differential sense: it is not, in general, already the differential of a single scalar state function.
+
+Applied conservative forces can be written from a potential:
+
+$$
+\mathbf{F}^{appl}\cdot\delta\mathbf{r}=-\delta V
+$$
+
+That is a perfect variation because it comes from the scalar function $V$.
+
+The inertial force is:
+
+$$
+\mathbf{I}_i=-m_i\mathbf{a}_i
+$$
+
+Its virtual work contribution is:
+
+$$
+\sum_i -m_i\mathbf{a}_i\cdot\delta\mathbf{r}_i
+$$
+
+In a constrained many-particle system, the accelerations are produced by applied forces, constraint reactions, and the chosen frame. They are not usually given beforehand as a clean function whose differential can simply be written down. That is why the inertial virtual-work term is "imperfect": it is not automatically something like $-\delta V$.
+
+Two special manipulations make it usable:
+
+- In Coopersmith Section 5.5, under restrictive time-independent assumptions, replacing virtual displacements with actual infinitesimal displacements turns the acceleration term into a kinetic-energy differential.
+- In the derivation of Hamilton's principle, integrating the inertial term through time and then integrating by parts turns it into a kinetic-energy variation plus a boundary term. Fixed endpoint variations remove the boundary term.
+
+So "imperfect" does not mean nonexistent, unreal, or physically suspect. It means the inertial virtual-work term is not initially in exact differential form; extra assumptions or integration by parts are needed to turn it into the useful kinetic-energy term.
+
 ## Common Confusions
 
 - Inertial forces are frame-dependent, but that does not make their observed effects unreal.
@@ -52,6 +85,7 @@ Rigid-body language can hide this distinction. If an extended object is modeled 
 - Eliminating ideal constraint forces from D'Alembert's principle does not mean the body cannot feel the chair, wall, or floor. Those contact forces can be the immediate source of bodily pressure.
 - The equivalence principle is a local statement, not a claim that rotation, nonuniform acceleration, or tidal gravity can never be detected.
 - Treating a planet or binary system as a rigid body does not mean every object on it is part of that same rigid-body constraint.
+- "Imperfect" means not an exact differential of a state function; it does not mean the inertial force is fake.
 
 ## Related Concepts
 
