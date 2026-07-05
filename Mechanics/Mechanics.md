@@ -8,6 +8,7 @@ This page is the hub for classical mechanics concepts that recur across the text
 
 - [Classical Mechanics](Classical%20Mechanics.md)
 - [Action Principle](Action%20Principle.md)
+- [Hamilton's Principle](Hamiltons%20Principle.md)
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
 - [Euler-Lagrange Equations](Euler-Lagrange%20Equations.md)
 - [Generalized Coordinates](Generalized%20Coordinates.md)

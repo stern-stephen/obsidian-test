@@ -58,6 +58,98 @@ $$
 
 Coopersmith identifies this as Hamilton's principle and as a principle of least action in the broad terminology used in the book.
 
+## Derivation Details
+
+Start with D'Alembert's principle and integrate it through the time interval:
+
+$$
+\int_{t_a}^{t_b}\sum_i(\mathbf{F}_i^{appl}-m_i\mathbf{a}_i)\cdot\delta\mathbf{r}_i dt=0
+$$
+
+Split the applied and inertial parts:
+
+$$
+\int_{t_a}^{t_b}\sum_i\mathbf{F}_i^{appl}\cdot\delta\mathbf{r}_i dt-\int_{t_a}^{t_b}\sum_i m_i\mathbf{a}_i\cdot\delta\mathbf{r}_i dt=0
+$$
+
+For conservative applied forces, the applied-force virtual work is the negative variation of potential energy:
+
+$$
+\sum_i\mathbf{F}_i^{appl}\cdot\delta\mathbf{r}_i=-\delta V
+$$
+
+So the first term becomes:
+
+$$
+-\int_{t_a}^{t_b}\delta V dt
+$$
+
+For the inertial term, write $\mathbf{a}_i=d\mathbf{v}_i/dt$. With constant masses:
+
+$$
+\int_{t_a}^{t_b}\sum_i m_i\mathbf{a}_i\cdot\delta\mathbf{r}_i dt=\int_{t_a}^{t_b}\sum_i\frac{d}{dt}(m_i\mathbf{v}_i)\cdot\delta\mathbf{r}_i dt
+$$
+
+Integrate by parts:
+
+$$
+\int_{t_a}^{t_b}\sum_i\frac{d}{dt}(m_i\mathbf{v}_i)\cdot\delta\mathbf{r}_i dt=\left[\sum_i m_i\mathbf{v}_i\cdot\delta\mathbf{r}_i\right]_{t_a}^{t_b}-\int_{t_a}^{t_b}\sum_i m_i\mathbf{v}_i\cdot\frac{d}{dt}(\delta\mathbf{r}_i)dt
+$$
+
+The velocity variation satisfies:
+
+$$
+\delta\mathbf{v}_i=\frac{d}{dt}(\delta\mathbf{r}_i)
+$$
+
+Therefore the remaining integral is the variation of kinetic energy:
+
+$$
+\sum_i m_i\mathbf{v}_i\cdot\delta\mathbf{v}_i=\delta T
+$$
+
+So:
+
+$$
+\int_{t_a}^{t_b}\sum_i m_i\mathbf{a}_i\cdot\delta\mathbf{r}_i dt=\left[\sum_i m_i\mathbf{v}_i\cdot\delta\mathbf{r}_i\right]_{t_a}^{t_b}-\int_{t_a}^{t_b}\delta T dt
+$$
+
+Now use Hamilton's fixed endpoint condition:
+
+$$
+\delta\mathbf{r}_i(t_a)=\delta\mathbf{r}_i(t_b)=0
+$$
+
+This makes the boundary term vanish:
+
+$$
+\left[\sum_i m_i\mathbf{v}_i\cdot\delta\mathbf{r}_i\right]_{t_a}^{t_b}=0
+$$
+
+Substituting back into the time-integrated D'Alembert equation gives:
+
+$$
+-\int_{t_a}^{t_b}\delta V dt+\int_{t_a}^{t_b}\delta T dt=0
+$$
+
+Combine the terms:
+
+$$
+\int_{t_a}^{t_b}\delta(T-V)dt=0
+$$
+
+Because the endpoints in time are fixed, the variation can be moved outside the integral:
+
+$$
+\delta\int_{t_a}^{t_b}(T-V)dt=0
+$$
+
+With $L=T-V$, this is Hamilton's principle:
+
+$$
+\delta\int_{t_a}^{t_b}L dt=0
+$$
+
 ## What To Remember
 
 The point is not that the inertial complications never existed. The point is that, after integration by parts and fixed endpoint variations, the difficult inertial boundary contribution no longer affects the variational equation. The motion can then be found from the action built from $T-V$.
@@ -66,6 +158,7 @@ The point is not that the inertial complications never existed. The point is tha
 
 - [Virtual Work and D'Alembert's Principle](../../../Mechanics/Virtual%20Work%20and%20DAlemberts%20Principle.md)
 - [Action Principle](../../../Mechanics/Action%20Principle.md)
+- [Hamilton's Principle](../../../Mechanics/Hamiltons%20Principle.md)
 - [Lagrangian Mechanics](../../../Mechanics/Lagrangian%20Mechanics.md)
 - [Calculus of Variations](../../../Mathematics/Calculus%20of%20Variations.md)
 

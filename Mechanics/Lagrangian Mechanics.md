@@ -195,6 +195,7 @@ This shows why generalized coordinates are useful: the pendulum's constraint is 
 ## Related Concepts
 
 - [Action Principle](Action%20Principle.md)
+- [Hamilton's Principle](Hamiltons%20Principle.md)
 - [Euler-Lagrange Equations](Euler-Lagrange%20Equations.md)
 - [Generalized Coordinates](Generalized%20Coordinates.md)
 - [Hamiltonian Mechanics](Hamiltonian%20Mechanics.md)

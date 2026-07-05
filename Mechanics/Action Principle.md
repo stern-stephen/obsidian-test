@@ -12,7 +12,7 @@ $$
 S[q] = \int_{t_1}^{t_2} L(q,\dot q,t)dt
 $$
 
-Hamilton's principle states that the physical motion is stationary relative to every sufficiently small admissible variation:
+[Hamilton's Principle](Hamiltons%20Principle.md) states that the physical motion is stationary relative to every sufficiently small admissible variation:
 
 $$
 \delta S = 0
@@ -41,6 +41,10 @@ $$
 $$
 
 This compares the physical history with nearby kinematically allowed histories. The varied paths are not alternative motions that must satisfy the equations of motion; they are the test paths used to derive those equations.
+
+## Hamilton's Principle As The Standard Mechanics Case
+
+The fixed-endpoint mechanics case is treated in detail in [Hamilton's Principle](Hamiltons%20Principle.md). This page keeps the broader action-principle viewpoint: a physical history is selected by a stationary action condition, and the precise endpoint conditions or fields depend on the variational problem.
 
 ## From A Global Principle To Local Equations
 
@@ -105,6 +109,7 @@ Thus Hamilton's principle does not replace Newtonian dynamics with a different p
 ## Related Concepts
 
 - [Lagrangian Mechanics](Lagrangian%20Mechanics.md)
+- [Hamilton's Principle](Hamiltons%20Principle.md)
 - [Euler-Lagrange Equations](Euler-Lagrange%20Equations.md)
 - [How Smart Is a Particle](../Book%20Notes/Shankar/Chapter%202/How%20Smart%20Is%20a%20Particle.md)
 - [Calculus of Variations](../Mathematics/Calculus%20of%20Variations.md)
