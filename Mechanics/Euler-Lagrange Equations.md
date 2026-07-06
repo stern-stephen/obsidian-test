@@ -2,7 +2,12 @@
 
 ## Overview
 
-The Euler-Lagrange equations can be reached either by projecting Newton's laws through D'Alembert's principle or by requiring the action to be stationary.
+The Euler-Lagrange equations can be reached in two closely related ways:
+
+- directly, by projecting Newton's laws through D'Alembert's principle into generalized coordinates;
+- variationally, by requiring Hamilton's action to be stationary and then applying calculus of variations.
+
+Hamilton's principle is not the Lagrangian itself. The Lagrangian is the integrand $L(q,\dot q,t)$; Hamilton's principle is the stationary-action statement $\delta\int Ldt=0$.
 
 ## Definition
 
@@ -16,9 +21,37 @@ $$
 
 The equation balances how the Lagrangian changes with velocity against how it changes with position. It is the local condition that replaces the global variational statement $\delta S=0$.
 
+## Terminology Map
+
+The pieces have different names:
+
+| Role | Name | What It Says |
+| --- | --- | --- |
+| The object being varied | Functional | A rule that assigns a number to a whole path, such as $S[q]=\int Ldt$. |
+| The physical integrand | Lagrangian | The function $L(q,\dot q,t)$ inside the action. |
+| The requirement | Stationary action or stationary functional condition | The first-order variation vanishes: $\delta S=0$. |
+| The variational-calculus result | Euler-Lagrange equation | The local differential condition that follows from stationarity. |
+| The mechanics specialization | Lagrange's equations of motion | The Euler-Lagrange equations after the function in the action is the physical Lagrangian. |
+
+So the order is:
+
+$$
+\text{choose an action functional} \rightarrow \delta S=0 \rightarrow \text{Euler-Lagrange equations} \rightarrow \text{equations of motion}
+$$
+
+In mechanics, the action functional uses the Lagrangian:
+
+$$
+S[q]=\int_{t_1}^{t_2}L(q,\dot q,t)dt
+$$
+
+Plugging this physical $L$ into the Euler-Lagrange equation gives the mechanical equations of motion. The Euler-Lagrange equation is therefore not the mysterious mechanism itself; it is the local differential test produced by applying variational calculus to the stationary-action requirement.
+
 ## Derivation From D'Alembert's Principle
 
-D'Alembert's principle removes ideal constraint forces and projects the applied and inertial forces onto independent generalized-coordinate variations. The key kinetic-energy identity is
+D'Alembert's principle can be used in two ways. Coopersmith first uses it to motivate Hamilton's principle by integrating the virtual-work balance over time. One can also continue within generalized coordinates and derive Lagrange's equations directly, without first presenting the action as the central object.
+
+In the direct route, D'Alembert's principle removes ideal constraint forces and projects the applied and inertial forces onto independent generalized-coordinate variations. The key kinetic-energy identity is
 
 $$
 \sum_i\dot{\mathbf{p}}_i\cdot\frac{\partial\mathbf{r}_i}{\partial q_j}=\frac{d}{dt}\frac{\partial T}{\partial\dot q_j}-\frac{\partial T}{\partial q_j}

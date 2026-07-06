@@ -2,14 +2,13 @@
 
 ## Chat Response Math Formatting
 
-In chat responses to the user, prefer plain-text or code-block equations instead of LaTeX when explaining physics or math, because the ChatGPT window may not render LaTeX reliably.
+In chat responses to the user, use rendered LaTeX when explaining physics or math, since the ChatGPT window now renders it reliably.
 
-Example chat format:
+Use inline LaTeX for short expressions, such as \(L=T-V\), and display LaTeX for important equations:
 
-```text
-F_applied + F_constraint - m a = 0
-I = -m a
-```
+\[
+\frac{d}{dt}\left(\frac{\partial L}{\partial \dot q_i}\right)-\frac{\partial L}{\partial q_i}=0
+\]
 
 This chat-only preference must not change how Markdown notes are written. In vault notes, continue to use the Obsidian MathJax conventions below.
 
