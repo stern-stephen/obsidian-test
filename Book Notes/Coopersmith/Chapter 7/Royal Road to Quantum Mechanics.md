@@ -8,6 +8,8 @@ Book section: 7.9, printed pages 175-182.
 
 Previous: [Hamilton-Jacobi Equation](Hamilton-Jacobi%20Equation.md)
 
+Next: [Chapter 8 Overview](../Chapter%208/Chapter%20Overview.md)
+
 ## Reading Status
 
 - Status: started

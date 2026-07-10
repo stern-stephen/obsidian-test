@@ -48,6 +48,16 @@ Use this page to track chapter notes, questions, and concept pages created while
   - [Conservation Theorems](Chapter%207/Conservation%20Theorems.md)
   - [Hamilton-Jacobi Equation](Chapter%207/Hamilton-Jacobi%20Equation.md)
   - [Royal Road to Quantum Mechanics](Chapter%207/Royal%20Road%20to%20Quantum%20Mechanics.md)
+- Chapter 8
+  - [Chapter 8 Overview](Chapter%208/Chapter%20Overview.md)
+  - [Classical Mechanics](Chapter%208/Classical%20Mechanics.md)
+  - [Light and Electromagnetic Waves](Chapter%208/Light%20and%20Electromagnetic%20Waves.md)
+  - [Special Relativity](Chapter%208/Special%20Relativity.md)
+  - [Electrodynamics](Chapter%208/Electrodynamics.md)
+  - [General Relativity](Chapter%208/General%20Relativity.md)
+  - [Hydrodynamics](Chapter%208/Hydrodynamics.md)
+  - [Statistical Mechanics](Chapter%208/Statistical%20Mechanics.md)
+  - [The Quantum World](Chapter%208/The%20Quantum%20World.md)
 
 ## Core Concept Areas
 
@@ -75,6 +85,8 @@ Use this page to track chapter notes, questions, and concept pages created while
 - [Action Principle](../../Mechanics/Action%20Principle.md)
 - [Energy Function](../../Mechanics/Energy%20Function.md)
 - [Hamilton-Jacobi Equation](../../Mechanics/Hamilton-Jacobi%20Equation.md)
+- [Electromagnetic Lagrangian](../../Mechanics/Electromagnetic%20Lagrangian.md)
+- [Wave-Particle Duality](../../Quantum%20Mechanics/Wave-Particle%20Duality.md)
 
 ## Related Notes
 
