@@ -106,6 +106,7 @@ This vault has a Kuzu-based graph prototype. The build script parses ordinary Ma
 - Prefer placing edge blocks near the bottom of the relevant source or concept note so the relationship is close to its evidence.
 - Before finishing any note edit, check whether the edit added, removed, renamed, or materially clarified a durable conceptual relationship. If so, update the relevant `semantic-edges` block in the same pass.
 - After updating semantic edges, run `python scripts\kuzu_build.py`, run `python scripts\kuzu_export.py --format viewer-json`, and spot-check the affected concept with `python scripts\kuzu_query.py "Concept Name"` unless the user explicitly asks for a prose-only or no-validation change.
+- After fetching, pulling, or rebasing remote changes that may add or modify Markdown notes or semantic edges, rerun `python scripts\kuzu_build.py` and `python scripts\kuzu_export.py --format viewer-json` so the local Kuzu database and viewer data reflect the integrated workspace state.
 - In the final response for note edits, state whether semantic edges were updated or explicitly say that no semantic-edge change was needed.
 
 ## Git Workflow
