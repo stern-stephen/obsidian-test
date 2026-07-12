@@ -12,6 +12,7 @@ Hamill presents analytical mechanics as a student-oriented path from fundamental
 
 - Part I: Lagrangian Mechanics
   - [Chapter 1 - Fundamental Concepts](Chapter%201/Chapter%20Overview.md)
+  - [Chapter 2 - The Calculus of Variations](Chapter%202/Chapter%20Overview.md)
 
 ## Core Concept Areas
 
@@ -25,6 +26,7 @@ Hamill presents analytical mechanics as a student-oriented path from fundamental
 - How does Hamill motivate generalized coordinates before deriving Lagrange's equations?
 - Which conservation-law arguments does Chapter 1 give before Noether's theorem is introduced?
 - How does Hamill distinguish configuration space from phase space at the start of the book?
+- How does Chapter 2's fixed-endpoint variational derivation prepare Hamilton's principle in Chapter 3?
 
 ## Concepts To Extract
 
@@ -35,9 +37,13 @@ Hamill presents analytical mechanics as a student-oriented path from fundamental
 - [Phase Space](../../Mechanics/Phase%20Space.md)
 - [Canonical Momentum](../../Mechanics/Canonical%20Momentum.md)
 - [Conservation Laws](../../Mechanics/Conservation%20Laws.md)
+- [Calculus of Variations](../../Mathematics/Calculus%20of%20Variations.md)
+- [Euler-Lagrange Equations](../../Mechanics/Euler-Lagrange%20Equations.md)
 
 <!-- semantic-edges
 {"source":"Hamill","relation":"INTRODUCES","target":"Lagrangian Mechanics","evidence_heading":"Overview","evidence_summary":"The hub describes Hamill as presenting analytical mechanics from fundamental concepts through Lagrangian and Hamiltonian mechanics.","confidence":0.9}
 {"source":"Hamill Chapter 1","relation":"INTRODUCES","target":"Generalized Coordinates","evidence_heading":"Concepts To Extract","evidence_summary":"The hub identifies generalized coordinates as a central concept extracted from Hamill Chapter 1.","confidence":0.88}
 {"source":"Hamill Chapter 1","relation":"INTRODUCES","target":"Conservation Laws","evidence_heading":"Reading Questions","evidence_summary":"The hub asks how Chapter 1 motivates conservation-law arguments before Noether's theorem is introduced.","confidence":0.84}
+{"source":"Hamill Chapter 2","relation":"INTRODUCES","target":"Calculus of Variations","evidence_heading":"Chapter Notes","evidence_summary":"The hub now links Chapter 2 as Hamill's source-specific treatment of the calculus of variations.","confidence":0.88}
+{"source":"Hamill Chapter 2","relation":"MOTIVATES","target":"Euler-Lagrange Equations","evidence_heading":"Reading Questions","evidence_summary":"The hub asks how Chapter 2's fixed-endpoint variational derivation prepares the mechanics derivation in Chapter 3.","confidence":0.84}
 -->

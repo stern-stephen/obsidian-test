@@ -70,6 +70,7 @@ Ordinary calculus varies a number and sets a derivative to zero. Variational cal
 - [Euler-Lagrange Equations](../Mechanics/Euler-Lagrange%20Equations.md)
 - [Goldstein Section 2.2](../Book%20Notes/Goldstein/Chapter%202/Some%20Techniques%20of%20the%20Calculus%20of%20Variations.md)
 - [Coopersmith Section 3.7](../Book%20Notes/Coopersmith/Chapter%203/Calculus%20of%20Variations.md)
+- [Hamill Chapter 2](../Book%20Notes/Hamill/Chapter%202/Chapter%20Overview.md)
 
 <!-- semantic-edges
 {"source":"Calculus of Variations","relation":"EXTENDS","target":"Ordinary Calculus","evidence_heading":"Intuition","evidence_summary":"The note contrasts ordinary calculus, which varies a number, with variational calculus, which varies a whole function and sets the first-order change of a functional to zero.","confidence":0.95}
