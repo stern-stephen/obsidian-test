@@ -85,6 +85,8 @@ $$
 
 If the Lagrangian changed under this operation, the equations would be able to detect absolute location, contradicting the assumption that space is homogeneous. Systems with an external fixed object or background field can break this symmetry.
 
+This is the same symmetry-to-conserved-momentum idea as the cyclic-coordinate argument, but applied to a collective displacement. A cyclic coordinate is absent when changing that one coordinate alone leaves $L$ unchanged. Spatial homogeneity says something slightly different: moving every particle together leaves $L$ unchanged. For particles interacting through relative separation, $L$ can depend on $\mathbf{r}_1-\mathbf{r}_2$, so the individual positions are not separately cyclic, but the center-of-mass translation is cyclic. That is why the conserved quantity is total linear momentum.
+
 The argument leads to:
 
 $$

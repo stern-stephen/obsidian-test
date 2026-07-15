@@ -27,6 +27,8 @@ $$
 
 For an infinitesimal displacement, this is written as $\delta L=0$. This is not derived from Lagrange's equations; it is the mathematical statement of the physical assumption that absolute position has no observable effect. If an external wall, fixed center, gravitational field source, or other background selects a special place, then space is not homogeneous for that system and the Lagrangian can depend on position.
 
+This is closely related to the cyclic-coordinate argument, but it is not always the same thing in the original particle coordinates. A single coordinate is cyclic when changing that coordinate alone leaves $L$ unchanged. Spatial homogeneity instead says that changing all particle positions by the same vector leaves $L$ unchanged. For an interacting two-particle system, $L$ may depend on $\mathbf{r}_1-\mathbf{r}_2$, so neither particle position is separately ignorable, but the common translation is still a symmetry. The conserved quantity is then the total momentum, not usually one particle's momentum.
+
 The conserved quantity is the generator of the symmetry. In Hamiltonian mechanics, if $G$ generates a transformation and the Hamiltonian is unchanged by that transformation, then:
 
 $$
