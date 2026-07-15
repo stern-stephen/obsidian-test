@@ -77,6 +77,14 @@ $$
 \delta L=0
 $$
 
+The key assumption is physical, not algebraic. Homogeneity of space means there is no preferred origin: translating the whole system by the same vector should not change the experiment. In a closed system this keeps all relative positions and velocities the same, so the Lagrangian must have the same value. In symbols, for a small constant displacement $\boldsymbol{\epsilon}$:
+
+$$
+\mathbf{r}_a\mapsto \mathbf{r}_a+\boldsymbol{\epsilon},\qquad \dot{\mathbf{r}}_a\mapsto \dot{\mathbf{r}}_a
+$$
+
+If the Lagrangian changed under this operation, the equations would be able to detect absolute location, contradicting the assumption that space is homogeneous. Systems with an external fixed object or background field can break this symmetry.
+
 The argument leads to:
 
 $$
@@ -141,7 +149,8 @@ For many common systems, $h$ equals total mechanical energy $T+V$, but Hamill wa
 
 <!-- semantic-edges
 {"source":"Cyclic Coordinates","relation":"DETERMINES","target":"Conserved Canonical Momentum","evidence_heading":"Cyclic Coordinates","evidence_summary":"The note derives conservation of the conjugate momentum when the Lagrangian has no explicit dependence on a coordinate.","confidence":0.94}
-{"source":"Translational Symmetry","relation":"DETERMINES","target":"Conservation of Linear Momentum","evidence_heading":"Linear Momentum","evidence_summary":"The note connects homogeneity of space with conservation of total linear momentum.","confidence":0.9}
+{"source":"Spatial Homogeneity","relation":"IMPLIES","target":"Lagrangian Translation Invariance","evidence_heading":"Linear Momentum","evidence_summary":"The note explains that a common translation of every particle leaves relative positions and velocities unchanged, so the Lagrangian is unchanged when no origin is preferred.","confidence":0.92}
+{"source":"Translational Symmetry","relation":"DETERMINES","target":"Conservation of Linear Momentum","evidence_heading":"Linear Momentum","evidence_summary":"The note connects Lagrangian invariance under a common spatial translation with conservation of total linear momentum.","confidence":0.9}
 {"source":"Rotational Symmetry","relation":"DETERMINES","target":"Conservation of Angular Momentum","evidence_heading":"Angular Momentum","evidence_summary":"The note connects isotropy of space with conservation of angular momentum.","confidence":0.9}
 {"source":"Time-Independent Lagrangian","relation":"DETERMINES","target":"Energy Function Conservation","evidence_heading":"Energy Function","evidence_summary":"The note states that the energy function is conserved when the Lagrangian has no explicit time dependence.","confidence":0.92}
 -->
