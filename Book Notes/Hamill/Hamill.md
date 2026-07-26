@@ -14,6 +14,10 @@ Hamill presents analytical mechanics as a student-oriented path from fundamental
   - [Chapter 1 - Fundamental Concepts](Chapter%201/Chapter%20Overview.md)
   - [Chapter 2 - The Calculus of Variations](Chapter%202/Chapter%20Overview.md)
   - [Chapter 3 - Lagrangian Dynamics](Chapter%203/Chapter%20Overview.md)
+- Part II: Hamiltonian Mechanics
+  - [Chapter 4 - Hamilton's Equations](Chapter%204/Chapter%20Overview.md)
+  - [Chapter 5 - Canonical Transformations; Poisson Brackets](Chapter%205/Chapter%20Overview.md)
+  - [Chapter 6 - Hamilton-Jacobi Theory](Chapter%206/Chapter%20Overview.md)
 
 ## Core Concept Areas
 
@@ -21,6 +25,9 @@ Hamill presents analytical mechanics as a student-oriented path from fundamental
 - [Lagrangian Mechanics](../../Mechanics/Lagrangian%20Mechanics.md)
 - [Hamiltonian Mechanics](../../Mechanics/Hamiltonian%20Mechanics.md)
 - [Calculus of Variations](../../Mathematics/Calculus%20of%20Variations.md)
+- [Canonical Transformations](../../Mechanics/Canonical%20Transformations.md)
+- [Poisson Brackets](../../Mechanics/Poisson%20Brackets.md)
+- [Hamilton-Jacobi Equation](../../Mechanics/Hamilton-Jacobi%20Equation.md)
 
 ## Reading Questions
 
@@ -29,6 +36,11 @@ Hamill presents analytical mechanics as a student-oriented path from fundamental
 - How does Hamill distinguish configuration space from phase space at the start of the book?
 - How does Chapter 2's fixed-endpoint variational derivation prepare Hamilton's principle in Chapter 3?
 - How do the d'Alembert and Hamilton-principle derivations of Lagrange's equations complement each other?
+- How does Hamill use the Legendre transform to move from Lagrangian variables to Hamiltonian variables?
+- Why does the phase-space picture make uniqueness of trajectories cleaner than configuration space?
+- How do Poisson brackets unify time evolution, canonical transformations, and conserved quantities?
+- In what sense does Hamilton-Jacobi theory turn solving motion into finding a generating function?
+- How does Hamill connect Hamilton-Jacobi theory to the phase of a matter wave?
 
 ## Concepts To Extract
 
@@ -42,6 +54,11 @@ Hamill presents analytical mechanics as a student-oriented path from fundamental
 - [Calculus of Variations](../../Mathematics/Calculus%20of%20Variations.md)
 - [Euler-Lagrange Equations](../../Mechanics/Euler-Lagrange%20Equations.md)
 - [Hamilton's Principle](../../Mechanics/Hamiltons%20Principle.md)
+- [Legendre Transforms](../../Mathematics/Legendre%20Transforms.md)
+- [Hamiltonian Mechanics](../../Mechanics/Hamiltonian%20Mechanics.md)
+- [Canonical Transformations](../../Mechanics/Canonical%20Transformations.md)
+- [Poisson Brackets](../../Mechanics/Poisson%20Brackets.md)
+- [Hamilton-Jacobi Equation](../../Mechanics/Hamilton-Jacobi%20Equation.md)
 
 <!-- semantic-edges
 {"source":"Hamill","relation":"INTRODUCES","target":"Lagrangian Mechanics","evidence_heading":"Overview","evidence_summary":"The hub describes Hamill as presenting analytical mechanics from fundamental concepts through Lagrangian and Hamiltonian mechanics.","confidence":0.9}
@@ -51,4 +68,8 @@ Hamill presents analytical mechanics as a student-oriented path from fundamental
 {"source":"Hamill Chapter 2","relation":"MOTIVATES","target":"Euler-Lagrange Equations","evidence_heading":"Reading Questions","evidence_summary":"The hub asks how Chapter 2's fixed-endpoint variational derivation prepares the mechanics derivation in Chapter 3.","confidence":0.84}
 {"source":"Hamill Chapter 3","relation":"DERIVES","target":"Lagrange's Equations","evidence_heading":"Chapter Notes","evidence_summary":"The hub links Chapter 3 as Hamill's source-specific treatment of Lagrangian dynamics and derivations of Lagrange's equations.","confidence":0.88}
 {"source":"Hamill Chapter 3","relation":"INTRODUCES","target":"Hamilton's Principle","evidence_heading":"Reading Questions","evidence_summary":"The hub asks how the Hamilton-principle derivation complements the d'Alembert derivation in Chapter 3.","confidence":0.84}
+{"source":"Hamill Chapter 4","relation":"INTRODUCES","target":"Hamiltonian Mechanics","evidence_heading":"Chapter Notes","evidence_summary":"The hub links Chapter 4 as Hamill's treatment of Hamilton's equations and the Hamiltonian formulation.","confidence":0.9}
+{"source":"Hamill Chapter 5","relation":"INTRODUCES","target":"Canonical Transformations","evidence_heading":"Chapter Notes","evidence_summary":"The hub links Chapter 5 as Hamill's treatment of canonical transformations and Poisson brackets.","confidence":0.9}
+{"source":"Hamill Chapter 5","relation":"INTRODUCES","target":"Poisson Brackets","evidence_heading":"Chapter Notes","evidence_summary":"The hub links Chapter 5 as Hamill's treatment of canonical transformations and Poisson brackets.","confidence":0.9}
+{"source":"Hamill Chapter 6","relation":"INTRODUCES","target":"Hamilton-Jacobi Equation","evidence_heading":"Chapter Notes","evidence_summary":"The hub links Chapter 6 as Hamill's treatment of Hamilton-Jacobi theory.","confidence":0.9}
 -->
