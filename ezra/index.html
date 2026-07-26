@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ezra Warehouse Programmer</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="board-panel" aria-labelledby="warehouse-title">
+        <div class="topbar">
+          <div>
+            <p class="eyebrow">Ezra</p>
+            <h1 id="warehouse-title">Warehouse Programmer</h1>
+          </div>
+          <div class="order-card" aria-label="Current order">
+            <span>Order</span>
+            <strong>Send A, D, R to Truck Bay 4</strong>
+          </div>
+        </div>
+
+        <div class="warehouse-wrap">
+          <div id="warehouse-grid" class="warehouse-grid" aria-label="Warehouse grid"></div>
+        </div>
+
+        <div class="legend" aria-label="Map legend">
+          <span><i class="legend-worker"></i> Worker</span>
+          <span><i class="legend-shelf"></i> Item shelf</span>
+          <span><i class="legend-bay"></i> Truck bay</span>
+          <span><i class="legend-obstacle"></i> Obstacle</span>
+        </div>
+      </section>
+
+      <aside class="control-panel" aria-label="Program controls">
+        <section class="panel-block">
+          <div class="panel-heading">
+            <h2>Program</h2>
+            <button id="load-example" class="icon-button" type="button" title="Load example program" aria-label="Load example program">↺</button>
+          </div>
+          <textarea id="program" spellcheck="false" aria-label="Warehouse program"></textarea>
+          <div class="button-row">
+            <button id="run-program" type="button">▶ Run</button>
+            <button id="step-program" type="button">⏭ Step</button>
+            <button id="reset-world" type="button">↩ Reset</button>
+          </div>
+        </section>
+
+        <section class="panel-block compact">
+          <h2>Language</h2>
+          <div class="language-list">
+            <button class="command-chip" type="button" data-command="MOVE N"><code>MOVE N</code></button>
+            <button class="command-chip" type="button" data-command="MOVE E"><code>MOVE E</code></button>
+            <button class="command-chip" type="button" data-command="MOVE S"><code>MOVE S</code></button>
+            <button class="command-chip" type="button" data-command="MOVE W"><code>MOVE W</code></button>
+            <button class="command-chip" type="button" data-command="TAKE A"><code>TAKE A</code></button>
+            <button class="command-chip" type="button" data-command="TAKE D"><code>TAKE D</code></button>
+            <button class="command-chip" type="button" data-command="TAKE R"><code>TAKE R</code></button>
+            <button class="command-chip" type="button" data-command="DROP 4"><code>DROP 4</code></button>
+          </div>
+        </section>
+
+        <section class="panel-block compact">
+          <h2>Status</h2>
+          <p id="status" class="status">Ready. The worker is waiting at Start.</p>
+          <div class="cargo-line">
+            <span>Cargo</span>
+            <strong id="cargo">empty</strong>
+          </div>
+        </section>
+
+        <section class="panel-block log-block">
+          <h2>Run Log</h2>
+          <ol id="run-log" class="run-log" aria-live="polite"></ol>
+        </section>
+      </aside>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
